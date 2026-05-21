@@ -5,7 +5,7 @@
 **日期**：2026-05-20  
 **主題**：Greater China Technology Hardware — AI Server 供應鏈  
 **評級**：Industry View In-Line  
-<a href="/downloads/產業/MS_20260520_Rubin-rack-BOM分析.md" download>⬇ 下載 MD</a>
+<a href="https://ti-lei.github.io/foreign-reports/downloads/產業/MS_20260520_Rubin-rack-BOM分析.md" download>⬇ 下載 MD</a>
 
 ---
 
