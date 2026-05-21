@@ -92,6 +92,8 @@ Rubin rack ASP 幾乎是 GB300 的 2 倍。GB200→GB300 只漲 20%（正常世�
 
 > Memory 絕對金額從 GB200 到 VR200 漲了約 **8.6 倍**，比例圖完全看不出這個量級的變化。
 
+> **原文補充**：MS 在此頁緊接 Exhibit 2 後說明——Memory 不是唯一有 content increase 的零件。在 MS 覆蓋的下游零件中，PCB（+233%）、MLCC（+182%）、ABF substrate（+82%）、Power supply（+32%）、Cooling（+12%）均有增長，rack assembly value-add 也預估增加約 +30%（受設計複雜度提升驅動）。
+
 ---
 
 ## Exhibit 3｜VR200 NVL72 完整 BOM（絕對金額）
@@ -158,6 +160,8 @@ PCB +233% 的成長來自三個獨立驅動力疊加：ASP 升級（層數提升
 | **淨增量** | **+$81,630** | **100%** |
 
 > **關鍵洞察**：PCB 增量中 62% 來自全新模組（$51,030/$81,630）。需求是純增量，不是搶既有市占，對 Unimicron/ZDT 是更可預測的訂單成長。計算：新模組 = $27,000（Midplane）+ $4,590（BlueField）+ $19,440（ConnectX）= $51,030。
+
+> **原文補充**：ASP 升級的技術細節——Compute PCB 層數 22L→26L（HDI→標準多層）、CCL grade M7→M8；Switch tray PCB 24L→32L；新增 Midplane PCB 為 44L。此外 Compute board 尺寸也略大於 Blackwell。這些規格升級是 ASP 漲幅的設計面依據，不是純定價決定。
 
 ---
 
@@ -307,6 +311,8 @@ Power 的故事分兩段：標準 Vera Rubin 只是正常升級（+32%），但�
 | **Total thermal (in-tray)** | **$57,780** | 100% |
 
 > **洞察**：Tray manifold 單項（$1,000/tray × 18 trays = $18,000）佔 in-tray cooling 的 31%，是整個液冷系統最關鍵的單一組件，也是 AVC 的核心產品。報告文字提到 tray manifold 為 Rubin 新增設計，對比 GB300 是純增量。
+
+> **原文補充**：Vera Rubin rack 為 **fanless 全液冷設計**，無風扇模組，所有散熱完全由液冷承擔。另：computing board 的 **gold plating 設計變更「尚未完全確認」**（supply chain check 時仍在確認中），此細節若有變化可能影響 cooling 組件的具體規格與成本。
 
 ---
 
