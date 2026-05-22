@@ -287,7 +287,7 @@ Power 的故事分兩段：標準 Vera Rubin 只是正常升級（+32%），但�
 ### 解讀摘要
 全報告唯一做到零件級別拆解的 Exhibit，把 $57,780 的 in-tray 液冷拆到每個 tray 的每個組件。Compute tray 佔絕大多數，Tray manifold 是單一最大項目。
 
-**注意**：Exhibit 標題寫「NVL 144 rack」，但報告全文 BOM 分析用 NVL72。從數字反推：18 compute trays × 2 boards × 2 GPUs = 72 GPUs，與 NVL72 吻合。推測為報告標題標錯。
+**注意**：Exhibit 標題寫「NVL 144 rack」，但表格顯示 18 compute trays，與報告全文採用的 NVL72 規格一致（NVL144 為 NVL72 的 2 倍，應有 36 trays）。推測為報告標題標錯。
 
 > **原文補充**：Vera Rubin rack 為 **fanless 全液冷設計**，無風扇模組，所有散熱完全由液冷承擔。MS 文字段落說明 tray manifold 為 Rubin 新增設計，對比 GB300 是純增量。另：computing board 的 **gold plating 設計變更「尚未完全確認」**（supply chain check 時仍在確認中），此細節若有變化可能影響 cooling 組件的具體規格與成本。
 
