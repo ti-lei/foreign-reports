@@ -165,6 +165,8 @@ PCB +233% 的成長來自三個獨立驅動力疊加：ASP 升級、全新模組
 | **淨增量** | **+$81,630** | **100%** |
 
 > **關鍵洞察**：PCB 增量中 62% 來自全新模組（$51,030/$81,630）。需求是純增量，不是搶既有市占，對 Unimicron/ZDT 是更可預測的訂單成長。計算：新模組 = $27,000（Midplane）+ $4,590（BlueField）+ $19,440（ConnectX）= $51,030。
+>
+> **洞察（配合 Exhibit 5、6）**：BlueField DPU 在 GB300 已有 18 units 且有 ABF substrate 成本（$540，見 Exhibit 6），並非新模組；但 Exhibit 5 的 MLCC 卻標示 GB300 為 0 units「新增」。三張 Exhibit 對 GB300 BlueField 的口徑自相矛盾，MS 原文未解釋。最可能的解讀：GB300 的 BlueField PCB 與 MLCC 成本包在模組採購價內未拆出，VR200 才獨立計算——「全新模組」的說法僅對 Midplane 和 ConnectX 完全成立，BlueField 是成本重分類而非純增量。
 
 ---
 
