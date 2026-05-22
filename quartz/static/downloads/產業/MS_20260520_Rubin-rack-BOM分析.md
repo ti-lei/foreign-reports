@@ -45,7 +45,7 @@
 ![Exhibit 1](../assets/MS_Rubin_BOM/exhibit_01.png)
 
 ### 解讀摘要
-Rubin（VR200）的 rack BOM 結構發生質變。Memory 從 GB200 的 7% 暴增至 VR200 的 26%，擠壓了 GPU 的佔比（65% → 51%）。這不是 GPU 變便宜，而是 SOCAMM 記憶體漲價＋用量增加的雙重效果，使整個 BOM 比例重新洗牌。
+Rubin（VR200）的 rack BOM 結構發生質變。Memory 從 GB200 的 7% 暴增至 VR200 的 26%，擠壓了 GPU 的佔比（65% → 51%）。這不是 GPU 變便宜，而是 Memory BOM 絕對金額大幅膨脹後的結構性稀釋效果，使整個比例重新洗牌。
 
 ### 表格
 
@@ -66,6 +66,8 @@ Rubin（VR200）的 rack BOM 結構發生質變。Memory 從 GB200 的 7% 暴增
 
 > **注意**：百分比會誤導人，因為 rack ASP 從 $3.3M → $7.8M。需配合 Exhibit 3 的絕對金額才能看真正的 content growth。
 
+> **原文補充**：MS 在 Exhibit 1 之前明確說明增量主因：*"increased memory content and significantly higher pricing"*（SOCAMM 用量增加＋漲價雙重驅動）。Exhibit 標題 caption 亦標注：*"Owing to recent increase in memory prices, memory will become 25%+ of the rack BOM for Rubin。"*
+
 ---
 
 ## Exhibit 2｜Nvidia NVL72 Rack ASP 演進
@@ -73,7 +75,7 @@ Rubin（VR200）的 rack BOM 結構發生質變。Memory 從 GB200 的 7% 暴增
 ![Exhibit 2](../assets/MS_Rubin_BOM/exhibit_02.png)
 
 ### 解讀摘要
-Rubin rack ASP 幾乎是 GB300 的 2 倍。GB200→GB300 只漲 20%（正常世代升級），但 GB300→VR200 漲幅達 95%，主因是 SOCAMM 記憶體大漲＋用量增加。此 ASP 為 ODM 向 hyperscaler 收取的價格，從 OEM 買則更貴。
+Rubin rack ASP 幾乎是 GB300 的 2 倍（$3.3M → $7.8M）。GB200→GB300 只漲 20%（正常世代升級），但 GB300→VR200 漲幅達 95%，是整個 AI server content growth 故事的總基準。
 
 ### 表格
 
@@ -93,7 +95,7 @@ Rubin rack ASP 幾乎是 GB300 的 2 倍。GB200→GB300 只漲 20%（正常世�
 
 > Memory 絕對金額從 GB200 到 VR200 漲了約 **8.6 倍**，比例圖完全看不出這個量級的變化。
 
-> **原文補充**：MS 在此頁緊接 Exhibit 2 後說明——Memory 不是唯一有 content increase 的零件。在 MS 覆蓋的下游零件中，PCB（+233%）、MLCC（+182%）、ABF substrate（+82%）、Power supply（+32%）、Cooling（+12%）均有增長，rack assembly value-add 也預估增加約 +30%（受設計複雜度提升驅動）。
+> **原文補充**：MS 說明 ASP 暴增主因為 SOCAMM 漲價＋用量增加（*"increased memory content and significantly higher pricing"*）。此 ASP 為 ODM 向 hyperscaler（雲端客戶）收取的估算值；從 OEM 購買則加上品牌溢價後更高（*"the pricing from the OEMs will be even higher, after including brand profit and other charges"*）。另：Memory 不是唯一有 content increase 的零件，PCB（+233%）、MLCC（+182%）、ABF substrate（+82%）、Power supply（+32%）、Cooling（+12%）均有增長，rack assembly value-add 也預估 +30%（受設計複雜度提升驅動）。
 
 ---
 
@@ -137,7 +139,7 @@ Rubin rack ASP 幾乎是 GB300 的 2 倍。GB200→GB300 只漲 20%（正常世�
 ![Exhibit 4](../assets/MS_Rubin_BOM/exhibit_04.png)
 
 ### 解讀摘要
-PCB +233% 的成長來自三個獨立驅動力疊加：ASP 升級（層數提升、CCL grade 提升）、全新模組引入（Midplane、ConnectX 在 GB300 完全不存在）、單位數量變化。
+PCB +233% 的成長來自三個獨立驅動力疊加：ASP 升級、全新模組引入（Midplane、ConnectX 在 GB300 完全不存在）、單位數量變化。
 
 ### 表格
 
@@ -171,7 +173,7 @@ PCB +233% 的成長來自三個獨立驅動力疊加：ASP 升級（層數提升
 ![Exhibit 5](../assets/MS_Rubin_BOM/exhibit_05.png)
 
 ### 解讀摘要
-MLCC +182% 的驅動結構與 PCB 截然不同。PCB 增量靠新模組（62%），但 MLCC 增量主要來自**既有板子的密度提升**（Computing board 單板 MLCC $25 → $90，漲 3.6x）。這解釋了為何 ODM 瘋狂囤積 MLCC — 需求來自核心運算板的設計升級，難被替代。
+MLCC +182% 的驅動結構與 PCB 截然不同。PCB 增量靠新模組（62%），但 MLCC 增量主要來自**既有板子的密度提升**（Computing board 單板 MLCC $25 → $90，漲 3.6x）。需求集中在核心運算板設計升級，難以被替代。
 
 ### 表格
 
@@ -183,6 +185,8 @@ MLCC +182% 的驅動結構與 PCB 截然不同。PCB 增量靠新模組（62%）
 | ConnectX Orchid Module | $5 | $5 | 0% | 0 | 72 | 新增 | $0 | $360 | 新增 |
 | Other peripheral PCB | $5 | $5 | 0% | 90 | 45 | -50% | $450 | $225 | -50% |
 | **Total** | | | | | | | **$1,530** | **$4,320** | **+182%** |
+
+> **原文補充**：MS 指出此 MLCC 增量可解釋為何高端 AI server MLCC 需求如此強勁，以及為何各 ODM 積極囤積庫存以備 Rubin 2H26 量產（*"causing all the ODMs to aggressively trying to secure and build as much inventory as possible, ahead of the Rubin rack ramp from 2H26 on wards"*）。
 
 ### 增量貢獻拆解
 
@@ -200,7 +204,7 @@ MLCC +182% 的驅動結構與 PCB 截然不同。PCB 增量靠新模組（62%）
 ![Exhibit 6](../assets/MS_Rubin_BOM/exhibit_06.png)
 
 ### 解讀摘要
-ABF +82% 由兩種機制驅動：GPU substrate ASP 倍增（$100→$200）與 NVSwitch/ConnectX 用量翻倍。增量高度集中在 GPU substrate 定價，此數字來自 MS 半導體分析師 Shoji Sato 的跨部門估算，是報告中可信度較高的數據點。
+ABF +82% 由兩種機制驅動：GPU substrate ASP 倍增（$100→$200）與 NVSwitch/ConnectX 用量翻倍。增量高度集中在 GPU substrate 定價（+$7,200，佔 78%），是整個 ABF 估算的最大單一假設風險點。
 
 ### 表格
 
@@ -225,6 +229,8 @@ ABF +82% 由兩種機制驅動：GPU substrate ASP 倍增（$100→$200）與 NV
 
 > **值得驗證**：ABF 增量的 78% 押注在 GPU substrate $100→$200 這個單一假設。若此數字有誤差，整個 ABF content +82% 的估算會大幅偏離，是報告 ABF 部分最大的單一假設風險。
 
+> **原文補充**：GPU substrate $100→$200 的估算來自 MS 半導體分析師 Shoji Sato 的跨部門數字（*"According to Morgan Stanley analyst Shoji Sato, the Rubin GPU ABF substrate ASP will rise to ~US$200 per chip"*）。此數字有明確來源，可獨立向 ABF 廠商或 substrate 分析師交叉核查。
+
 ---
 
 ## 三零件增量結構總比較
@@ -242,7 +248,7 @@ ABF +82% 由兩種機制驅動：GPU substrate ASP 倍增（$100→$200）與 NV
 ![Exhibit 7](../assets/MS_Rubin_BOM/exhibit_07.png)
 
 ### 解讀摘要
-Power 的故事分兩段：標準 Vera Rubin 只是正常升級（+32%），但進入 HVDC 架構後（Vera Rubin CPX 起），每 rack 的 power value 從 $76K 暴增到 $398K，單次跳升 5.2 倍。這是 Delta 最重要的 catalyst，時間點 2H26 開始導入、2H27 全面轉換。
+Power 的故事分兩段：標準 Vera Rubin 只是正常升級（+32%），但進入 HVDC 架構後（Vera Rubin CPX 起），每 rack 的 power value 從 $76K 暴增到 $398K，單次跳升 5.2 倍。這是 Delta 最重要的 catalyst，但 HVDC 導入時程是關鍵不確定因素。
 
 ### 表格
 
@@ -267,6 +273,8 @@ Power 的故事分兩段：標準 Vera Rubin 只是正常升級（+32%），但�
 > **洞察**：Power value per watt 在標準 Vera Rubin 反而從 $0.49 下降到 $0.38，代表 Exhibit 3 的 +32% 純粹是功耗增加帶動，不是定價能力提升。真正的定價能力提升要等到 HVDC（$1.05/W = $0.49/W 的 2.1 倍）。
 >
 > **值得驗證**：報告提到一家美國 CSP 已採用 HVDC，Delta 在與三家美國 CSP 洽談。HVDC 滲透率是 Delta 估值最大變數，報告沒有給出滲透率假設。
+
+> **原文補充**：MS supply chain checks 顯示一家美國 CSP 已在 Vera Rubin 平台採用 HVDC standalone power rack；Delta 正與至少三家美國 CSP 洽談 ASIC power rack 專案，initial rollout 預期 2H26 開始（*"initial rollout expected starting 2H26"*）。Rubin Ultra 的 800V DC 全面採用預計 2H27（*"scheduled for 2H27"*）。
 
 ---
 
@@ -311,9 +319,9 @@ Power 的故事分兩段：標準 Vera Rubin 只是正常升級（+32%），但�
 | Switch tray | $8,280 | 14% |
 | **Total thermal (in-tray)** | **$57,780** | 100% |
 
-> **洞察**：Tray manifold 單項（$1,000/tray × 18 trays = $18,000）佔 in-tray cooling 的 31%，是整個液冷系統最關鍵的單一組件，也是 AVC 的核心產品。報告文字提到 tray manifold 為 Rubin 新增設計，對比 GB300 是純增量。
+> **洞察**：Tray manifold 單項（$1,000/tray × 18 trays = $18,000）佔 in-tray cooling 的 31%，是整個液冷系統最關鍵的單一組件，也是 AVC 的核心產品。
 
-> **原文補充**：Vera Rubin rack 為 **fanless 全液冷設計**，無風扇模組，所有散熱完全由液冷承擔。另：computing board 的 **gold plating 設計變更「尚未完全確認」**（supply chain check 時仍在確認中），此細節若有變化可能影響 cooling 組件的具體規格與成本。
+> **原文補充**：Vera Rubin rack 為 **fanless 全液冷設計**，無風扇模組，所有散熱完全由液冷承擔。MS 文字段落說明 tray manifold 為 Rubin 新增設計，對比 GB300 是純增量。另：computing board 的 **gold plating 設計變更「尚未完全確認」**（supply chain check 時仍在確認中），此細節若有變化可能影響 cooling 組件的具體規格與成本。
 
 ---
 
@@ -346,7 +354,7 @@ Power 的故事分兩段：標準 Vera Rubin 只是正常升級（+32%），但�
 ![Exhibit 10](../assets/MS_Rubin_BOM/exhibit_10.png)
 
 ### 解讀摘要
-ODM value-added +38% 是本報告最重要的 contra-consensus 觀點。但增量的 **55% 來自「Others」黑盒子**（$22,500 → $45,500，+102%），是最大貢獻項也是最不透明的項目。
+ODM value-added +38%，但增量的 **55% 來自「Others」黑盒子**（$22,500 → $45,500，+102%），是最大貢獻項也是最不透明的項目。
 
 ### 表格
 
@@ -383,6 +391,8 @@ ODM value-added +38% 是本報告最重要的 contra-consensus 觀點。但增�
 > **洞察二（contra-consensus 的脆弱點）**：若將 Others 移除，可量化 ODM value-add 增量只有 +$18,433（+17%），而非 +38%。Others 的具體內容是驗證這份報告核心論點的關鍵問題。
 >
 > **投資框架**：ODM GM 從 2.71% 降至 1.92% 看起來是壞事，但絕對金額從 $108K 增加到 $150K。以台灣 ODM 的規模，**margin % 下滑但 dollar profit 上升才是正確的評估框架**。
+
+> **原文補充**：MS 明確定性此為 contra-consensus 觀點：市場預期 Rubin computing tray「標準化」會使 ODM value-added 下滑，MS 認為增加的複雜度與新模組組裝測試抵消了此效果（*"the market expects ODM value-added to decline for Rubin, owing to the standardization of the computing tray"*）。MS 亦坦承 Others 黑盒子未來可能有更多未被捕捉的項目（*"there could also be other components within the rack that the ODMs may be able to provide, something that is not captured in our analysis here"*）。
 
 ---
 
@@ -484,7 +494,7 @@ GB200/300 季度產量在 2Q26 達頂峰 24.9K，之後開始下滑。2H26 的�
 ![Exhibit 13](../assets/MS_Rubin_BOM/exhibit_13.png)
 
 ### 解讀摘要
-20 年歷史平均 P/E 11.4x（ex-Wiwynn & Pegatron）是報告估值的錨點。目前 ODM 整體約在 ~13x CY27e P/E，高於歷史均值約 14%，但 MS 認為 AI 結構性成長支撐溢價。
+20 年歷史平均 P/E 11.4x（ex-Wiwynn & Pegatron）是報告估值的錨點。目前 ODM 整體約在 ~13x CY27e P/E，高於歷史均值約 14%。
 
 ### 表格
 
