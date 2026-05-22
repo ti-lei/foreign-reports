@@ -9,6 +9,20 @@
 
 ---
 
+## MS 完整投資邏輯鏈
+
+| 論點層次 | Exhibit | 內容 |
+|---|---|---|
+| 基本面：content 增加 | Exhibit 3、10 | Rack ASP +95%，ODM value-add +38% |
+| 基本面：量的成長 | Exhibit 11、12 | GB300 季度頂峰 24.9K，Rubin 接棒 |
+| 估值：不貴 | Exhibit 13 | CY27e ~11x，接近歷史均值 11.4x |
+| 股價：落後市場 | Exhibit 15 | YTD +7% vs TAIEX +41%，落後 34pp |
+| **結論** | 報告封面 | **買 ODM，Top Pick Wiwynn** |
+
+> **整份報告最大邏輯缺口**：Exhibit 12 顯示 GB300 在 2H26 明顯衰退，但報告從未給出 Rubin 在 2H26 的季度出貨量預測。「Rubin 接棒」的故事在量化層面是懸空的，投資人需要從其他管道取得這個數字。
+
+---
+
 ## 報告核心觀點
 
 | 主題              | MS 觀點                         | 市場共識        | 是否 Contra-Consensus |
@@ -23,20 +37,6 @@
 
 **ODM 偏好排序**：Wiwynn（Top Pick）> Wistron > Quanta > Hon Hai  
 **零件偏好**：Delta、AVC、Unimicron、ZDT、FIT
-
----
-
-## MS 完整投資邏輯鏈
-
-| 論點層次 | Exhibit | 內容 |
-|---|---|---|
-| 基本面：content 增加 | Exhibit 3、10 | Rack ASP +95%，ODM value-add +38% |
-| 基本面：量的成長 | Exhibit 11、12 | GB300 季度頂峰 24.9K，Rubin 接棒 |
-| 估值：不貴 | Exhibit 13 | CY27e ~11x，接近歷史均值 11.4x |
-| 股價：落後市場 | Exhibit 15 | YTD +7% vs TAIEX +41%，落後 34pp |
-| **結論** | 報告封面 | **買 ODM，Top Pick Wiwynn** |
-
-> **整份報告最大邏輯缺口**：Exhibit 12 顯示 GB300 在 2H26 明顯衰退，但報告從未給出 Rubin 在 2H26 的季度出貨量預測。「Rubin 接棒」的故事在量化層面是懸空的，投資人需要從其他管道取得這個數字。
 
 ---
 
