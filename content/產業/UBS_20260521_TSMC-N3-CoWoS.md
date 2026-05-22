@@ -1,9 +1,9 @@
 # UBS｜Cloud AI: Tight supply of TSMC's N3 & CoWoS through '27E
 
-**券商**：UBS Securities Pte. Ltd., Taipei Branch
-**分析師**：Sunny Lin、Randy Abrams、Nicolas Gaudois、Timothy Arcuri、Jerry Su、Shingo Hirata CFA、Ryan Sun、Diana Chang、Jimmy Yoon
-**日期**：2026-05-21
-**主題**：Cloud AI：TSMC N3 & CoWoS 供給緊張持續至 2027E；Nvidia 路線圖展望
+**券商**：UBS Securities Pte. Ltd., Taipei Branch  
+**分析師**：Sunny Lin、Randy Abrams、Nicolas Gaudois、Timothy Arcuri、Jerry Su、Shingo Hirata CFA、Ryan Sun、Diana Chang、Jimmy Yoon  
+**日期**：2026-05-21  
+**主題**：Cloud AI：TSMC N3 & CoWoS 供給緊張持續至 2027E；Nvidia 路線圖展望  
 **評級**：—
 <button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/UBS_20260521_TSMC-N3-CoWoS.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='UBS_20260521_TSMC-N3-CoWoS.md';a.click()})">⬇ 下載 MD</button>
 
