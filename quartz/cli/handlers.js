@@ -287,6 +287,9 @@ export async function handleBuild(argv) {
               minify: true,
               platform: "browser",
               format: "esm",
+              alias: {
+                "pixi.js": path.resolve("node_modules/pixi.js/lib/index.js"),
+              },
             })
             const rawMod = transpiled.outputFiles[0].text
             return {

@@ -27,6 +27,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
+    Component.GraphLink(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
@@ -40,11 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer(),
   ],
-  right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-  ],
+  right: [],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
@@ -52,6 +49,7 @@ export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
+    Component.GraphLink(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
