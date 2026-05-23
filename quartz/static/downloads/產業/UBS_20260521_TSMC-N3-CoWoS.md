@@ -565,7 +565,7 @@ Figure 6 季度值 ÷ 3 轉換 kwpm，對照 Figure 13 同季產能：
 
 | 類別 | 公司 | Ticker | 評等 | 備註 |
 |---|---|---|---|---|
-| 晶圓代工 | TSMC | 2330 TW / TSM US | 買入（Top Pick） | 最大 AI 晶圓代工受益者 |
+| 晶圓代工 | [[2330_台積電_外資報告整理\|TSMC]] | 2330 TW / TSM US | 買入（Top Pick） | 最大 AI 晶圓代工受益者 |
 | IC 設計 | MediaTek | 2454 TW | 買入（Top Pick） | Google TPU 設計服務 |
 | 先進封裝 | ASE Technology | 3711 TW / ASX US | 買入（Top Pick） | CoWoS 產能擴張，OSAT 受益 |
 | 封裝設備 | GPTC | 6227 TW | 買入 | 先進封裝設備 |
@@ -575,4 +575,10 @@ Figure 6 季度值 ÷ 3 轉換 kwpm，對照 Figure 13 同季產能：
 | 測試服務 | KYEC | 2449 TW | 買入 | Final test 強勁佈局 |
 | BMC/伺服器 | Aspeed | 5274 TW | 買入 | BMC 強勁展望 |
 | IP/設計 | GUC | 6488 TW | 買入 | Google CPU 上行潛力 |
-| ASIC 設計 | Alchip | 3661 TW | 買入 | Amazon Trainium3 & 4 機會 |
+| ASIC 設計 | [[3661_世芯_外資報告整理\|Alchip]] | 3661 TW | 買入 | Amazon Trainium3 & 4 機會 |
+
+---
+
+## 關聯主題
+
+[[N3製程]] · [[CoWoS]] · [[HBM]] · [[AI加速器]]

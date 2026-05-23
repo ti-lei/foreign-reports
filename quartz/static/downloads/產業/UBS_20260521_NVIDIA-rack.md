@@ -245,7 +245,7 @@ UBS 用這張圖反駁「capex bubble」論點：超大規模業者的貨幣化�
 
 | 類別 | 公司 | Ticker | 評等 | 備註 |
 |---|---|---|---|---|
-| 晶圓代工 | TSMC | 2330 TT / TSM US | Buy | 首選；CoWoS 最大受益者 |
+| 晶圓代工 | [[2330_台積電_外資報告整理\|TSMC]] | 2330 TT / TSM US | Buy | 首選；CoWoS 最大受益者 |
 | IC 設計 | MediaTek | 2454 TT | Buy | 首選；Google TPU 設計服務 |
 | 封測 | ASE | 3711 TT | Buy | 首選；先進封裝與測試 |
 | 封測 | KYEC | 2449 TT | — | 最終測試服務受益 |
@@ -255,9 +255,15 @@ UBS 用這張圖反駁「capex bubble」論點：超大規模業者的貨幣化�
 | 設備 | GPTC | 3286 TT | — | 先進封裝設備偏好標的 |
 | IC 設計 | Aspeed | 5274 TT | — | BMC 強勁展望 |
 | IC 設計 | GUC | 3443 TT | — | Google CPU 上行空間 |
-| IC 設計 | Alchip | 3661 TT | — | Amazon Trainium 3 機會 |
-| ODM | Wiwynn | 6669 TT | — | 催化劑最強；ASIC / Helios / Rubin 三重拉動 |
+| IC 設計 | [[3661_世芯_外資報告整理\|Alchip]] | 3661 TT | — | Amazon Trainium 3 機會 |
+| ODM | [[6669_緯穎_外資報告整理\|Wiwynn]] | 6669 TT | — | 催化劑最強；ASIC / Helios / Rubin 三重拉動 |
 | 電源 | Delta Electronics | 2308 TT | — | Rubin 800V DC 每 rack 含量提升；可能維持 lead supplier 地位 |
 | 記憶體 | Samsung Electronics | 005930 KS | Buy（APAC Key Call） | HBM 主力；DRAM 週期延長至 Q228 |
 | 記憶體 | SK Hynix | 000660 KS | — | HBM 受益 |
 | 記憶體 | Nanya Technology | 2408 TT | Buy | DRAM 週期長；NAND until Q427 |
+
+---
+
+## 關聯主題
+
+[[CoWoS]] · [[HBM]] · [[Rubin]] · [[Blackwell]] · [[AI加速器]]
