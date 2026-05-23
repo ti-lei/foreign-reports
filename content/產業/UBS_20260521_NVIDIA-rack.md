@@ -1,3 +1,7 @@
+---
+tags: [CoWoS, HBM, Rubin, Blackwell, AI加速器, UBS, ODM, 記憶體]
+---
+
 # UBS｜Raising NVIDIA rack forecasts following solid results and ODM sales upside
 
 **券商**：UBS Securities Pte. Ltd., Taipei Branch  
@@ -261,9 +265,3 @@ UBS 用這張圖反駁「capex bubble」論點：超大規模業者的貨幣化�
 | 記憶體 | Samsung Electronics | 005930 KS | Buy（APAC Key Call） | HBM 主力；DRAM 週期延長至 Q228 |
 | 記憶體 | SK Hynix | 000660 KS | — | HBM 受益 |
 | 記憶體 | Nanya Technology | 2408 TT | Buy | DRAM 週期長；NAND until Q427 |
-
----
-
-## 關聯主題
-
-[[CoWoS]] · [[HBM]] · [[Rubin]] · [[Blackwell]] · [[AI加速器]]

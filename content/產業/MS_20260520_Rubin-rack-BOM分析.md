@@ -1,3 +1,7 @@
+---
+tags: [Rubin, Blackwell, AI加速器, MS, ODM, 散熱, PCB, MLCC]
+---
+
 # MS｜Rubin Rack BOM、零件 Content 與 ODM 附加價值分析
 
 **券商**：Morgan Stanley Taiwan Limited  
@@ -579,9 +583,3 @@ GB200/300 季度產量在 2Q26 達頂峰 24.9K，之後開始下滑。2H26 的�
 | 散熱 | [[3017_奇鋐_外資報告整理\|奇鋐（AVC）]] | 3017.TW | OW | Tray manifold |
 | MLCC | [[2327_國巨_外資報告整理\|國巨]] | 2327.TW | OW | |
 | ODM | FIT Hon Teng | 6088.HK | OW | |
-
----
-
-## 關聯主題
-
-[[Rubin]] · [[Blackwell]] · [[AI加速器]]

@@ -1,3 +1,7 @@
+---
+tags: [CoWoS, HBM, N3製程, AI加速器, UBS, 晶圓代工, 先進封裝]
+---
+
 # UBS｜Cloud AI: Tight supply of TSMC's N3 & CoWoS through '27E
 
 **券商**：UBS Securities Pte. Ltd., Taipei Branch  
@@ -576,9 +580,3 @@ Figure 6 季度值 ÷ 3 轉換 kwpm，對照 Figure 13 同季產能：
 | BMC/伺服器 | Aspeed | 5274 TW | 買入 | BMC 強勁展望 |
 | IP/設計 | GUC | 6488 TW | 買入 | Google CPU 上行潛力 |
 | ASIC 設計 | [[3661_世芯_外資報告整理\|Alchip]] | 3661 TW | 買入 | Amazon Trainium3 & 4 機會 |
-
----
-
-## 關聯主題
-
-[[N3製程]] · [[CoWoS]] · [[HBM]] · [[AI加速器]]
