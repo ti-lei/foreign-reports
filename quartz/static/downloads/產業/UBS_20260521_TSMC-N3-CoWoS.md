@@ -37,7 +37,7 @@ tags: [CoWoS, HBM, N3製程, AI加速器, UBS, 晶圓代工, 先進封裝]
 | Google TPU CoWoS | +123% YoY；MediaTek 新進入 141k | 關注度低 | 是 |
 | AMD CoWoS | 2027E 三倍成長（99→312k wafers） | 成長但幅度不如此 | 部分 |
 | Nvidia Rubin 良率 | 問題解決中，H2 2026 陡峭放量 | 良率風險仍在討論 | 是 |
-| CoWoS 平台期 | 2027H2 產業產能觸頂（~207 kwpm） | 持續擴張預期 | 是 |
+| CoWoS 平台期 | 2027H2 產業產能觸頂（207 kwpm） | 持續擴張預期 | 是 |
 
 **偏好排序**：TSMC > MediaTek > ASE
 **零件/個股偏好**：設備類 GPTC、Chroma、Hon Precision、ASMPT；測試 KYEC；BMC Aspeed；IP/設計 GUC、Alchip
@@ -559,7 +559,7 @@ Figure 6 季度值 ÷ 3 轉換 kwpm，對照 Figure 13 同季產能：
 | Q1 2027E | 155 | 170 | 91% |
 | Q2 2027E | 187 | 190 | 98% |
 | Q3 2027E | 202 | 207 | 98% |
-| Q4 2027E | **210** | **207** | **~101%** |
+| Q4 2027E | **210** | **207** | **101%** |
 
 > 「N3 比 CoWoS 更緊」在時間維度上更精確的表述：2026 年 N3 更緊（107% vs CoWoS 72-94%）；2027H2 兩者均告緊張（N3 101-104%，CoWoS ~101%）。
 

@@ -19,7 +19,7 @@ tags: [Rubin, Blackwell, AI加速器, MS, ODM, 散熱, PCB, MLCC]
 |---|---|---|
 | 基本面：content 增加 | Exhibit 3、10 | Rack ASP +95%，ODM value-add +38% |
 | 基本面：量的成長 | Exhibit 11、12 | GB300 季度頂峰 24.9K，Rubin 接棒 |
-| 估值：不貴 | Exhibit 13 | CY27e ~11x，接近歷史均值 11.4x |
+| 估值：不貴 | Exhibit 13 | CY27e 11x，接近歷史均值 11.4x |
 | 股價：落後市場 | Exhibit 15 | YTD +7% vs TAIEX +41%，落後 34pp |
 | **結論** | 報告封面 | **買 ODM，Top Pick Wiwynn** |
 
@@ -31,12 +31,12 @@ tags: [Rubin, Blackwell, AI加速器, MS, ODM, 散熱, PCB, MLCC]
 
 | 主題              | MS 觀點                         | 市場共識        | 是否 Contra-Consensus |
 | --------------- | ----------------------------- | ----------- | ------------------- |
-| Rubin rack ASP  | ~US\$7.8M（ODM 口徑）              | —           | —                   |
+| Rubin rack ASP  | US\$7.8M（ODM 口徑）              | —           | —                   |
 | ODM value-added | Rubin vs GB300 **+35-40%**    | 預期因「標準化」而下滑 | **是**               |
 | PCB content     | **+233%**                     | —           | —                   |
 | MLCC content    | **+182%**                     | —           | —                   |
 | ABF content     | **+82%**                      | —           | —                   |
-| ODM 估值          | ~13 CY27e P/E，仍具吸引力           | —           | —                   |
+| ODM 估值          | 13 CY27e P/E，仍具吸引力           | —           | —                   |
 | ODM 股價          | YTD +7% vs TAIEX +41%，落後 34pp | —           | —                   |
 
 **ODM 偏好排序**：Wiwynn（Top Pick）> Wistron > Quanta > Hon Hai  
@@ -97,7 +97,7 @@ Rubin rack ASP 幾乎是 GB300 的 2 倍（\$3.3M → \$7.8M）。GB200→GB300 
 |---|---|---|---|
 | Rack ASP | \$3.3M | \$4.0M | \$7.8M |
 | Memory 佔比 | 7% | 9% | 26% |
-| Memory 絕對金額（估算） | ~\$233K | ~\$359K | **~\$2.0M** |
+| Memory 絕對金額（估算） | \$233K | \$359K | **\$2.0M** |
 
 > Memory 絕對金額從 GB200 到 VR200 漲了約 **8.6 倍**，比例圖完全看不出這個量級的變化。
 
@@ -392,7 +392,7 @@ ODM value-added +38%，但增量的 **55% 來自「Others」黑盒子**（\$22,5
 | 情境 | Rack ASP | ODM GM |
 |---|---|---|
 | 基本情境（Nvidia 買 SOCAMM） | \$7,803,148 | 1.92% |
-| SOCAMM 自採情境 | ~\$6,700,000 | **~2.2%** |
+| SOCAMM 自採情境 | \$6,700,000 | **2.2%** |
 
 > **洞察一**：把 ODM value-add 增量分「可量化」vs「不可量化」：可量化的 Assembly/Test 明細合計增量 +\$15,724（38%），Others 增量 +\$23,000（55%）。MS 也坦承 Others 可能還有更多，但目前是最難獨立驗證的項目。
 >
@@ -507,10 +507,10 @@ GB200/300 季度產量在 2Q26 達頂峰 24.9K，之後開始下滑。2H26 的�
 | 指標 | 數值 |
 |---|---|
 | 歷史平均 P/E（20 年，ex-Wiwynn & Pegatron） | **11.4x** |
-| 當前估值（CY27e，報告引用） | **~13x** |
+| 當前估值（CY27e，報告引用） | **13x** |
 | 相對溢價 | **+14%** |
-| 觀察期高點 | ~20 |
-| 觀察期低點 | ~5 |
+| 觀察期高點 | 20 |
+| 觀察期低點 | 5 |
 
 ### 個股 CY27e P/E vs 歷史均值
 
