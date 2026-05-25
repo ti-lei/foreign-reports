@@ -1,4 +1,4 @@
-﻿# UBS｜US Semiconductors：Agentic AI 對 CPU 市場的影響
+# UBS｜US Semiconductors：Agentic AI 對 CPU 市場的影響
 
 **券商**：UBS Securities LLC  
 **分析師**：Timothy Arcuri、Natalia Winkler CFA、Grant Joslin、Gianmarco Vella、Aaryan Wadhwa、Dino Weinstock  
@@ -11,15 +11,15 @@
 
 ## UBS 完整投資邏輯鏈
 
-| 論點層次 | Figure | 內容 |
-|---|---|---|
-| Agentic CPU 需求突變 | 封面 | Agentic 部署使每 GPU 所需 CPU cores 5x 跳升（訓練 8-12 → agentic 80-120），CPU attach rate 急升是被市場低估的隱性需求缺口 |
-| 需求量化（bottom-up） | 8, 9 | C2027 23MM XPU，Head Node CPU ratio 升至 43%（from 22%）；AI CPU 市場 2025 \$7B → 2027 \$39B → 2030 \$125B，CPU/GPU attach 0.32 → 0.83 |
-| 需求量化（top-down） | 17, 18, 19 | NVDA \$3.5T AI TAM 反推 C2030 41MM XPU；1:1 attach → 40MM CPU；搭配 \$3,769 ASP → \$120-200B AI CPU TAM；與 bottom-up 高度收斂 |
-| ASP 加速確認 | 5-7 | 傳統 CPU ASP 僅 4% CAGR；AI CPU（x86 \$1,500-2,000，ARM Grace \$3,000-4,000）為傳統 2-3x，對整體 TAM 有乘數效應 |
-| 格局轉移量化 | 2-3 | C2030E Revenue share：ARM 52%、AMD 24%、INTC 24%；ARM head node 75%+；unit share 40-45%，revenue share 50-55% |
-| ARM 估值更新 | 36 | PT \$245（↑ from \$175）：1.8x PEG × 36.5% LT EPS CAGR = 67x P/E，applied to 2027/28E avg EPS \$3.68 |
-| **結論** | 封面 | **Server CPU TAM \$31B（C2025）→ \$173B（C2030），5.6x；ARM 最大受益（52% rev share），AMD 次之，INTC 第三，三者均有順風** |
+| 論點層次             | Figure     | 內容                                                                                                                            |
+| ---------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Agentic CPU 需求突變 | 封面         | Agentic 部署使每 GPU 所需 CPU cores 5x 跳升（訓練 8-12 → agentic 80-120），CPU attach rate 急升是被市場低估的隱性需求缺口                                 |
+| 需求量化（bottom-up）  | 8, 9       | C2027 23MM XPU，Head Node CPU ratio 升至 43%（from 22%）；AI CPU 市場 2025 \$7B → 2027 \$39B → 2030 \$125B，CPU/GPU attach 0.32 → 0.83 |
+| 需求量化（top-down）   | 17, 18, 19 | NVDA \$3.5T AI TAM 反推 C2030 41MM XPU；1:1 attach → 40MM CPU；搭配 \$3,769 ASP → \$120-200B AI CPU TAM；與 bottom-up 高度收斂            |
+| ASP 加速確認         | 5-7        | 傳統 CPU ASP 僅 4% CAGR；AI CPU（x86 \$1,500-2,000，ARM Grace \$3,000-4,000）為傳統 2-3x，對整體 TAM 有乘數效應                                  |
+| 格局轉移量化           | 2-3        | C2030E Revenue share：ARM 52%、AMD 24%、INTC 24%；ARM head node 75%+；unit share 40-45%，revenue share 50-55%                       |
+| ARM 估值更新         | 36         | PT \$245（↑ from \$175）：1.8x PEG × 36.5% LT EPS CAGR = 67x P/E，applied to 2027/28E avg EPS \$3.68                              |
+| **結論**           | 封面         | **Server CPU TAM \$31B（C2025）→ \$173B（C2030），5.6x；ARM 最大受益（52% rev share），AMD 次之，INTC 第三，三者均有順風**                             |
 
 > **報告最大邏輯缺口**：ARM ASP（\$3,000-4,000）是 TAM 估算核心乘數但無公開定價可核實；cloud-to-edge 轉移可能壓縮 ~25% 雲端 CPU 需求，TAM 衝擊尚未完整量化。
 
