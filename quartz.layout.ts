@@ -28,6 +28,7 @@ export const defaultContentPageLayout: PageLayout = {
         showTags: false,
         filter: (f) => {
           if (!f.dates?.modified) return false
+          if (f.slug === "index") return false
           const today = new Date()
           const m = f.dates.modified
           return (
