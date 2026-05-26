@@ -129,24 +129,65 @@
 
 ---
 
-## Figure 5｜關鍵零組件供應商矩陣（ASIC/GPU Server）
+## Figure 4｜關鍵零組件供應商矩陣（ASIC/GPU Server）
 
-![Figure 5](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_05.png)
+![Figure 4](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_04.png)
 
 ### 解讀摘要
 主要 CSP 的 ASIC 及 GPU server 供應鏈矩陣顯示，Substrate 供應商在所有客戶的 AI Server 中均有明確的台灣廠商（Unimicron、Kinsus）席位。Google/Meta/Microsoft/Amazon 四大 ASIC 平台全部使用台系 substrate，而 NVIDIA GPU server 的 GPU substrate 同樣由台系主導——這意味著市場結構性依賴台灣基板廠，而非可輕易替代。
 
 ### 表格
 
-| 層次 | Google | Meta | Microsoft | Amazon | NVIDIA |
+| 硬體類別 | Google | Meta | Microsoft | Amazon | NVIDIA |
 |---|---|---|---|---|---|
-| ASIC | Broadcom | Marvell | MAIA (Altera/Marvell) | Trainium (Alchip) | — |
-| GPU | — | — | — | — | NVIDIA H/B/R 系列 |
-| Substrate | 台系（Unimicron/Kinsus） | 台系 | 台系 | 台系 | 台系（Unimicron 主導） |
-| CCL | 主要台系 | 主要台系 | 主要台系 | 主要台系 | 主要台系 |
-| Liquid Cooling | 多供應商 | 多供應商 | 多供應商 | 多供應商 | 多供應商 |
+| ASIC Server | Celestica (TPU tray & U), Hon Hai (CPU tray & U), Quanta (CPU tray & U) | Quanta + Celestica (NVIDIA AMD) | Hon Hai, Quanta | Hon Hai | Acton, Celestica (Hon Hai, Quanta) |
+| GPU Server Racks | Quanta, Hon Hai from VR | NVIDIA, AMD | Celestica, Nvidia, Cisco, Arista, Accton | Arista, Nvidia (for Quanta) | Acton, Celestica (Hon Hai from VR) |
+| Switching/Networking | Celestica | No Peloton (DeWitt), Sherman | ISG Peloton (DeWitt), Sherman | Unimicron, Samsics (Shengli Boat), Avery (Samsic, Boat) | Broadcom/Bear, Avery (Samsic, Boat), Hon Hai Switch Tray |
+| Substrate | Unimicron, Kinsus PCB (Note 28) | Elite Material | Unimicron | Unimicron, Kinsus, Elite Material | Ibiden, Unimicron, NAN + PCB, TTM, others |
+| PCB | Unimicron | ISU Peloton (DeWitt), Sherman | ISU Peloton (DeWitt) | Unimicron, Kinsus; Elite Material | Ibiden, PCB (STA-BHD), others |
+| CCL | Panasonic, Shengli; Elite Material | No Peloton (DeWitt), Sherman | AVC, Arris; Delta (2JA) | AVC, Delta (2JA) | AVC, Arris; Delta (2JA) |
+| Heatspreader/Stiffener | GPU tbl Jamboli; AVC | GPU tbl Jamboli | GPU tbl Jamboli; AVC | GPU tbl Jamboli; AVC | Ibiden/Shinko; Avery (MLG others); GPU tbl Jamboli |
+| Liquid Cooling (AICs) | Cooler Master, Vertiv, AVC | AVC, Arris, Delta (2JA) | AVC, Delta (2JA) | AVC, Delta (2JA) | AVC, Arris; Delta (2JA) |
+| Liquid cooling GPU | Cooler Master, Vertiv, AVC | Delta | AVC, Arris; Delta (2JA) | AVC, Delta (2JA) | AVC, Arris; Delta (2JA) |
+| Power Supply Unit | Delta | Delta | Delta | Delta | Delta, Lite-On, Mugnent |
 
-> **洞察一**：五大 CSP 的 ASIC 晶片設計各不同，但 substrate 供應商卻高度集中於台系，代表 Unimicron/Kinsus 的客戶分散度遠優於 ASIC 設計廠——任一 CSP 的 ASIC 策略改變，對 substrate 需求的衝擊有限。
+*表格欄位部分為視覺估算，以原始 PDF 為準*
+
+> **洞察一**：五大 CSP 的 ASIC 晶片設計各不同，但 substrate 供應商卻高度集中於台系（Unimicron/Kinsus 跨所有客戶），代表 Unimicron/Kinsus 的客戶分散度遠優於 ASIC 設計廠——任一 CSP 的 ASIC 策略改變，對 substrate 需求的衝擊有限。
+
+---
+
+## Figure 5｜GPU/ASIC Spec 與供應商
+
+![Figure 5](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_05.png)
+
+### 解讀摘要
+UBS 彙整各代 GPU/ASIC 平台的 Substrate 面積與層數規格，顯示三個關鍵趨勢：(1) Blackwell 的 ABF substrate 面積相較 Hopper 增加約 +70–80%；(2) Rubin 世代引入全新元件（Switch tray、Midplane、IB Midplane、CPU Midplane），每個 rack 需要的 substrate 種類從 2–3 種增加至 5 種以上；(3) layer count 從 Hopper 的 32L 跳至 Rubin-Ultra 的 60L+ 以上。台系供應商（Unimicron、Kinsus、Shinko）出現在所有主要平台的潛在供應商名單中。
+
+### 表格
+
+| 晶片類別 | 平台 | Generation | 元件 | 面積（mm²） | ABF 基板層數 | 潛在供應商 |
+|---|---|---|---|---|---|---|
+| **GPUs** | NVIDIA | Ampere | ABF substrate | ~5,000–6,500 | 32 | Shinko, Unimicron, others |
+| | | Hopper | ABF substrate | ~6,500 | 32+ | Ibiden, Shinko, Unimicron, others |
+| | | Blackwell | ABF substrate | ~8,000（+70–80% vs Hopper） | 46+ | Kinsus, Unimicron, Ibiden, others |
+| | | Rubin | VR/SXM substrate | ~8,000–10,000 | 46+ | Ibiden, Kinsus, Unimicron, Victory Giant |
+| | | Rubin | GB200/GB300 Switch tray | ~1,000–2,000 | 20–24 | TTM, Shennan, Kinwong, others |
+| | | Rubin | Midplane | ~3,000+ | 30+ | Unimicron, Kinsus, Shennan |
+| | | Rubin | IB Midplane / CPU Midplane | ~500–1,500 | 20+ | TTM, Shennan, Kinwong |
+| | | Rubin-Ultra | ABF substrate | >10,000 | 60+ | Ibiden, Kinsus, Unimicron |
+| **AMD** | AMD | M300 | ABF substrate | 321 | — | Ibiden, ATK5, Shinko, others |
+| | | H400 | ABF substrate | 321 | — | Ibiden, ATK5, Shinko, others |
+| **ASICs** | Amazon | Trainium-1 | ABF substrate | ~2,000 | 30+ | Unimicron, Kinsus, Shennan |
+| | | Trainium-2 | ABF substrate | ~2,000 | 40+ | Unimicron, Kinsus |
+| | Google | TPU-v6e/v6/v6p | ABF substrate | — | — | Victory Giant, Shennan, Kinwong |
+| | Google | ZebraFish (v6p) | Compute board, Switch board | — | — | TTM, Shennan, Kinwong, others |
+
+*部分數值為視覺估算，以原始 PDF 為準*
+
+> **洞察一**：Rubin 世代的 substrate opportunity 不只是 GPU substrate 面積（~+25% vs Blackwell），更在於元件種類倍增——Rubin rack 至少有 5 種 substrate（VR/SXM + Switch tray + Midplane + IB Midplane + CPU Midplane），每一種都有獨立的台系供應商機會，總量級顯著高於單純 GPU substrate 面積計算。
+
+> **洞察二（配合 Figure 4）**：Figure 4 顯示台系廠商在 Unimicron/Kinsus 佔據所有 CSP 的 substrate 位置；Figure 5 進一步確認技術門檻（46L+ ABF、>10,000mm² Rubin-Ultra）將進一步縮窄合格供應商範圍，台系廠商的競爭優勢非短期可被取代。
 
 ---
 
