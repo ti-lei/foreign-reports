@@ -21,6 +21,24 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
+    Component.ConditionalRender({
+      component: Component.RecentNotes({
+        title: "今日更新",
+        limit: 50,
+        showTags: false,
+        filter: (f) => {
+          if (!f.dates?.modified) return false
+          const today = new Date()
+          const m = f.dates.modified
+          return (
+            m.getFullYear() === today.getFullYear() &&
+            m.getMonth() === today.getMonth() &&
+            m.getDate() === today.getDate()
+          )
+        },
+      }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
