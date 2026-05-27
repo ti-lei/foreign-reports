@@ -1,4 +1,4 @@
-﻿---
+---
 tags: [CoWoS, HBM, Rubin, Blackwell, AI加速器, UBS, ODM, 記憶體]
 ---
 
