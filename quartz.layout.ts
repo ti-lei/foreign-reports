@@ -61,7 +61,22 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        if (!a.isFolder && !b.isFolder) {
+          var dateA = (a.slugSegment.match(/\d{8}/) || [""])[0]
+          var dateB = (b.slugSegment.match(/\d{8}/) || [""])[0]
+          if (dateA && dateB) return dateB.localeCompare(dateA)
+        }
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+        return a.isFolder ? -1 : 1
+      },
+    }),
   ],
   right: [],
 }
@@ -82,7 +97,22 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        if (!a.isFolder && !b.isFolder) {
+          var dateA = (a.slugSegment.match(/\d{8}/) || [""])[0]
+          var dateB = (b.slugSegment.match(/\d{8}/) || [""])[0]
+          if (dateA && dateB) return dateB.localeCompare(dateA)
+        }
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+        return a.isFolder ? -1 : 1
+      },
+    }),
   ],
   right: [],
 }
