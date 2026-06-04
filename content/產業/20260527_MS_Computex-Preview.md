@@ -1,11 +1,11 @@
-# MS｜Taiwan Computex 預覽：NVIDIA Vera CPU 與 Rubin GPU 為焦點
+﻿# MS｜Taiwan Computex 預覽：NVIDIA Vera CPU 與 Rubin GPU 為焦點
 
 **券商**：Morgan Stanley Taiwan Limited / Asia Limited  
 **分析師**：Charlie Chan、Daniel Yen CFA、Daisy Dai CFA、Tiffany Yeh、Lucas Wang、Ethan Jia、Henry Zhao  
 **日期**：2026-05-27  
 **主題**：Computex（6/2-5）前瞻：Rubin/Vera rack 設計、TSMC CoWoS 擴張至 200kwpm、AllRing PT 上調  
 **評級**：N/A（主題報告）  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/MS_20260527_Computex-Preview.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='MS_20260527_Computex-Preview.md';a.click()})">⬇ 下載 MD</button>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260527_MS_Computex-Preview.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260527_MS_Computex-Preview.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 
@@ -41,7 +41,7 @@
 
 ## Exhibit 1｜全球 CoWoS 總產能（TSMC vs 非 TSMC）
 
-![Exhibit 1](../assets/MS_20260527_Computex-Preview/exhibit_01.png)
+![Exhibit 1](../assets/20260527_MS_Computex-Preview/exhibit_01.png)
 
 ### 解讀摘要
 TSMC 在 AP7 新增 CoWoS 產能（將 Fab 15A 28/22nm 空間轉換為 55nm interposer），2027 TSMC CoWoS 達 200kwpm（+18% vs 之前 170kwpm 預估），帶動全球 CoWoS 合計升至 280kwpm。這次上修是 MS 自 2025 年以來多次上修中最大的一次，反映 Vera CPU 和 Rubin GPU 的並行需求比預期更龐大。
@@ -62,7 +62,7 @@ TSMC 在 AP7 新增 CoWoS 產能（將 Fab 15A 28/22nm 空間轉換為 55nm inte
 
 ## Exhibit 2｜TSMC SoIC 產能 vs 生產（2023-2028e）
 
-![Exhibit 2](../assets/MS_20260527_Computex-Preview/exhibit_02.png)
+![Exhibit 2](../assets/20260527_MS_Computex-Preview/exhibit_02.png)
 
 ### 解讀摘要
 SoIC 產能 2027 從 45→40kwpm（-11%），原因是 TSMC 優先把 AP7 資源分配給 CoWoS，SoIC 延後約三個季度。但生產量（30kwpm 2027、60kwpm 2028）不變，意味著 SoIC 需求不受影響，僅設備交期稍延。對 AllRing（唯一 WoW dispenser 供應商）短期影響有限，長期仍為核心成長驅動。
@@ -82,9 +82,9 @@ SoIC 產能 2027 從 45→40kwpm（-11%），原因是 TSMC 優先把 AP7 資源
 
 ## Exhibit 4-5｜CoWoS 需求：按客戶分拆及 YoY 成長
 
-![Exhibit 4](../assets/MS_20260527_Computex-Preview/exhibit_04.png)
+![Exhibit 4](../assets/20260527_MS_Computex-Preview/exhibit_04.png)
 
-![Exhibit 5](../assets/MS_20260527_Computex-Preview/exhibit_05.png)
+![Exhibit 5](../assets/20260527_MS_Computex-Preview/exhibit_05.png)
 
 ### 解讀摘要
 2026 全球 CoWoS 消耗 1,479k 晶圓，NVIDIA 佔大宗（B300+Rubin+Vera = 800k wafers，54%）。Broadcom 2026 YoY +241%（TPU v8 Sunfish + 自家 ASIC），成長速度超越 NVIDIA（+106%）。Google/AWS ASIC 份額持續上升，逐漸形成多元化需求基礎，降低單一客戶（NVIDIA）風險。
@@ -105,7 +105,7 @@ SoIC 產能 2027 從 45→40kwpm（-11%），原因是 TSMC 優先把 AP7 資源
 
 ## Exhibit 6｜CoWoS 細項產能拆解（CoWoS-S/L/R × TSMC/非 TSMC）
 
-![Exhibit 6](../assets/MS_20260527_Computex-Preview/exhibit_06.png)
+![Exhibit 6](../assets/20260527_MS_Computex-Preview/exhibit_06.png)
 
 ### 解讀摘要
 CoWoS-R（Remote copper pillar，先進 interposer）是此次主要新增產能類型，主要用於 Vera CPU 和 Rubin GPU。CoWoS-S（Silicon interposer）仍是最大量，為 B300 / H200 等既有 GPU 產品的主力。非 TSMC 廠（Amkor/UMC/ASE）快速承接較低規格的 CoWoS-S/L 需求，TSMC 集中投資高端 CoWoS-R。
@@ -114,7 +114,7 @@ CoWoS-R（Remote copper pillar，先進 interposer）是此次主要新增產能
 
 ## Exhibit 7｜CoWoS 結構圖（Chip on wafer on substrate）
 
-![Exhibit 7](../assets/MS_20260527_Computex-Preview/exhibit_07.png)
+![Exhibit 7](../assets/20260527_MS_Computex-Preview/exhibit_07.png)
 
 （TSMC 提供的 CoWoS 結構示意圖，來源 TSMC）
 
@@ -122,7 +122,7 @@ CoWoS-R（Remote copper pillar，先進 interposer）是此次主要新增產能
 
 ## Exhibit 8｜TSMC 先進封裝廠規劃
 
-![Exhibit 8](../assets/MS_20260527_Computex-Preview/exhibit_08.png)
+![Exhibit 8](../assets/20260527_MS_Computex-Preview/exhibit_08.png)
 
 ### 表格
 
@@ -143,7 +143,7 @@ CoWoS-R（Remote copper pillar，先進 interposer）是此次主要新增產能
 
 ## Exhibit 9｜AI HBM 消耗量：2026 年合計 32.3bn GB
 
-![Exhibit 9](../assets/MS_20260527_Computex-Preview/exhibit_09.png)
+![Exhibit 9](../assets/20260527_MS_Computex-Preview/exhibit_09.png)
 
 ### 解讀摘要
 2026 年 AI 晶片共消耗 32,279mn Gb（≈ 32.3bn GB）HBM，比 2025 年大幅增加。NVIDIA B300 單品就貢獻 1,572,480k GB（占總量 39%），Rubin R200 貢獻 599,040k GB（15%）；Google TPU 合計貢獻約 895,000k GB（22%）。HBM 供應商（Hynix 為主，Micron/Samsung 次之）面臨空前的需求壓力，尤其 HBM4 世代（Rubin/MI400/Maia 300）全面轉向。
@@ -170,7 +170,7 @@ CoWoS-R（Remote copper pillar，先進 interposer）是此次主要新增產能
 
 ## Exhibit 10｜AI Wafer TAM：2026 年 US\$27bn
 
-![Exhibit 10](../assets/MS_20260527_Computex-Preview/exhibit_10.png)
+![Exhibit 10](../assets/20260527_MS_Computex-Preview/exhibit_10.png)
 
 ### 解讀摘要
 2026 年 AI 晶片的 wafer revenue TAM 達 US\$27bn，由 NVIDIA B300 主導（\$9.5bn，35%），其次 Rubin R200（\$4.3bn，16%）和 Google TPU 合計（\$7.4bn，27%）。晶圓消耗量 1,117k wafers，均價約 \$24k（3nm 26k、4nm 22k、2nm 28k），3nm 晶圓是主力（TPU Sunfish/Trainium 3/Rubin R200 等）。
@@ -195,9 +195,9 @@ CoWoS-R（Remote copper pillar，先進 interposer）是此次主要新增產能
 
 ## Exhibit 11-12｜TSMC SoIC 需求拆解（2026e/2027e）
 
-![Exhibit 11](../assets/MS_20260527_Computex-Preview/exhibit_11.png)
+![Exhibit 11](../assets/20260527_MS_Computex-Preview/exhibit_11.png)
 
-![Exhibit 12](../assets/MS_20260527_Computex-Preview/exhibit_12.png)
+![Exhibit 12](../assets/20260527_MS_Computex-Preview/exhibit_12.png)
 
 ### 解讀摘要
 2027 年 SoIC 需求量 324k wafers（NVIDIA 120k + AMD 60k + Apple 60k + Others 84k），較 2026 年 120k 暴增 170%。NVIDIA 的 SoIC 需求 2026 僅 6k（CPO COUPE + 試量產），2027 跳升至 120k（20x），成為最大驅動力。Broadcom/Qualcomm 仍在設計和試製階段，尚未確認量產，是 2027 估計的不確定項。
@@ -218,7 +218,7 @@ CoWoS-R（Remote copper pillar，先進 interposer）是此次主要新增產能
 
 ## Exhibit 13｜AllRing 收入 Bottom-up 分析
 
-![Exhibit 13](../assets/MS_20260527_Computex-Preview/exhibit_13.png)
+![Exhibit 13](../assets/20260527_MS_Computex-Preview/exhibit_13.png)
 
 ### 解讀摘要
 AllRing 的 2027 收入預測 NT\$14.4bn（+73%），主要驅動是 CoWoS +62%（TSMC 200kwpm 帶動設備需求）和 CPO +186%（NVIDIA FAU 光耦合設備進入量產）。CPO 業務佔比快速從 2026 年 13% 升至 2027 年 21%，成為第二大業務線；SoIC 2027 +300% 但絕對金額仍小（4% 佔比）。
@@ -251,7 +251,7 @@ AllRing 的 2027 收入預測 NT\$14.4bn（+73%），主要驅動是 CoWoS +62%�
 
 ## Exhibit 14｜AllRing 在各封裝製程的設備清單
 
-![Exhibit 14](../assets/MS_20260527_Computex-Preview/exhibit_14.png)
+![Exhibit 14](../assets/20260527_MS_Computex-Preview/exhibit_14.png)
 
 ### 表格
 
@@ -270,7 +270,7 @@ AllRing 的 2027 收入預測 NT\$14.4bn（+73%），主要驅動是 CoWoS +62%�
 
 ## Exhibit 17｜TSMC AI 相關收入：2024-29 CAGR 達 60%
 
-![Exhibit 17](../assets/MS_20260527_Computex-Preview/exhibit_17.png)
+![Exhibit 17](../assets/20260527_MS_Computex-Preview/exhibit_17.png)
 
 ### 解讀摘要
 MS 預測 TSMC AI 相關收入（GPU+ASIC+CoWoS+AI Server CPU）從 2024 年約 \$15-20bn 成長至 2029 年超過 \$120bn，CAGR 約 60%。其中 Custom AI chips（ASICs）的絕對成長量最大，AI Server CPU（Vera）是新增加的類別。AI 佔 TSMC 總收入比重將從 2024 約 15% 提升至 2029 可能超過 50%。
@@ -279,11 +279,11 @@ MS 預測 TSMC AI 相關收入（GPU+ASIC+CoWoS+AI Server CPU）從 2024 年約 
 
 ## Exhibit 18-20｜AI GPU/ASIC 租賃定價追蹤
 
-![Exhibit 18](../assets/MS_20260527_Computex-Preview/exhibit_18.png)
+![Exhibit 18](../assets/20260527_MS_Computex-Preview/exhibit_18.png)
 
-![Exhibit 19](../assets/MS_20260527_Computex-Preview/exhibit_19.png)
+![Exhibit 19](../assets/20260527_MS_Computex-Preview/exhibit_19.png)
 
-![Exhibit 20](../assets/MS_20260527_Computex-Preview/exhibit_20.png)
+![Exhibit 20](../assets/20260527_MS_Computex-Preview/exhibit_20.png)
 
 ### 解讀摘要
 H100 GPU 雲端租賃價格（GCP/AWS）已從高點回落，反映供給增加；但 NVIDIA 5090 在中國 TaoBao 的溢價持續（因 AI inference 需求 + 市場預期漲價），5090D 二手價維持在 NT$20,000+ 區間。GPU 租賃定價的穩定表明 AI 基礎設施需求未見顯著過熱或崩跌。
@@ -292,7 +292,7 @@ H100 GPU 雲端租賃價格（GCP/AWS）已從高點回落，反映供給增加�
 
 ## Exhibit 21｜AllRing 估計修正
 
-![Exhibit 21](../assets/MS_20260527_Computex-Preview/exhibit_21.png)
+![Exhibit 21](../assets/20260527_MS_Computex-Preview/exhibit_21.png)
 
 ### 表格（NT\$ mn）
 
@@ -310,7 +310,7 @@ H100 GPU 雲端租賃價格（GCP/AWS）已從高點回落，反映供給增加�
 
 ## Exhibit 24｜AllRing NTM P/E 歷史
 
-![Exhibit 24](../assets/MS_20260527_Computex-Preview/exhibit_24.png)
+![Exhibit 24](../assets/20260527_MS_Computex-Preview/exhibit_24.png)
 
 ### 解讀摘要
 AllRing 歷史 NTM P/E 呈現 5-40x 寬廣範圍，MS 的 PT NT\$1,580 隱含 2027E P/E 約 40x（接近歷史 +2STD 上緣），與 SoIC peer 相當，低於 CPO peers。MS 認為此溢價合理，因為 AllRing 的業務組合正在轉型（CoWoS → CPO + SoIC），估值需反映轉型的長期潛力。

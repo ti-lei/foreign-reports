@@ -1,11 +1,11 @@
-# MS｜Old Memory: Upside Surprise Ahead
+﻿# MS｜Old Memory: Upside Surprise Ahead
 
 **券商**：Morgan Stanley  
 **分析師**：Daniel Yen, Charlie Chan, Daisy Dai, Tiffany Yeh, Ethan Jia  
 **日期**：2026-05-28  
 **主題**：DDR4 / NOR Flash / SLC NAND / SiCap 供需結構翻轉；升評 Winbond & Nanya  
 **評級**：Industry View: Attractive  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/MS_20260528_Old-Memory.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='MS_20260528_Old-Memory.md';a.click()})">⬇ 下載 MD</button>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260528_MS_Old-Memory.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260528_MS_Old-Memory.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 
@@ -40,7 +40,7 @@
 
 ## Exhibit 2｜NOR Flash 整體供需成長率
 
-![Exhibit 2](../assets/MS_20260528_Old-Memory/exhibit_02.png)
+![Exhibit 2](../assets/20260528_MS_Old-Memory/exhibit_02.png)
 
 ### 解讀摘要
 NOR Flash 整體供需在 2024-2026 年出現顯著背離：需求成長率持續正值（+5% ~ +10%），而總 wafer 供給成長率已轉為負值（-5% ~ -7%）。這是 2012 年以來少見的供需缺口走勢——過去每次需求高峰，供給也同步加速擴充；但本輪供給端明顯不跟進，代表供給瓶頸不是 IDM 意願問題，而是產能天花板。
@@ -67,7 +67,7 @@ NOR Flash 整體供需在 2024-2026 年出現顯著背離：需求成長率持�
 
 ## Exhibit 3｜NOR Flash 密度別供需拆解
 
-![Exhibit 3](../assets/MS_20260528_Old-Memory/exhibit_03.png)
+![Exhibit 3](../assets/20260528_MS_Old-Memory/exhibit_03.png)
 
 ### 解讀摘要
 Exhibit 3 揭示 NOR Flash 供需惡化在密度維度上的不均衡：低密度 NOR wafer 供給成長在 2025-2026 年急速轉負（約 -10%），跌幅遠超高密度 NOR。這表示廠商在成熟代工產能受限時，優先保留高密度 NOR（毛利較高），犧牲低密度出貨；但汽車、工業等低密度 NOR 需求仍在正成長。
@@ -92,7 +92,7 @@ Exhibit 3 揭示 NOR Flash 供需惡化在密度維度上的不均衡：低密�
 
 ## Exhibit 4｜DDR4 季度供需總覽
 
-![Exhibit 4](../assets/MS_20260528_Old-Memory/exhibit_04.png)
+![Exhibit 4](../assets/20260528_MS_Old-Memory/exhibit_04.png)
 
 ### 解讀摘要
 Exhibit 4 是本報告最核心的數據圖。DDR4 總供給（藍色棒）從 2023 年約 31,000 mn Gb 急速萎縮，2026E 僅剩約 6,500 mn Gb，降幅超過 79%——這不是需求疲軟造成的，而是 Samsung、Hynix、Micron 集體轉向 DDR5/HBM 的結果。需求（黃色棒）下滑較慢，形成右軸比率線在 2H25 轉負並在 2026E 深入 -19~20%。
@@ -125,7 +125,7 @@ Exhibit 4 是本報告最核心的數據圖。DDR4 總供給（藍色棒）從 2
 
 ## Exhibit 5｜供需比 vs Nanya / Winbond 定價季增相關性
 
-![Exhibit 5](../assets/MS_20260528_Old-Memory/exhibit_05.png)
+![Exhibit 5](../assets/20260528_MS_Old-Memory/exhibit_05.png)
 
 ### 解讀摘要
 Exhibit 5 建立了「供需比」與「定價季增幅」之間清晰的反向相關：2023 年供應過剩（+20~30%）時，Nanya 和 Winbond 定價季降幅高達 -40% 至 -60%；2024 年供需比趨近 0，定價跌幅縮小；2025 年轉入短缺（-15~-20%），定價季增幅反彈至 +40~+60%。這條相關性給出了明確的前瞻指引：只要 2026-2028E 供需比維持在 -18~20%，定價將持續正向。
@@ -153,7 +153,7 @@ Exhibit 5 建立了「供需比」與「定價季增幅」之間清晰的反向�
 
 ## Exhibit 6｜DDR4 季度供給廠商拆解
 
-![Exhibit 6](../assets/MS_20260528_Old-Memory/exhibit_06.png)
+![Exhibit 6](../assets/20260528_MS_Old-Memory/exhibit_06.png)
 
 ### 解讀摘要
 Exhibit 6 清楚呈現 DDR4 供給縮減的「誰在退場」結構：Samsung（深藍，最大）和 Hynix（黃）供給從 1Q23 的各約 20,000 和 7,000 mn Gb 急速萎縮，是最大的退場力量。Micron（綠）本已在萎縮，2026 年後幾乎消失（設備遷美）。CXMT（橙）雖成長但絕對量仍小（約 1,000-2,000 mn Gb），遠不足以填補三大廠退出留下的缺口。Nanya 和 Winbond 在整體供給下降時相對份額上升，是最直接的定價受益者。
@@ -179,7 +179,7 @@ Exhibit 6 清楚呈現 DDR4 供給縮減的「誰在退場」結構：Samsung（
 
 ## Exhibit 7｜DDR4 季度需求產品拆解
 
-![Exhibit 7](../assets/MS_20260528_Old-Memory/exhibit_07.png)
+![Exhibit 7](../assets/20260528_MS_Old-Memory/exhibit_07.png)
 
 ### 解讀摘要
 需求側的圖告訴我們「誰還在用 DDR4」：Smartphone（深藍，最大）和 PC（黃）的 DDR4 需求下滑最快（快速轉向 DDR5），而 Server（綠）和 Cache DRAM 的 DDR4 需求下滑最慢，甚至在 2026E 維持相對穩定。Server 之所以仍用 DDR4，是因為企業 SSD（eSSD）中有大量 DDR4 作為 buffer cache，這個用途對帶寬要求不如 AI server 高，不需要立即升級 DDR5。
@@ -207,7 +207,7 @@ Exhibit 6 清楚呈現 DDR4 供給縮減的「誰在退場」結構：Samsung（
 
 ## Exhibit 8｜DDR4 8Gb 定價走勢
 
-![Exhibit 8](../assets/MS_20260528_Old-Memory/exhibit_08.png)
+![Exhibit 8](../assets/20260528_MS_Old-Memory/exhibit_08.png)
 
 ### 解讀摘要
 DDR4 8Gb 現貨在 2025 年中段開始急速攀升，至 2026 年 3 月已達 US\$27.25，而合約價仍在 US\$13.00——現貨與合約之間 US\$14.25 的溢差（+110%）是一個重要的前瞻指標：現貨搶購代表短期市場嚴重缺貨，而合約客戶在年中/年末換約時將面臨大幅補漲壓力。相較歷史，DDR4 8Gb 在 2019 年高點僅約 US\$7，本輪現貨已超過前高 2.9 倍。
@@ -231,7 +231,7 @@ DDR4 8Gb 現貨在 2025 年中段開始急速攀升，至 2026 年 3 月已達 U
 
 ## Exhibit 9｜DDR5 16Gb 定價走勢
 
-![Exhibit 9](../assets/MS_20260528_Old-Memory/exhibit_09.png)
+![Exhibit 9](../assets/20260528_MS_Old-Memory/exhibit_09.png)
 
 ### 解讀摘要
 DDR5 16Gb 現貨從 2023 年約 US\$3-4 暴升至 2026 年 3 月 US\$39.33，合約同步升至 US\$30.00，現貨/合約溢差相對溫和（+31%）。這與 DDR4 的 +110% 溢差形成對比，說明 DDR5 市場整體較均衡——DDR5 供給側有 Samsung、Hynix 大力投入，供應不像 DDR4 那般短缺，但 AI server 的旺盛需求使 DDR5 仍維持高價。這對 Nanya 至關重要：其 3Q26 起轉移 5kwpm 至 DDR5，將直接享受 DDR5 高 ASP 的 mix 效益。

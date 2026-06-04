@@ -8,7 +8,7 @@ tags: [CoWoS, HBM, Rubin, Blackwell, AI加速器, UBS, ODM, 記憶體]
 **分析師**：Randy Abrams、Nicolas Gaudois、Sunny Lin、Timothy Arcuri、Annie Chen  
 **日期**：2026-05-21  
 **主題**：NVIDIA FQ127 財報反應：Rack 預測上修、供應鏈承諾 +299%、CoWoS 擴產路徑  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/UBS_20260521_NVIDIA-rack.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='UBS_20260521_NVIDIA-rack.md';a.click()})">⬇ 下載 MD</button>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260521_UBS_NVIDIA-rack.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260521_UBS_NVIDIA-rack.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 
@@ -45,7 +45,7 @@ tags: [CoWoS, HBM, Rubin, Blackwell, AI加速器, UBS, ODM, 記憶體]
 
 ## Figure 1｜Supply chain commitments ramping up further even with limited product to China
 
-![Figure 1](../assets/UBS_20260521_NVIDIA-rack/exhibit_01.png)
+![Figure 1](../assets/20260521_UBS_NVIDIA-rack/exhibit_01.png)
 
 ### 解讀摘要
 
@@ -79,7 +79,7 @@ tags: [CoWoS, HBM, Rubin, Blackwell, AI加速器, UBS, ODM, 記憶體]
 
 ## Figure 2｜NVIDIA sales metrics and new segment reporting
 
-![Figure 2](../assets/UBS_20260521_NVIDIA-rack/exhibit_02.png)
+![Figure 2](../assets/20260521_UBS_NVIDIA-rack/exhibit_02.png)
 
 ### 解讀摘要
 
@@ -125,7 +125,7 @@ FQ127（2026 年 4 月）NVIDIA 總收入 US\$81.6bn，超出之前 1Q 指引，
 
 ## Figure 3｜Hyperscale capex for 2026-27E revised up 9%/18% this results season
 
-![Figure 3](../assets/UBS_20260521_NVIDIA-rack/exhibit_03.png)
+![Figure 3](../assets/20260521_UBS_NVIDIA-rack/exhibit_03.png)
 
 ### 解讀摘要
 
@@ -157,7 +157,7 @@ FQ127（2026 年 4 月）NVIDIA 總收入 US\$81.6bn，超出之前 1Q 指引，
 
 ## Figure 4｜UBS raises NVIDIA Blackwell/Rubin racks from 62.5/83k to 72.5k/90k for 2026-27
 
-![Figure 4](../assets/UBS_20260521_NVIDIA-rack/exhibit_04.png)
+![Figure 4](../assets/20260521_UBS_NVIDIA-rack/exhibit_04.png)
 
 ### 解讀摘要
 
@@ -216,7 +216,7 @@ FQ127（2026 年 4 月）NVIDIA 總收入 US\$81.6bn，超出之前 1Q 指引，
 
 ## Figure 5｜Monetization improving as Internet companies topline and cloud division growth also getting revised up
 
-![Figure 5](../assets/UBS_20260521_NVIDIA-rack/exhibit_05.png)
+![Figure 5](../assets/20260521_UBS_NVIDIA-rack/exhibit_05.png)
 
 ### 解讀摘要
 

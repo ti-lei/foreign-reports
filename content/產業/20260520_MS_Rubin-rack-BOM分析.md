@@ -9,7 +9,7 @@ tags: [Rubin, Blackwell, AI加速器, MS, ODM, 散熱, PCB, MLCC]
 **日期**：2026-05-20  
 **主題**：Greater China Technology Hardware — AI Server 供應鏈  
 **評級**：Industry View In-Line  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/MS_20260520_Rubin-rack-BOM分析.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='MS_20260520_Rubin-rack-BOM分析.md';a.click()})">⬇ 下載 MD</button>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260520_MS_Rubin-rack-BOM分析.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260520_MS_Rubin-rack-BOM分析.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

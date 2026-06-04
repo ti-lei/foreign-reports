@@ -9,7 +9,7 @@ tags: [CoWoS, HBM, N3製程, AI加速器, UBS, 晶圓代工, 先進封裝]
 **日期**：2026-05-21  
 **主題**：Cloud AI：TSMC N3 & CoWoS 供給緊張持續至 2027E；Nvidia 路線圖展望  
 **評級**：—
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/UBS_20260521_TSMC-N3-CoWoS.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='UBS_20260521_TSMC-N3-CoWoS.md';a.click()})">⬇ 下載 MD</button>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260521_UBS_TSMC-N3-CoWoS.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260521_UBS_TSMC-N3-CoWoS.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 
@@ -46,7 +46,7 @@ tags: [CoWoS, HBM, N3製程, AI加速器, UBS, 晶圓代工, 先進封裝]
 
 ## Figure 2｜N3 Supply & Demand Analysis
 
-![Figure 2](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_02.png)
+![Figure 2](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_02.png)
 
 ### 解讀摘要
 
@@ -83,7 +83,7 @@ N3 全程供不應求：2026E 稼動率 107%（需求 1,837k vs 產能 1,710k）
 
 ## Figure 3｜TSMC is Accelerating N3 Capacity Expansion to Meet Strong Demand from Cloud AI
 
-![Figure 3](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_03.png)
+![Figure 3](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_03.png)
 
 ### 解讀摘要
 
@@ -118,8 +118,8 @@ Cloud AI 需求在 2026 年內完成結構性逆轉：Q1 佔 N3 總需求 8%（1
 
 ## Figure 4 & 5｜N3 Capacity Share by Client in 2026E / 2027E
 
-![Figure 4](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_04.png)
-![Figure 5](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_05.png)
+![Figure 4](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_04.png)
+![Figure 5](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_05.png)
 
 ### 解讀摘要
 
@@ -152,7 +152,7 @@ Cloud AI 需求在 2026 年內完成結構性逆轉：Q1 佔 N3 總需求 8%（1
 
 ## Figure 6｜Total CoWoS Interposer Wafer Demand
 
-![Figure 6](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_06.png)
+![Figure 6](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_06.png)
 
 ### 解讀摘要
 
@@ -187,7 +187,7 @@ CoWoS 需求以穩定的複利速度成長：358k（2024）→ 679k（+90%）→
 
 ## Figure 7｜Breakdown of CoWoS Demand
 
-![Figure 7](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_07.png)
+![Figure 7](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_07.png)
 
 ### 解讀摘要
 
@@ -232,7 +232,7 @@ Nvidia 的 CoWoS 份額在 2025 年達到 65% 高峰（H100 超級週期），�
 
 ## Figure 8｜Nvidia's Supply Chain Build Units
 
-![Figure 8](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_08.png)
+![Figure 8](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_08.png)
 
 ### 解讀摘要
 
@@ -266,7 +266,7 @@ Nvidia 的 CoWoS 份額在 2025 年達到 65% 高峰（H100 超級週期），�
 
 ## Figure 9｜AMD's Supply Chain Build Units
 
-![Figure 9](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_09.png)
+![Figure 9](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_09.png)
 
 ### 解讀摘要
 
@@ -297,7 +297,7 @@ AMD 的 build units 從 2025 年的 630k 跳升至 2026E 的 2,077k（+230% YoY�
 
 ## Figure 10｜ASIC's Supply Chain Build Units
 
-![Figure 10](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_10.png)
+![Figure 10](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_10.png)
 
 ### 解讀摘要
 
@@ -329,7 +329,7 @@ ASIC 總 build units 從 4,719k（2025）跳升至 6,972k（2026E，+48% YoY）�
 
 ## Figure 11｜SoIC Volume
 
-![Figure 11](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_11.png)
+![Figure 11](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_11.png)
 
 ### 解讀摘要
 
@@ -355,7 +355,7 @@ SoIC 年度成長率加速：2024→2025 +110%（20→42k）、2025→2026E +90%
 
 ## Figure 12｜TSMC's Back-end Sales Analysis
 
-![Figure 12](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_12.png)
+![Figure 12](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_12.png)
 
 ### 解讀摘要
 
@@ -386,7 +386,7 @@ TSMC 先進封裝營收連續三年加速成長：+70%（2024→2025）、+74%�
 
 ## Figure 13｜Industry CoWoS Capacity
 
-![Figure 13](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_13.png)
+![Figure 13](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_13.png)
 
 ### 解讀摘要
 
@@ -425,7 +425,7 @@ TSMC 先進封裝營收連續三年加速成長：+70%（2024→2025）、+74%�
 
 ## Figure 14｜TSMC vs. Non-TSMC CoWoS Capacity
 
-![Figure 14](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_14.png)
+![Figure 14](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_14.png)
 
 ### 解讀摘要
 
@@ -464,7 +464,7 @@ TSMC CoWoS 市佔從 2023 年近 100% 逐步下滑至 2027E 末的 71%，但這�
 
 ## Figure 15｜Industry CoWoS Capacity vs. Nvidia's Volume
 
-![Figure 15](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_15.png)
+![Figure 15](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_15.png)
 
 ### 解讀摘要
 
@@ -496,7 +496,7 @@ Nvidia CoWoS 需求從 Q1 2026E 的 43 kwpm 成長至 Q4 2027E 的 110 kwpm（+1
 
 ## Figure 16｜CoWoS Demand from Major Customers
 
-![Figure 16](../assets/UBS_20260521_TSMC-N3-CoWoS/exhibit_16.png)
+![Figure 16](../assets/20260521_UBS_TSMC-N3-CoWoS/exhibit_16.png)
 
 ### 解讀摘要
 

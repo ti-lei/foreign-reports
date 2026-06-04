@@ -1,11 +1,11 @@
-# UBS｜US Semiconductors：Agentic AI 對 CPU 市場的影響
+﻿# UBS｜US Semiconductors：Agentic AI 對 CPU 市場的影響
 
 **券商**：UBS Securities LLC  
 **分析師**：Timothy Arcuri、Natalia Winkler CFA、Grant Joslin、Gianmarco Vella、Aaryan Wadhwa、Dino Weinstock  
 **日期**：2026-05-05  
 **主題**：Exploring the Impact of Agentic AI on the CPU Market  
 **評級**：ARM Buy（\$245 PT ↑）｜AMD Buy（\$341.54）｜INTC Neutral（\$95.78）  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/UBS_20260505_Agentic-CPU.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='UBS_20260505_Agentic-CPU.md';a.click()})">⬇ 下載 MD</button>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260505_UBS_Agentic-CPU.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260505_UBS_Agentic-CPU.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 
@@ -41,7 +41,7 @@
 
 ## Figure 2 & 3｜CPU TAM 路徑 與 C2030E Revenue Share
 
-![Figure 2 & 3](../assets/UBS_20260505_Agentic-CPU/exhibit_02.png)
+![Figure 2 & 3](../assets/20260505_UBS_Agentic-CPU/exhibit_02.png)
 
 ### 解讀摘要
 UBS 將 CPU 市場分三層：Traditional servers（穩定基礎）、AI Head Node（GPU rack 控制節點）、AI Standalone（rack 外獨立 CPU 伺服器）。三層合計 2025: \$31B → 2027E: \$74B → 2030E: \$173B，增量幾乎全來自 AI 兩層。C2030E revenue share 方面，ARM 以 52% 取得絕對多數，超越 AMD（24%）與 INTC（24%）總和——這是 revenue share，高於 unit share（40-45%），因 ARM CPU ASP 顯著溢價於 x86。
@@ -72,7 +72,7 @@ C2030E Revenue Share（Figure 3）：
 
 ## Figure 4｜Pro-Forma C2030E EPS Power
 
-![Figure 4](../assets/UBS_20260505_Agentic-CPU/exhibit_04.png)
+![Figure 4](../assets/20260505_UBS_Agentic-CPU/exhibit_04.png)
 
 ### 解讀摘要
 此表為「若本報告 CPU TAM 假設成真」下的 C2030E EPS pro-forma 上調。ARM 受益最大：implied revenue 較目前 UBS 模型高 21%，推動 EPS 從 \$9.31 升至 \$11.56（+24%）；AMD +11%（\$25.27→\$28.14）；INTC +7%（\$4.35→\$4.67）。ARM EPS 上行幅度（+24%）高於 revenue 上行（+21%），因 ARM 授權收入（royalty）的高毛利特性使每增量 revenue 對 EPS 的貢獻高於 AMD/INTC。
@@ -91,9 +91,9 @@ C2030E Revenue Share（Figure 3）：
 
 ## Figures 5-7｜傳統 CPU 市場基準（歷史 CAGR）
 
-![Figure 5](../assets/UBS_20260505_Agentic-CPU/exhibit_05.png)
-![Figure 6](../assets/UBS_20260505_Agentic-CPU/exhibit_06.png)
-![Figure 7](../assets/UBS_20260505_Agentic-CPU/exhibit_07.png)
+![Figure 5](../assets/20260505_UBS_Agentic-CPU/exhibit_05.png)
+![Figure 6](../assets/20260505_UBS_Agentic-CPU/exhibit_06.png)
+![Figure 7](../assets/20260505_UBS_Agentic-CPU/exhibit_07.png)
 
 ### 解讀摘要
 UBS 以 2005-2020 作為 AI 前的正規化基準，剔除 WFH 拉貨（2020-2022）與 AI 伺服器替換效應（2023-2024）兩段干擾。傳統 CPU 市場：unit CAGR ~8%、revenue CAGR ~13%、ASP CAGR ~4%，外推至 C2030 unit 趨勢線約 44MM。這三個數字確立了「不含 AI 因素的自然基線」，AI 需求全部是額外增量。UBS 強調 AI CPU 時代 ASP 升速已遠超 4%：過去五年 x86 平均 core count 增 3x，每代 ~20% ASP step-up，agentic 推動的 core count 進一步激增將加速這個趨勢。
@@ -114,7 +114,7 @@ UBS 以 2005-2020 作為 AI 前的正規化基準，剔除 WFH 拉貨（2020-202
 
 ## Figure 8｜XPU Accelerator 路線圖與 Head Node CPU 估算
 
-![Figure 8](../assets/UBS_20260505_Agentic-CPU/exhibit_08.png)
+![Figure 8](../assets/20260505_UBS_Agentic-CPU/exhibit_08.png)
 
 *（Form XObject；裁切範圍為全欄寬，已視覺確認）*
 
@@ -148,7 +148,7 @@ UBS 以 2005-2020 作為 AI 前的正規化基準，剔除 WFH 拉貨（2020-202
 
 ## Figure 9｜Bottom-up AI CPU TAM 估算
 
-![Figure 9](../assets/UBS_20260505_Agentic-CPU/exhibit_09.png)
+![Figure 9](../assets/20260505_UBS_Agentic-CPU/exhibit_09.png)
 
 ### 解讀摘要
 UBS 的 bottom-up 路徑將 AI CPU 需求分為 Head Node 和 Standalone 兩類。Head Node per GPU attach 從 0.32（C2025）→ 0.50（C2030）反映 rack 架構深化；Standalone CPU（rack 外獨立伺服器）從無到有（C2027 2MM → C2030 ~13MM），是 agentic 工具呼叫卸載需求的直接體現。兩者合計 AI CPU 市場 \$7B（C2025）→ \$39B（C2027）→ \$125B（C2030），整體 attach ratio 0.32→0.83——比 Figure 17 top-down 的 1:1-2:1 scenario 保守，但兩者最終 TAM 收斂在 \$120-175B 區間。
@@ -210,7 +210,7 @@ C2030E Pro-Forma Revenue（Figures 22-25 資料）：
 
 ## Figure 17｜Top-Down XPU TAM 數學推導
 
-![Figure 17](../assets/UBS_20260505_Agentic-CPU/exhibit_17.png)
+![Figure 17](../assets/20260505_UBS_Agentic-CPU/exhibit_17.png)
 
 ### 解讀摘要
 UBS 以 NVDA 公開的 C2030 AI TAM \$3-4T 作為錨點，反推 XPU 單位需求。用 C2027 NVDA 收入（\$548B）÷ 市場份額（~35%）= 總 AI TAM，推算 C2030 NVDA 收入 \$1,225B（+123%，31% CAGR），再加上其他 GPU/XPU（AMD 10%+ASICs 30%）= 合計 ~41MM XPU units。此路徑與 bottom-up 的 ~40MM XPU 高度收斂，強化 TAM 估算的可靠性。
@@ -241,8 +241,8 @@ UBS 以 NVDA 公開的 C2030 AI TAM \$3-4T 作為錨點，反推 XPU 單位需�
 
 ## Figures 18-19｜CPU TAM 敏感度矩陣
 
-![Figure 18](../assets/UBS_20260505_Agentic-CPU/exhibit_18.png)
-![Figure 19](../assets/UBS_20260505_Agentic-CPU/exhibit_19.png)
+![Figure 18](../assets/20260505_UBS_Agentic-CPU/exhibit_18.png)
+![Figure 19](../assets/20260505_UBS_Agentic-CPU/exhibit_19.png)
 
 ### 解讀摘要
 Figure 18 為 XPU 數量（30-50MM）× CPU attach ratio（1:4 到 4:1）的矩陣，紅框高亮 UBS base case：40MM XPU × 1:1 至 2:1 attach → 40-80MM CPUs。Figure 19 將這些 CPU 單位乘以 ~\$3K ASP，得出 \$120B+ AI CPU TAM。兩圖展示 TAM 對 attach ratio 假設的高度敏感性，attach ratio 從 1:1 升至 2:1 就能讓 TAM 翻倍。
@@ -271,13 +271,13 @@ C2025 server CPU unit share 仍由 x86 主導（INTC + AMD ~85%，ARM ~15%）。
 
 ## Figures 26-32｜歷史伺服器 CPU 市場數據
 
-![Figure 26](../assets/UBS_20260505_Agentic-CPU/exhibit_26.png)
-![Figure 27](../assets/UBS_20260505_Agentic-CPU/exhibit_27.png)
-![Figure 28](../assets/UBS_20260505_Agentic-CPU/exhibit_28.png)
-![Figure 29](../assets/UBS_20260505_Agentic-CPU/exhibit_29.png)
-![Figure 30](../assets/UBS_20260505_Agentic-CPU/exhibit_30.png)
-![Figure 31](../assets/UBS_20260505_Agentic-CPU/exhibit_31.png)
-![Figure 32](../assets/UBS_20260505_Agentic-CPU/exhibit_32.png)
+![Figure 26](../assets/20260505_UBS_Agentic-CPU/exhibit_26.png)
+![Figure 27](../assets/20260505_UBS_Agentic-CPU/exhibit_27.png)
+![Figure 28](../assets/20260505_UBS_Agentic-CPU/exhibit_28.png)
+![Figure 29](../assets/20260505_UBS_Agentic-CPU/exhibit_29.png)
+![Figure 30](../assets/20260505_UBS_Agentic-CPU/exhibit_30.png)
+![Figure 31](../assets/20260505_UBS_Agentic-CPU/exhibit_31.png)
+![Figure 32](../assets/20260505_UBS_Agentic-CPU/exhibit_32.png)
 
 ### 解讀摘要
 七張圖表呈現歷史 Intel/AMD/ARM server CPU 的 unit、revenue share 及節點分解。核心訊號：AMD 持續從 INTC 搶佔 x86 server revenue share（連續多年），ARM server CPU 在 2022-2024 年進入數據但仍處早期微量規模。這組資料確立歷史基線：(1) AMD 搶份額的連續性支持其 C2030 24% revenue share 預測具可延伸性；(2) ARM 從低基數（~15% unit share, C2025）發展到 52% revenue share（C2030E）需每年 ~6ppt revenue share 跳升——歷史上沒有任何 CPU 廠商做到過。
@@ -288,7 +288,7 @@ C2025 server CPU unit share 仍由 x86 主導（INTC + AMD ~85%，ARM ~15%）。
 
 ## Figure 33｜AMD Analyst Day 長期 Server CPU TAM 展望
 
-![Figure 33](../assets/UBS_20260505_Agentic-CPU/exhibit_33.png)
+![Figure 33](../assets/20260505_UBS_Agentic-CPU/exhibit_33.png)
 
 ### 解讀摘要
 AMD 在 2025 年 11 月 Analyst Day 預測 Server CPU TAM：\$26B（C2025）→ \$60B（C2030），18% CAGR，其中 ~50% 將由 AI-Driven CPUs 貢獻。UBS 展示此圖作為對比——AMD 預測是 UBS \$173B 估算的 35%，差距顯著。UBS 認為 AMD 的預測保守，原因包括：未充分計入 ARM head node 需求（ARM 不是 AMD，但拉高整體 TAM）；以及 standalone CPU rack 的激增效應。
@@ -309,8 +309,8 @@ AMD 在 2025 年 11 月 Analyst Day 預測 Server CPU TAM：\$26B（C2025）→ 
 
 ## Figures 34-35｜ARM 財務模型與 UBS vs. Street 估算
 
-![Figure 34](../assets/UBS_20260505_Agentic-CPU/exhibit_34.png)
-![Figure 35](../assets/UBS_20260505_Agentic-CPU/exhibit_35.png)
+![Figure 34](../assets/20260505_UBS_Agentic-CPU/exhibit_34.png)
+![Figure 35](../assets/20260505_UBS_Agentic-CPU/exhibit_35.png)
 
 ### 解讀摘要
 Figure 34 呈現 UBS 相較 Street 共識的 ARM 估算差異，Figure 35 為完整 summary model（含 revenue、royalty、EPS 預測）。UBS C2027/2028 EPS 估算（\$3.04/\$4.32）已高於 Street 共識，反映 CPU TAM 主題的部分提前定價，但 pro-forma EPS（\$11.56）仍遠未反映。Figure 35 顯示 UBS 模型的 royalty revenue 隨 ARM architecture 在 hyperscaler 部署的深化而持續提升，授權收入具備高能見度。
@@ -319,8 +319,8 @@ Figure 34 呈現 UBS 相較 Street 共識的 ARM 估算差異，Figure 35 為完
 
 ## Figures 36-37｜ARM 估值框架（PEG）
 
-![Figure 36](../assets/UBS_20260505_Agentic-CPU/exhibit_36.png)
-![Figure 37](../assets/UBS_20260505_Agentic-CPU/exhibit_37.png)
+![Figure 36](../assets/20260505_UBS_Agentic-CPU/exhibit_36.png)
+![Figure 37](../assets/20260505_UBS_Agentic-CPU/exhibit_37.png)
 
 ### 解讀摘要
 UBS 採用 PEG 框架為 ARM 定價，核心論點是 ARM 36.5% LT EPS CAGR 使傳統 P/E 比較失真。1.8x 目標 PEG（peer 平均，up from 1.6x）× 36.5% = 67x P/E，applied to 2027/28E avg EPS \$3.68 → PT \$245。Figure 37 展示計算/EDA 半導體板塊 PEG 分佈確認 1.8x 的 peer 合理性。Upside case（\$325）使用 2.1x PEG × 43% CAGR = 79x P/E × avg EPS \$3.31；Downside（\$130）使用 1.6x PEG × 30% CAGR = 40x P/E × avg EPS \$2.80。

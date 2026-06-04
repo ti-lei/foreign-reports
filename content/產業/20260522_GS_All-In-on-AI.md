@@ -1,11 +1,11 @@
-# GS｜Hedge Fund Trend Monitor：All In on AI
+﻿# GS｜Hedge Fund Trend Monitor：All In on AI
 
 **券商**：Goldman Sachs  
 **分析師**：Ben Snider、Jenny Ma、Ryan Hammond、Daniel Chavez、Kartik Jayachandran、Christophe Sung  
 **日期**：2026-05-22  
 **主題**：Q2 2026 Hedge Fund Trend Monitor — Q1 2026 13-F 持倉分析  
 **資料截止**：2026-03-31（13-F），績效截至 2026-05-21  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/GS_20260522_All-In-on-AI.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='GS_20260522_All-In-on-AI.md';a.click()})">⬇ 下載 MD</button>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260522_GS_All-In-on-AI.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260522_GS_All-In-on-AI.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 
@@ -40,7 +40,7 @@
 
 ## Exhibit 1｜對沖基金 YTD 報酬
 
-![Exhibit 1](../assets/GS_20260522_All-In-on-AI/exhibit_01.png)
+![Exhibit 1](../assets/20260522_GS_All-In-on-AI/exhibit_01.png)
 
 ### 解讀摘要
 對沖基金 L/S 策略 YTD +7%，大幅落後於最集中空倉籃子 +27%——代表 Q1 期間有顯著軋空事件，讓「做空者」反而賺到超額報酬。VIP 籃子 +13%，以科技多頭為主的 Alpha 是主要貢獻來源。
@@ -65,7 +65,7 @@
 
 ## Exhibit 17｜IT 持倉換手率達 10 年高點
 
-![Exhibit 17](../assets/GS_20260522_All-In-on-AI/exhibit_17.png)
+![Exhibit 17](../assets/20260522_GS_All-In-on-AI/exhibit_17.png)
 
 ### 解讀摘要
 Q1 2026 對沖基金 IT 持倉季度換手率達 31%，是 2013 年以來最高，遠超整體組合換手率 28%。高換手率反映 HF 在 AI 個股間積極輪動——不是減倉 IT，而是從已漲的 AI 基礎設施（電力、散熱）換至半導體設備的「板塊內輪動」。
@@ -76,7 +76,7 @@ Q1 2026 對沖基金 IT 持倉季度換手率達 31%，是 2013 年以來最高�
 
 ## Exhibit 18｜對沖基金持倉：半導體首度超越軟體
 
-![Exhibit 18](../assets/GS_20260522_All-In-on-AI/exhibit_18.png)
+![Exhibit 18](../assets/20260522_GS_All-In-on-AI/exhibit_18.png)
 
 ### 解讀摘要
 這是 2026 Q1 最重要的籌碼結構轉變：半導體配置從 2020 年的 2% 爬升至 10%（歷史最高），同期軟體從高點 13% 下滑至 6%（2019 年以來最低），兩條線首度交叉。這不是軟體被放棄，而是 AI 硬體基礎建設驅動的重估次序——市場先給硬體，再等軟體 monetization。
@@ -133,7 +133,7 @@ Q1 2026 對沖基金 IT 持倉季度換手率達 31%，是 2013 年以來最高�
 
 ## Exhibit 22｜大型科技股 HF 持倉淨變化（Q1 2026）
 
-![Exhibit 22](../assets/GS_20260522_All-In-on-AI/exhibit_22.png)
+![Exhibit 22](../assets/20260522_GS_All-In-on-AI/exhibit_22.png)
 
 ### 解讀摘要
 從九大科技巨頭的 Q1 持倉變化來看，META 淨增 +59 基金是最大贏家，NVDA 大致持平，MSFT 與 GOOGL 均為淨減倉（-43/-23 基金）。AMZN 雖然 YTD 表現最好，但淨持倉變化接近零——代表 AMZN 持倉已高度飽和，邊際增倉空間有限。
@@ -162,7 +162,7 @@ Q1 2026 對沖基金 IT 持倉季度換手率達 31%，是 2013 年以來最高�
 
 ## Exhibit 31｜HF VIP 清單（Q1 2026，50 檔最多出現在基金前 10 大持股）
 
-![Exhibit 31](../assets/GS_20260522_All-In-on-AI/exhibit_31.png)
+![Exhibit 31](../assets/20260522_GS_All-In-on-AI/exhibit_31.png)
 
 ### 解讀摘要
 VIP 清單共 50 檔，由 784 個持有 10-200 個美股部位的基金構成，YTD 表現 +10.4%（vs S&P 500 +8.6%），歷史命中率 59%。Q1 新加入 12 檔，包括 LRCX、MRVL、COHR 等 AI 基礎設施，以及 BE、VST 等電力類股。
@@ -202,7 +202,7 @@ VIP 清單共 50 檔，由 784 個持有 10-200 個美股部位的基金構成�
 
 ## Exhibit 32｜Rising Stars（Q1 2026 對沖基金持有人數增加最多）
 
-![Exhibit 32](../assets/GS_20260522_All-In-on-AI/exhibit_32.png)
+![Exhibit 32](../assets/20260522_GS_All-In-on-AI/exhibit_32.png)
 
 ### 解讀摘要
 Rising Stars 歷史上在後續季度有超額報酬傾向。本季 Top 20 中有 10 檔屬 IT 類（含半導體設備、半導體、光通訊），三家半導體設備龍頭 LRCX/AMAT 與光通訊 LITE 同時上榜，與 Exhibit 21 的加倉趨勢高度吻合。SNDK 以 +46 名列第一，YTD +462%。
@@ -230,7 +230,7 @@ Rising Stars 歷史上在後續季度有超額報酬傾向。本季 Top 20 中�
 
 ## Exhibit 33｜Falling Stars（Q1 2026 對沖基金持有人數減少最多）
 
-![Exhibit 33](../assets/GS_20260522_All-In-on-AI/exhibit_33.png)
+![Exhibit 33](../assets/20260522_GS_All-In-on-AI/exhibit_33.png)
 
 ### 解讀摘要
 Falling Stars 歷史上後續季度傾向於跑輸板塊同儕。本季 ETN (-26)、FISV (-26)、CARR (-25) 榜上有名，其中 ETN/CARR 均屬電力基礎設施主題，與 Exhibit 21 的減倉趨勢一致。CRM（Salesforce）連續第 2 季為 Falling Star，軟體類股 HUBS、WDAY 等也出現在 Exhibit 12 的高空倉列表中。

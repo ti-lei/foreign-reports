@@ -1,11 +1,11 @@
-# MS｜AI Transceivers：t（Tau）Law 支撐需求指數成長
+﻿# MS｜AI Transceivers：t（Tau）Law 支撐需求指數成長
 
 **券商**：Morgan Stanley  
 **分析師**：Andy Meng、Sharon Shih、Betty Chen  
 **日期**：2026-05-25  
 **主題**：AI Transceivers — Huawei t Law 框架對產業需求的意涵  
 **評級**：Industry View In-Line  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/MS_20260525_AI-Transceivers分析.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='MS_20260525_AI-Transceivers分析.md';a.click()})">⬇ 下載 MD</button>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260525_MS_AI-Transceivers分析.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260525_MS_AI-Transceivers分析.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

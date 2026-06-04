@@ -1,11 +1,11 @@
-# UBS｜Taiwan PCB/Substrates — Multi-year AI Upcycle 早期
+﻿# UBS｜Taiwan PCB/Substrates — Multi-year AI Upcycle 早期
 
 **券商**：UBS Securities Pte. Ltd., Taipei Branch  
 **分析師**：Diana Chang、Randy Abrams  
 **日期**：2026-05-22  
 **主題**：Taiwan PCB/Substrates — Still at the early innings of a multi-year upcycle  
 **評級**：Unimicron Buy (PT NT\$1,200↑)　Kinsus Buy (PT NT\$680↑)　NYPCB Neutral (PT NT\$875↑)  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/UBS_20260522_TW-PCB-Substrate.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='UBS_20260522_TW-PCB-Substrate.md';a.click()})">⬇ 下載 MD</button>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260522_UBS_TW-PCB-Substrate.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260522_UBS_TW-PCB-Substrate.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 
@@ -41,7 +41,7 @@
 
 ## Figure 1｜Capex revised up for hyperscalers
 
-![Figure 1](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_01.png)
+![Figure 1](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_01.png)
 
 ### 解讀摘要
 前五大 Hyperscaler 2026E 合計 capex 達 US\$719bn（+61% YoY），2027E 進一步升至 US\$819bn（+14%）。Google 是最大加速者（2026E +93% YoY），Oracle 則是從近零基礎起跳的純 AI infra 押注（2025A +230% YoY）。整體 Top 5 Capex/Sales 比率從 2024A 的 17.6% 升至 2026E 的 36.1%，接近歷史最高——「AI 資本配置」已不是試水溫，而是全面投入的明確訊號。
@@ -90,7 +90,7 @@
 
 ## Figure 2｜Hyperscaler 網路銷售與雲端業務
 
-![Figure 2](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_02.png)
+![Figure 2](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_02.png)
 
 ### 解讀摘要
 前五大 Internet 公司 1Q26 合計收入 US\$447bn（YoY +22.1%），雲端分部（AWS/Azure/GCP）合計 US\$224bn（+26.4%）。雲端業務的持續高速成長驗證了 AI 貨幣化的能力，同時為 capex 加速提供了盈利支撐——AI 投入不是在侵蝕盈利，而是在產生回報。
@@ -112,7 +112,7 @@
 
 ## Figure 3｜CPU Market \$170B by 2030E
 
-![Figure 3](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_03.png)
+![Figure 3](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_03.png)
 
 ### 解讀摘要
 全球 CPU 市場 2030E 預計達 US\$170bn，從現有基礎成長約 5.5 倍，驅動力分三類：傳統伺服器（存量替換）、AI Head Node（每台 AI rack 搭配的 CPU）、AI Standalone（純 CPU 推論節點）。新增量大部分來自 AI Head Node 和 Standalone 的增量需求，這對 Kinsus 和 Unimicron 的 CPU substrate 業務是純增量市場。
@@ -131,7 +131,7 @@
 
 ## Figure 4｜關鍵零組件供應商矩陣（ASIC/GPU Server）
 
-![Figure 4](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_04.png)
+![Figure 4](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_04.png)
 
 ### 解讀摘要
 主要 CSP 的 ASIC 及 GPU server 供應鏈矩陣顯示，Substrate 供應商在所有客戶的 AI Server 中均有明確的台灣廠商（Unimicron、Kinsus）席位。Google/Meta/Microsoft/Amazon 四大 ASIC 平台全部使用台系 substrate，而 NVIDIA GPU server 的 GPU substrate 同樣由台系主導——這意味著市場結構性依賴台灣基板廠，而非可輕易替代。
@@ -159,7 +159,7 @@
 
 ## Figure 5｜GPU/ASIC Spec 與供應商
 
-![Figure 5](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_05.png)
+![Figure 5](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_05.png)
 
 ### 解讀摘要
 UBS 彙整各代 GPU/ASIC 平台的 Substrate 面積與層數規格，顯示三個關鍵趨勢：(1) Blackwell 的 ABF substrate 面積相較 Hopper 增加約 +70–80%；(2) Rubin 世代引入全新元件（Switch tray、Midplane、IB Midplane、CPU Midplane），每個 rack 需要的 substrate 種類從 2–3 種增加至 5 種以上；(3) layer count 從 Hopper 的 32L 跳至 Rubin-Ultra 的 60L+ 以上。台系供應商（Unimicron、Kinsus、Shinko）出現在所有主要平台的潛在供應商名單中。
@@ -193,7 +193,7 @@ UBS 彙整各代 GPU/ASIC 平台的 Substrate 面積與層數規格，顯示三�
 
 ## Figure 6｜Ibiden 需求預測與產能擴張計畫
 
-![Figure 6](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_06.png)
+![Figure 6](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_06.png)
 
 ### 解讀摘要
 Ibiden 的 AI Server substrate SAP 需求指數從 CY24 基期 100 成長至 CY28E 的 220（+120%），而其產能擴張計畫到 CY28 僅達基期的 3.8 倍。即便如此，Ibiden 的容量擴張受限於 t-glass 供應，且大型廠房從建設到量產需要 1.5–2 年——這意味著 CY26–27 的供給瓶頸幾乎已鎖定。
@@ -216,7 +216,7 @@ Ibiden 的 AI Server substrate SAP 需求指數從 CY24 基期 100 成長至 CY2
 
 ## Figure 7｜主要基板廠資本支出計畫
 
-![Figure 7](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_07.png)
+![Figure 7](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_07.png)
 
 ### 解讀摘要
 主要基板廠的 capex 規模顯示整個產業的擴產意願，但規模仍是「謹慎擴張」：Ibiden JPY 500bn（~US\$3.3bn）、Unimicron NT\$21.5bn、Kinsus 雙位數增長、SEMCO +50%——對應的 ABF 產能增幅多在 20–50% 範圍，遠低於需求增速。NYPCB 管理層在 5/14 股東會透露大型擴產計畫，但新產能最快 2028 年前才能上線。
@@ -237,7 +237,7 @@ Ibiden 的 AI Server substrate SAP 需求指數從 CY24 基期 100 成長至 CY2
 
 ## Figure 8｜次世代 Glass Core Substrate
 
-![Figure 8](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_08.png)
+![Figure 8](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_08.png)
 
 ### 解讀摘要
 Glass core substrate 以玻璃取代傳統有機材料做為基板核心層，主要優勢在於：更低介電損耗（提升訊號完整性）、更低 CTE（減少翹曲）、可更高密度佈線。目前仍在導入初期，UBS 認為 t-glass 的短缺將是 ABF substrate 供給的另一個瓶頸——即使廠商有意擴大 glass core 產能，上游玻璃材料本身的供應受限。
@@ -248,7 +248,7 @@ Glass core substrate 以玻璃取代傳統有機材料做為基板核心層，�
 
 ## Figure 9｜CoWoS → CoWoP 架構演進
 
-![Figure 9](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_09.png)
+![Figure 9](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_09.png)
 
 ### 解讀摘要
 CoWoP（Chip-on-Wafer-on-Package）相比 CoWoS 移除了 package lid 與 package substrate 層，直接將 wafer 貼附於 PCB，大幅縮減 z-height 同時增加 I/O 密度。對 substrate 廠而言，CoWoP 意味著 ABF substrate 的面積需求不降反升——少了一層封裝，直接的 motherboard substrate 需要承接更多訊號路由，驅動 layer count 上升與 substrate size 增加。
@@ -257,7 +257,7 @@ CoWoP（Chip-on-Wafer-on-Package）相比 CoWoS 移除了 package lid 與 packag
 
 ## Figure 10｜EMIB-T：Small Silicon Bridge 技術
 
-![Figure 10](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_10.png)
+![Figure 10](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_10.png)
 
 ### 解讀摘要
 Intel 的 EMIB-T（Embedded Multi-die Interconnect Bridge with TSV）在基板內嵌入小型矽橋，用於連接相鄰 chiplet 而無需透過整個 substrate 的走線。從 substrate 廠角度，EMIB 不取代 ABF substrate，而是要求 substrate 具備更精細的 via 和埋入式橋接製程能力——這是 spec upgrade，推動基板 ASP 上升。
@@ -266,7 +266,7 @@ Intel 的 EMIB-T（Embedded Multi-die Interconnect Bridge with TSV）在基板�
 
 ## Figure 11｜TSV 增強效能架構
 
-![Figure 11](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_11.png)
+![Figure 11](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_11.png)
 
 ### 解讀摘要
 Through-Silicon Via（TSV）用於 die 層間垂直互連，搭配 EMIB 構成 Intel XPU 的 2.5D/3D 封裝架構。整體趨勢是晶片封裝複雜度持續提升，對 substrate 精度要求越來越高，ABF substrate 的技術護城河因此持續加深。
@@ -275,7 +275,7 @@ Through-Silicon Via（TSV）用於 die 層間垂直互連，搭配 EMIB 構成 I
 
 ## Figure 12｜Substrate 股價表現：Jan 2025 – May 2026
 
-![Figure 12](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_12.png)
+![Figure 12](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_12.png)
 
 ### 解讀摘要
 三家基板廠自 2025 年 1 月起均大幅上漲，但 NYPCB（+556%）反而超越 Unimicron（+516%）和 Kinsus（+451%）。UBS 認為 NYPCB 的超漲是定價優勢（現貨制）被市場充分認可，但「capacity 擴張落後於同業」的結構性限制尚未完整反映，這正是維持 Neutral 的理由。
@@ -300,13 +300,13 @@ Through-Silicon Via（TSV）用於 die 層間垂直互連，搭配 EMIB 構成 I
 
 ## Figure 14–17｜Unimicron 估值框架
 
-![Figure 14](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_14.png)
+![Figure 14](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_14.png)
 
-![Figure 15](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_15.png)
+![Figure 15](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_15.png)
 
-![Figure 16](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_16.png)
+![Figure 16](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_16.png)
 
-![Figure 17](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_17.png)
+![Figure 17](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_17.png)
 
 ### 解讀摘要
 Unimicron 目前 P/B 約 10–11x，遠超歷史均值 2x 與 +1 STD 3x，創下 2010 年以來最高紀錄（Figure 14）。Book value per share 約 NT\$80（Figure 15），股價約 NT\$900，顯示市場溢價完全由預期 ROE 提升驅動而非資產重估。P/E 同樣突破 +1 STD 33x（歷史均值 20x），當前 trailing P/E 約 45–50x（Figure 16）。
@@ -327,13 +327,13 @@ Unimicron 目前 P/B 約 10–11x，遠超歷史均值 2x 與 +1 STD 3x，創下
 
 ## Figure 18–21｜Kinsus 估值框架
 
-![Figure 18](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_18.png)
+![Figure 18](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_18.png)
 
-![Figure 19](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_19.png)
+![Figure 19](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_19.png)
 
-![Figure 20](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_20.png)
+![Figure 20](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_20.png)
 
-![Figure 21](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_21.png)
+![Figure 21](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_21.png)
 
 ### 解讀摘要
 Kinsus P/B 達歷史峰值 6.7x（均值 2x，+1 STD 2x），同樣大幅超出歷史分佈（Figure 18）。FWD BVPS 約 NT\$80–100（Figure 19），股價約 NT\$530–550。P/E 圖（Figure 20）顯示歷史均值 19x、+1 STD 40x；因 2019–21 年間 Kinsus 盈利極低，trailing P/E 曾出現異常高值，但 forward P/E 以 2027/28E 計算已回歸合理（26x/17x）。
@@ -354,13 +354,13 @@ Kinsus P/B 達歷史峰值 6.7x（均值 2x，+1 STD 2x），同樣大幅超出�
 
 ## Figure 22–25｜NYPCB 估值框架
 
-![Figure 22](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_22.png)
+![Figure 22](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_22.png)
 
-![Figure 23](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_23.png)
+![Figure 23](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_23.png)
 
-![Figure 24](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_24.png)
+![Figure 24](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_24.png)
 
-![Figure 25](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_25.png)
+![Figure 25](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_25.png)
 
 ### 解讀摘要
 NYPCB P/B 達歷史峰值 9.8x（均值 2x，+1 STD 4x），為三家中最高的 P/B 倍數（Figure 22）。FWD BVPS 約 NT\$75–80（Figure 23），股價約 NT\$950–960。P/E 方面（Figure 24），NYPCB 歷史均值 32x（受週期性盈利波動影響大），+1 STD 為 98x，當前 forward P/E 約 26x/17x（2027/28E）。
@@ -381,7 +381,7 @@ NYPCB P/B 達歷史峰值 9.8x（均值 2x，+1 STD 4x），為三家中最高�
 
 ## Figure 26｜Unimicron Margins Inflection
 
-![Figure 26](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_26.png)
+![Figure 26](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_26.png)
 
 ### 解讀摘要
 Unimicron 毛利率在 2022 年達到歷史峰值約 35%，2023–24 年受 AI server 爬坡期低 UTR 拖累跌至約 10% 以下，2026E 起隨 ABF 高 UTR 與定價上揚開始 inflection，2028E 預計達 32%。重點是：2028E 的 32% GM 接近 2022 年峰值，但營收規模（~NT\$310bn）比 2022 年（~NT\$150bn）高出 2 倍以上——絕對盈利量的跳升才是 re-rating 的真正驅動力。
@@ -406,7 +406,7 @@ Unimicron 毛利率在 2022 年達到歷史峰值約 35%，2023–24 年受 AI s
 
 ## Figure 27｜Unimicron Op Cash Flow vs. Capex
 
-![Figure 27](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_27.png)
+![Figure 27](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_27.png)
 
 ### 解讀摘要
 Unimicron 2023–24 年因大量 capex 投入（AI substrate 容量擴張）而 FCF 轉負，但 2025E 起隨 Operating CF 快速上升、capex 趨於穩定，FCF 開始回正。2026–28E Operating CF 預計達 NT\$40–60bn 區間，大幅超過 capex，FCF/Share 顯著改善，為潛在股利提升提供空間。
@@ -431,7 +431,7 @@ Unimicron 2023–24 年因大量 capex 投入（AI substrate 容量擴張）而 
 
 ## Figure 28｜Unimicron Earnings Revision Table
 
-![Figure 28](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_28.png)
+![Figure 28](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_28.png)
 
 ### 解讀摘要
 UBS 大幅上修 Unimicron 估算：2026/27/28E 銷售分別上修 +4%/+13%/+13%，GM 從 20%/25%/26% 上修至 21%/29%/32%，反映 ABF 定價上揚速度超預期以及 H226E 起多個 AI GPU/ASIC 項目加速量產的能見度提升。
@@ -453,9 +453,9 @@ UBS 大幅上修 Unimicron 估算：2026/27/28E 銷售分別上修 +4%/+13%/+13%
 
 ## Figure 29–30｜Kinsus Margins & Cash Flow（部分截圖）
 
-![Figure 29](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_29.png)
+![Figure 29](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_29.png)
 
-![Figure 30](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_30.png)
+![Figure 30](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_30.png)
 
 ### 解讀摘要
 Kinsus 毛利率趨勢與 Unimicron 類似但時間稍晚——2021–22 年因 BT substrate 供不應求達到局部高點，2023–24 年回落，2026E 起隨 ABF 比重上升和定價提升開始 inflection。UBS base case 2028E GM/OpM 為 29.9%/17.7%（上行情境 33.4%/21.2%），顯示 margin 跳升的主要槓桿在 ABF 業務比重的提升（2026E AI-related ABF 佔比達 10–15%）。
@@ -468,7 +468,7 @@ Kinsus 毛利率趨勢與 Unimicron 類似但時間稍晚——2021–22 年因 
 
 ## Figure 32｜NYPCB Margins Inflection
 
-![Figure 32](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_32.png)
+![Figure 32](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_32.png)
 
 ### 解讀摘要
 NYPCB 毛利率歷史走勢波動更大，2021–22 年峰值約 25–30%，2023–24 年快速下滑，2026E 起隨現貨定價提升和容量滿載而回升。UBS 預測 2028E GM 達 29%（高於 2022 年峰值），但 NYPCB 的 ABF 擴產受限決定了 volume 成長會拖住整體 margin 改善速度。
@@ -489,7 +489,7 @@ NYPCB 毛利率歷史走勢波動更大，2021–22 年峰值約 25–30%，2023
 
 ## Figure 33｜NYPCB Op Cash Flow vs. Capex
 
-![Figure 33](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_33.png)
+![Figure 33](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_33.png)
 
 ### 解讀摘要
 NYPCB 因 ABF 擴產受限，capex 規模遠低於 Unimicron/Kinsus，2026–28E capex 約 NT\$5–7bn/年，Operating CF 則因利用率滿載和定價上揚而快速提升至 NT\$20–30bn。FCF/Share 在 2026–28E 大幅改善，股利/股有望跟進提升。
@@ -515,7 +515,7 @@ NYPCB 因 ABF 擴產受限，capex 規模遠低於 Unimicron/Kinsus，2026–28E
 
 ## Figure 34｜NYPCB Earnings Revision Table
 
-![Figure 34](../assets/UBS_20260522_TW-PCB-Substrate/exhibit_34.png)
+![Figure 34](../assets/20260522_UBS_TW-PCB-Substrate/exhibit_34.png)
 
 ### 解讀摘要
 UBS 大幅上修 NYPCB 估算，2026/27/28E EPS 上修幅度達 +23%/+35%/+85%，主要驅動是定價提升速度超預期與現貨制帶來的即時受益。儘管如此，維持 Neutral 反映的是估值已 fully priced 且 volume 成長受限的結構性顧慮。

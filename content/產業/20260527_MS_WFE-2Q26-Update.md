@@ -1,11 +1,11 @@
-# MS｜2Q'26 WFE Update：記憶體錯配未解，LAM 升 OW，AMAT 降 EW
+﻿# MS｜2Q'26 WFE Update：記憶體錯配未解，LAM 升 OW，AMAT 降 EW
 
 **券商**：Morgan Stanley & Co. LLC  
 **分析師**：Shane Brett、Joseph Moore、Mason Wayne、Ella Tulchinsky、Nicole Kozhukhov  
 **日期**：2026-05-27（報告發布：2026-05-18）  
 **主題**：2Q'26 WFE 季度更新，2026/27 預測上修，LAM 升至 OW，AMAT 降至 EW，MKSI 升為 Top Pick  
 **評級**：In-Line（Semiconductor Capital Equipment）  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/MS_20260527_WFE-2Q26-Update.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='MS_20260527_WFE-2Q26-Update.md';a.click()})">⬇ 下載 MD</button>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260527_MS_WFE-2Q26-Update.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260527_MS_WFE-2Q26-Update.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 
@@ -43,7 +43,7 @@
 
 ## Exhibit 1｜WFE 預測瀑布圖（2025→2028e）
 
-![Exhibit 1](../assets/MS_20260527_WFE-2Q26-Update/exhibit_01.png)
+![Exhibit 1](../assets/20260527_MS_WFE-2Q26-Update/exhibit_01.png)
 
 ### 解讀摘要
 2026 上修主要來自 DRAM（+\$3bn）和 Logic（+\$2bn），但 2027 的最大亮點是 NAND，上修幅度達 +\$4bn，超過 DRAM（+\$5bn 但 2027 已列入 base case）。2028 引入 +13% 成長預測，由 Logic 主導（+18%），Memory 僅 +6%，反映 clean room 瓶頸讓 Memory WFE 上行空間有限但延長周期。
@@ -63,7 +63,7 @@
 
 ## Exhibit 2｜各細分市場 YoY 成長率
 
-![Exhibit 2](../assets/MS_20260527_WFE-2Q26-Update/exhibit_02.png)
+![Exhibit 2](../assets/20260527_MS_WFE-2Q26-Update/exhibit_02.png)
 
 ### 解讀摘要
 NAND 在 2027 YoY 成長達 52%，遠超 DRAM（+28%）和 Logic（+24%）；2028 則趨向均衡（NAND +6%、DRAM +5%、Logic +18%）。NAND 的 2027 高成長部分反映 2026 低基期，但 MS 強調基本面（greenfield 啟動）支撐這個數字。
@@ -74,7 +74,7 @@ NAND 在 2027 YoY 成長達 52%，遠超 DRAM（+28%）和 Logic（+24%）；202
 
 ## Exhibit 3｜DRAM WFE vs Bit 供給（2021-2028e）
 
-![Exhibit 3](../assets/MS_20260527_WFE-2Q26-Update/exhibit_03.png)
+![Exhibit 3](../assets/20260527_MS_WFE-2Q26-Update/exhibit_03.png)
 
 ### 解讀摘要
 MS 的 2027 DRAM WFE 預測 \$57bn 只能支撐 31% bit 成長，而無約束需求估計在 40%+，缺口達 9 ppt。這個缺口的存在使得 DRAM WFE 有進一步上修空間，但 MS 同時指出若進一步上修，將意味著 ASML EUV 大量分流，擠壓 Logic 需求。
@@ -85,7 +85,7 @@ MS 的 2027 DRAM WFE 預測 \$57bn 只能支撐 31% bit 成長，而無約束需
 
 ## Exhibit 4｜NAND WFE vs Bit 供給（2019-2028e）
 
-![Exhibit 4](../assets/MS_20260527_WFE-2Q26-Update/exhibit_04.png)
+![Exhibit 4](../assets/20260527_MS_WFE-2Q26-Update/exhibit_04.png)
 
 ### 解讀摘要
 NAND WFE 自 2022 年起急跌，2023-2025 年維持歷史低點；但 MS 預測 2027 將大幅反彈至 \$24bn，超過 2021 高點。Bit 供給成長率也從 2025 的 17% 加速至 2027 的 32%，仍低於 40%+ 無約束需求，確認供需缺口。
@@ -94,7 +94,7 @@ NAND WFE 自 2022 年起急跌，2023-2025 年維持歷史低點；但 MS 預測
 
 ## Exhibit 5｜前沿邏輯半導體資本支出（2020-2028e）
 
-![Exhibit 5](../assets/MS_20260527_WFE-2Q26-Update/exhibit_05.png)
+![Exhibit 5](../assets/20260527_MS_WFE-2Q26-Update/exhibit_05.png)
 
 ### 解讀摘要
 2026 前沿邏輯 capex 預測成長 58%，由 TSMC 主導，Samsung 小幅貢獻，Intel 目前基數低但有顯著上行風險。MS 在此展示 TSMC-centric 的邏輯成長，同時視 Intel 為 2027 的潛在催化劑。
@@ -103,7 +103,7 @@ NAND WFE 自 2022 年起急跌，2023-2025 年維持歷史低點；但 MS 預測
 
 ## Exhibit 6｜Intel CPU 需求 → WFE 需求（2030 年情境）
 
-![Exhibit 6](../assets/MS_20260527_WFE-2Q26-Update/exhibit_06.png)
+![Exhibit 6](../assets/20260527_MS_WFE-2Q26-Update/exhibit_06.png)
 
 ### 解讀摘要
 若 Intel 爭取 2/3 的增量 Server CPU 至 2030 年（約 22.4mn 台），所需的邏輯晶圓產能需要 \$23.8bn WFE（Xeon 6 情境）到 \$27.9bn（Xeon 7 情境）。Server CPU 從 2025 年 26.2mn 台成長至 2030 年 60.1mn 台，增量超過 33mn 台，驅動資本支出不可避免。
@@ -114,7 +114,7 @@ NAND WFE 自 2022 年起急跌，2023-2025 年維持歷史低點；但 MS 預測
 
 ## Exhibit 7｜WFE 完整預測表（按細分市場）
 
-![Exhibit 7](../assets/MS_20260527_WFE-2Q26-Update/exhibit_07.png)
+![Exhibit 7](../assets/20260527_MS_WFE-2Q26-Update/exhibit_07.png)
 
 ### 表格（\$mn）
 
@@ -141,7 +141,7 @@ NAND WFE 自 2022 年起急跌，2023-2025 年維持歷史低點；但 MS 預測
 
 ## Exhibit 8｜WFE 按地區預測（2021-2028e）
 
-![Exhibit 8](../assets/MS_20260527_WFE-2Q26-Update/exhibit_08.png)
+![Exhibit 8](../assets/20260527_MS_WFE-2Q26-Update/exhibit_08.png)
 
 ### 表格（\$mn）
 
@@ -163,7 +163,7 @@ NAND WFE 自 2022 年起急跌，2023-2025 年維持歷史低點；但 MS 預測
 
 ## Exhibit 9｜DRAM 年度 Greenfield 新增（kwpm）
 
-![Exhibit 9](../assets/MS_20260527_WFE-2Q26-Update/exhibit_09.png)
+![Exhibit 9](../assets/20260527_MS_WFE-2Q26-Update/exhibit_09.png)
 
 ### 解讀摘要
 MS 預測 2026-28 年 DRAM greenfield 平均每年新增 344kwpm，vs 2023-25 年平均 170kwpm，幾乎翻倍。2026 下修了 Hynix 過激預測（258→278kwpm），但 2027 全面上修（395kwpm）。CXMT 貢獻開始顯著，形成中國自主供應鏈的不確定性。
@@ -172,7 +172,7 @@ MS 預測 2026-28 年 DRAM greenfield 平均每年新增 344kwpm，vs 2023-25 �
 
 ## Exhibit 10｜DRAM bits 中 Server 佔比趨勢
 
-![Exhibit 10](../assets/MS_20260527_WFE-2Q26-Update/exhibit_10.png)
+![Exhibit 10](../assets/20260527_MS_WFE-2Q26-Update/exhibit_10.png)
 
 ### 解讀摘要
 Server DRAM bit 佔比從 2025 年 38% 上升至 2028 年 59%；PC/Smartphone 從 45% 降至 24%。驅動因素是 AI 推論伺服器對 HBM 和 DDR5 的需求爆炸式成長，使傳統消費端需求相對稀釋。
@@ -183,7 +183,7 @@ Server DRAM bit 佔比從 2025 年 38% 上升至 2028 年 59%；PC/Smartphone �
 
 ## Exhibit 12｜NAND Bit 供給成長預測
 
-![Exhibit 12](../assets/MS_20260527_WFE-2Q26-Update/exhibit_12.png)
+![Exhibit 12](../assets/20260527_MS_WFE-2Q26-Update/exhibit_12.png)
 
 ### 解讀摘要
 NAND bit supply 成長在 2026 為 17%，2027 加速至 33%，2028 維持相近水平。這個成長軌跡完全依賴 greenfield 投資（而非 node upgrade），使 NAND WFE 的成長具有較強預測性。
@@ -192,7 +192,7 @@ NAND bit supply 成長在 2026 為 17%，2027 加速至 33%，2028 維持相近�
 
 ## Exhibit 13｜前沿邏輯 Capex 成長（含 TSMC/Samsung/Intel）
 
-![Exhibit 13](../assets/MS_20260527_WFE-2Q26-Update/exhibit_13.png)
+![Exhibit 13](../assets/20260527_MS_WFE-2Q26-Update/exhibit_13.png)
 
 ### 解讀摘要
 與 Exhibit 5 類似（2026 +58%），但這張圖更清楚呈現 TSMC 主導地位，以及 Intel 目前貢獻仍小。若 Intel capex 按 Exhibit 25/26 情境上修，這張圖的 Intel 柱狀將大幅增加。
@@ -201,7 +201,7 @@ NAND bit supply 成長在 2026 為 17%，2027 加速至 33%，2028 維持相近�
 
 ## Exhibit 14｜Intel 22.4mn CPU 情境所需 WFE（\$23.8bn+）
 
-![Exhibit 14](../assets/MS_20260527_WFE-2Q26-Update/exhibit_14.png)
+![Exhibit 14](../assets/20260527_MS_WFE-2Q26-Update/exhibit_14.png)
 
 > **注意**：此 Exhibit 標記為 [XObject]，已以全欄寬輸出，內容為表格。
 
@@ -228,7 +228,7 @@ NAND bit supply 成長在 2026 為 17%，2027 加速至 33%，2028 維持相近�
 
 ## Exhibit 16｜Logic vs Memory WFE 佔比
 
-![Exhibit 16](../assets/MS_20260527_WFE-2Q26-Update/exhibit_16.png)
+![Exhibit 16](../assets/20260527_MS_WFE-2Q26-Update/exhibit_16.png)
 
 ### 表格
 
@@ -246,7 +246,7 @@ NAND bit supply 成長在 2026 為 17%，2027 加速至 33%，2028 維持相近�
 
 ## Exhibit 18｜NAND bit 供給：Node Upgrade vs Wafer Starts 貢獻
 
-![Exhibit 18](../assets/MS_20260527_WFE-2Q26-Update/exhibit_18.png)
+![Exhibit 18](../assets/20260527_MS_WFE-2Q26-Update/exhibit_18.png)
 
 ### 解讀摘要
 2023-25 年 NAND bit 供給幾乎完全靠 node upgrade（每片晶圓產出更多 bit），wafer starts 幾乎零成長。這個結構說明為何 NAND WFE 維持低點——只需要 deposition/etch 升級而非新廠，對設備商需求有限。MS 預計從 2026 起，greenfield wafer starts 開始貢獻，驅動 NAND WFE 反轉。
@@ -255,7 +255,7 @@ NAND bit supply 成長在 2026 為 17%，2027 加速至 33%，2028 維持相近�
 
 ## Exhibit 19｜NAND Greenfield 新增（YMTC vs 非 YMTC）
 
-![Exhibit 19](../assets/MS_20260527_WFE-2Q26-Update/exhibit_19.png)
+![Exhibit 19](../assets/20260527_MS_WFE-2Q26-Update/exhibit_19.png)
 
 ### 解讀摘要
 2023-2025 年 YMTC 幾乎是唯一的 NAND greenfield 貢獻者，非中國廠商 greenfield 接近零。2026-27 非 YMTC greenfield 加速（Samsung、Kioxia），YMTC 佔比下降但仍顯著。這對設備商地緣政治風險有重要含義：若 YMTC 成為主要 greenfield 驅動力，受美國出口管制影響的設備商（AMAT、LAM）受益有限。
@@ -266,7 +266,7 @@ NAND bit supply 成長在 2026 為 17%，2027 加速至 33%，2028 維持相近�
 
 ## Exhibit 20｜NAND 無約束需求 40%+（Server SSD 主導）
 
-![Exhibit 20](../assets/MS_20260527_WFE-2Q26-Update/exhibit_20.png)
+![Exhibit 20](../assets/20260527_MS_WFE-2Q26-Update/exhibit_20.png)
 
 ### 解讀摘要
 Server SSD（AI training/inference 存儲）是 NAND 無約束需求的主要驅動力，MS 估算總無約束需求 40%+，遠超 2026e 17% 的供給成長。SSD 在 NAND bit 中的佔比持續攀升，強化長期供應缺口論述。
@@ -275,7 +275,7 @@ Server SSD（AI training/inference 存儲）是 NAND 無約束需求的主要驅
 
 ## Exhibit 21｜Server 佔 NAND bits 比例達 73%（2028e）
 
-![Exhibit 21](../assets/MS_20260527_WFE-2Q26-Update/exhibit_21.png)
+![Exhibit 21](../assets/20260527_MS_WFE-2Q26-Update/exhibit_21.png)
 
 ### 解讀摘要
 AI bits（用於訓練/推論的 AI server SSD）在 2028 年達到 NAND 總量的 31%；Server 整體佔比 73%。這個結構轉變使 NAND 的需求彈性更接近 DRAM（AI 驅動），弱化了 NAND 的高周期性，長期來看提升 NAND WFE 的可預期性。
@@ -284,7 +284,7 @@ AI bits（用於訓練/推論的 AI server SSD）在 2028 年達到 NAND 總量�
 
 ## Exhibit 23｜Server CPU 成長至 2030 年 60mn 台
 
-![Exhibit 23](../assets/MS_20260527_WFE-2Q26-Update/exhibit_23.png)
+![Exhibit 23](../assets/20260527_MS_WFE-2Q26-Update/exhibit_23.png)
 
 ### 表格（mn units）
 
@@ -305,7 +305,7 @@ AI bits（用於訓練/推論的 AI server SSD）在 2028 年達到 NAND 總量�
 
 ## Exhibit 24｜Bull Case CPU orchestration TAM \$238bn
 
-![Exhibit 24](../assets/MS_20260527_WFE-2Q26-Update/exhibit_24.png)
+![Exhibit 24](../assets/20260527_MS_WFE-2Q26-Update/exhibit_24.png)
 
 ### 解讀摘要
 Base case 為 \$125bn（2030 CPU TAM），Bull case 達 \$283bn，主要差異在於 Agentic CPU orchestration 需求的量級假設。Bull case 暗示 Intel 的市場機會比基礎假設大 2.3x，對應的 WFE 需求也相應放大。
@@ -314,7 +314,7 @@ Base case 為 \$125bn（2030 CPU TAM），Bull case 達 \$283bn，主要差異�
 
 ## Exhibit 25｜5mn 增量 Xeon 6 所需 WFE（\$5.3bn）
 
-![Exhibit 25](../assets/MS_20260527_WFE-2Q26-Update/exhibit_25.png)
+![Exhibit 25](../assets/20260527_MS_WFE-2Q26-Update/exhibit_25.png)
 
 ### 表格
 
@@ -334,7 +334,7 @@ Base case 為 \$125bn（2030 CPU TAM），Bull case 達 \$283bn，主要差異�
 
 ## Exhibit 27｜KLA Intel 收入 2025-2027 可達 6.4x
 
-![Exhibit 27](../assets/MS_20260527_WFE-2Q26-Update/exhibit_27.png)
+![Exhibit 27](../assets/20260527_MS_WFE-2Q26-Update/exhibit_27.png)
 
 ### 表格
 
@@ -361,7 +361,7 @@ Base case 為 \$125bn（2030 CPU TAM），Bull case 達 \$283bn，主要差異�
 
 ## Exhibit 28｜Intel 製程控制強度 vs 行業比較
 
-![Exhibit 28](../assets/MS_20260527_WFE-2Q26-Update/exhibit_28.png)
+![Exhibit 28](../assets/20260527_MS_WFE-2Q26-Update/exhibit_28.png)
 
 ### 解讀摘要
 2025 年 Intel IDM 製程控制強度僅 5%（vs 先進晶圓廠 15-18%），因為 Intel 歷來依賴 ramp-up 後才做 process control（"test-based"），而非 in-line 即時偵測。Intel 正轉向 in-line detection，MS 預測到 2027 強度上升至 10-12%，使 KLA 成為 Intel 轉型的直接受益者。
@@ -370,7 +370,7 @@ Base case 為 \$125bn（2030 CPU TAM），Bull case 達 \$283bn，主要差異�
 
 ## Exhibit 29｜封裝設備市場成長（2022-2028e）
 
-![Exhibit 29](../assets/MS_20260527_WFE-2Q26-Update/exhibit_29.png)
+![Exhibit 29](../assets/20260527_MS_WFE-2Q26-Update/exhibit_29.png)
 
 ### 解讀摘要
 封裝設備（含 Capex）在 2026 成長 41%，2027 +25%，成長速度超過 WFE（+27%/+28%），但 MS 強調整體封裝市場的成長不代表傳統後段廠商受益——Value 在前段。
@@ -379,7 +379,7 @@ Base case 為 \$125bn（2030 CPU TAM），Bull case 達 \$283bn，主要差異�
 
 ## Exhibit 30｜先進封裝（HBM/CoWoS/SoIC）vs 傳統封裝
 
-![Exhibit 30](../assets/MS_20260527_WFE-2Q26-Update/exhibit_30.png)
+![Exhibit 30](../assets/20260527_MS_WFE-2Q26-Update/exhibit_30.png)
 
 ### 解讀摘要
 2025 年後先進封裝（Advanced Packaging）的成長速度大幅超過傳統封裝，2028 年先進封裝佔比過半。HBM 需要的 CoWoS/SoIC 製程由 TSMC/Samsung 等前段廠執行，AMAT/LAM/KLA 而非傳統 OSAT 是主要受益者。
@@ -388,9 +388,9 @@ Base case 為 \$125bn（2030 CPU TAM），Bull case 達 \$283bn，主要差異�
 
 ## Exhibit 31-32｜前段 vs 後段封裝收入及成長率
 
-![Exhibit 31](../assets/MS_20260527_WFE-2Q26-Update/exhibit_31.png)
+![Exhibit 31](../assets/20260527_MS_WFE-2Q26-Update/exhibit_31.png)
 
-![Exhibit 32](../assets/MS_20260527_WFE-2Q26-Update/exhibit_32.png)
+![Exhibit 32](../assets/20260527_MS_WFE-2Q26-Update/exhibit_32.png)
 
 ### 解讀摘要
 前段封裝（AMAT/LAM/KLA/TEL）收入在 2026 成長 50% YoY，佔封裝市場比例升至 50%。後段封裝成長率低於前段，且 2028 年後趨於平緩。這直接支持 MS 對 AMAT/LAM 前段封裝業務的正面看法，但同時指出後段整合廠（ASE、Amkor）在這波週期中受益有限。
@@ -399,7 +399,7 @@ Base case 為 \$125bn（2030 CPU TAM），Bull case 達 \$283bn，主要差異�
 
 ## Exhibit 33｜LAM vs AMAT 前瞻 P/E 溢價歷史
 
-![Exhibit 33](../assets/MS_20260527_WFE-2Q26-Update/exhibit_33.png)
+![Exhibit 33](../assets/20260527_MS_WFE-2Q26-Update/exhibit_33.png)
 
 ### 解讀摘要
 LAM vs AMAT 的估值溢價分三階段：2015-20 年約 0%、2021-23 年約 5%（NAND 下行期 LAM 溢價收窄）、2024 年後 16%（NAND 復甦 + LAM China 受益）。MS 現在將溢價從 10% 擴展至 20%，反映 2027 NAND WFE 的加速對 LAM 的不對稱受益。
@@ -408,9 +408,9 @@ LAM vs AMAT 的估值溢價分三階段：2015-20 年約 0%、2021-23 年約 5%�
 
 ## Exhibit 34-35｜LAM vs AMAT 市占率變化
 
-![Exhibit 34](../assets/MS_20260527_WFE-2Q26-Update/exhibit_34.png)
+![Exhibit 34](../assets/20260527_MS_WFE-2Q26-Update/exhibit_34.png)
 
-![Exhibit 35](../assets/MS_20260527_WFE-2Q26-Update/exhibit_35.png)
+![Exhibit 35](../assets/20260527_MS_WFE-2Q26-Update/exhibit_35.png)
 
 ### 解讀摘要
 LAM 在 2024/25 已相對 WFE 超額表現（2024 +8ppt，2025 +27ppt 估計），MS 預測 2026/27 連續第三、四年超額表現，由 NAND 和非中國 foundry logic 驅動。Exhibit 35 顯示按細分市場（DRAM/NAND/FL）的 LAM vs AMAT 相對份額，LAM 在 NAND 佔有決定性優勢。
@@ -419,9 +419,9 @@ LAM 在 2024/25 已相對 WFE 超額表現（2024 +8ppt，2025 +27ppt 估計）�
 
 ## Exhibit 36-37｜LAM vs AMAT 按細分市場收入拆解
 
-![Exhibit 36](../assets/MS_20260527_WFE-2Q26-Update/exhibit_36.png)
+![Exhibit 36](../assets/20260527_MS_WFE-2Q26-Update/exhibit_36.png)
 
-![Exhibit 37](../assets/MS_20260527_WFE-2Q26-Update/exhibit_37.png)
+![Exhibit 37](../assets/20260527_MS_WFE-2Q26-Update/exhibit_37.png)
 
 ### 表格
 
@@ -449,11 +449,11 @@ LAM 在 2024/25 已相對 WFE 超額表現（2024 +8ppt，2025 +27ppt 估計）�
 
 ## Exhibit 38-40｜LAM/AMAT 預測財務報表
 
-![Exhibit 38](../assets/MS_20260527_WFE-2Q26-Update/exhibit_38.png)
+![Exhibit 38](../assets/20260527_MS_WFE-2Q26-Update/exhibit_38.png)
 
-![Exhibit 39](../assets/MS_20260527_WFE-2Q26-Update/exhibit_39.png)
+![Exhibit 39](../assets/20260527_MS_WFE-2Q26-Update/exhibit_39.png)
 
-![Exhibit 40](../assets/MS_20260527_WFE-2Q26-Update/exhibit_40.png)
+![Exhibit 40](../assets/20260527_MS_WFE-2Q26-Update/exhibit_40.png)
 
 ### LAM Research 關鍵指標
 

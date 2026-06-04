@@ -1,11 +1,11 @@
-# Goldman Sachs｜Co-Tech Development Corp. (8358) 初次覆蓋
+﻿# Goldman Sachs｜Co-Tech Development Corp. (8358) 初次覆蓋
 
 **券商**：Goldman Sachs (Asia) L.L.C., Taipei Branch  
 **分析師**：Chao Wang、Allen Chang、Al Wang  
 **日期**：2026-05-19  
 **主題**：PCB 銅箔產業新紀元——HVLP3+ 供給短缺驅動 ASP／毛利結構性重估  
 **評級**：Buy（首次覆蓋）｜12 個月目標價 NT\$900（現價 NT\$429，上漲空間 +110%）  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/GS_20260519_CO-TECH-initiation.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='GS_20260519_CO-TECH-initiation.md';a.click()})">⬇ 下載 MD</button>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260519_GS_CO-TECH-initiation.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260519_GS_CO-TECH-initiation.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 
@@ -41,7 +41,7 @@
 
 ## Exhibit 1｜PCB 銅箔 TAM——高端滲透率從 3% 到 33%
 
-![Exhibit 1](../assets/GS_20260519_CO-TECH-initiation/exhibit_01.png)
+![Exhibit 1](../assets/20260519_GS_CO-TECH-initiation/exhibit_01.png)
 
 ### 解讀摘要
 全球 PCB 銅箔 TAM 長期受傳統低端（HTE/RTF）主導，2019-2024 年高端（HVLP3+）滲透率僅 2-3%，相當於邊緣需求。轉捩點在 2H26：AI server 從 M7 轉向 M8/M9 CCL 將帶動 HVLP3+ 滲透率從 3%（2024）爆升至 9/21/33%（2026/27/28E），整個 TAM 隨之從成本競爭轉向技術壁壘競爭。
@@ -64,7 +64,7 @@
 
 ## Exhibit 2｜高端銅箔需求——AI server 與 Switch 為雙引擎
 
-![Exhibit 2](../assets/GS_20260519_CO-TECH-initiation/exhibit_02.png)
+![Exhibit 2](../assets/20260519_GS_CO-TECH-initiation/exhibit_02.png)
 
 ### 解讀摘要
 高端銅箔（HVLP3+）年度需求從 2024 年約 5,000 噸快速攀升，2026 年 YoY 成長 ~130%，主要由 AI server 需求爆發（從 ~3,500 噸增至 ~12,000 噸）驅動，Ethernet switch 升級（400G→800G→1.6T）貢獻穩定增量。
@@ -85,7 +85,7 @@
 
 ## Exhibit 3｜有效 HVLP3+ 供應產能（考慮良率損失後）
 
-![Exhibit 3](../assets/GS_20260519_CO-TECH-initiation/exhibit_03.png)
+![Exhibit 3](../assets/20260519_GS_CO-TECH-initiation/exhibit_03.png)
 
 ### 解讀摘要
 行業 HVLP3+ 名義產能 2025-28E CAGR 為 68%，但考慮 70-80% 良率後，有效產能 CAGR 僅 67%（803→3,759 t/m），始終追不上需求的 97% CAGR。良率損失形成「隱性產能稅」，是結構性缺口的核心。
@@ -103,7 +103,7 @@
 
 ## Exhibit 4｜HVLP3+ 供需缺口——2025 短暫過剩後長期短缺
 
-![Exhibit 4](../assets/GS_20260519_CO-TECH-initiation/exhibit_04.png)
+![Exhibit 4](../assets/20260519_GS_CO-TECH-initiation/exhibit_04.png)
 
 ### 解讀摘要
 2025 年因產能提前擴增而出現 16% 短暫過剩，但從 2026E 起需求爆發徹底扭轉局面，缺口在 2027E 達到峰值 39%——這代表全行業有效產能無法服務近四成的客戶需求，迫使客戶提前鎖定優先供應商。
@@ -128,7 +128,7 @@
 
 ## Exhibit 5｜ASP vs 毛利率階梯——HVLP3+ 是質的跳躍
 
-![Exhibit 5](../assets/GS_20260519_CO-TECH-initiation/exhibit_05.png)
+![Exhibit 5](../assets/20260519_GS_CO-TECH-initiation/exhibit_05.png)
 
 ### 解讀摘要
 從 HTE/RTF 升級至 HVLP3 是一個非線性跳躍：ASP 從 \$15/kg 提升至 \$32/kg（+113%），而 GM 從 3% 跳升至 50%，意味著每公斤絕對毛利從 \$0.45 到 \$16.0（+35 倍）。這不是正常的產品升級，而是商業模式的質變——從成本加成的微利業務轉向技術稀缺的高利潤業務。
@@ -154,7 +154,7 @@
 
 ## Exhibit 6｜Co-Tech ROE 上行趨勢——推動 PB 重估
 
-![Exhibit 6](../assets/GS_20260519_CO-TECH-initiation/exhibit_06.png)
+![Exhibit 6](../assets/20260519_GS_CO-TECH-initiation/exhibit_06.png)
 
 ### 解讀摘要
 Co-Tech 的 12m fwd ROE 已從 2024 年底的低點快速回升，當前（2026 年 5 月）fwd ROE 達 43.1%，GS 預估 2027E fwd ROE 將達 67.7%。歷史平均 ROE 僅 15.8%，當前水位已遠超均值，且仍在加速。PB 倍數歷史均值約 2x，當前已升至 8-9x，但 GS 認為 ROE 躍升支持更高 PB。
@@ -177,7 +177,7 @@ Co-Tech 的 12m fwd ROE 已從 2024 年底的低點快速回升，當前（2026 
 
 ## Exhibit 7｜HVLP3+ 供需缺口（同 Exhibit 4）
 
-![Exhibit 7](../assets/GS_20260519_CO-TECH-initiation/exhibit_07.png)
+![Exhibit 7](../assets/20260519_GS_CO-TECH-initiation/exhibit_07.png)
 
 *本報告在第二章重複刊出，內容與 Exhibit 4 相同，詳見上方分析。*
 
@@ -185,7 +185,7 @@ Co-Tech 的 12m fwd ROE 已從 2024 年底的低點快速回升，當前（2026 
 
 ## Exhibit 8｜ASP vs GM 階梯（同 Exhibit 5）
 
-![Exhibit 8](../assets/GS_20260519_CO-TECH-initiation/exhibit_08.png)
+![Exhibit 8](../assets/20260519_GS_CO-TECH-initiation/exhibit_08.png)
 
 *本報告在第二章重複刊出，內容與 Exhibit 5 相同，詳見上方分析。*
 
@@ -193,7 +193,7 @@ Co-Tech 的 12m fwd ROE 已從 2024 年底的低點快速回升，當前（2026 
 
 ## Exhibit 9｜PCB 銅箔 TAM 全幅圖——HVLP3+ 122% CAGR
 
-![Exhibit 9](../assets/GS_20260519_CO-TECH-initiation/exhibit_09.png)
+![Exhibit 9](../assets/20260519_GS_CO-TECH-initiation/exhibit_09.png)
 
 ### 解讀摘要
 本圖為 Exhibit 1 的完整版，完整標示了「下行週期」（2022-24 年低端產能過剩導致 TAM 萎縮）與「上行週期」（2H26 起由 AI server 驅動）兩個階段。HVLP3+ 的 TAM 從 US\$216mn（2025）成長至 US\$612mn/1.5bn/2.4bn（2026/27/28E），占全球 PCB CF TAM 的 9/21/33%。
@@ -211,7 +211,7 @@ Co-Tech 的 12m fwd ROE 已從 2024 年底的低點快速回升，當前（2026 
 
 ## Exhibit 10｜HVLP3+ 需求量結構——HVLP4 主導 2027-28E
 
-![Exhibit 10](../assets/GS_20260519_CO-TECH-initiation/exhibit_10.png)
+![Exhibit 10](../assets/20260519_GS_CO-TECH-initiation/exhibit_10.png)
 
 ### 解讀摘要
 HVLP3+ 總需求 97% 2025-28E CAGR，但內部結構快速向 HVLP4 傾斜：HVLP3 從 2025 年占 76% 降至 2028E 的 30%，HVLP4 從 24% 升至 46%，HVLP5 從 0% 成為 2028E 的 24%。這意味著行業不只是需求量增長，還是更高價格帶的需求。
@@ -232,7 +232,7 @@ HVLP3+ 總需求 97% 2025-28E CAGR，但內部結構快速向 HVLP4 傾斜：HVL
 
 ## Exhibit 11｜高端銅箔需求（同 Exhibit 2）
 
-![Exhibit 11](../assets/GS_20260519_CO-TECH-initiation/exhibit_11.png)
+![Exhibit 11](../assets/20260519_GS_CO-TECH-initiation/exhibit_11.png)
 
 *本報告在第二章重複刊出，內容與 Exhibit 2 相同，詳見上方分析。*
 
@@ -240,7 +240,7 @@ HVLP3+ 總需求 97% 2025-28E CAGR，但內部結構快速向 HVLP4 傾斜：HVL
 
 ## Exhibit 12｜HVLP4+5 佔 AI server 銅箔比例——2026-28E 主導地位
 
-![Exhibit 12](../assets/GS_20260519_CO-TECH-initiation/exhibit_12.png)
+![Exhibit 12](../assets/20260519_GS_CO-TECH-initiation/exhibit_12.png)
 
 ### 解讀摘要
 AI server 應用中，HVLP4+5 合計佔比從 2026E 的 36% 快速升至 2027E 83%、2028E 89%，即 AI server 使用的銅箔中 90% 將是最高規格產品。HVLP3 在 AI server 的角色從 64%（2026E）縮減至 11%（2028E），成為配角。
@@ -259,7 +259,7 @@ AI server 應用中，HVLP4+5 合計佔比從 2026E 的 36% 快速升至 2027E 8
 
 ## Exhibit 13｜高端 Ethernet Switch 銅箔規格——HVLP5 逐步滲透
 
-![Exhibit 13](../assets/GS_20260519_CO-TECH-initiation/exhibit_13.png)
+![Exhibit 13](../assets/20260519_GS_CO-TECH-initiation/exhibit_13.png)
 
 ### 解讀摘要
 Ethernet switch 的銅箔結構與 AI server 略有不同：2026E 仍以 HVLP4 為主（64%），但 HVLP3 的比重（36%）明顯高於 AI server（因 400G/800G switch 仍使用 HVLP3），HVLP5 要等到 2027E 1.6T switch 採用後才出現（5%），2028E 達 10%。
@@ -278,7 +278,7 @@ Ethernet switch 的銅箔結構與 AI server 略有不同：2026E 仍以 HVLP4 �
 
 ## Exhibit 14｜HVLP3+ 行業名義產能——68% 2025-28E CAGR
 
-![Exhibit 14](../assets/GS_20260519_CO-TECH-initiation/exhibit_14.png)
+![Exhibit 14](../assets/20260519_GS_CO-TECH-initiation/exhibit_14.png)
 
 ### 解讀摘要
 行業 HVLP3+ 名義（不含良率損失）產能從 2025 年 1,060 t/m 提升至 2028E 4,977 t/m，CAGR 68%。產能組合向 HVLP4/5 快速傾斜：2025 年 HVLP3 佔 61%，2028E 降至 26%，而 HVLP4 升至 54%、HVLP5 升至 20%。
@@ -299,7 +299,7 @@ Ethernet switch 的銅箔結構與 AI server 略有不同：2026E 仍以 HVLP4 �
 
 ## Exhibit 15｜有效 HVLP3+ 供應產能（同 Exhibit 3）
 
-![Exhibit 15](../assets/GS_20260519_CO-TECH-initiation/exhibit_15.png)
+![Exhibit 15](../assets/20260519_GS_CO-TECH-initiation/exhibit_15.png)
 
 *本報告在第二章重複刊出，內容與 Exhibit 3 相同，詳見上方分析。*
 
@@ -307,7 +307,7 @@ Ethernet switch 的銅箔結構與 AI server 略有不同：2026E 仍以 HVLP4 �
 
 ## Exhibit 16｜HVLP3+ 供需缺口（同 Exhibit 4）
 
-![Exhibit 16](../assets/GS_20260519_CO-TECH-initiation/exhibit_16.png)
+![Exhibit 16](../assets/20260519_GS_CO-TECH-initiation/exhibit_16.png)
 
 *本報告在第二章重複刊出，內容與 Exhibit 4 相同，詳見上方分析。*
 
@@ -315,7 +315,7 @@ Ethernet switch 的銅箔結構與 AI server 略有不同：2026E 仍以 HVLP4 �
 
 ## Exhibit 17｜Mitsui 有效 HVLP3+ 產能——市占從 79% 降至 20%
 
-![Exhibit 17](../assets/GS_20260519_CO-TECH-initiation/exhibit_17.png)
+![Exhibit 17](../assets/20260519_GS_CO-TECH-initiation/exhibit_17.png)
 
 ### 解讀摘要
 Mitsui 作為 HVLP3+ 的第一供應商，其有效產能占行業需求的比例從 2024 年的 79% 快速稀釋至 2028E 的 20%——不是因為 Mitsui 停止擴產，而是需求成長速度遠超 Mitsui 所能提供。這個稀釋本身就是 Co-Tech 市占擴大的定量佐證。
@@ -338,7 +338,7 @@ Mitsui 作為 HVLP3+ 的第一供應商，其有效產能占行業需求的比�
 
 ## Exhibit 18｜Mitsui＋Co-Tech 合計——仍僅覆蓋 50-60% 需求
 
-![Exhibit 18](../assets/GS_20260519_CO-TECH-initiation/exhibit_18.png)
+![Exhibit 18](../assets/20260519_GS_CO-TECH-initiation/exhibit_18.png)
 
 ### 解讀摘要
 即使將 Mitsui 和 Co-Tech 兩家最大供應商的有效產能加總，2026-28E 合計僅能覆蓋行業需求的 58-60%。這意味著 40% 以上的需求在最佳情境下仍無法滿足，市場存在系統性短缺，支持整個期間的高定價環境。
@@ -361,7 +361,7 @@ Mitsui 作為 HVLP3+ 的第一供應商，其有效產能占行業需求的比�
 
 ## Exhibit 19｜ASP vs GM 階梯（同 Exhibit 5）
 
-![Exhibit 19](../assets/GS_20260519_CO-TECH-initiation/exhibit_19.png)
+![Exhibit 19](../assets/20260519_GS_CO-TECH-initiation/exhibit_19.png)
 
 *本報告在第三章重複刊出，內容與 Exhibit 5 相同，詳見上方分析。*
 
@@ -369,7 +369,7 @@ Mitsui 作為 HVLP3+ 的第一供應商，其有效產能占行業需求的比�
 
 ## Exhibit 20｜HVLP4 毛利率對良率的敏感性
 
-![Exhibit 20](../assets/GS_20260519_CO-TECH-initiation/exhibit_20.png)
+![Exhibit 20](../assets/20260519_GS_CO-TECH-initiation/exhibit_20.png)
 
 ### 解讀摘要
 HVLP4 在 50% 良率（2026E 基準）時 GM 為 43%，遠低於 100% 良率的理論值 54%；但每提升 10% 良率，GM 約提升 2ppt。GS 基準假設 2026E 良率 50% 提升至 2028E 約 68%，對應 GM 從 43% 提升至 49%+，進一步支持 GS 整體 GM 從 32% 擴至 47-48% 的預測。
@@ -391,7 +391,7 @@ HVLP4 在 50% 良率（2026E 基準）時 GM 為 43%，遠低於 100% 良率的�
 
 ## Exhibit 21｜PCB 銅箔規格遷移——表面粗糙度（Rz）比較
 
-![Exhibit 21](../assets/GS_20260519_CO-TECH-initiation/exhibit_21.png)
+![Exhibit 21](../assets/20260519_GS_CO-TECH-initiation/exhibit_21.png)
 
 ### 解讀摘要
 銅箔的信號損耗主要取決於與 PCB 樹脂接觸的「處理面」表面粗糙度（Rz）。HTE 的 Rz 最粗（>5µm），RTF 改善至 <5µm，RG（Co-Tech 自研）再改善至 <2.3µm，而 HVLP 達到 <2µm 以下。HVLP 的進步不是線性改善而是奈米尺度的製程突破，形成技術壁壘。
@@ -411,7 +411,7 @@ HVLP4 在 50% 良率（2026E 基準）時 GM 為 43%，遠低於 100% 良率的�
 
 ## Exhibit 22｜CCL 等級遷移路線圖——HVLP4 是 2026-28E 主流
 
-![Exhibit 22](../assets/GS_20260519_CO-TECH-initiation/exhibit_22.png)
+![Exhibit 22](../assets/20260519_GS_CO-TECH-initiation/exhibit_22.png)
 
 ### 解讀摘要
 過去 10 年 CCL 等級的迭代速度逐漸加速：M4（HTE）到 M6（HVLP1/2）花了約 5 年，M6 到 M7（HVLP2/3）花了 2 年，M8（HVLP3/4）到 M9（HVLP4/5）只需 2 年。M9 CCL 對應下一代 AI server 和 1.6T Switch，預計 2025 年開始導入，2026-27 年量產。M10（HVLP5/6）針對 N+2 AI server 和 3.2T Switch，2028 年後。
@@ -433,7 +433,7 @@ HVLP4 在 50% 良率（2026E 基準）時 GM 為 43%，遠低於 100% 良率的�
 
 ## Exhibit 23｜Co-Tech 營收結構蛻變——HVLP 從 5% 到 72%
 
-![Exhibit 23](../assets/GS_20260519_CO-TECH-initiation/exhibit_23.png)
+![Exhibit 23](../assets/20260519_GS_CO-TECH-initiation/exhibit_23.png)
 
 ### 解讀摘要
 2025 年 Co-Tech 的核心業務仍是 RG（67%）和 HTE/RTF（29%），HVLP 僅 5%。GS 預估 2028E HVLP 佔比達 72%，RG 降至 28%，HTE/RTF 幾乎歸零。這個轉型若成立，代表公司的核心業務將從技術門檻中等（RG）全面遷移至高技術壁壘（HVLP3+）。
@@ -451,7 +451,7 @@ HVLP4 在 50% 良率（2026E 基準）時 GM 為 43%，遠低於 100% 良率的�
 
 ## Exhibit 24｜ASP vs GM 階梯（同 Exhibit 5）
 
-![Exhibit 24](../assets/GS_20260519_CO-TECH-initiation/exhibit_24.png)
+![Exhibit 24](../assets/20260519_GS_CO-TECH-initiation/exhibit_24.png)
 
 *本報告在第四章重複刊出，內容與 Exhibit 5 相同，詳見上方分析。*
 
@@ -459,7 +459,7 @@ HVLP4 在 50% 良率（2026E 基準）時 GM 為 43%，遠低於 100% 良率的�
 
 ## Exhibit 25｜良率改善驅動 GM 季度路徑——HVLP4 爬坡最快
 
-![Exhibit 25](../assets/GS_20260519_CO-TECH-initiation/exhibit_25.png)
+![Exhibit 25](../assets/20260519_GS_CO-TECH-initiation/exhibit_25.png)
 
 ### 解讀摘要
 HVLP4 良率在 2025 年底僅約 50%，GS 預計 2027E 中段突破 65%，2028E 底達 75%+。HVLP3 良率改善相對較慢（因已相對成熟），HVLP5 則從 2027E 才開始爬坡。整體 Co-Tech GM 從 1Q25 的 20% 提升至 4Q28E 的 50%+，驅動力來自 HVLP4 良率改善＋HVLP 佔比提升的複合效應。
@@ -480,7 +480,7 @@ HVLP4 良率在 2025 年底僅約 50%，GS 預計 2027E 中段突破 65%，2028E
 
 ## Exhibit 26｜Co-Tech vs Mitsui GM——2027E 起 Co-Tech 超越
 
-![Exhibit 26](../assets/GS_20260519_CO-TECH-initiation/exhibit_26.png)
+![Exhibit 26](../assets/20260519_GS_CO-TECH-initiation/exhibit_26.png)
 
 ### 解讀摘要
 歷史上 Co-Tech 的 GM 在上行週期能超越 Mitsui（2021 年分別達 24.4% vs 23.8%）。GS 預測 2027/28E Co-Tech 整體 GM 將再次反超：2027E ~43% vs Mitsui ~39%，2028E ~47% vs ~41%。這個歷史模式重演是基於 Co-Tech 更積極的定價策略和更快的產能擴張。
@@ -503,7 +503,7 @@ HVLP4 良率在 2025 年底僅約 50%，GS 預計 2027E 中段突破 65%，2028E
 
 ## Exhibit 27｜Co-Tech 平均處理費 50% CAGR——定價模式質變
 
-![Exhibit 27](../assets/GS_20260519_CO-TECH-initiation/exhibit_27.png)
+![Exhibit 27](../assets/20260519_GS_CO-TECH-initiation/exhibit_27.png)
 
 ### 解讀摘要
 Co-Tech 的平均處理費（US\$/kg）從 2025 年約 \$6 提升至 2028E 約 \$21，實現 50% CAGR。2021 年上行週期時曾 YoY +50%，本次 GS 假設 2026-28E 每年提升 4-13%（更保守），但因 HVLP4/5 高端組合占比同步提升（~75% 的平均費用提升由產品組合貢獻），整體仍達 50% CAGR。
@@ -526,7 +526,7 @@ Co-Tech 的平均處理費（US\$/kg）從 2025 年約 \$6 提升至 2028E 約 \
 
 ## Exhibit 28｜銅箔處理費佔 CCL BOM 比例——M9 最低，定價阻力最小
 
-![Exhibit 28](../assets/GS_20260519_CO-TECH-initiation/exhibit_28.png)
+![Exhibit 28](../assets/20260519_GS_CO-TECH-initiation/exhibit_28.png)
 
 ### 解讀摘要
 從 M4 到 M9，CCL BOM（US\$）顯著提升，但銅箔占 BOM 比例從 M4 的 ~35% 降至 M9 的 ~15%（因樹脂、其他材料成本上升）。更重要的是，**處理費占 BOM 的比例**在 M9 達到最低（約 15%，從 M7 的 ~20%），意味著即使上調 HVLP4 處理費 20%，對 M9 CCL 終端成本的影響不到 3%——CCL 廠商和客戶的阻力最小。
@@ -547,7 +547,7 @@ Co-Tech 的平均處理費（US\$/kg）從 2025 年約 \$6 提升至 2028E 約 \
 
 ## Exhibit 29｜M8 CCL ASP 成本拆分——銅箔佔 18%
 
-![Exhibit 29](../assets/GS_20260519_CO-TECH-initiation/exhibit_29.png)
+![Exhibit 29](../assets/20260519_GS_CO-TECH-initiation/exhibit_29.png)
 
 ### 解讀摘要
 M8 CCL 的 ASP 組成：Profit 50%、Glass fiber 20%、Copper foil 18%、Overhead 8%、Resin 5%。銅箔（含處理費）是 CCL 除利潤外最大的單一成本項目，但占 ASP 的 18%（而非成本的 36%，因為 CCL 廠商毛利高達 50%）——對 CCL 廠商而言，銅箔成本的波動是可以用高毛利緩衝的。
@@ -556,7 +556,7 @@ M8 CCL 的 ASP 組成：Profit 50%、Glass fiber 20%、Copper foil 18%、Overhea
 
 ## Exhibit 30｜Co-Tech HVLP 收入——289% 2025-28E CAGR
 
-![Exhibit 30](../assets/GS_20260519_CO-TECH-initiation/exhibit_30.png)
+![Exhibit 30](../assets/20260519_GS_CO-TECH-initiation/exhibit_30.png)
 
 ### 解讀摘要
 Co-Tech 的 HVLP 銅箔收入（含 HVLP3/4/5）從 2025 年約 NT\$400mn 爆升至 2028E 約 NT\$22,000mn，CAGR 289%。其中 HVLP4 從 2026E 起成為主體（占 HVLP 收入 60%+），HVLP5 從 2027E 起出現。
@@ -576,7 +576,7 @@ Co-Tech 的 HVLP 銅箔收入（含 HVLP3/4/5）從 2025 年約 NT\$400mn 爆升
 
 ## Exhibit 31｜Co-Tech 產品組合與 GM——HVLP 帶動 GM 擴張
 
-![Exhibit 31](../assets/GS_20260519_CO-TECH-initiation/exhibit_31.png)
+![Exhibit 31](../assets/20260519_GS_CO-TECH-initiation/exhibit_31.png)
 
 ### 解讀摘要
 從 2020 年到 2028E，Co-Tech 的產品組合發生根本性轉型：HTE/RTF（藍）從 75% 降至 0%；RG/HVLP1/2（深藍）仍維持基礎；HVLP3/4/5 從 0% 升至約 75%。GM（紅線）在 2021 年上行週期出現一個峰值（~25%），然後 2022-25 年回落，2026E 起再度拉升至 32%→47%，這次幅度遠更大。
@@ -587,7 +587,7 @@ Co-Tech 的 HVLP 銅箔收入（含 HVLP3/4/5）從 2025 年約 NT\$400mn 爆升
 
 ## Exhibit 32｜Co-Tech Plant 3 有效產能擴張路徑
 
-![Exhibit 32](../assets/GS_20260519_CO-TECH-initiation/exhibit_32.png)
+![Exhibit 32](../assets/20260519_GS_CO-TECH-initiation/exhibit_32.png)
 
 ### 解讀摘要
 Co-Tech 的 HVLP3+ 有效產能（含良率調整後）從 3Q25 約 150-200 t/m 緩慢起步，1Q27E 植入 Plant 3 擴產後快速爬升，4Q27E 達 ~1,300 t/m，4Q28E 達 ~2,100 t/m。HVLP 整體良率同步從 2025 年底 ~40% 提升至 2028E 底 ~70%+。
@@ -609,7 +609,7 @@ Co-Tech 的 HVLP3+ 有效產能（含良率調整後）從 3Q25 約 150-200 t/m 
 
 ## Exhibit 33｜Mitsui 銅箔產能（同 Exhibit 17）
 
-![Exhibit 33](../assets/GS_20260519_CO-TECH-initiation/exhibit_33.png)
+![Exhibit 33](../assets/20260519_GS_CO-TECH-initiation/exhibit_33.png)
 
 *本報告在此節重複刊出 Mitsui 名義產能擴張路徑（2025 底 620→Sep-26 840→Sep-27 1,000→Sep-28 1,200 t/m），內容補充 Exhibit 17 所呈現的有效產能數據。*
 
@@ -617,7 +617,7 @@ Co-Tech 的 HVLP3+ 有效產能（含良率調整後）從 3Q25 約 150-200 t/m 
 
 ## Exhibit 34｜Co-Tech vs Mitsui HVLP 成本結構
 
-![Exhibit 34](../assets/GS_20260519_CO-TECH-initiation/exhibit_34.png)
+![Exhibit 34](../assets/20260519_GS_CO-TECH-initiation/exhibit_34.png)
 
 ### 解讀摘要
 Co-Tech 的 HVLP 每公斤成本（US\$/kg）略高於 Mitsui（2026E：~\$16 vs ~\$14.5），差距主要來自「其他成本」（包含因良率較低導致的額外用料）。隨著 2027-28E Co-Tech 良率改善，兩者成本差距收窄，但 Co-Tech 在 2028E 仍略高。
@@ -636,7 +636,7 @@ Co-Tech 的 HVLP 每公斤成本（US\$/kg）略高於 Mitsui（2026E：~\$16 vs
 
 ## Exhibit 35｜HVLP3+ 良率改善（同 Exhibit 25）
 
-![Exhibit 35](../assets/GS_20260519_CO-TECH-initiation/exhibit_35.png)
+![Exhibit 35](../assets/20260519_GS_CO-TECH-initiation/exhibit_35.png)
 
 *本報告在此節重複刊出，內容與 Exhibit 25 相同，詳見上方分析。*
 
@@ -644,7 +644,7 @@ Co-Tech 的 HVLP 每公斤成本（US\$/kg）略高於 Mitsui（2026E：~\$16 vs
 
 ## Exhibit 36｜EPS 敏感性分析——良率與定價的交叉影響
 
-![Exhibit 36](../assets/GS_20260519_CO-TECH-initiation/exhibit_36.png)
+![Exhibit 36](../assets/20260519_GS_CO-TECH-initiation/exhibit_36.png)
 
 ### 解讀摘要
 GS 提供雙維度（良率 × 定價費率上調）的 EPS 敏感性矩陣。基準情境：2026E 良率 53%、處理費提升 10%→EPS NT\$10.2；2027E 良率 60%、費率提升 23%→EPS NT\$25.9。Blue sky（良率 68%/75%、費率 40%/53%）較基準上行 53%/56%。
@@ -663,7 +663,7 @@ GS 提供雙維度（良率 × 定價費率上調）的 EPS 敏感性矩陣。�
 
 ## Exhibit 37｜Co-Tech 歷史 10 年遠期 PE——TP 對應 +1SD
 
-![Exhibit 37](../assets/GS_20260519_CO-TECH-initiation/exhibit_37.png)
+![Exhibit 37](../assets/20260519_GS_CO-TECH-initiation/exhibit_37.png)
 
 ### 解讀摘要
 Co-Tech 過去 10 年平均遠期 PE 為 16.3x，上下行週期明顯：2022-23 年上行到 25-28x，2024 年 7 月一度跌至 8-9x（低谷），2025 年底起因 HVLP 題材回升。GS 以 22x（+1SD=21.7x 附近）作為目標估值，認為 HVLP3+ 的結構性升級週期支撐長期高於均值的估值。
@@ -685,7 +685,7 @@ Co-Tech 過去 10 年平均遠期 PE 為 16.3x，上下行週期明顯：2022-23
 
 ## Exhibit 38｜Co-Tech ROE 上行趨勢（同 Exhibit 6）
 
-![Exhibit 38](../assets/GS_20260519_CO-TECH-initiation/exhibit_38.png)
+![Exhibit 38](../assets/20260519_GS_CO-TECH-initiation/exhibit_38.png)
 
 *本報告在估值章節重複刊出，內容與 Exhibit 6 相同，詳見上方分析。*
 
@@ -693,7 +693,7 @@ Co-Tech 過去 10 年平均遠期 PE 為 16.3x，上下行週期明顯：2022-23
 
 ## Exhibit 39｜Co-Tech EV/EBITDA vs EBITDA margin——相對低估
 
-![Exhibit 39](../assets/GS_20260519_CO-TECH-initiation/exhibit_39.png)
+![Exhibit 39](../assets/20260519_GS_CO-TECH-initiation/exhibit_39.png)
 
 ### 解讀摘要
 散佈圖顯示 Co-Tech（2027E EBITDA margin ~40%、EV/EBITDA ~14x）位於比較群體的回歸線**下方**，即以相同 EBITDA margin 水準計算，Co-Tech 的 EV/EBITDA 低於市場給 TUC、EMC 等同業的倍數。GS 認為這是低估佐證。
@@ -715,7 +715,7 @@ Co-Tech 過去 10 年平均遠期 PE 為 16.3x，上下行週期明顯：2022-23
 
 ## Exhibit 40｜Co-Tech PB vs ROE——相對低估
 
-![Exhibit 40](../assets/GS_20260519_CO-TECH-initiation/exhibit_40.png)
+![Exhibit 40](../assets/20260519_GS_CO-TECH-initiation/exhibit_40.png)
 
 ### 解讀摘要
 PB/ROE 散佈圖（2027E）顯示 Co-Tech（ROE ~62%，PB ~9x）明顯低於回歸線——以相同 ROE 計算，TUC（ROE ~85%，PB ~18x）的定價更高。Co-Tech 的 ROE 遠高於同業均值，但 PB 並未充分反映。
@@ -726,7 +726,7 @@ PB/ROE 散佈圖（2027E）顯示 Co-Tech（ROE ~62%，PB ~9x）明顯低於回�
 
 ## Exhibit 41｜CPO 情境分析——即使最壞情境 2035E EPS 仍 NT\$55.3
 
-![Exhibit 41](../assets/GS_20260519_CO-TECH-initiation/exhibit_41.png)
+![Exhibit 41](../assets/20260519_GS_CO-TECH-initiation/exhibit_41.png)
 
 ### 解讀摘要
 GS 構建三個 CPO 情境分析 Co-Tech 的長期（2035E）EPS：即使在最悲觀假設（Scenario 3：CPO 全面替代 AI server/Switch 的 HVLP 需求），Co-Tech 2035E EPS 仍達 NT\$55.3（vs 2028E NT\$44.77），代表公司長期不是歸零風險，而是成長速度放緩的風險。
@@ -749,7 +749,7 @@ GS 構建三個 CPO 情境分析 Co-Tech 的長期（2035E）EPS：即使在最�
 
 ## Exhibit 43｜Co-Tech 盈利瀑布圖——三大驅動力拆解
 
-![Exhibit 43](../assets/GS_20260519_CO-TECH-initiation/exhibit_43.png)
+![Exhibit 43](../assets/20260519_GS_CO-TECH-initiation/exhibit_43.png)
 
 ### 解讀摘要
 Co-Tech 的淨利從 2026E NT\$2,571mn 成長至 2027E NT\$6,530mn 再到 2028E NT\$11,293mn，總成長 4.4x。銅箔定價（處理費上調）、產能擴張（HVLP 出貨量成長）、規模效應（單位固定成本攤薄）是三大驅動力，2026→27 年定價貢獻最大，2027→28 年產能擴張接棒。
@@ -782,7 +782,7 @@ Co-Tech 的淨利從 2026E NT\$2,571mn 成長至 2027E NT\$6,530mn 再到 2028E 
 
 ## Exhibit 47｜Co-Tech 資本支出——佔比從 5% 降至 3%
 
-![Exhibit 47](../assets/GS_20260519_CO-TECH-initiation/exhibit_47.png)
+![Exhibit 47](../assets/20260519_GS_CO-TECH-initiation/exhibit_47.png)
 
 ### 解讀摘要
 Co-Tech 的 Capex 絕對值從 2026E NT\$580mn 提升至 2028E NT\$1,000mn，但因收入成長更快（2026-28E 收入 CAGR 69%），Capex 佔銷售比從 2022 年高峰 ~15% 降至 2028E 約 3%。Dep/COGS 同步下降，代表固定成本攤薄效應逐步顯現。
@@ -802,7 +802,7 @@ Co-Tech 的 Capex 絕對值從 2026E NT\$580mn 提升至 2028E NT\$1,000mn，但
 
 ## Exhibit 48｜Co-Tech FCF 轉正——FCF/EPS 比率改善
 
-![Exhibit 48](../assets/GS_20260519_CO-TECH-initiation/exhibit_48.png)
+![Exhibit 48](../assets/20260519_GS_CO-TECH-initiation/exhibit_48.png)
 
 ### 解讀摘要
 Co-Tech 歷史上的 FCF 為負（2021-22 年因大量 Capex），2026E 起轉為正值。GS 預估 2026/27/28E FCF 分別為 NT\$1,677mn/2,915mn/7,359mn，FCF/EPS 比率為 58%/47%/62%。2028E FCF yield 約 6.8%，對於成長型公司已屬合理。

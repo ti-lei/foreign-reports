@@ -1,11 +1,11 @@
-# MS｜Automation：JMTBA April 2026 Orders Read-across
+﻿# MS｜Automation：JMTBA April 2026 Orders Read-across
 
 **券商**：Morgan Stanley Taiwan  
 **分析師**：Derrick Yang、Vivi Huang、Sharon Shih  
 **日期**：2026-05-26  
 **主題**：自動化產業 — JMTBA（日本工具機製造協會）4 月訂單解讀  
 **評級**：Industry View In-Line  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/MS_20260526_Automation.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='MS_20260526_Automation.md';a.click()})">⬇ 下載 MD</button>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260526_MS_Automation.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260526_MS_Automation.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

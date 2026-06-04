@@ -5,7 +5,7 @@
 **日期**：2026-05-05  
 **主題**：Decoding the Agentic Economy: The Coming Inflection in AI Usage and Margins  
 **評級**：Americas Technology（產業主題）  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/GS_20260505_Agentic-Economy.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='GS_20260505_Agentic-Economy.md';a.click()})">⬇ 下載 MD</button>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260505_GS_Agentic-Economy.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260505_GS_Agentic-Economy.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 
@@ -41,7 +41,7 @@
 
 ## Exhibit 1｜Token 經濟學轉折：定價穩定，成本持續下降
 
-![Exhibit 1](../assets/GS_20260505_Agentic-Economy/exhibit_01.png)
+![Exhibit 1](../assets/20260505_GS_Agentic-Economy/exhibit_01.png)
 
 *（Form XObject；裁切範圍為全欄寬，已視覺確認）*
 
@@ -68,7 +68,7 @@
 
 ## Exhibit 2｜Token 消費量：24x by 2030
 
-![Exhibit 2](../assets/GS_20260505_Agentic-Economy/exhibit_02.png)
+![Exhibit 2](../assets/20260505_GS_Agentic-Economy/exhibit_02.png)
 
 *（Exhibit 3 與此圖為相同數據，在 p6 重複出現，不另行分析。）*
 
@@ -95,7 +95,7 @@ GS 展示全球 token 消費量的時序預測（月消費量，tokens processed
 
 ## Exhibit 4｜Token 經濟學詳解（Exhibit 1 詳述版）
 
-![Exhibit 4](../assets/GS_20260505_Agentic-Economy/exhibit_04.png)
+![Exhibit 4](../assets/20260505_GS_Agentic-Economy/exhibit_04.png)
 
 *（Form XObject；數據與 Exhibit 1 相同，為 p6 詳述版，解讀摘要請見 Exhibit 1。）*
 
@@ -103,7 +103,7 @@ GS 展示全球 token 消費量的時序預測（月消費量，tokens processed
 
 ## Exhibit 5｜Agent ROI vs 人力成本：不同工作流的分化
 
-![Exhibit 5](../assets/GS_20260505_Agentic-Economy/exhibit_05.png)
+![Exhibit 5](../assets/20260505_GS_Agentic-Economy/exhibit_05.png)
 
 ### 解讀摘要
 三個 agent 類型的對比，展示 AI ROI 的極度分化。Coding agent：AI \$13.39/day vs 人工 \$300/day，節省 96%，同時消耗最少 token（~7.5M/day）；Data entry agent：AI \$59.68/day vs 人工 \$80/day，節省 25%，但 token 消耗最高（~25M/day）；Call center agent：AI \$92.90/day vs 人工 \$90/day，AI 反而貴 3%，因為語音處理需要實時、多模態輸入，成本結構根本不同。這個分化說明 agent ROI 不應該用統一框架衡量——workflow 特性（文字 vs 語音）才是決定性因素。
@@ -124,8 +124,8 @@ GS 展示全球 token 消費量的時序預測（月消費量，tokens processed
 
 ## Exhibits 6-7｜消費者 Query 市場結構與成長
 
-![Exhibit 6](../assets/GS_20260505_Agentic-Economy/exhibit_06.png)
-![Exhibit 7](../assets/GS_20260505_Agentic-Economy/exhibit_07.png)
+![Exhibit 6](../assets/20260505_GS_Agentic-Economy/exhibit_06.png)
+![Exhibit 7](../assets/20260505_GS_Agentic-Economy/exhibit_07.png)
 
 *（Form XObject；Exhibits 11-12 為這組圖在 p16 的重複，不另行分析。）*
 
@@ -156,7 +156,7 @@ Exhibit 7（Daily Queries to LLMs，B/day）：
 
 ## Exhibit 8｜每次查詢成本下降預測
 
-![Exhibit 8](../assets/GS_20260505_Agentic-Economy/exhibit_08.png)
+![Exhibit 8](../assets/20260505_GS_Agentic-Economy/exhibit_08.png)
 
 ### 解讀摘要
 圖表展示 2025-2030 的單次 query 成本（\$/query）在三種情境（Downside/Base/Upside）下的降幅。Base case：2025 ~\$0.075/query → 2030 ~\$0.018/query（-76%），成本下降 4.2x；Upside case 跌幅更深至接近 \$0.00（極端 token 成本壓縮）。成本下降是 consumer agent 普及的物質基礎——每次 agent 任務消費更多 token，但如果每個 token 更便宜，每次 query 的絕對費用可以同步下降，使 agent 對消費者定價可行。
@@ -175,7 +175,7 @@ Exhibit 7（Daily Queries to LLMs，B/day）：
 
 ## Exhibit 9｜Consumer Token 成長：12x by 2030
 
-![Exhibit 9](../assets/GS_20260505_Agentic-Economy/exhibit_09.png)
+![Exhibit 9](../assets/20260505_GS_Agentic-Economy/exhibit_09.png)
 
 ### 解讀摘要
 此圖聚焦 consumer agent 層的 token 消費量（不含 enterprise），顯示 2026→2030 consumer token 成長 12x（約 ~60 quadrillion/月）。成長曲線在 2027-2028 呈加速態勢，與 Exhibit 8 的 per-query 成本下降速度對應——成本降到一定門檻後，consumer agent 使用頻率快速放量。GS 強調最大的單一跳升點是 chatbot 升級為 always-on 模型（token 密度 20x 跳升，\>5,000 → \>100,000 tokens/day/user）。
@@ -186,7 +186,7 @@ Exhibit 7（Daily Queries to LLMs，B/day）：
 
 ## Exhibit 10｜Consumer Agent 架構：On-demand vs Always-on
 
-![Exhibit 10](../assets/GS_20260505_Agentic-Economy/exhibit_10.png)
+![Exhibit 10](../assets/20260505_GS_Agentic-Economy/exhibit_10.png)
 
 ### 解讀摘要
 GS 將 consumer agent 切為兩種架構：On-demand（用戶啟動型）和 Always-on（持續背景型）。On-demand 模型計費式為「用戶數 × 每日任務數 × 每任務 token 數」，適合旅遊預訂、購物等高互動任務；Always-on 模型計費式為「用戶數 × 每日活躍監控時數 × 每小時 token 數」，持續運行於背景（email 監控、生活助理、日程管理），幾乎無需用戶指令。Always-on 模型的 token 消費密度（>100K/day）是 on-demand（>10K/session）的 10x+，因此是 token 消費爆炸的關鍵觸發點。
@@ -197,8 +197,8 @@ GS 將 consumer agent 切為兩種架構：On-demand（用戶啟動型）和 Alw
 
 ## Exhibits 11-12｜查詢份額與成本（頁面重複）
 
-![Exhibit 11](../assets/GS_20260505_Agentic-Economy/exhibit_11.png)
-![Exhibit 12](../assets/GS_20260505_Agentic-Economy/exhibit_12.png)
+![Exhibit 11](../assets/20260505_GS_Agentic-Economy/exhibit_11.png)
+![Exhibit 12](../assets/20260505_GS_Agentic-Economy/exhibit_12.png)
 
 *（Form XObject；Exhibit 11 與 Exhibit 6 數據相同，Exhibit 12 與 Exhibit 8 相同，為 p16 重複摘要，不另行分析。）*
 
@@ -206,7 +206,7 @@ GS 將 consumer agent 切為兩種架構：On-demand（用戶啟動型）和 Alw
 
 ## Exhibit 13｜Token 密度光譜：LLM Chatbot → Always-On Agent
 
-![Exhibit 13](../assets/GS_20260505_Agentic-Economy/exhibit_13.png)
+![Exhibit 13](../assets/20260505_GS_Agentic-Economy/exhibit_13.png)
 
 ### 解讀摘要
 此圖以「時間活躍度」（Y 軸）和「用戶互動需求」（X 軸）兩維度，定位四種 AI 產品形態。LLM Chatbot（低活躍、高互動）：>1,000 tokens/session；On-Demand Agents（低活躍、高互動，如旅遊、購物）：>10,000 tokens/session；Embedded Copilots（AI in search/email/apps，持續但需互動）：>5,000 tokens/day；Always-On Agents（持續背景、低互動，email monitor、生活助理）：>100,000 tokens/day。成長階梯清晰：每升一個類別，token 密度約 10-20x 提升。
@@ -226,7 +226,7 @@ GS 將 consumer agent 切為兩種架構：On-demand（用戶啟動型）和 Alw
 
 ## Exhibit 14｜旅遊預訂 Agent 工作流程圖
 
-![Exhibit 14](../assets/GS_20260505_Agentic-Economy/exhibit_14.png)
+![Exhibit 14](../assets/20260505_GS_Agentic-Economy/exhibit_14.png)
 
 ### 解讀摘要
 GS 以旅遊預訂為案例，展示一個 on-demand agent 的完整執行路徑：User Request → 解析意圖 → 釐清缺失資訊（Clarification Loop）→ 搜尋航班與飯店（各含 Search & Filter Loop）→ 組合行程 → 用戶確認（Review Loop）→ 預訂驗證（Pre-Booking Loop）→ 執行預訂 → 回傳行程。每個環節都可能循環多次，大幅放大 token 消耗。這個流程圖的核心訊息是：一個「簡單的旅遊預訂」在 agent 架構下並不簡單——包含 6 個可能的 loop，每個 loop 觸發多次模型呼叫。
@@ -237,7 +237,7 @@ GS 以旅遊預訂為案例，展示一個 on-demand agent 的完整執行路徑
 
 ## Exhibit 15｜詳細 Agent Token 統計：Email Monitor 與旅遊預訂
 
-![Exhibit 15](../assets/GS_20260505_Agentic-Economy/exhibit_15.png)
+![Exhibit 15](../assets/20260505_GS_Agentic-Economy/exhibit_15.png)
 
 ### 解讀摘要
 兩個 agent 的逐步驟 token 統計。Email Monitor Agent（always-on）：掃描、分類、回覆、排程四個任務模組合計 ~114K tokens/天（input 91,150 + output 22,840），API cost ~\$0.055/day——這對應 Exhibit 13 的「>100,000 tokens/day」。旅遊預訂 Agent（on-demand）：10.6K tokens/次，\$0.016/次——是高性價比 agentic 任務的典型代表。兩者差異清楚展示 always-on vs on-demand 的 token 結構差異（相差約 10x）。
@@ -269,7 +269,7 @@ GS 以旅遊預訂為案例，展示一個 on-demand agent 的完整執行路徑
 
 ## Exhibit 16｜歷史技術採用峰值：受真實世界約束 vs 不受約束
 
-![Exhibit 16](../assets/GS_20260505_Agentic-Economy/exhibit_16.png)
+![Exhibit 16](../assets/20260505_GS_Agentic-Economy/exhibit_16.png)
 
 ### 解讀摘要
 GS 引用 Comin & Hobijn（2009）歷史技術擴散數據集（161 國、101 項技術，1800-2000 年）分析採用峰值的決定因素。圖中四個子圖：(1) 郵件包裹/人均（受家庭數量約束，峰值 0-700 件/人因國而異）；(2) 收音機/人均（上限 ~2 台，受物理空間約束）；(3) 電報（千份/人均，不受約束，由經濟發展水準決定）；(4) 固定電話/人均（上限 ~0.9，受住宅數量約束）。結論：受物理約束的技術有明確上限，不受約束的技術（如電報、郵件）則由財富/效用決定峰值。GS 認為 agentic AI 類似電報——沒有物理上限，採用量取決於 ROI。
@@ -280,7 +280,7 @@ GS 引用 Comin & Hobijn（2009）歷史技術擴散數據集（161 國、101 �
 
 ## Exhibit 17｜通訊技術擴張歷史：新技術不必然替代舊技術
 
-![Exhibit 17](../assets/GS_20260505_Agentic-Economy/exhibit_17.png)
+![Exhibit 17](../assets/20260505_GS_Agentic-Economy/exhibit_17.png)
 
 ### 解讀摘要
 圖表展示 1850-1975 年郵件包裹、電報、收音機、電話、電視五種通訊技術的總量（百萬單位）疊加走勢。關鍵觀察：每種新技術出現後，舊技術並未立即萎縮——各技術在相當長時間內共存並同步成長，說明新通訊形式往往擴大了「通訊的總 TAM」而非替代既有市場。GS 用此類比支持 agentic AI 不只是替代人力，而是擴大整體知識工作量——客服 agent 可以服務原本因等待時間過長放棄的客戶（增量需求），而非僅替代既有人工。
@@ -289,7 +289,7 @@ GS 引用 Comin & Hobijn（2009）歷史技術擴散數據集（161 國、101 �
 
 ## Exhibit 18｜各技術到達採用峰值的時間分佈
 
-![Exhibit 18](../assets/GS_20260505_Agentic-Economy/exhibit_18.png)
+![Exhibit 18](../assets/20260505_GS_Agentic-Economy/exhibit_18.png)
 
 ### 解讀摘要
 橫向條形圖按「達峰年數」排序 70+ 技術，從最慢（郵件量 ~170 年、鐵路客運 ~160 年）到最快（手術日間護理 <5 年、ATM <10 年）。平均值 ~71 年，中位數 ~29 年；現代技術（Internet users、Mobile subscriptions、Personal computers）均落在 20-35 年範圍內。GS 以 15 年作為 agentic AI 的 time-to-peak 假設（快於中位數 29 年），理由：軟體擴散不受物理資本約束、企業意識到競爭壓力、成本曲線快速下降。
@@ -313,8 +313,8 @@ GS 引用 Comin & Hobijn（2009）歷史技術擴散數據集（161 國、101 �
 
 ## Exhibits 19-20｜技術採用曲線形態：J-curve vs S-curve vs 線性
 
-![Exhibit 19](../assets/GS_20260505_Agentic-Economy/exhibit_19.png)
-![Exhibit 20](../assets/GS_20260505_Agentic-Economy/exhibit_20.png)
+![Exhibit 19](../assets/20260505_GS_Agentic-Economy/exhibit_19.png)
+![Exhibit 20](../assets/20260505_GS_Agentic-Economy/exhibit_20.png)
 
 ### 解讀摘要
 Exhibit 19 以理論矩陣定義三種採用曲線：J-curve（爆發型，如網路）、S-curve（先慢後快再趨緩）、線性（穩定擴散）。Exhibit 20 用歷史數據驗證：電報（S-curve）、郵件量（線性）、Internet（J-curve/S-curve 混合）、家庭透析（S-curve，慢速）。GS 認為 agentic AI 具備三種曲線的元素：供給約束（線性）、網路/ROI 效應（S-curve）、早期快速試用（J-curve）；最終選擇 S-curve 作為基準，因企業採用有制度障礙和學習曲線。
@@ -323,7 +323,7 @@ Exhibit 19 以理論矩陣定義三種採用曲線：J-curve（爆發型，如�
 
 ## Exhibit 21｜Email 普及的 S-curve 類比
 
-![Exhibit 21](../assets/GS_20260505_Agentic-Economy/exhibit_21.png)
+![Exhibit 21](../assets/20260505_GS_Agentic-Economy/exhibit_21.png)
 
 ### 解讀摘要
 Email 用戶數（1971-2026）在對數-線性圖表上呈現清晰的 S-curve：1971 年誕生，1990 年代快速加速，2000 年代中後期趨緩，2026 年約 40-50% 全球人口使用電子郵件（~40 億用戶）。GS 以 email 作為最貼近的 agentic AI 類比：兩者都是「知識工作者的生產力工具」，都需要企業採用 + 消費者接受，都在技術成熟（SMTP/LLM API 標準化）後才進入 S-curve 陡坡。不同的是 agentic AI 的成本曲線下降更快（token cost），可能縮短 slow initial phase。
@@ -332,7 +332,7 @@ Email 用戶數（1971-2026）在對數-線性圖表上呈現清晰的 S-curve�
 
 ## Exhibit 22｜消費者技術 vs 企業技術採用速度比較
 
-![Exhibit 22](../assets/GS_20260505_Agentic-Economy/exhibit_22.png)
+![Exhibit 22](../assets/20260505_GS_Agentic-Economy/exhibit_22.png)
 
 ### 解讀摘要
 圖表對比消費者技術（Consumer）與企業技術（Enterprise）在「採用年數」（x 軸）vs「佔峰值的 %」（y 軸）的歷史分佈。消費者技術曲線整體較陡峭（更快達峰）；企業技術曲線更平緩（中位數採用時間更長）。Agentic AI 橫跨兩者：consumer-facing（個人助理）偏消費者曲線，enterprise-embedded（工作流 agent）偏企業曲線。GS 的 15 年達峰假設相當於取消費者曲線的中位數、或企業曲線的快速端。
@@ -343,7 +343,7 @@ Email 用戶數（1971-2026）在對數-線性圖表上呈現清晰的 S-curve�
 
 ## Exhibit 23｜Software TAM：SaaS 基盤 + 浮現中的 Agent TAM
 
-![Exhibit 23](../assets/GS_20260505_Agentic-Economy/exhibit_23.png)
+![Exhibit 23](../assets/20260505_GS_Agentic-Economy/exhibit_23.png)
 
 ### 解讀摘要
 圖表以面積圖展示 2025-2030 的 software TAM 組成：SaaS TAM（淡藍底層）在 2027 年後趨於平穩甚至略降；Agent TAM（深藍頂層）從 2027 年快速增長，至 2030 年約與 SaaS TAM 規模相當，兩者合計較 2025 成長約 70%。Y 軸未標示單位；依報告文字（峰值 ~\$5.4T 軟體 TAM），2030 年合計值約在 \$1.5-2T 量級（仍遠低於峰值，因峰值預計在 2040 左右）。GS 的核心論點：pricing 從「每席位」轉向「每工作單位」（outcome-based），打破了 SaaS 的 seat ceiling，使軟體公司能向企業收取遠高於傳統席位費的費用。
@@ -356,7 +356,7 @@ Email 用戶數（1971-2026）在對數-線性圖表上呈現清晰的 S-curve�
 
 ## Exhibit 24｜Enterprise Token 消費：55x by 2040（12% by 2030）
 
-![Exhibit 24](../assets/GS_20260505_Agentic-Economy/exhibit_24.png)
+![Exhibit 24](../assets/20260505_GS_Agentic-Economy/exhibit_24.png)
 
 ### 解讀摘要
 此圖是 Exhibit 2 的詳細版，延伸至 2040 年，加入企業採用 S-curve 的長期路徑。Enterprise Agents（淺藍頂層）是 2030 後的主要增量，隨著更多知識工作者採用 agent（從 12% at 2030 → 37% at peak ~2040），token 消費從 24x（2030）繼續增長至 55x（2040）。Peak adoption 的 ~37% knowledge worker 假設驅動 ~278 quadrillion tokens/月的峰值消費（vs 2026 基準 ~5 quadrillion）。
@@ -367,7 +367,7 @@ Email 用戶數（1971-2026）在對數-線性圖表上呈現清晰的 S-curve�
 
 ## Exhibit 25｜AI 暴露度最高的職業（Anthropic 實際用量驗證）
 
-![Exhibit 25](../assets/GS_20260505_Agentic-Economy/exhibit_25.png)
+![Exhibit 25](../assets/20260505_GS_Agentic-Economy/exhibit_25.png)
 
 ### 解讀摘要
 GS 使用 Anthropic 基於實際 Claude 使用模式的職業暴露度數據（而非理論預測），前 10 大職業暴露度均在 46-74%。Computer programmers 以 74.5% 位居第一，且全球 3,650 萬人；Customer service reps 以 70.1% 暴露度位居第二，但人數更多（7,000 萬人）。這份清單既是 token 消費量的前瞻指標，也是 enterprise agent 採用速度的路線圖——高暴露、高人數、低成本 workflow 的職業最先商業化。
@@ -393,7 +393,7 @@ GS 使用 Anthropic 基於實際 Claude 使用模式的職業暴露度數據（�
 
 ## Exhibit 26｜Token 密度 vs API 成本：職業間的分化
 
-![Exhibit 26](../assets/GS_20260505_Agentic-Economy/exhibit_26.png)
+![Exhibit 26](../assets/20260505_GS_Agentic-Economy/exhibit_26.png)
 
 ### 解讀摘要
 兩個雷達圖（左：每日 token 量；右：每日 API 成本）展示 10 個職業的分佈。Data entry keyers 的 token 消費量遠超其他職業（~25M/day，在左圖遠超 computer programmers ~7M）；但 Customer service reps 的 API cost 最高（因實時語音處理），儘管 token 量並不是最多的。核心訊息：token 量 ≠ cost——modality（文字 vs 語音 vs 多模態）是決定 API 成本的關鍵變數。Text-heavy、tool-heavy（但無聲音）的 workflow 先行，voice-heavy 後行。
@@ -404,7 +404,7 @@ GS 使用 Anthropic 基於實際 Claude 使用模式的職業暴露度數據（�
 
 ## Exhibit 27｜Coding Agent 詳細 Token 建構：文字密集、Loop 密集、成本高效
 
-![Exhibit 27](../assets/GS_20260505_Agentic-Economy/exhibit_27.png)
+![Exhibit 27](../assets/20260505_GS_Agentic-Economy/exhibit_27.png)
 
 ### 解讀摘要
 GS 以逐步驟、逐模組的方式建構一個 coding agent 的每日 token 消費量。最大單一模組是「Debugging loop」（2.32M input + 230K output，20 個 loops）和「Feature implementation loop」（1.62M + 297.6K，12 個 loops）——兩者合計佔總 token 的 63%。「Load repo architecture/system context」是單步驟最高（45,000 input）；高品質推理需要大量 context 載入。Total：6,276,000 input + 822,600 output = ~7.1M tokens/day，API cost \$8.79 input + \$4.61 output = \$13.40/day。
@@ -431,7 +431,7 @@ GS 以逐步驟、逐模組的方式建構一個 coding agent 的每日 token �
 
 ## Exhibit 28｜Data Entry Agent 詳細 Token 建構：文字密集、Token 量最高
 
-![Exhibit 28](../assets/GS_20260505_Agentic-Economy/exhibit_28.png)
+![Exhibit 28](../assets/20260505_GS_Agentic-Economy/exhibit_28.png)
 
 ### 解讀摘要
 Data entry agent 每日處理大批量文件（100 documents per shift），每份文件需四個處理步驟（ingestion、extraction、validation、output）各有 100 個 loops。Document ingestion（6.2M tokens）、Data extraction（5.4M tokens）、Validation（5.2M tokens）三個主要 loop 合計 ~16.8M tokens，加上 setup（155K）和 error handling，總計 ~25M tokens/day，API cost ~\$59.68/day。雖然 token 量最高，但純文字處理成本（\$59.68）遠低於 voice-based call center（\$92.90）。

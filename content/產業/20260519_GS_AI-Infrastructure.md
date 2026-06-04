@@ -1,11 +1,11 @@
-# GS｜Asia AI Infrastructure：Powering the Next Intelligence Cycle
+﻿# GS｜Asia AI Infrastructure：Powering the Next Intelligence Cycle
 
 **券商**：Goldman Sachs (Asia) L.L.C. / Goldman Sachs (Singapore) Pte  
 **分析師**：Ronald Keung CFA、Timothy Zhao、Kelsey Santoso、Eunice Liu  
 **日期**：2026-05-19  
 **主題**：Data Centers: Asia Communacopia + Technology — AI Infrastructure Key Takeaways  
 **評級**：無個股評等（會議紀錄型報告）  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/GS_20260519_AI-Infrastructure.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='GS_20260519_AI-Infrastructure.md';a.click()})">⬇ 下載 MD</button>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260519_GS_AI-Infrastructure.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260519_GS_AI-Infrastructure.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 
