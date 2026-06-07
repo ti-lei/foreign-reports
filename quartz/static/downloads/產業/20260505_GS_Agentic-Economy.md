@@ -1,4 +1,4 @@
-﻿# Goldman Sachs｜解碼 Agentic 經濟：AI 使用量與利潤的即將轉折
+# Goldman Sachs｜解碼 Agentic 經濟：AI 使用量與利潤的即將轉折
 
 **券商**：Goldman Sachs  
 **分析師**：James Schneider PhD、Luya You、Anmol Makkar、Gabriela Borges CFA、Eric Sheridan、Noah Naparst、Emma Huang  

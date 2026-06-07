@@ -23,13 +23,13 @@
 
 ## 報告核心觀點
 
-| 主題 | Daiwa 觀點 | 市場共識 | 是否 Contra-Consensus |
-|---|---|---|---|
-| Vera Rubin 量產時程 | 4Q26 開始量產；目前展示為試產 | 市場預期 2H26 | 一致 |
-| Chenbro GM 提升 | 機架客製化程度高，GM 可達 25-30%（前估 15-20%） | 市場尚未充分反映 | 是 — 毛利率上修幅度明顯 |
-| Aspeed BMC 成長 | 2027 傳統伺服器 BMC +30% YoY，agentic AI 帶動 CPU 伺服器需求 | 多數關注 AI server BMC | 補充觀點：傳統伺服器復甦亦為驅動力 |
-| CPO 商業化時程 | Wiwynn CPO rack 仍為 pilot 階段，合作在開發中 | 市場對 CPO 時程較樂觀 | 是 — Daiwa 確認商業化仍早 |
-| Delta HVDC 策略 | 800VDC 為核心；SST/SOFC 微電網為 1-2 年以上的長期機會 | 市場聚焦近期 HVDC 訂單 | 一致，並強調微電網非短期催化劑 |
+| 主題              | Daiwa 觀點                                        | 市場共識               | 是否 Contra-Consensus |
+| --------------- | ----------------------------------------------- | ------------------ | ------------------- |
+| Vera Rubin 量產時程 | 4Q26 開始量產；目前展示為試產                               | 市場預期 2H26          | 一致                  |
+| Chenbro GM 提升   | 機架客製化程度高，GM 可達 25-30%（前估 15-20%）                | 市場尚未充分反映           | 是 — 毛利率上修幅度明顯       |
+| Aspeed BMC 成長   | 2027 傳統伺服器 BMC +30% YoY，agentic AI 帶動 CPU 伺服器需求 | 多數關注 AI server BMC | 補充觀點：傳統伺服器復甦亦為驅動力   |
+| CPO 商業化時程       | Wiwynn CPO rack 仍為 pilot 階段，合作在開發中              | 市場對 CPO 時程較樂觀      | 是 — Daiwa 確認商業化仍早   |
+| Delta HVDC 策略   | 800VDC 為核心；SST/SOFC 微電網為 1-2 年以上的長期機會           | 市場聚焦近期 HVDC 訂單     | 一致，並強調微電網非短期催化劑     |
 
 **偏好排序**：Aspeed > Lotes > Wiwynn > Delta > TUC > EMC > Accton  
 **技術主題偏好**：CPU 投資主題 + 高速傳輸規格升級（CPC、UALink、高速連接器）
