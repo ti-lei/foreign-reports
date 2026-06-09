@@ -1,0 +1,64 @@
+# Daiwa｜Taiwan Datacentre Hardware — 5月月營收解讀
+
+**券商**：Daiwa-Cathay Capital Markets  
+**分析師**：Sheng Cheng、Allan Wang、Stacy Lin  
+**日期**：2026-06-08  
+**主題**：台灣資料中心硬體 5 月月營收更新 — Amazon 供應鏈優於預期  
+**評級**：Positive  
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260608_Daiwa_TW-Datacentre-Hardware.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260608_Daiwa_TW-Datacentre-Hardware.md';a.click()})">⬇ 下載 MD</button>
+
+---
+
+## Daiwa 完整投資邏輯鏈
+
+| 論點層次 | Exhibit | 內容 |
+|---|---|---|
+| 需求信號明確 | 月營收表 | Trainium 3 AI 伺服器從 6 月開始出貨，較原預期 3Q26 提前，帶動 Amazon 供應鏈 2Q 強勢 |
+| 催化劑可量化 | 月營收表 | King Slide 5 月 +172% YoY、+46% MoM，為 T3 導軌套件切入的最直接受益者；QTD 達共識的 93% |
+| 產能爬坡路徑清晰 | 個股段落 | GCE 月產出從 1Q26 TWD6.8B 提升至 5 月 TWD7.5B，泰國＋蘇州＋台灣各廠均貢獻增量 |
+| 訂單能見度高 | 個股段落 | Trn3 ASIC 伺服器未來 4 季預計約 35–40K 台（每台 64 顆晶片），至少撐至年底 |
+| 供應鏈受益排序 | 個股段落 | King Slide > Accton > GCE > TUC（依 2Q QTD 超預期幅度排序），TUC 貢獻主要集中 2H26 |
+| **結論** | 封面 | **全面維持 Buy；Amazon T3 提前放量為本季度主要股價催化劑，建議配置 AMZN 供應鏈** |
+
+> **報告最大邏輯缺口**：Wiwynn 5 月 QTD 僅達 Daiwa 預估的 57%（歷史均值 60%），記憶體成本無法認列為營收，可能壓低 2Q 絕對數字。
+
+---
+
+## 報告核心觀點
+
+| 主題 | Daiwa 觀點 | 市場共識 | 是否 Contra-Consensus |
+|---|---|---|---|
+| Trainium 3 出貨時程 | 6 月起正式放量，較原預期 3Q26 提前 | 共識預期 3Q26 | ✅ 提前一季 |
+| King Slide 強勢來源 | T3 導軌套件 + GB300 需求上調（VR200 可能延至 4Q26 末或 2027 初） | 市場一般未拆分 | ✅ VR200 延誤為額外利多 |
+| TUC 進度 | T3 貢獻主要在 2H26（泰國廠 5 月 TWD0.6B → 3Q26 TWD1.3B） | 無明確預期 | — |
+| Wiwynn 2Q | 成長幅度受記憶體成本不認列拖累，略遜於 Amazon 其他供應鏈 | 共識 TWD276.6B | — |
+
+**偏好排序**：King Slide（2059）> Accton（2345）> GCE（2368）> TUC（6274）> Wiwynn（6669）
+
+---
+
+## 各公司 5 月月營收摘要
+
+| 公司 | Ticker | 5 月營收（TWDbn）| MoM | YoY | 2Q26 QTD（TWDbn）| QoQ | YoY | Daiwa 達成率 | 2026E P/E | 2027E P/E | TP（TWD）|
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Wiwynn | 6669 | 84.1 | +2% | +18% | 291.3 | +5% | +32% | 57% | 13.7 | 9.9 | 7,100 |
+| Accton | 2345 | 28.6 | +5% | +57% | 82.9 | +18% | +37% | 67% | 36.2 | 26.3 | 3,222 |
+| GCE | 2368 | 8.8 | +20% | +87% | 23.2 | +20% | +67% | 69% | 36.3 | 23.5 | 1,650 |
+| King Slide | 2059 | 3.8 | +46% | +172% | 7.2 | +32% | +70% | 89% | 35.8 | 30.6 | — |
+| TUC | 6274 | 4.8 | +4% | +129% | 12.6 | +26% | +86% | 75% | 56.5 | 33.8 | 1,680 |
+
+> **洞察一**：King Slide 的 QTD 達成率 89%（歷史均值 67%）高出常態 22ppt，為本次最大驚喜；結合 VR200 延誤 → GB300 需求上調的解釋，意味 Slide 的訂單結構在 2Q 出現非常態性集中。
+
+> **洞察二**：TUC QTD 達成率 75%，略高於歷史均值，但 T3 貢獻主要在 2H26（泰國廠 5 月僅 TWD0.6B vs. 3Q26 估 TWD1.3B），說明現階段強勢來自 CCL 漲價＋產品組合提升，而非 AI 需求爆發——因此上行空間延後但不消失。
+
+---
+
+## 相關個股清單
+
+| 類別 | 公司 | Ticker | 評等 | TP（TWD）|
+|---|---|---|---|---|
+| AI 伺服器組裝 | 緯穎（Wiwynn）| 6669 | Buy | 7,100 |
+| 網路交換器 | 智邦（Accton）| 2345 | Buy | 3,222 |
+| AI PCB | 金像電（GCE）| 2368 | Buy | 1,650 |
+| 導軌套件 | 川湖（King Slide）| 2059 | Buy | — |
+| CCL | 台燿（TUC）| 6274 | Buy | 1,680 |
