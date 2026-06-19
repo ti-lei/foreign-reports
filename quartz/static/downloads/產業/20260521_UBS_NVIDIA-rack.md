@@ -1,4 +1,4 @@
-﻿---
+---
 tags: [CoWoS, HBM, Rubin, Blackwell, AI加速器, UBS, ODM, 記憶體]
 ---
 
@@ -169,12 +169,12 @@ FQ127（2026 年 4 月）NVIDIA 總收入 US\$81.6bn，超出之前 1Q 指引，
 
 **NVIDIA Rack 預測上修**
 
-| 世代 | 2026E（舊） | 2026E（新） | 上修 | 2027E（舊） | 2027E（新） | 上修 |
-|---|---|---|---|---|---|---|
-| Rubin（NVL 系列） | — | 66,300 | — | — | 61,000 | — |
-| Blackwell（GB200 系列） | — | 6,200 | — | — | 29,000 | — |
-| **NVL 系列合計** | **62,500** | **72,500** | **+16%** | **83,000** | **90,000** | **+8%** |
-| HGX 平台（另計） | — | — | — | — | 2,100,000 | — |
+| 世代                  | 2026E（舊）   | 2026E（新）   | 上修       | 2027E（舊）   | 2027E（新）   | 上修      |
+| ------------------- | ---------- | ---------- | -------- | ---------- | ---------- | ------- |
+| Rubin（NVL 系列）       | —          | 66,300     | —        | —          | 61,000     | —       |
+| Blackwell（GB200 系列） | —          | 6,200      | —        | —          | 29,000     | —       |
+| **NVL 系列合計**        | **62,500** | **72,500** | **+16%** | **83,000** | **90,000** | **+8%** |
+| HGX 平台（另計）          | —          | —          | —        | —          | 2,100,000  | —       |
 
 **AI GPU 生產估計（2026E）**
 
@@ -247,21 +247,21 @@ UBS 用這張圖反駁「capex bubble」論點：超大規模業者的貨幣化�
 
 ## 相關個股清單
 
-| 類別 | 公司 | Ticker | 評等 | 備註 |
-|---|---|---|---|---|
-| 晶圓代工 | [[2330_台積電_外資報告整理\|TSMC]] | 2330 TT / TSM US | Buy | 首選；CoWoS 最大受益者 |
-| IC 設計 | MediaTek | 2454 TT | Buy | 首選；Google TPU 設計服務 |
-| 封測 | ASE | 3711 TT | Buy | 首選；先進封裝與測試 |
-| 封測 | KYEC | 2449 TT | — | 最終測試服務受益 |
-| 封測 | Amkor | AMKR US | — | Vera CPU（CoWoS-R）潛在上行；CoWoS-S 因 H200 禁售利用率受限 |
-| 設備 | Chroma | 2360 TT | — | 先進封裝設備偏好標的 |
-| 設備 | ASMPT | 522 HK | — | 先進封裝設備偏好標的 |
-| 設備 | GPTC | 3286 TT | — | 先進封裝設備偏好標的 |
-| IC 設計 | Aspeed | 5274 TT | — | BMC 強勁展望 |
-| IC 設計 | GUC | 3443 TT | — | Google CPU 上行空間 |
-| IC 設計 | [[3661_世芯_外資報告整理\|Alchip]] | 3661 TT | — | Amazon Trainium 3 機會 |
-| ODM | [[6669_緯穎_外資報告整理\|Wiwynn]] | 6669 TT | — | 催化劑最強；ASIC / Helios / Rubin 三重拉動 |
-| 電源 | Delta Electronics | 2308 TT | — | Rubin 800V DC 每 rack 含量提升；可能維持 lead supplier 地位 |
-| 記憶體 | Samsung Electronics | 005930 KS | Buy（APAC Key Call） | HBM 主力；DRAM 週期延長至 Q228 |
-| 記憶體 | SK Hynix | 000660 KS | — | HBM 受益 |
-| 記憶體 | Nanya Technology | 2408 TT | Buy | DRAM 週期長；NAND until Q427 |
+| 類別    | 公司                         | Ticker           | 評等                 | 備註                                              |
+| ----- | -------------------------- | ---------------- | ------------------ | ----------------------------------------------- |
+| 晶圓代工  | [[2330_台積電_外資報告整理\|TSMC]]  | 2330 TT / TSM US | Buy                | 首選；CoWoS 最大受益者                                  |
+| IC 設計 | MediaTek                   | 2454 TT          | Buy                | 首選；Google TPU 設計服務                              |
+| 封測    | ASE                        | 3711 TT          | Buy                | 首選；先進封裝與測試                                      |
+| 封測    | KYEC                       | 2449 TT          | —                  | 最終測試服務受益                                        |
+| 封測    | Amkor                      | AMKR US          | —                  | Vera CPU（CoWoS-R）潛在上行；CoWoS-S 因 H200 禁售利用率受限    |
+| 設備    | Chroma                     | 2360 TT          | —                  | 先進封裝設備偏好標的                                      |
+| 設備    | ASMPT                      | 522 HK           | —                  | 先進封裝設備偏好標的                                      |
+| 設備    | GPTC                       | 3286 TT          | —                  | 先進封裝設備偏好標的                                      |
+| IC 設計 | Aspeed                     | 5274 TT          | —                  | BMC 強勁展望                                        |
+| IC 設計 | GUC                        | 3443 TT          | —                  | Google CPU 上行空間                                 |
+| IC 設計 | [[3661_世芯_外資報告整理\|Alchip]] | 3661 TT          | —                  | Amazon Trainium 3 機會                            |
+| ODM   | [[6669_緯穎_外資報告整理\|Wiwynn]] | 6669 TT          | —                  | 催化劑最強；ASIC / Helios / Rubin 三重拉動                |
+| 電源    | Delta Electronics          | 2308 TT          | —                  | Rubin 800V DC 每 rack 含量提升；可能維持 lead supplier 地位 |
+| 記憶體   | Samsung Electronics        | 005930 KS        | Buy（APAC Key Call） | HBM 主力；DRAM 週期延長至 Q228                          |
+| 記憶體   | SK Hynix                   | 000660 KS        | —                  | HBM 受益                                          |
+| 記憶體   | Nanya Technology           | 2408 TT          | Buy                | DRAM 週期長；NAND until Q427                        |
