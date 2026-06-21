@@ -1,0 +1,10 @@
+name = "foreign-reports"
+pages_build_output_dir = "public"
+compatibility_date = "2026-06-01"
+
+# 綁定 D1（行程資料庫），讓 functions/ 下的 Pages Function 能用 env.DB 讀取。
+# build 期設定（build command、NODE_VERSION 等）仍由 Cloudflare 後台控制，不受此檔影響。
+[[d1_databases]]
+binding = "DB"
+database_name = "line-itineraries"
+database_id = "4b7bcca3-cbab-44ea-868e-d83caa1e5dcf"
