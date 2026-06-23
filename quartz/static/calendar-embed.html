@@ -54,9 +54,9 @@
 </div>
 <div id="calendar"></div>
 
-<div id="detail" class="modal" onclick="this.style.display='none'">
+<div id="detail" class="modal" onclick="closeDetail()">
   <div class="card" onclick="event.stopPropagation()">
-    <button class="close" onclick="document.getElementById('detail').style.display='none'">&times;</button>
+    <button class="close" onclick="closeDetail()">&times;</button>
     <div id="detail-body"></div>
   </div>
 </div>
@@ -137,6 +137,45 @@ resultsBox.addEventListener('click', function(e){
 });
 
 /* ---- 明細彈窗（置中於可視區域，iframe 內也準） ---- */
+// 把彈窗卡片置中在「使用者目前看得到的區域」中心。
+// 重點：iframe 內 position:absolute 是相對「內容座標」，所以中心要 = 內容捲動量
+// window.scrollY（iframe 自己捲動）＋ 可視區在 iframe 視窗內的中心。
+// 可視區用 frameElement（同源）算：兼顧「外層頁面捲動」與「iframe 內部捲動」兩種情況。
+function positionCard(){
+  var modal = document.getElementById('detail');
+  if (modal.style.display !== 'block') return;
+  var card = modal.querySelector('.card');
+  modal.style.height = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight) + 'px';
+  var S = window.scrollY || window.pageYOffset || 0;
+  var centerY, visH;
+  try {
+    var fe = window.frameElement;
+    if (fe) {
+      var rect = fe.getBoundingClientRect();           // iframe 在父視窗的位置
+      var pvh = window.parent.innerHeight || window.innerHeight;
+      var vTop = Math.max(0, -rect.top);                // 可視區起點（iframe 視窗座標）
+      var vBot = Math.min(fe.clientHeight, pvh - rect.top); // 可視區終點
+      centerY = S + (vTop + vBot) / 2;                  // ＋內容捲動量 → 內容座標
+      visH = vBot - vTop;
+    } else {
+      centerY = S + window.innerHeight / 2;
+      visH = window.innerHeight;
+    }
+  } catch (err) {
+    centerY = S + window.innerHeight / 2;
+    visH = window.innerHeight;
+  }
+  card.style.top = Math.round(centerY) + 'px';
+  card.style.maxHeight = Math.max(220, Math.round(visH - 28)) + 'px';
+}
+
+function closeDetail(){
+  document.getElementById('detail').style.display = 'none';
+  window.removeEventListener('scroll', positionCard);
+  window.removeEventListener('resize', positionCard);
+  try { window.parent.removeEventListener('scroll', positionCard); } catch (e) {}
+}
+
 function showDetail(p){
   p = p || {};
   var rows = [['日期',p.event_date],['時間',p.event_time],['券商',p.broker],['公司',p.company],['代號',p.ticker],['主題',p.topic],['形式',p.meeting_type],['地點',p.location],['報名',p.signup_url]];
@@ -148,34 +187,12 @@ function showDetail(p){
     html += '<div class="row"><span class="k">' + rows[i][0] + '</span><span class="v">' + v + '</span></div>';
   }
   document.getElementById('detail-body').innerHTML = html;
-
-  var modal = document.getElementById('detail');
-  var card = modal.querySelector('.card');
-  // 蓋住整份文件（dim）
-  modal.style.height = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight) + 'px';
-
-  // 計算「目前可視區域」中心（iframe 內：用 frameElement + 父視窗，同源可讀）
-  var centerY, visH;
-  try {
-    var fe = window.frameElement;
-    if (fe) {
-      var rect = fe.getBoundingClientRect();
-      var pvh = window.parent.innerHeight;
-      var visTop = Math.max(0, -rect.top);
-      var visBot = Math.min(fe.clientHeight, pvh - rect.top);
-      centerY = (visTop + visBot) / 2;
-      visH = visBot - visTop;
-    } else {
-      centerY = (window.scrollY || 0) + window.innerHeight / 2;
-      visH = window.innerHeight;
-    }
-  } catch (err) {
-    centerY = (window.scrollY || 0) + window.innerHeight / 2;
-    visH = window.innerHeight;
-  }
-  card.style.top = Math.round(centerY) + 'px';
-  card.style.maxHeight = Math.max(220, Math.round(visH - 28)) + 'px';
-  modal.style.display = 'block';
+  document.getElementById('detail').style.display = 'block';
+  positionCard();
+  // 捲動／轉向時跟著重新置中（同時監聽 iframe 內與外層頁面的捲動）
+  window.addEventListener('scroll', positionCard, { passive: true });
+  window.addEventListener('resize', positionCard);
+  try { window.parent.addEventListener('scroll', positionCard, { passive: true }); } catch (e) {}
 }
 </script>
 </body>
