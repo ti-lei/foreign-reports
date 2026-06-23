@@ -36,6 +36,9 @@
   .row:last-child { border-bottom:none; }
   .row .k { width:48px; color:#6b7280; flex:none; }
   .row .v { color:#111827; word-break:break-all; }
+  .gcal { display:block; margin-top:14px; text-align:center; padding:10px 12px; background:#1a73e8; color:#fff;
+          border-radius:8px; text-decoration:none; font-size:14px; font-weight:600; }
+  .gcal:hover { background:#1666d0; }
 
   @media (max-width: 600px) {
     .fc .fc-toolbar.fc-header-toolbar { flex-direction:column; gap:8px; align-items:stretch; }
@@ -58,6 +61,7 @@
   <div class="card" onclick="event.stopPropagation()">
     <button class="close" onclick="closeDetail()">&times;</button>
     <div id="detail-body"></div>
+    <a id="gcal-btn" class="gcal" href="#" target="_blank" rel="noopener">＋ 加入 Google 日曆</a>
   </div>
 </div>
 
@@ -176,6 +180,45 @@ function closeDetail(){
   try { window.parent.removeEventListener('scroll', positionCard); } catch (e) {}
 }
 
+/* ---- 「加入 Google 日曆」連結（範本 URL，免 API／免授權，開新增活動頁讓使用者按儲存）---- */
+function pad2(n){ return (n < 10 ? '0' : '') + n; }
+function gcalDates(p){
+  if (!p.event_date) return null;
+  var d = String(p.event_date).replace(/-/g, '');          // YYYYMMDD
+  var t = p.event_time;
+  var timed = t && t.indexOf(':') > 0 && t.length <= 5;
+  if (timed){
+    var hh = (t.length === 4 ? '0' + t : t);                // HH:MM
+    var sh = parseInt(hh.slice(0,2), 10), sm = hh.slice(3,5);
+    var eh = sh + 1, em = sm;
+    if (eh >= 24){ eh = 23; em = '59'; }                    // 邊界：23 點起，結束設當日 23:59
+    return d + 'T' + pad2(sh) + sm + '00/' + d + 'T' + pad2(eh) + em + '00';
+  }
+  var dt = new Date(p.event_date + 'T00:00:00');            // 全天：結束日＝隔天（Google end 為排除）
+  dt.setDate(dt.getDate() + 1);
+  var nd = dt.getFullYear() + pad2(dt.getMonth()+1) + pad2(dt.getDate());
+  return d + '/' + nd;
+}
+function buildGCalUrl(p){
+  var dates = gcalDates(p);
+  if (!dates) return null;
+  var head = p.company ? (p.company + (p.ticker ? '(' + p.ticker + ')' : '')) : (p.topic || '券商行程');
+  var title = head + (p.meeting_type ? ' ' + p.meeting_type : '') + (p.broker ? ' · ' + p.broker : '');
+  var det = [];
+  if (p.broker) det.push('券商：' + p.broker);
+  if (p.meeting_type) det.push('形式：' + p.meeting_type);
+  if (p.topic && p.company) det.push('主題：' + p.topic);
+  if (p.signup_url) det.push('報名：' + p.signup_url);
+  det.push('—— 來自券商行程日曆');
+  var u = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
+        + '&text=' + encodeURIComponent(title)
+        + '&dates=' + dates
+        + '&ctz=Asia/Taipei'
+        + '&details=' + encodeURIComponent(det.join('\n'));
+  if (p.location) u += '&location=' + encodeURIComponent(p.location);
+  return u;
+}
+
 function showDetail(p){
   p = p || {};
   var rows = [['日期',p.event_date],['時間',p.event_time],['券商',p.broker],['公司',p.company],['代號',p.ticker],['主題',p.topic],['形式',p.meeting_type],['地點',p.location],['報名',p.signup_url]];
@@ -187,6 +230,9 @@ function showDetail(p){
     html += '<div class="row"><span class="k">' + rows[i][0] + '</span><span class="v">' + v + '</span></div>';
   }
   document.getElementById('detail-body').innerHTML = html;
+  var btn = document.getElementById('gcal-btn');
+  var gurl = buildGCalUrl(p);
+  if (gurl){ btn.href = gurl; btn.style.display = 'block'; } else { btn.style.display = 'none'; }
   document.getElementById('detail').style.display = 'block';
   positionCard();
   // 捲動／轉向時跟著重新置中（同時監聽 iframe 內與外層頁面的捲動）
