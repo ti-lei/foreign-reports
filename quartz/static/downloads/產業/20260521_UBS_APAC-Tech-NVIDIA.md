@@ -1,3 +1,6 @@
+---
+modified: 2026-05-21
+---
 # UBS｜APAC Tech Views: Raising NVIDIA Rack Forecasts
 
 **券商**：UBS Securities  

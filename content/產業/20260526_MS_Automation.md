@@ -1,3 +1,6 @@
+---
+modified: 2026-05-26
+---
 ﻿# MS｜Automation：JMTBA April 2026 Orders Read-across
 
 **券商**：Morgan Stanley Taiwan  

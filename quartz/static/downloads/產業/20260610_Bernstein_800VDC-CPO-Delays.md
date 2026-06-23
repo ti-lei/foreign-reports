@@ -1,3 +1,6 @@
+---
+modified: 2026-06-09
+---
 # SemiAnalysis｜800VDC Pushout & CPO Delays
 
 **券商**：SemiAnalysis LLC（原始檔名誤標為 Bernstein，請注意）  

@@ -1,3 +1,6 @@
+---
+modified: 2026-05-28
+---
 # Citi｜鴻勁首評：AI 晶片測試設備龍頭的進化
 
 **券商**：Citi Research  

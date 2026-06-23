@@ -1,3 +1,6 @@
+---
+modified: 2026-05-27
+---
 ﻿# MS｜2Q'26 WFE Update：記憶體錯配未解，LAM 升 OW，AMAT 降 EW
 
 **券商**：Morgan Stanley & Co. LLC  

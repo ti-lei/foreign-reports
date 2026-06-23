@@ -1,3 +1,6 @@
+---
+modified: 2026-06-22
+---
 # MS｜China AI GPU TAM — 地緣政治推升
 
 **券商**：Morgan Stanley  

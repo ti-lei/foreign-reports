@@ -1,3 +1,6 @@
+---
+modified: 2026-06-10
+---
 # MS｜自動化：JMTBA 5月機床訂單讀跨
 
 **券商**：Morgan Stanley  

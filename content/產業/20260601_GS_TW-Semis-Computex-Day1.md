@@ -1,3 +1,6 @@
+---
+modified: 2026-06-01
+---
 # GS｜TW Semis Computex & Corporate Day 2026 — Day 1 Key Takeaways
 
 **券商**：Goldman Sachs  

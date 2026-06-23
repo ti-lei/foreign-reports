@@ -1,3 +1,6 @@
+---
+modified: 2026-05-26
+---
 # SemiAnalysis｜Inside the 800VDC Revolution – Part 1
 
 **來源**：SemiAnalysis / InferenceX（Substack 付費研報）  

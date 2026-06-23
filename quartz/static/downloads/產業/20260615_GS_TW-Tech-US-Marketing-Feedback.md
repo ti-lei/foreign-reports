@@ -1,3 +1,6 @@
+---
+modified: 2026-06-15
+---
 # GS｜Taiwan Technology：US Marketing Feedback
 
 **券商**：Goldman Sachs  

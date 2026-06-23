@@ -1,3 +1,6 @@
+---
+modified: 2026-05-19
+---
 ﻿# GS｜Asia AI Infrastructure：Powering the Next Intelligence Cycle
 
 **券商**：Goldman Sachs (Asia) L.L.C. / Goldman Sachs (Singapore) Pte  

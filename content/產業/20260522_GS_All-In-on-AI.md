@@ -1,3 +1,6 @@
+---
+modified: 2026-05-22
+---
 ﻿# GS｜Hedge Fund Trend Monitor：All In on AI
 
 **券商**：Goldman Sachs  

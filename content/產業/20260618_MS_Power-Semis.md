@@ -1,3 +1,6 @@
+---
+modified: 2026-06-18
+---
 # MS｜Power Semis – Supply Driven Upcycle
 
 **券商**：Morgan Stanley  

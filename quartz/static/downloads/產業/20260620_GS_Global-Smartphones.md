@@ -1,3 +1,6 @@
+---
+modified: 2026-06-20
+---
 # GS｜Global Smartphones — TAM 下修，高階化續行
 
 **券商**：Goldman Sachs  

@@ -1,3 +1,6 @@
+---
+modified: 2026-06-22
+---
 # MS｜MLCC Super Cycle — The Other AI Squeeze
 
 **券商**：Morgan Stanley  

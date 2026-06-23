@@ -1,3 +1,6 @@
+---
+modified: 2026-06-14
+---
 # MS｜iPhone Monthly Databook — 3Q26 Premium Mix Shift
 
 **券商**：Morgan Stanley  

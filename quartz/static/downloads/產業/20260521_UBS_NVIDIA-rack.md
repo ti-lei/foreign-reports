@@ -1,4 +1,5 @@
 ---
+modified: 2026-05-21
 tags: [CoWoS, HBM, Rubin, Blackwell, AI加速器, UBS, ODM, 記憶體]
 ---
 

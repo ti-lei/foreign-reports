@@ -1,3 +1,6 @@
+---
+modified: 2026-04-17
+---
 # Daiwa｜南俊國際 6584 Initiation：a rising rail-kit challenger for high growth
 
 **券商**：Daiwa Securities  

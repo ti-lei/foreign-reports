@@ -1,3 +1,6 @@
+---
+modified: 2026-06-07
+---
 # MS｜TFT-LCD Panel Price Outlook for June 2026
 
 **券商**：Morgan Stanley  

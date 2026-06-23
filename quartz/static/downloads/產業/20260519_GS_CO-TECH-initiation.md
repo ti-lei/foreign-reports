@@ -1,3 +1,6 @@
+---
+modified: 2026-05-19
+---
 ﻿# Goldman Sachs｜Co-Tech Development Corp. (8358) 初次覆蓋
 
 **券商**：Goldman Sachs (Asia) L.L.C., Taipei Branch  

@@ -1,3 +1,6 @@
+---
+modified: 2026-05-31
+---
 # MS｜Automation – 中國 5 月製造業 PMI 讀取
 
 **券商**：Morgan Stanley  

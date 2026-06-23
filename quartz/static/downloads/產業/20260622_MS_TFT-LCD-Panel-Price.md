@@ -1,3 +1,6 @@
+---
+modified: 2026-06-22
+---
 # MS｜TFT-LCD Panel Prices（June 2026）
 
 **券商**：Morgan Stanley  

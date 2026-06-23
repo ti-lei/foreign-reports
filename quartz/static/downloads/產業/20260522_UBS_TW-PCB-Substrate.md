@@ -1,3 +1,6 @@
+---
+modified: 2026-05-22
+---
 ﻿# UBS｜Taiwan PCB/Substrates — Multi-year AI Upcycle 早期
 
 **券商**：UBS Securities Pte. Ltd., Taipei Branch  

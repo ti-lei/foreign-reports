@@ -1,3 +1,6 @@
+---
+modified: 2026-05-27
+---
 ﻿# MS｜Taiwan Computex 預覽：NVIDIA Vera CPU 與 Rubin GPU 為焦點
 
 **券商**：Morgan Stanley Taiwan Limited / Asia Limited  

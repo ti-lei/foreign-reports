@@ -1,3 +1,6 @@
+---
+modified: 2026-06-02
+---
 # GS｜台灣半導體 Computex 企業日 Day 2 重點摘要
 
 **券商**：Goldman Sachs  

@@ -1,3 +1,6 @@
+---
+modified: 2026-06-04
+---
 # Daiwa｜Taiwan Datacentre Hardware
 
 **券商**：Daiwa  

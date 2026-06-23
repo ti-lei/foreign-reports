@@ -1,3 +1,6 @@
+---
+modified: 2026-05-05
+---
 # UBS｜US Semiconductors：Agentic AI 對 CPU 市場的影響
 
 **券商**：UBS Securities LLC  

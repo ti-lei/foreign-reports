@@ -1,3 +1,6 @@
+---
+modified: 2026-06-08
+---
 # Daiwa｜Taiwan Datacentre Hardware — 5月月營收解讀
 
 **券商**：Daiwa-Cathay Capital Markets  

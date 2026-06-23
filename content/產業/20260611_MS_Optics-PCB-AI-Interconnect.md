@@ -1,3 +1,6 @@
+---
+modified: 2026-06-11
+---
 # MS｜Optics Drives the Board: PCB Beneficiaries of the AI Interconnect Build-out
 
 **券商**：Morgan Stanley  

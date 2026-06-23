@@ -1,3 +1,6 @@
+---
+modified: 2026-05-05
+---
 # Goldman Sachs｜解碼 Agentic 經濟：AI 使用量與利潤的即將轉折
 
 **券商**：Goldman Sachs  

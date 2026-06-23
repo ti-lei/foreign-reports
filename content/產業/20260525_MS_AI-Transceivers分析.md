@@ -1,3 +1,6 @@
+---
+modified: 2026-05-25
+---
 ﻿# MS｜AI Transceivers：t（Tau）Law 支撐需求指數成長
 
 **券商**：Morgan Stanley  

@@ -1,3 +1,6 @@
+---
+modified: 2026-05-19
+---
 **Citi｜Sandisk (SNDK.O)｜2026-05-19｜目標價調整**
 **評等** Buy（維持）　**目標價** US\$2,025（↑ 從 US\$1,300，+55.8%）　**估值** 9-10x CY27E PE（LTA 優質結構溢價於同業 Kioxia 7x、其他 NAND 同業 6-7x）
 **Short-Term View**: Upside（有效期至 2026-06-17）

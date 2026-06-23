@@ -1,3 +1,6 @@
+---
+modified: 2026-06-02
+---
 # MS｜Key Computex Takeaways：Agentic AI、TSMC 產能與 MediaTek AI PC
 
 **券商**：Morgan Stanley  

@@ -1,3 +1,6 @@
+---
+modified: 2026-06-02
+---
 # HSBC｜韓國科技巡迴：AI 供應鏈高速成長，Physical AI 等待轉折
 
 **券商**：HSBC  

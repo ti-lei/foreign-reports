@@ -1,3 +1,6 @@
+---
+modified: 2026-06-10
+---
 # MS｜CPO 投資人疑慮回應
 
 **券商**：Morgan Stanley  
