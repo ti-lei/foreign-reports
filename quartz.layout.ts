@@ -25,7 +25,9 @@ export const defaultContentPageLayout: PageLayout = {
         showTags: false,
         filter: (f) => {
           if (!f.dates?.modified) return false
-          if (f.slug === "index") return false
+          // 只列真正的報告：排除首頁、工具頁(行程日曆)、爬蟲頁(史萊姆的聊天室)
+          const excludedSlugs = ["index", "calendar", "史萊姆的聊天室"]
+          if (excludedSlugs.includes(f.slug)) return false
           const today = new Date()
           const m = f.dates.modified
           return (
