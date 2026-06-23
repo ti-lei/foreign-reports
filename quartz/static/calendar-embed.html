@@ -8,15 +8,35 @@
 <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/locales/zh-tw.global.min.js"></script>
 <style>
   body { font-family: -apple-system, "Noto Sans TC", system-ui, sans-serif; margin:0; padding:4px; background:#fff; color:#1f2937; }
-  .bar { display:flex; align-items:center; gap:12px; flex-wrap:wrap; padding:4px 2px 12px; font-size:13px; color:#6b7280; }
+  .bar { display:flex; align-items:center; gap:10px 14px; flex-wrap:wrap; padding:4px 2px 12px; font-size:13px; color:#6b7280; }
   .dot { display:inline-block; width:9px; height:9px; border-radius:50%; margin:0 3px 0 10px; vertical-align:middle; }
+
+  /* 搜尋小介面 */
+  .search-wrap { position:relative; flex:1 1 220px; min-width:170px; }
+  #search { width:100%; box-sizing:border-box; padding:7px 11px; font-size:14px; border:1px solid #d1d5db; border-radius:8px; outline:none; }
+  #search:focus { border-color:#2563eb; box-shadow:0 0 0 2px rgba(37,99,235,.15); }
+  .results { position:absolute; z-index:40; left:0; right:0; top:100%; margin-top:4px; background:#fff; border:1px solid #e5e7eb; border-radius:8px; box-shadow:0 8px 24px rgba(0,0,0,.14); max-height:330px; overflow-y:auto; -webkit-overflow-scrolling:touch; display:none; }
+  .results.show { display:block; }
+  .result { padding:8px 11px; border-bottom:1px solid #f3f4f6; cursor:pointer; }
+  .result:last-child { border-bottom:none; }
+  .result:hover, .result.active { background:#f3f6fb; }
+  .result .r-main { color:#111827; font-weight:600; font-size:13px; }
+  .result .r-sub { color:#6b7280; font-size:12px; margin-top:2px; }
+  .result.empty { color:#9ca3af; cursor:default; font-size:13px; }
+
   .fc-event { cursor:pointer; }
-  .modal { display:none; position:fixed; inset:0; background:rgba(0,0,0,.45); align-items:center; justify-content:center; padding:16px; z-index:50; }
-  .card { background:#fff; border-radius:12px; padding:18px 20px; max-width:380px; width:100%; position:relative; }
+
+  /* 明細彈窗：絕對定位，置中於「目前可視區域」由 JS 計算（iframe 內也準） */
+  .modal { display:none; position:absolute; top:0; left:0; width:100%; background:rgba(0,0,0,.45); z-index:50; }
+  .card { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); box-sizing:border-box;
+          background:#fff; border-radius:12px; padding:18px 20px; width:calc(100% - 32px); max-width:380px;
+          max-height:85vh; overflow-y:auto; -webkit-overflow-scrolling:touch; box-shadow:0 12px 44px rgba(0,0,0,.28); }
   .card .close { position:absolute; top:8px; right:12px; border:none; background:none; font-size:22px; cursor:pointer; color:#6b7280; }
-  .row { display:flex; gap:10px; padding:5px 0; border-bottom:1px solid #f1f1f1; font-size:14px; }
+  .row { display:flex; gap:10px; padding:6px 0; border-bottom:1px solid #f1f1f1; font-size:14px; }
+  .row:last-child { border-bottom:none; }
   .row .k { width:48px; color:#6b7280; flex:none; }
   .row .v { color:#111827; word-break:break-all; }
+
   @media (max-width: 600px) {
     .fc .fc-toolbar.fc-header-toolbar { flex-direction:column; gap:8px; align-items:stretch; }
     .fc .fc-toolbar-title { font-size:1.05em; text-align:center; }
@@ -27,6 +47,10 @@
 <div class="bar">
   <span id="count">載入中…</span>
   <span><span class="dot" style="background:#2563eb"></span>線上<span class="dot" style="background:#16a34a"></span>實體<span class="dot" style="background:#6b7280"></span>其他</span>
+  <span class="search-wrap">
+    <input id="search" type="search" placeholder="搜尋公司／代號／券商／主題／地點…" autocomplete="off">
+    <div id="results" class="results"></div>
+  </span>
 </div>
 <div id="calendar"></div>
 
@@ -38,29 +62,28 @@
 </div>
 
 <script>
+var CAL = null;
+var ALL = [];   // 有日期的行程（供搜尋與跳轉）
+
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+function nameOf(it){ return it.company || it.topic || it.broker || '行程'; }
+
 document.addEventListener('DOMContentLoaded', function(){
   fetch('/api/itineraries').then(function(r){ return r.json(); }).then(function(data){
     var list = data.itineraries || [];
     document.getElementById('count').textContent = '共 ' + (data.count || list.length) + ' 筆';
-    var events = list.filter(function(it){ return it.event_date; }).map(function(it){
+    ALL = list.filter(function(it){ return it.event_date; });
+    var events = ALL.map(function(it){
       var timed = it.event_time && it.event_time.indexOf(':') > 0 && it.event_time.length <= 5;
       var start = it.event_date;
       if (timed) start = it.event_date + 'T' + (it.event_time.length === 4 ? '0' + it.event_time : it.event_time) + ':00';
       var mt = it.meeting_type || '';
       var color = mt.indexOf('線上') >= 0 ? '#2563eb' : (mt.indexOf('實體') >= 0 ? '#16a34a' : '#6b7280');
-      var head = it.company
-        ? it.company + (it.ticker ? ' (' + it.ticker + ')' : '')
-        : (it.topic || it.broker || '行程');
-      var tail = [];
-      if (it.company && it.topic) tail.push(it.topic);
-      if (it.broker && it.broker !== head) tail.push(it.broker);
-      if (it.meeting_type) tail.push(it.meeting_type);
-      if (it.location) tail.push(it.location);
-      var title = head + (tail.length ? '  ·  ' + tail.join(' · ') : '');
-      return { title: title, start: start, allDay: !timed, color: color, extendedProps: it };
+      // 標題只放公司（或活動名）；時間由日曆自動顯示，其餘移到明細
+      return { title: nameOf(it), start: start, allDay: !timed, color: color, extendedProps: it };
     });
     var isMobile = window.matchMedia('(max-width: 767px)').matches;
-    var cal = new FullCalendar.Calendar(document.getElementById('calendar'), {
+    CAL = new FullCalendar.Calendar(document.getElementById('calendar'), {
       initialView: isMobile ? 'listMonth' : 'dayGridMonth',
       locale: 'zh-tw',
       height: 'auto',
@@ -69,23 +92,90 @@ document.addEventListener('DOMContentLoaded', function(){
       buttonText: { today: '今天', month: '月曆', list: '清單' },
       dayMaxEvents: 3,
       events: events,
-      eventClick: function(info){ showDetail(info.event); info.jsEvent.preventDefault(); }
+      eventClick: function(info){ showDetail(info.event.extendedProps); info.jsEvent.preventDefault(); }
     });
-    cal.render();
+    CAL.render();
   }).catch(function(e){ document.getElementById('count').textContent = '載入失敗: ' + e.message; });
 });
-function showDetail(ev){
-  var p = ev.extendedProps || {};
+
+/* ---- 搜尋 ---- */
+var searchBox = document.getElementById('search');
+var resultsBox = document.getElementById('results');
+searchBox.addEventListener('input', function(){ runSearch(this.value); });
+searchBox.addEventListener('focus', function(){ if (this.value.trim()) runSearch(this.value); });
+document.addEventListener('click', function(e){
+  if (!e.target.closest('.search-wrap')) resultsBox.classList.remove('show');
+});
+
+function runSearch(q){
+  q = q.trim().toLowerCase();
+  if (!q){ resultsBox.classList.remove('show'); resultsBox.innerHTML = ''; return; }
+  var hits = ALL.filter(function(it){
+    return [it.company, it.ticker, it.broker, it.topic, it.location, it.meeting_type].some(function(f){
+      return f && String(f).toLowerCase().indexOf(q) >= 0;
+    });
+  });
+  hits.sort(function(a,b){ return (a.event_date+'' ).localeCompare(b.event_date+''); });
+  hits = hits.slice(0, 40);
+  if (!hits.length){
+    resultsBox.innerHTML = '<div class="result empty">找不到符合的行程</div>';
+    resultsBox.classList.add('show'); return;
+  }
+  resultsBox.innerHTML = hits.map(function(it){
+    var sub = [it.event_date + (it.event_time ? ' ' + it.event_time : ''), it.broker, it.meeting_type].filter(Boolean).join('  ·  ');
+    return '<div class="result" data-id="' + it.id + '"><div class="r-main">' + esc(nameOf(it)) + '</div><div class="r-sub">' + esc(sub) + '</div></div>';
+  }).join('');
+  resultsBox.classList.add('show');
+}
+resultsBox.addEventListener('click', function(e){
+  var el = e.target.closest('.result'); if (!el || !el.dataset.id) return;
+  var it = ALL.filter(function(x){ return String(x.id) === el.dataset.id; })[0];
+  if (!it) return;
+  resultsBox.classList.remove('show');
+  if (CAL && it.event_date) CAL.gotoDate(it.event_date);
+  showDetail(it);
+});
+
+/* ---- 明細彈窗（置中於可視區域，iframe 內也準） ---- */
+function showDetail(p){
+  p = p || {};
   var rows = [['日期',p.event_date],['時間',p.event_time],['券商',p.broker],['公司',p.company],['代號',p.ticker],['主題',p.topic],['形式',p.meeting_type],['地點',p.location],['報名',p.signup_url]];
   var html = '';
   for (var i=0;i<rows.length;i++){
     var v = rows[i][1];
     if (v === null || v === undefined || v === '') continue;
-    if (rows[i][0] === '報名') v = '<a href="' + v + '" target="_blank" rel="noopener">' + v + '</a>';
+    v = (rows[i][0] === '報名') ? '<a href="' + esc(v) + '" target="_blank" rel="noopener">' + esc(v) + '</a>' : esc(v);
     html += '<div class="row"><span class="k">' + rows[i][0] + '</span><span class="v">' + v + '</span></div>';
   }
   document.getElementById('detail-body').innerHTML = html;
-  document.getElementById('detail').style.display = 'flex';
+
+  var modal = document.getElementById('detail');
+  var card = modal.querySelector('.card');
+  // 蓋住整份文件（dim）
+  modal.style.height = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight) + 'px';
+
+  // 計算「目前可視區域」中心（iframe 內：用 frameElement + 父視窗，同源可讀）
+  var centerY, visH;
+  try {
+    var fe = window.frameElement;
+    if (fe) {
+      var rect = fe.getBoundingClientRect();
+      var pvh = window.parent.innerHeight;
+      var visTop = Math.max(0, -rect.top);
+      var visBot = Math.min(fe.clientHeight, pvh - rect.top);
+      centerY = (visTop + visBot) / 2;
+      visH = visBot - visTop;
+    } else {
+      centerY = (window.scrollY || 0) + window.innerHeight / 2;
+      visH = window.innerHeight;
+    }
+  } catch (err) {
+    centerY = (window.scrollY || 0) + window.innerHeight / 2;
+    visH = window.innerHeight;
+  }
+  card.style.top = Math.round(centerY) + 'px';
+  card.style.maxHeight = Math.max(220, Math.round(visH - 28)) + 'px';
+  modal.style.display = 'block';
 }
 </script>
 </body>
