@@ -26,8 +26,12 @@
 
   .fc-event { cursor:pointer; }
 
+  /* 月曆「+N more」彈出清單：單日事件太多時限高可捲，避免超出畫面 */
+  .fc-popover { max-width:calc(100vw - 16px); }
+  .fc-popover .fc-popover-body { max-height:min(65vh, 440px); overflow-y:auto; -webkit-overflow-scrolling:touch; }
+
   /* 明細彈窗：絕對定位，置中於「目前可視區域」由 JS 計算（iframe 內也準） */
-  .modal { display:none; position:absolute; top:0; left:0; width:100%; background:rgba(0,0,0,.45); z-index:50; }
+  .modal { display:none; position:absolute; top:0; left:0; width:100%; background:rgba(0,0,0,.45); z-index:10000; }
   .card { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); box-sizing:border-box;
           background:#fff; border-radius:12px; padding:18px 20px; width:calc(100% - 32px); max-width:380px;
           max-height:85vh; overflow-y:auto; -webkit-overflow-scrolling:touch; box-shadow:0 12px 44px rgba(0,0,0,.28); }
