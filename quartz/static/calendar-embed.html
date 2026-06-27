@@ -74,7 +74,7 @@ var CAL = null;
 var ALL = [];   // 有日期的行程（供搜尋與跳轉）
 
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
-function nameOf(it){ return it.company || it.topic || it.broker || '行程'; }
+function nameOf(it){ return it.company ? it.company + (it.ticker ? ' (' + it.ticker + ')' : '') : (it.topic || it.broker || '行程'); }
 
 document.addEventListener('DOMContentLoaded', function(){
   fetch('/api/itineraries').then(function(r){ return r.json(); }).then(function(data){
