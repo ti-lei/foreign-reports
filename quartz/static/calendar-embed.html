@@ -120,6 +120,8 @@
 <script>
 var CAL = null;
 var ALL = [];   // 有日期的行程（供搜尋與跳轉）
+var MY_EMAIL = null;   // 目前 Cloudflare Access 登入者；只有本人能刪自己新增的行程
+fetch('/api/whoami').then(function(r){ return r.json(); }).then(function(j){ MY_EMAIL = j.email || null; }).catch(function(){});
 
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
 function nameOf(it){ return it.company ? it.company + (it.ticker ? ' (' + it.ticker + ')' : '') : (it.topic || it.broker || '行程'); }
@@ -292,6 +294,7 @@ function buildGCalUrl(p){
 function showDetail(p){
   p = p || {};
   var rows = [['日期',p.event_date],['時間',p.event_time],['券商',p.broker],['公司',p.company],['代號',p.ticker],['主題',p.topic],['形式',p.meeting_type],['地點',p.location],['報名',p.signup_url]];
+  if (p.source === 'manual' && p.created_by) rows.push(['新增者', p.created_by]);
   var html = (p.source === 'manual') ? '<div class="self-badge">自建行程</div>' : '';
   for (var i=0;i<rows.length;i++){
     var v = rows[i][1];
@@ -303,9 +306,11 @@ function showDetail(p){
   var btn = document.getElementById('gcal-btn');
   var gurl = buildGCalUrl(p);
   if (gurl){ btn.href = gurl; btn.style.display = 'block'; } else { btn.style.display = 'none'; }
-  // 只有自建行程顯示刪除鈕（券商行程要刪走後台 /api/admin）
+  // 刪除鈕：只有自建行程、且是「本人新增的」才顯示（券商行程走後台 /api/admin；
+  // 別人加的看得到但不能刪）。created_by 為空的舊資料一律放行。
   var del = document.getElementById('detail-del');
-  if (p.source === 'manual'){ del.style.display = 'block'; del.onclick = function(){ delSelf(p); }; }
+  var canDelete = p.source === 'manual' && (!p.created_by || p.created_by === MY_EMAIL);
+  if (canDelete){ del.style.display = 'block'; del.onclick = function(){ delSelf(p); }; }
   else { del.style.display = 'none'; del.onclick = null; }
   openModal('detail');
 }
