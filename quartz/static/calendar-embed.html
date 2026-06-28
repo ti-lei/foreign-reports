@@ -44,20 +44,44 @@
           border-radius:8px; text-decoration:none; font-size:14px; font-weight:600; }
   .gcal:hover { background:#1666d0; }
 
+  /* 新增按鈕 */
+  .add-btn { flex:none; border:none; background:#7c3aed; color:#fff; border-radius:8px; padding:7px 13px; font-size:13px; font-weight:600; cursor:pointer; }
+  .add-btn:active { background:#6d28d9; }
+
+  /* 新增表單 */
+  .form-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px 12px; margin-top:6px; }
+  .form-grid .full { grid-column:1 / -1; }
+  .fld label { display:block; font-size:12px; color:#6b7280; margin-bottom:3px; }
+  .fld input, .fld select { width:100%; box-sizing:border-box; padding:7px 9px; font-size:14px; border:1px solid #d1d5db; border-radius:7px; outline:none; }
+  .fld input:focus, .fld select:focus { border-color:#7c3aed; box-shadow:0 0 0 2px rgba(124,58,237,.15); }
+  .form-actions { display:flex; gap:10px; margin-top:16px; }
+  .btn-primary { flex:1; border:none; background:#7c3aed; color:#fff; border-radius:8px; padding:11px; font-size:15px; font-weight:600; cursor:pointer; }
+  .btn-primary:disabled { opacity:.5; }
+  .btn-ghost { flex:none; border:1px solid #d1d5db; background:#fff; color:#374151; border-radius:8px; padding:11px 16px; font-size:15px; cursor:pointer; }
+  .card h2 { margin:0 4px 10px 0; font-size:17px; }
+  .form-err { color:#dc2626; font-size:13px; margin-top:8px; min-height:1em; }
+
+  /* 自建標籤 + 刪除鈕（明細彈窗內） */
+  .self-badge { display:inline-block; background:#ede9fe; color:#6d28d9; font-size:12px; font-weight:600; padding:2px 9px; border-radius:6px; margin-bottom:8px; }
+  .del-btn { display:block; width:100%; margin-top:12px; border:1px solid #ef4444; background:#fff; color:#ef4444; border-radius:8px; padding:10px; font-size:14px; font-weight:600; cursor:pointer; }
+  .del-btn:active { background:#fef2f2; }
+
   @media (max-width: 600px) {
     .fc .fc-toolbar.fc-header-toolbar { flex-direction:column; gap:8px; align-items:stretch; }
     .fc .fc-toolbar-title { font-size:1.05em; text-align:center; }
+    .form-grid { grid-template-columns:1fr; }
   }
 </style>
 </head>
 <body>
 <div class="bar">
   <span id="count">載入中…</span>
-  <span><span class="dot" style="background:#2563eb"></span>線上<span class="dot" style="background:#16a34a"></span>實體<span class="dot" style="background:#6b7280"></span>其他</span>
+  <span><span class="dot" style="background:#2563eb"></span>線上<span class="dot" style="background:#16a34a"></span>實體<span class="dot" style="background:#6b7280"></span>其他<span class="dot" style="background:#7c3aed"></span>自建</span>
   <span class="search-wrap">
     <input id="search" type="search" placeholder="搜尋公司／代號／券商／主題／地點…" autocomplete="off">
     <div id="results" class="results"></div>
   </span>
+  <button id="add-btn" class="add-btn" type="button">＋ 新增行程</button>
 </div>
 <div id="calendar"></div>
 
@@ -66,6 +90,30 @@
     <button class="close" onclick="closeDetail()">&times;</button>
     <div id="detail-body"></div>
     <a id="gcal-btn" class="gcal" href="#" target="_blank" rel="noopener">＋ 加入 Google 日曆</a>
+    <button id="detail-del" class="del-btn" style="display:none" type="button">刪除此行程</button>
+  </div>
+</div>
+
+<div id="addModal" class="modal" onclick="closeAdd()">
+  <div class="card" onclick="event.stopPropagation()">
+    <button class="close" onclick="closeAdd()">&times;</button>
+    <h2>新增行程</h2>
+    <div class="form-grid">
+      <div class="fld"><label>日期 *</label><input id="f-date" type="date"></div>
+      <div class="fld"><label>時間</label><input id="f-time" type="time"></div>
+      <div class="fld"><label>公司</label><input id="f-company" type="text" placeholder="公司名稱"></div>
+      <div class="fld"><label>代號</label><input id="f-ticker" type="text" placeholder="如 2330"></div>
+      <div class="fld"><label>券商</label><input id="f-broker" type="text"></div>
+      <div class="fld"><label>形式</label><select id="f-type"><option value="">—</option><option>線上會議</option><option>實體會議</option><option>法說會</option></select></div>
+      <div class="fld full"><label>主題（無公司時填）</label><input id="f-topic" type="text" placeholder="如 總經策略會"></div>
+      <div class="fld full"><label>地點</label><input id="f-location" type="text"></div>
+      <div class="fld full"><label>報名連結</label><input id="f-signup" type="url" placeholder="https://"></div>
+    </div>
+    <div id="f-err" class="form-err"></div>
+    <div class="form-actions">
+      <button id="f-submit" class="btn-primary" type="button">儲存</button>
+      <button class="btn-ghost" type="button" onclick="closeAdd()">取消</button>
+    </div>
   </div>
 </div>
 
@@ -76,20 +124,24 @@ var ALL = [];   // 有日期的行程（供搜尋與跳轉）
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
 function nameOf(it){ return it.company ? it.company + (it.ticker ? ' (' + it.ticker + ')' : '') : (it.topic || it.broker || '行程'); }
 
+// 由一筆行程資料組出 FullCalendar 事件物件（新增/初始化共用）。
+function eventOf(it){
+  var timed = it.event_time && it.event_time.indexOf(':') > 0 && it.event_time.length <= 5;
+  var start = it.event_date;
+  if (timed) start = it.event_date + 'T' + (it.event_time.length === 4 ? '0' + it.event_time : it.event_time) + ':00';
+  var mt = it.meeting_type || '';
+  // 自建行程一律紫色；其餘依形式：線上藍 / 實體綠 / 其他灰
+  var color = it.source === 'manual' ? '#7c3aed'
+            : (mt.indexOf('線上') >= 0 ? '#2563eb' : (mt.indexOf('實體') >= 0 ? '#16a34a' : '#6b7280'));
+  return { id: String(it.id), title: nameOf(it), start: start, allDay: !timed, color: color, extendedProps: it };
+}
+
 document.addEventListener('DOMContentLoaded', function(){
   fetch('/api/itineraries').then(function(r){ return r.json(); }).then(function(data){
     var list = data.itineraries || [];
     document.getElementById('count').textContent = '共 ' + (data.count || list.length) + ' 筆';
     ALL = list.filter(function(it){ return it.event_date; });
-    var events = ALL.map(function(it){
-      var timed = it.event_time && it.event_time.indexOf(':') > 0 && it.event_time.length <= 5;
-      var start = it.event_date;
-      if (timed) start = it.event_date + 'T' + (it.event_time.length === 4 ? '0' + it.event_time : it.event_time) + ':00';
-      var mt = it.meeting_type || '';
-      var color = mt.indexOf('線上') >= 0 ? '#2563eb' : (mt.indexOf('實體') >= 0 ? '#16a34a' : '#6b7280');
-      // 標題只放公司（或活動名）；時間由日曆自動顯示，其餘移到明細
-      return { title: nameOf(it), start: start, allDay: !timed, color: color, extendedProps: it };
-    });
+    var events = ALL.map(eventOf);
     var isMobile = window.matchMedia('(max-width: 767px)').matches;
     CAL = new FullCalendar.Calendar(document.getElementById('calendar'), {
       initialView: isMobile ? 'listMonth' : 'dayGridMonth',
@@ -149,9 +201,11 @@ resultsBox.addEventListener('click', function(e){
 // 重點：iframe 內 position:absolute 是相對「內容座標」，所以中心要 = 內容捲動量
 // window.scrollY（iframe 自己捲動）＋ 可視區在 iframe 視窗內的中心。
 // 可視區用 frameElement（同源）算：兼顧「外層頁面捲動」與「iframe 內部捲動」兩種情況。
+var OPEN_MODAL = null;   // 目前開啟的彈窗 id（'detail' 或 'addModal'）
 function positionCard(){
-  var modal = document.getElementById('detail');
-  if (modal.style.display !== 'block') return;
+  if (!OPEN_MODAL) return;
+  var modal = document.getElementById(OPEN_MODAL);
+  if (!modal || modal.style.display !== 'block') return;
   var card = modal.querySelector('.card');
   modal.style.height = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight) + 'px';
   var S = window.scrollY || window.pageYOffset || 0;
@@ -177,12 +231,24 @@ function positionCard(){
   card.style.maxHeight = Math.max(220, Math.round(visH - 28)) + 'px';
 }
 
-function closeDetail(){
-  document.getElementById('detail').style.display = 'none';
+// 開/關彈窗的共用邏輯：設 OPEN_MODAL、置中、掛/解捲動監聽。
+function openModal(id){
+  OPEN_MODAL = id;
+  document.getElementById(id).style.display = 'block';
+  positionCard();
+  window.addEventListener('scroll', positionCard, { passive: true });
+  window.addEventListener('resize', positionCard);
+  try { window.parent.addEventListener('scroll', positionCard, { passive: true }); } catch (e) {}
+}
+function closeModal(id){
+  document.getElementById(id).style.display = 'none';
+  if (OPEN_MODAL === id) OPEN_MODAL = null;
   window.removeEventListener('scroll', positionCard);
   window.removeEventListener('resize', positionCard);
   try { window.parent.removeEventListener('scroll', positionCard); } catch (e) {}
 }
+function closeDetail(){ closeModal('detail'); }
+function closeAdd(){ closeModal('addModal'); }
 
 /* ---- 「加入 Google 日曆」連結（範本 URL，免 API／免授權，開新增活動頁讓使用者按儲存）---- */
 function pad2(n){ return (n < 10 ? '0' : '') + n; }
@@ -226,7 +292,7 @@ function buildGCalUrl(p){
 function showDetail(p){
   p = p || {};
   var rows = [['日期',p.event_date],['時間',p.event_time],['券商',p.broker],['公司',p.company],['代號',p.ticker],['主題',p.topic],['形式',p.meeting_type],['地點',p.location],['報名',p.signup_url]];
-  var html = '';
+  var html = (p.source === 'manual') ? '<div class="self-badge">自建行程</div>' : '';
   for (var i=0;i<rows.length;i++){
     var v = rows[i][1];
     if (v === null || v === undefined || v === '') continue;
@@ -237,12 +303,61 @@ function showDetail(p){
   var btn = document.getElementById('gcal-btn');
   var gurl = buildGCalUrl(p);
   if (gurl){ btn.href = gurl; btn.style.display = 'block'; } else { btn.style.display = 'none'; }
-  document.getElementById('detail').style.display = 'block';
-  positionCard();
-  // 捲動／轉向時跟著重新置中（同時監聽 iframe 內與外層頁面的捲動）
-  window.addEventListener('scroll', positionCard, { passive: true });
-  window.addEventListener('resize', positionCard);
-  try { window.parent.addEventListener('scroll', positionCard, { passive: true }); } catch (e) {}
+  // 只有自建行程顯示刪除鈕（券商行程要刪走後台 /api/admin）
+  var del = document.getElementById('detail-del');
+  if (p.source === 'manual'){ del.style.display = 'block'; del.onclick = function(){ delSelf(p); }; }
+  else { del.style.display = 'none'; del.onclick = null; }
+  openModal('detail');
+}
+
+/* ---- 新增行程 ---- */
+document.getElementById('add-btn').addEventListener('click', function(){
+  document.getElementById('f-err').textContent = '';
+  openModal('addModal');
+});
+
+function fval(id){ var v = document.getElementById(id).value; return v && v.trim() ? v.trim() : null; }
+
+document.getElementById('f-submit').addEventListener('click', function(){
+  var btn = this;
+  var err = document.getElementById('f-err');
+  var payload = {
+    event_date: fval('f-date'), event_time: fval('f-time'),
+    broker: fval('f-broker'), company: fval('f-company'), ticker: fval('f-ticker'),
+    meeting_type: fval('f-type'), topic: fval('f-topic'),
+    location: fval('f-location'), signup_url: fval('f-signup')
+  };
+  if (!payload.event_date){ err.textContent = '請填日期'; return; }
+  if (!payload.company && !payload.topic){ err.textContent = '請至少填公司或主題'; return; }
+  btn.disabled = true; err.textContent = '';
+  fetch('/api/itinerary/add', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify(payload) })
+    .then(function(r){ return r.json(); })
+    .then(function(j){
+      btn.disabled = false;
+      if (!j.ok){ err.textContent = j.error || '新增失敗'; return; }
+      var it = j.itinerary || payload; it.id = j.id;
+      ALL.push(it);
+      if (CAL){ CAL.addEvent(eventOf(it)); CAL.gotoDate(it.event_date); }
+      document.getElementById('count').textContent = '共 ' + ALL.length + ' 筆';
+      ['f-date','f-time','f-broker','f-company','f-ticker','f-type','f-topic','f-location','f-signup'].forEach(function(id){ document.getElementById(id).value=''; });
+      closeAdd();
+    })
+    .catch(function(e){ btn.disabled = false; err.textContent = '錯誤：' + e.message; });
+});
+
+/* ---- 刪除自建行程 ---- */
+function delSelf(p){
+  if (!confirm('確定刪除這筆自建行程？')) return;
+  fetch('/api/itinerary/delete', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({ id: p.id }) })
+    .then(function(r){ return r.json(); })
+    .then(function(j){
+      if (!j.ok){ alert('刪除失敗：' + (j.error || '')); return; }
+      ALL = ALL.filter(function(x){ return String(x.id) !== String(p.id); });
+      if (CAL){ var ev = CAL.getEventById(String(p.id)); if (ev) ev.remove(); }
+      document.getElementById('count').textContent = '共 ' + ALL.length + ' 筆';
+      closeDetail();
+    })
+    .catch(function(e){ alert('錯誤：' + e.message); });
 }
 </script>
 </body>
