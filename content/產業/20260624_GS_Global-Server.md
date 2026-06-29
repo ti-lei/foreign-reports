@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-26
+type: 產業報告
+broker: Goldman Sachs
+date: 2026-06-24
+sectors: [AI伺服器]
 ---
 # Goldman Sachs｜Global Server TAM Update — Raising AI & General Servers
 

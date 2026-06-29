@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-04
+type: 產業報告
+broker: Daiwa
+date: 2026-06-04
+sectors: [AI伺服器]
 ---
 # Daiwa｜Taiwan Datacentre Hardware
 

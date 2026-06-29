@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-08
+type: 產業報告
+broker: Daiwa-Cathay Capital Markets
+date: 2026-06-08
+sectors: [AI伺服器]
 ---
 # Daiwa｜Taiwan Datacentre Hardware — 5月月營收解讀
 

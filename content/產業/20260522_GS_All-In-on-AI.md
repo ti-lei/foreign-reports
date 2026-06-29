@@ -1,5 +1,8 @@
 ---
 modified: 2026-05-22
+type: 產業報告
+broker: Goldman Sachs
+date: 2026-05-22
 ---
 ﻿# GS｜Hedge Fund Trend Monitor：All In on AI
 

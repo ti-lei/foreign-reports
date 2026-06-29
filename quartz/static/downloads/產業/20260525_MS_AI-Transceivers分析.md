@@ -1,5 +1,9 @@
 ---
 modified: 2026-05-25
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-05-25
+sectors: [光通訊-CPO]
 ---
 ﻿# MS｜AI Transceivers：t（Tau）Law 支撐需求指數成長
 

@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-29
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-06-28
+sectors: [光通訊-CPO]
 ---
 # MS｜GlassBridge & Fiber-to-PIC 對 AI 收發器及 FAU 廠的影響評估
 

@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-26
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-06-23
+sectors: [晶圓代工]
 ---
 # Morgan Stanley｜AI Supply Chain — 2027 TSMC CoWoS Preliminary Allocation
 

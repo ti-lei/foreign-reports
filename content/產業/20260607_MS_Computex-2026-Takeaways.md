@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-07
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-06-07
+sectors: [散熱]
 ---
 # MS｜Computex 2026 Takeaways
 

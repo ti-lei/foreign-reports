@@ -1,5 +1,9 @@
 ---
 modified: 2026-05-21
+type: 產業報告
+broker: UBS Securities
+date: 2026-05-21
+sectors: [ODM-EMS]
 ---
 # UBS｜APAC Tech Views: Raising NVIDIA Rack Forecasts
 

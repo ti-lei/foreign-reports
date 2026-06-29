@@ -1,5 +1,9 @@
 ---
 modified: 2026-05-27
+type: 產業報告
+broker: Morgan Stanley Taiwan Limited / Asia Limited
+date: 2026-05-27
+sectors: [晶圓代工]
 ---
 ﻿# MS｜Taiwan Computex 預覽：NVIDIA Vera CPU 與 Rubin GPU 為焦點
 

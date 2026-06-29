@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-14
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-06-14
+sectors: [ODM-EMS, 筆電產業]
 ---
 # MS｜NB Monthly Databook — May Miss -7%；2H Sub-Seasonal
 

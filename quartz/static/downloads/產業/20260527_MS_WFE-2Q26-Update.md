@@ -1,5 +1,9 @@
 ---
 modified: 2026-05-27
+type: 產業報告
+broker: Morgan Stanley & Co. LLC
+date: 2026-05-27
+sectors: [晶圓代工]
 ---
 ﻿# MS｜2Q'26 WFE Update：記憶體錯配未解，LAM 升 OW，AMAT 降 EW
 

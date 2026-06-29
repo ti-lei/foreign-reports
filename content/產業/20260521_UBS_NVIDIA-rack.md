@@ -1,6 +1,10 @@
 ---
 modified: 2026-05-21
 tags: [CoWoS, HBM, Rubin, Blackwell, AI加速器, UBS, ODM, 記憶體]
+type: 產業報告
+broker: UBS Securities Pte. Ltd., Taipei Branch
+date: 2026-05-21
+sectors: [ODM-EMS, 晶圓代工]
 ---
 
 # UBS｜Raising NVIDIA rack forecasts following solid results and ODM sales upside

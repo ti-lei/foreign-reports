@@ -1,5 +1,8 @@
 ---
 modified: 2026-05-08
+ticker: 8928
+type: 個股報告
+date: 2026-05-08
 ---
 ﻿**MS｜Dynamic (8928)｜2026-05-08｜產業報告**
 （Dynamic 為 Not Covered，本報告為 PCB 產業讀穿筆記）

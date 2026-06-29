@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-29
+type: 產業報告
+broker: BofA Global Research (Merrill Lynch)
+date: 2026-06-25
+sectors: [PCB-CCL]
 ---
 # BofA Securities｜ABF 基板：S/D 缺口進一步擴大，上調三檔 PO
 

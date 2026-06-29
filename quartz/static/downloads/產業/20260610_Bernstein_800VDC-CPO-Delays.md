@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-09
+type: 產業報告
+broker: SemiAnalysis LLC（原始檔名誤標為 Bernstein，請注意）
+date: 2026-06-09
+sectors: [光通訊-CPO]
 ---
 # SemiAnalysis｜800VDC Pushout & CPO Delays
 

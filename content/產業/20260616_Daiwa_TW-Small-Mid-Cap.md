@@ -1,5 +1,8 @@
 ---
 modified: 2026-06-16
+type: 產業報告
+broker: Daiwa
+date: 2026-06-16
 ---
 # Daiwa｜Taiwan Small- and Mid-Caps
 

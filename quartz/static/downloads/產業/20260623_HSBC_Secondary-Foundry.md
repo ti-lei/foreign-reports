@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-26
+type: 產業報告
+broker: HSBC Securities
+date: 2026-06-23
+sectors: [晶圓代工]
 ---
 # HSBC｜Secondary Foundry — 利用率回升快於預期，定價能力超越共識
 

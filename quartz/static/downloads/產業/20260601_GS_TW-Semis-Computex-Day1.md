@@ -1,5 +1,8 @@
 ---
 modified: 2026-06-01
+type: 產業報告
+broker: Goldman Sachs
+date: 2026-06-01
 ---
 # GS｜TW Semis Computex & Corporate Day 2026 — Day 1 Key Takeaways
 

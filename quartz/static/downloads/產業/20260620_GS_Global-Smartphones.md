@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-20
+type: 產業報告
+broker: Goldman Sachs
+date: 2026-06-20
+sectors: [筆電產業]
 ---
 # GS｜Global Smartphones — TAM 下修，高階化續行
 

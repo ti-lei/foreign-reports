@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-26
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-06-22
+sectors: [AI伺服器, 被動元件]
 ---
 # MS｜MLCC Super Cycle — The Other AI Squeeze
 

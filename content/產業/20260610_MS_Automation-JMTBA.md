@@ -1,5 +1,8 @@
 ---
 modified: 2026-06-10
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-06-10
 ---
 # MS｜自動化：JMTBA 5月機床訂單讀跨
 

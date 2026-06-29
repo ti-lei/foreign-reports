@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-14
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-06-14
+sectors: [筆電產業]
 ---
 # MS｜iPhone Monthly Databook — 3Q26 Premium Mix Shift
 

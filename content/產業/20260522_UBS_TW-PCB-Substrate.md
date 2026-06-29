@@ -1,5 +1,9 @@
 ---
 modified: 2026-05-22
+type: 產業報告
+broker: UBS Securities Pte. Ltd., Taipei Branch
+date: 2026-05-22
+sectors: [PCB-CCL]
 ---
 ﻿# UBS｜Taiwan PCB/Substrates — Multi-year AI Upcycle 早期
 

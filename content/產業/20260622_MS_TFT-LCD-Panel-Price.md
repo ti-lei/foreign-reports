@@ -1,5 +1,8 @@
 ---
 modified: 2026-06-22
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-06-22
 ---
 # MS｜TFT-LCD Panel Prices（June 2026）
 

@@ -1,6 +1,10 @@
 ---
 modified: 2026-05-21
 tags: [CoWoS, HBM, N3製程, AI加速器, UBS, 晶圓代工, 先進封裝]
+type: 產業報告
+broker: UBS Securities Pte. Ltd., Taipei Branch
+date: 2026-05-21
+sectors: [晶圓代工]
 ---
 
 # UBS｜Cloud AI: Tight supply of TSMC's N3 & CoWoS through '27E

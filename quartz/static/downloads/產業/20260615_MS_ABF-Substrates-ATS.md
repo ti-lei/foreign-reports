@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-15
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-06-15
+sectors: [PCB-CCL]
 ---
 # MS｜ABF Substrates：AT&S 宣布馬來西亞擴產
 

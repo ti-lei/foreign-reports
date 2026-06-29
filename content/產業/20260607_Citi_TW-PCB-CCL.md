@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-07
+type: 產業報告
+broker: Citi Research
+date: 2026-06-07
+sectors: [PCB-CCL]
 ---
 # Citi｜Taiwan PCB & Laminates — Citi Taiwan Tech Conference 2026
 

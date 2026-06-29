@@ -1,5 +1,8 @@
 ---
 modified: 2026-06-26
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-06-25
 ---
 # Morgan Stanley｜Old Memory — 供給持續偏緊，企業恐慌性採購加速
 

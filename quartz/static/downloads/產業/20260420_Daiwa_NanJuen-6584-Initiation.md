@@ -1,5 +1,9 @@
 ---
 modified: 2026-04-17
+type: 產業報告
+broker: Daiwa Securities
+date: 2026-04-17
+sectors: [AI伺服器, 機殼機構]
 ---
 # Daiwa｜南俊國際 6584 Initiation：a rising rail-kit challenger for high growth
 

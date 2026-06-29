@@ -1,5 +1,8 @@
 ---
 modified: 2026-05-26
+type: 產業報告
+broker: SemiAnalysis
+date: 2026-05-26
 ---
 # SemiAnalysis｜Inside the 800VDC Revolution – Part 1
 

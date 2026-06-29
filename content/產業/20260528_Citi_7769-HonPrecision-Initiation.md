@@ -1,5 +1,8 @@
 ---
 modified: 2026-05-28
+type: 產業報告
+broker: Citi Research
+date: 2026-05-28
 ---
 # Citi｜鴻勁首評：AI 晶片測試設備龍頭的進化
 

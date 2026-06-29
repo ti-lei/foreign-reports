@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-11
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-06-11
+sectors: [PCB-CCL, 光通訊-CPO]
 ---
 # MS｜Optics Drives the Board: PCB Beneficiaries of the AI Interconnect Build-out
 

@@ -1,5 +1,8 @@
 ---
 modified: 2026-05-31
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-05-31
 ---
 # MS｜Automation – 中國 5 月製造業 PMI 讀取
 

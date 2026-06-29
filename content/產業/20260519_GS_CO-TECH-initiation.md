@@ -1,5 +1,9 @@
 ---
 modified: 2026-05-19
+type: 產業報告
+broker: Goldman Sachs (Asia) L.L.C., Taipei Branch
+date: 2026-05-19
+sectors: [PCB-CCL]
 ---
 ﻿# Goldman Sachs｜Co-Tech Development Corp. (8358) 初次覆蓋
 

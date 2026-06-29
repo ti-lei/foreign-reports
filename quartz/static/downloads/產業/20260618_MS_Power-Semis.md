@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-25
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-06-18
+sectors: [功率半導體]
 ---
 # MS｜Power Semis – Supply Driven Upcycle
 

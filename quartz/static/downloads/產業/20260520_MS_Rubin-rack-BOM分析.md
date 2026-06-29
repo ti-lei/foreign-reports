@@ -1,6 +1,10 @@
 ---
 modified: 2026-05-20
 tags: [Rubin, Blackwell, AI加速器, MS, ODM, 散熱, PCB, MLCC]
+type: 產業報告
+broker: Morgan Stanley Taiwan Limited
+date: 2026-05-20
+sectors: [AI伺服器, ODM-EMS]
 ---
 
 # MS｜Rubin Rack BOM、零件 Content 與 ODM 附加價值分析

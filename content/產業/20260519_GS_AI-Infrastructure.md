@@ -1,5 +1,8 @@
 ---
 modified: 2026-05-19
+type: 產業報告
+broker: Goldman Sachs (Asia) L.L.C. / Goldman Sachs (Singapore) Pte
+date: 2026-05-19
 ---
 ﻿# GS｜Asia AI Infrastructure：Powering the Next Intelligence Cycle
 

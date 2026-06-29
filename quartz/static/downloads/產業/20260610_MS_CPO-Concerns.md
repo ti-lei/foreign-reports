@@ -1,5 +1,9 @@
 ---
 modified: 2026-06-10
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-06-10
+sectors: [光通訊-CPO]
 ---
 # MS｜CPO 投資人疑慮回應
 
