@@ -65,6 +65,15 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       sortFn: (a, b) => {
+        // 置頂項目：券商行程日曆、史萊姆的聊天室 固定排在最前
+        const pinned = ["券商行程日曆", "史萊姆的聊天室"]
+        const rankA = pinned.indexOf(a.displayName)
+        const rankB = pinned.indexOf(b.displayName)
+        if (rankA !== -1 || rankB !== -1) {
+          if (rankA === -1) return 1
+          if (rankB === -1) return -1
+          return rankA - rankB
+        }
         if (!a.isFolder && !b.isFolder) {
           var dateA = (a.slugSegment.match(/\d{8}/) || [""])[0]
           var dateB = (b.slugSegment.match(/\d{8}/) || [""])[0]
@@ -101,6 +110,15 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       sortFn: (a, b) => {
+        // 置頂項目：券商行程日曆、史萊姆的聊天室 固定排在最前
+        const pinned = ["券商行程日曆", "史萊姆的聊天室"]
+        const rankA = pinned.indexOf(a.displayName)
+        const rankB = pinned.indexOf(b.displayName)
+        if (rankA !== -1 || rankB !== -1) {
+          if (rankA === -1) return 1
+          if (rankB === -1) return -1
+          return rankA - rankB
+        }
         if (!a.isFolder && !b.isFolder) {
           var dateA = (a.slugSegment.match(/\d{8}/) || [""])[0]
           var dateB = (b.slugSegment.match(/\d{8}/) || [""])[0]
