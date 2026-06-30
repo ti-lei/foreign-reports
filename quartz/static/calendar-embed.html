@@ -90,6 +90,7 @@
     <button class="close" onclick="closeDetail()">&times;</button>
     <div id="detail-body"></div>
     <a id="gcal-btn" class="gcal" href="#" target="_blank" rel="noopener">＋ 加入 Google 日曆</a>
+    <button id="detail-admin-del" class="del-btn" style="display:none" type="button">刪除此行程（管理員）</button>
     <button id="detail-del" class="del-btn" style="display:none" type="button">刪除此行程</button>
   </div>
 </div>
@@ -121,7 +122,8 @@
 var CAL = null;
 var ALL = [];   // 有日期的行程（供搜尋與跳轉）
 var MY_EMAIL = null;   // 目前 Cloudflare Access 登入者；只有本人能刪自己新增的行程
-fetch('/api/whoami').then(function(r){ return r.json(); }).then(function(j){ MY_EMAIL = j.email || null; }).catch(function(){});
+var IS_ADMIN = false;  // 管理者可在彈窗刪除任何行程（真正關卡在後端 /api/admin/delete）
+fetch('/api/whoami').then(function(r){ return r.json(); }).then(function(j){ MY_EMAIL = j.email || null; IS_ADMIN = !!j.isAdmin; }).catch(function(){});
 
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
 function nameOf(it){ return it.company ? it.company + (it.ticker ? ' (' + it.ticker + ')' : '') : (it.topic || it.broker || '行程'); }
@@ -306,10 +308,14 @@ function showDetail(p){
   var btn = document.getElementById('gcal-btn');
   var gurl = buildGCalUrl(p);
   if (gurl){ btn.href = gurl; btn.style.display = 'block'; } else { btn.style.display = 'none'; }
-  // 刪除鈕：只有自建行程、且是「本人新增的」才顯示（券商行程走後台 /api/admin；
-  // 別人加的看得到但不能刪）。created_by 為空的舊資料一律放行。
+  // 管理員刪除鈕：admin 對「任何行程」都顯示（可刪券商/別人/自己的）。
+  var adel = document.getElementById('detail-admin-del');
+  if (IS_ADMIN){ adel.style.display = 'block'; adel.onclick = function(){ adminDel(p); }; }
+  else { adel.style.display = 'none'; adel.onclick = null; }
+  // 擁有者刪除鈕：只有自建行程、且本人新增（created_by 為空的舊資料放行）才顯示。
+  // admin 時隱藏（上面的管理員鈕已涵蓋，避免兩顆）。
   var del = document.getElementById('detail-del');
-  var canDelete = p.source === 'manual' && (!p.created_by || p.created_by === MY_EMAIL);
+  var canDelete = !IS_ADMIN && p.source === 'manual' && (!p.created_by || p.created_by === MY_EMAIL);
   if (canDelete){ del.style.display = 'block'; del.onclick = function(){ delSelf(p); }; }
   else { del.style.display = 'none'; del.onclick = null; }
   openModal('detail');
@@ -350,10 +356,18 @@ document.getElementById('f-submit').addEventListener('click', function(){
     .catch(function(e){ btn.disabled = false; err.textContent = '錯誤：' + e.message; });
 });
 
-/* ---- 刪除自建行程 ---- */
+/* ---- 刪除自建行程（擁有者）---- */
 function delSelf(p){
   if (!confirm('確定刪除這筆自建行程？')) return;
-  fetch('/api/itinerary/delete', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({ id: p.id }) })
+  doDelete('/api/itinerary/delete', p);
+}
+/* ---- 管理員刪除任何行程 ---- */
+function adminDel(p){
+  if (!confirm('（管理員）確定刪除這筆行程？\n' + (p.company || p.topic || '') + ' ' + (p.event_date || ''))) return;
+  doDelete('/api/admin/delete', p);
+}
+function doDelete(endpoint, p){
+  fetch(endpoint, { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({ id: p.id }) })
     .then(function(r){ return r.json(); })
     .then(function(j){
       if (!j.ok){ alert('刪除失敗：' + (j.error || '')); return; }
