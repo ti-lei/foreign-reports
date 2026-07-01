@@ -1,0 +1,61 @@
+---
+modified: 2026-07-01
+type: 產業報告
+broker: Morgan Stanley
+date: 2026-06-25
+sectors: []
+---
+# Morgan Stanley｜Automation：JMTBA May 2026 Final Orders Read-Across
+
+**券商**：Morgan Stanley  
+**分析師**：Derrick Yang、Sharon Shih、Vivi Huang  
+**日期**：2026-06-25  
+**主題**：Automation – Read-across from JMTBA May 2026 Orders（最終數）  
+**評級**：Industry View In-Line  
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260625_MS_Automation.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260625_MS_Automation.md';a.click()})">⬇ 下載 MD</button>
+
+---
+
+## 報告總結
+
+本報告為 JMTBA（日本工作機械工業會）2026 年 5 月最終訂單的讀跨分析，與 6 月 10 日的初步值相比，最終值 YoY 增速從 +37% 微幅上修至 +38%，其餘無重大差異。MS 對 Airtac 和 Hiwin 的投資論點均「未改變」（In-line）。3 月主要地區的 YoY 動能持續強勁（中國 +66%、北美 +14%、歐洲 +6%），三大製造業 PMI 均在 50 以上，MS 維持工業自動化上升週期的觀點。
+
+---
+
+## Morgan Stanley 完整投資邏輯鏈
+
+| 論點層次 | 內容 |
+|---|---|
+| JMTBA 最終數確認 | 5 月總訂單 -6% MoM / +38% YoY，¥177bn；初步值 +37% 上修至 +38% |
+| 地區 YoY 全面正 | 中國 +66%（¥51bn）、北美 +14%（¥37bn）、歐洲 +6%（¥17bn）；PMI 分別 50.0 / 54.0 / 51.6 |
+| 上升週期確立 | 三大製造業 PMI 均 >50，與自動化訂單上升週期劇本一致 |
+| Airtac 論點 | 自動化整體回升 + 線性導軌增量貢獻；現值 21x 2027e P/E 估值具吸引力（vs. 2020年以來 25x 均值）|
+| Hiwin 論點 | 更高稼動率 + 漲價 → 毛利率擴張；現值 31x 2027e P/E（vs. 週期峰值 35-40x），上行空間存在 |
+| **結論** | **最終數印證上升週期，兩檔個股論點維持 In-line** |
+
+---
+
+## JMTBA 5 月 2026 訂單摘要
+
+| 項目 | 金額（¥bn）| MoM | YoY |
+|---|---|---|---|
+| 總訂單 | 177 | -6% | +38% |
+| 國內訂單 | 45 | -8% | +37% |
+| 海外訂單（合計）| 132 | -6% | +38% |
+| 　中國 | 51 | -4% | **+66%** |
+| 　北美 | 37 | -9% | +14% |
+| 　歐洲 | 17 | -17% | +6% |
+
+> **洞察一**：中國訂單 +66% YoY 是全表最強，且在 3 月 MoM 僅 -4%（明顯優於總體 -6%）的背景下，中國市場的需求彈性最高。這對 Airtac 尤其有利，因為中國是 Airtac 最大的終端市場。  
+> **對比 6 月 10 日初步值**：最終值 YoY 從 +37% 上修至 +38%，差異微小；論點無需調整。
+
+---
+
+## 相關個股清單
+
+| 類別 | 公司 | Ticker | 評等 | 備註 |
+|---|---|---|---|---|
+| 工業自動化 | AirTac International | 1590.TW | OW | 21x 2027e P/E（vs. 25x 均值）；目標倍數 30x；中國市場自動化份額提升 + 線性導軌 |
+| 工業自動化 | Hiwin Technologies | 2049.TW | OW | 31x 2027e P/E（vs. 峰值 35-40x）；目標倍數 37x；毛利率擴張催化劑：高稼動率 + 漲價 |
+
+> *本報告為純文字更新，無 Exhibit 圖表。*
