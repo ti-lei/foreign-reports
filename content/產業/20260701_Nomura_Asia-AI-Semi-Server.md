@@ -145,53 +145,159 @@ SOX 指數自 Nomura 三月更新報告以來已漲 85%（自 2025 年五月 AI 
 
 ---
 
-## Fig. 5-6｜Gen AI 網站流量份額 — 需求真實性的第一手證據
+## Fig. 5｜Gen AI 網站流量份額（堆疊，截至 Apr 2026）
 
 ![Fig. 5](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_04.png)
+
+### 解讀摘要
+
+用 Similarweb 的實際流量堆疊圖，直接回應「AI 需求是不是泡沫」這個最根本問題。ChatGPT 的流量份額從 2025 年 5 月的約 75% 一路稀釋到 2026 年 4 月的約 52%，但這不是需求萎縮——而是 Gemini（紅）從約 7% 放大到約 27%、Claude/Grok/DeepSeek 同步搶食，代表**整個 Gen AI 使用面在快速擴張且多元化**。龍頭份額下降但總盤擴大，是需求真實、且競爭者多點開花的訊號，支撐 token 消耗持續成長的論點。
+
+---
+
+## Fig. 6｜Gen AI 網站流量份額（趨勢線，Gemini/Claude 續強）
+
 ![Fig. 6](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_05.png)
 
 ### 解讀摘要
 
-這對圖用 Similarweb 的實際流量數據，直接回應「AI 需求是不是泡沫」這個最根本的問題。Fig. 5（堆疊柱）顯示 ChatGPT 的流量份額從 2025 年 5 月的約 75% 一路稀釋到 2026 年 4 月的約 52%，但這不是需求萎縮——而是 Gemini（紅）從約 7% 放大到約 27%、Claude/Grok/DeepSeek 等同步搶食，代表**整個 Gen AI 使用面在快速擴張且多元化**。Fig. 6（趨勢線）把非 ChatGPT 玩家單獨拉出：Gemini（灰）近乎直線上衝、Claude（黑虛線）在最近 3 個月加速。這是 Nomura 全報告需求論點的「使用端」佐證：token 消耗有真實流量支撐，不是靠補貼堆砌。
+把非 ChatGPT 玩家單獨拉成趨勢線看，訊息更清楚：Gemini（灰）近乎直線上衝、Claude（黑虛線）在最近 3 個月加速，而 ChatGPT（紅，右軸）持續下滑。這張圖鎖定的是「誰在搶食」——Gemini 的斜率最陡，正是 Google 敢在 2027F 加碼 TPU 的底氣來源；Claude 的加速則印證 Anthropic 營收 run-rate 由 2025 年底 USD9bn 暴增至 2026 年 5 月 >USD47bn。
 
-> **原文補充**：流量數據與 Anthropic 營收 run-rate 由 2025 年底 USD9bn 暴增至 2026 年 5 月 >USD47bn 相互印證。Anthropic 同時在 AWS（5GW/500k Trainium 2、承諾十年 >USD100bn）、Google（up to 1mn TPU、>1GW）、nVidia/Microsoft（up to 1GW GB/VR）三大平台同時鎖算力，是需求真實性的最強單一背書。
+> **原文補充**：Claude 的成長同時反映在 Anthropic 全平台鎖算力——AWS（5GW/500k Trainium 2、承諾十年 >USD100bn）、Google（up to 1mn TPU、>1GW）、nVidia/Microsoft（up to 1GW GB/VR）三大平台同時押注，是需求真實性的最強單一背書。
 
 > **洞察三（配合 Fig. 24-29）**：Fig. 6 那條上衝的 Gemini 曲線，是 Fig. 24-29「Google TPU CoWoS 份額 2027 升至 26%」論點的需求端源頭——沒有 Gemini 的實際流量突破，就沒有 Google 加碼 TPU 的底氣，也就沒有 MediaTek 承接 TPU 設計服務的成長。換言之，這張看似「背景資料」的流量圖，其實是整條 TPU/MediaTek 投資鏈最上游的領先指標；流量份額若停止往 Gemini 傾斜，TPU 擴張的敘事就會先鬆動。
 
 ---
 
-## Fig. 7-17｜各 Hyperscaler 資料中心建設公告時程
+## Fig. 7｜資料中心建設公告 — AWS
 
-![Fig. 7 AWS](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_06.png)
-![Fig. 8 Google](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_07.png)
-![Fig. 9 Meta](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_08.png)
-![Fig. 10 Microsoft](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_09.png)
-![Fig. 11 HUMAIN](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_10.png)
-![Fig. 12 CoreWeave](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_11.png)
-![Fig. 13 Oracle](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_12.png)
-![Fig. 14 OpenAI](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_13.png)
-![Fig. 15 Nscale](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_14.png)
-![Fig. 16 Nebius](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_15.png)
-![Fig. 17 IREN](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_16.png)
+![Fig. 7](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_06.png)
 
 ### 解讀摘要
 
-這 11 張是 Fig. 2 主時程表的「逐營運商拆解」——把每一家 hyperscaler / neocloud 的資料中心建設公告依時間軸單獨展開（AWS、Google、Meta、Microsoft、HUMAIN、CoreWeave、Oracle、OpenAI、Nscale、Nebius、IREN）。它們共同構成 Nomura「280 個項目、約 50 個 GW 級」追蹤器的底層明細。分兩群看：**top-4 CSP（Fig. 7-10）** 這次 GW 級新案放緩、轉為全球多點小規模布局（星/日/澳、奧地利/瑞典、法國），代表超大廠的擴張進入「填格」而非「跳增」階段；**neocloud / 主權 AI（Fig. 11-17）** 則是這次增量的主要來源——HUMAIN（沙國主權）、Nscale（Monarch 2GW→8GW）、Nebius（1.2GW 賓州）、OpenAI（Stargate 6GW）接棒撐起 2027-2028 的長槓。這種「大廠放緩、新雲補位」的接力結構，正是需求能延續而非單極依賴的證據。
-
-> **原文補充**：追蹤器彙整 2027F/2028F 增量部署 32GW/23GW（前次 28GW/21GW），對應每年 4-6mn 顆 AI 晶片需求。樣本外另有約 40 個 <1GW 項目（平均 300MW）+ 約 100 個未揭露功耗項目（假設各 100MW），可再貢獻 20GW+（≈3-4mn 顆 Rubin、或部署期 420k CoWoS）。
-
-> **洞察四**：把 11 張逐一比對可看出一個對供應鏈更重要的訊號——**需求來源正在從「4 家超大 CSP」分散到「十幾家 neocloud/主權 AI」**。這對台廠是雙面刃：客戶分散降低單一 CSP 砍單的系統性風險（利多能見度），但 neocloud 的財務體質與履約能力遠不如 top-4，是 Fig. 74-75「FCF 見底」風險真正的脆弱點所在。追蹤時程表不只要看「增加多少 GW」，更要看「增量由誰認列」——這一批新玩家的付款能力，才是週期延續與否的隱藏變數。
+AWS 的建設圖橫跨自有與外部算力兩條線：規模最大的錨定案是 Virginia（2023 起、追加 USD35bn 至 2040 年建多座園區）與 Project Rainier（Indiana，2.2GW、約 500k Trainium 2，服務 Anthropic）。關鍵訊號是 AWS 一邊擴自研 Trainium（SK Group 1GW/60k GPU、與 OpenAI 承諾 USD38bn→USD138bn 含 2GW TRN），一邊在 2026 年 3 月宣布部署 1mn+ nVidia GPU——顯示即便是 ASIC 自研最積極的 CSP，2026 起仍大買 nVidia，印證報告「nVidia 份額雖被稀釋、絕對量仍增」的判斷。
 
 ---
 
-## Fig. 18-19｜TSMC CoW 轉積極，但 output 被 WoS 卡住
+## Fig. 8｜資料中心建設公告 — Google
+
+![Fig. 8](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_07.png)
+
+### 解讀摘要
+
+Google 的建設圖是全場最分散的——地點橫跨美/歐/印/東南亞十餘處，錨定案是 Texas（USD40bn、6.2GW）與印度 AdaniConnex/Airtel（USD15bn）。最值得注意的是能源與 TPU 綁定的訊號：多個園區直接掛在電力公司名下（NextEra 多座 GW 級、Xcel 1.9GW Project Skyway、DTE 1GW Project Cannoli），且註記「與 Blackstone 合資、500MW TPU 產能 2027 上線」。這與報告「Google TPU CoWoS 份額 2027 升至 26%」的論點直接扣合——實體 TPU 產能落地時程，就在這張圖的右半部。
+
+---
+
+## Fig. 9｜資料中心建設公告 — Meta
+
+![Fig. 9](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_08.png)
+
+### 解讀摘要
+
+Meta 的圖以兩座超大園區定調：Prometheus（Ohio 1GW）與 Hyperion（Louisiana，x Blue Owl、USD27bn、5GW，2GW by 2030）。底部備註揭露 Meta 的「多供應商 + 多 neocloud」採購策略——承諾 2028 年前在美投資 USD600bn、與 AMD 合作 6GW GPU（2H26 起、客製 MI450）、與 nVidia 合作 CPU/GPU/Spectrum-X、向 Nebius 買 Vera Rubin（USD12-15bn）、向 CoreWeave 買 USD21bn AI cloud、與 Broadcom 擴多 GW MTIA。**Meta 同時押 nVidia、AMD、自研 MTIA 三條線**，是 ASIC/GPU 並進最典型的樣本。
+
+---
+
+## Fig. 10｜資料中心建設公告 — Microsoft
+
+![Fig. 10](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_09.png)
+
+### 解讀摘要
+
+Microsoft 的圖最能凸顯「hyperscaler 靠 neocloud 補位」的結構：除自建 Fairwater（Wisconsin、USD7.3bn）外，大量產能來自外部夥伴——Sines Portugal（x Nscale x Start Campus、USD10bn、1.2GW、12.6k Blackwell + 66k Rubin）、Loughton UK（x Nscale、USD15bn、23k GPU）、Abilene（x Crusoe、900MW）、以及與 Nscale 簽 LOI 取得 up to 1.35GW VR NVL72（2027 末起部署）。**MSFT 把大量 Rubin/VR 產能外包給 Nscale、Lambda、Crusoe 等 neocloud**，這正是 Fig. 15（Nscale）能撐起 2027-2028 長槓的原因。
+
+---
+
+## Fig. 11｜資料中心建設公告 — HUMAIN
+
+![Fig. 11](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_10.png)
+
+### 解讀摘要
+
+HUMAIN（沙烏地主權 AI，主要在 UAE/沙國）是「主權 AI 全供應商掃貨」的縮影——它同時與 AWS（USD5bn、up to 150k GB300/TRN）、nVidia/xAI（0.5GW、up to 600k nV 晶片、Phase 1 18k GB300）、Qualcomm（0.2GW、AI200/AI250）、AMD/Cisco（USD10bn、up to 1GW by 2030）、Groq（19k LPU）簽約。意義在於：**主權財富基金型買家不挑陣營、每一家晶片廠都下單**，是 nVidia 以外 ASIC/加速器（含 Qualcomm、Groq、AMD）能拿到增量的重要出海口，也是需求「去單極化」的證據。
+
+---
+
+## Fig. 12｜資料中心建設公告 — CoreWeave
+
+![Fig. 12](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_11.png)
+
+### 解讀摘要
+
+CoreWeave 是典型的 neocloud 聚合者：靠大型 offtake 合約（x OpenAI USD22.4bn、x Meta USD21bn AI cloud、x Poolside 西德州 USD10bn/2GW/40k nV 晶片、x Applied Digital USD11bn/0.4GW、x Anthropic 多年約）撐起需求，並由 nVidia 直接背書（承諾 2030 前部署 5GW+、nVidia 已投資 USD2bn）。這張圖說明一個風險與機會並存的結構：**CoreWeave 的擴張高度依賴少數大客戶的長約與 nVidia 的資金**——需求真實，但財務槓桿與客戶集中度是 Fig. 74-75「FCF 見底」風險的敏感點。
+
+---
+
+## Fig. 13｜資料中心建設公告 — Oracle
+
+![Fig. 13](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_12.png)
+
+### 解讀摘要
+
+Oracle 的圖被單一巨案主導：Stargate（x OpenAI/Crusoe/Vantage/Softbank/DTE，USD500bn、10GW），另有 UK（USD5bn）、Saudi（USD14bn，2025-2035）。晶片端則是 AMD 的最大出海口——x AMD up to 131,072 顆 MI355X、外加 50k MI450（3Q26 起放量）、以及 x DoE Argonne 110k Blackwell。意義在於：**Oracle 一肩扛起 Stargate 的基礎設施骨幹，同時是 AMD GPU 最大單一去化管道**，若 AMD 份額要如報告所言「小幅改善」，Oracle 的執行進度是關鍵觀察點。
+
+---
+
+## Fig. 14｜資料中心建設公告 — OpenAI
+
+![Fig. 14](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_13.png)
+
+### 解讀摘要
+
+OpenAI 的圖是「單一算力買家把訂單灑向所有供應源」的極致：Stargate 主案（USD500bn、10GW）之外，同時綁 CoreWeave（USD22.4bn）、nVidia（USD100bn、≥10GW、millions of Rubin）、AMD（6GW、first 1GW MI450 from 2H26）、Broadcom（10GW、OpenAI 自研 ASIC）、AWS（committed USD38→138bn），再加上多國主權 Stargate（Norway/UK 已暫停、Korea、Argentina USD25bn、UAE 200MW、India Tata 100MW→1GW）。**OpenAI 同時是 nVidia 最大單一買家、AMD 的 6GW 客戶、又在自研 Broadcom ASIC**，一家就把「大象打架」的三方需求全買齊。
+
+> **洞察四（配合 Fig. 74-75）**：把 Fig. 7-17 十一張並讀，可看出需求來源正從「4 家超大 CSP」擴散到「十幾家 neocloud / 主權 AI」（OpenAI、HUMAIN、Nscale、Nebius、CoreWeave、IREN…）。這對台廠供應鏈是雙面刃：客戶分散降低單一 CSP 砍單的系統性風險（利多能見度），但這批新玩家的財務體質遠不如 top-4，正是 Fig. 74-75「FCF 見底」風險真正的脆弱點。追蹤時程表不只要看「增加多少 GW」，更要看「增量由誰認列」——新玩家的付款能力才是週期延續與否的隱藏變數。
+
+---
+
+## Fig. 15｜資料中心建設公告 — Nscale
+
+![Fig. 15](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_14.png)
+
+### 解讀摘要
+
+Nscale 幾乎是「Microsoft 的專屬 neocloud 手臂」：主要長槓全掛在 MSFT 名下——Sines Portugal（USD10bn、1.2GW、12.6k Blackwell + 66k Rubin）、Loughton UK（USD15bn、23k nV GPU）、Texas（1.2GW、240MW in 3Q26、104k GB300）、Caterpillar Monarch Compute（2GW in 1H28→8GW by 2031，含 1.35GW VR to MSFT），加上 Aker-Nscale JV 交付 52k GPU 給 MSFT、2027 再追加 30k Rubin。意義：**MSFT 的 Rubin/VR 產能上量高度綁定 Nscale 的執行**，Nscale 的建設進度是判斷 MSFT 2027-2028 rack 出貨能否兌現的先行指標。
+
+---
+
+## Fig. 16｜資料中心建設公告 — Nebius
+
+![Fig. 16](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_15.png)
+
+### 解讀摘要
+
+Nebius 是「MSFT + Meta 雙頭綁約、nVidia 背書」的 neocloud：與 MSFT 簽 USD17.4-19.4bn（Sep-25、至 2031）、與 Meta 簽 USD12-15bn Vera Rubin 產能（2027 初起），nVidia 投資 USD2bn 並承諾 2030 前部署 5GW+。旗艦案 Independence AI factory（Missouri，1.2GW，2Q26-2029+）跨度長。意義：Nebius 與 Nscale 同屬「大廠外包產能的承接者」，兩者合計就是 MSFT/Meta 2027F Rubin 需求的實體落點——這批 neocloud 的融資與交付能力，直接決定 Rubin 世代的出貨曲線。
+
+---
+
+## Fig. 17｜資料中心建設公告 — IREN
+
+![Fig. 17](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_16.png)
+
+### 解讀摘要
+
+IREN 是「加密礦工轉型 AI neocloud」的代表：以西德州能源優勢建 Horizon（Childress，x MSFT Nov-25、200MW GB300、USD9.7bn 至 2031）、Sweetwater 1（1.4GW）+ Sweetwater 2（0.6GW）、Oklahoma（1.6GW）、南澳（800MW）。晶片端 2H26 部署 50k NV B300，並與 nVidia 簽 5 年雲服務約（USD3.4bn）、向 Dell 採購 USD1.6bn GPU。意義：**能源與土地是 AI 建設的新瓶頸，礦工出身的玩家把既有電力/場址優勢直接變現成 AI 產能**，是需求端「非傳統供給者補位」的縮影，但同樣屬財務體質待驗證的新玩家。
+
+---
+
+## Fig. 18｜TSMC CoW 產能轉積極
 
 ![Fig. 18](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_17.png)
+
+### 解讀摘要
+
+這張圖顯示 TSMC 的 CoWoS 季產能規劃（紅線）相對 Dec 2025 版本（灰線）大幅上修——尤其 2026 下半年到 2027 加速拉升。背後是 TSMC 面對 EMIB-T 與 FOPLP 競爭轉為積極的態度轉變：董事長魏哲家在 4 月法說明言「努力滿足所有需求」「不把生意留在桌上」，因此把 2027F CoWoS 目標從 2026F 的 1,100kpcs 拉高到 2,000kpcs。這是供給端「TSMC 自己能控的部分（CoW）已全力擴張」的證據。
+
+---
+
+## Fig. 19｜但 output 被 WoS 卡住
+
 ![Fig. 19](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_18.png)
 
 ### 解讀摘要
 
-這對圖是全報告 contrarian 論點的視覺化。Fig. 18 顯示 TSMC 的 CoWoS 季產能規劃（紅線）相對 Dec 2025 版本（灰線）大幅上修——尤其 2026 下半年到 2027 加速拉升，反映 TSMC 面對 EMIB-T 與 FOPLP 競爭轉為積極、「不把生意留在桌上」。但 Fig. 19 是關鍵：把「CoW 產能」（紅）和「CoWoS output」（灰）並排，2027F 兩者出現缺口——CoW 能力衝到約 2,000kpcs，但實際能組裝出貨的 CoWoS output 被 WoS（TSMC 不掌控、且外包 OSAT）與其他小元件卡在約 1,850kpcs。**產能不等於出貨，瓶頸已從 TSMC 手上（CoW）轉移到 TSMC 手外（WoS/基板/被動元件）。**
+這張圖是全報告 contrarian 論點的核心：把「CoW 產能」（紅）和「CoWoS output」（灰）並排，2027F 兩者出現缺口——CoW 能力衝到約 2,000kpcs，但實際能組裝出貨的 CoWoS output 被 WoS（TSMC 不掌控、且外包 OSAT）與其他小元件卡在約 1,850kpcs。**產能不等於出貨，瓶頸已從 TSMC 手上（CoW）轉移到 TSMC 手外（WoS/基板/被動元件）。**
 
 > **原文補充**：TSMC 目前 WoS 全數外包給 OSAT，因此 CoW 轉積極對 OSAT（ASE/SPIL、Amkor）是直接受益；但 WoS 供給限制也會限制 OSAT 的出貨 upside，真正的 upside 來自基板持續漲價帶動封裝報價、以及 OSAT 自有 CoWoS-like 全製程（由 CPU 帶動）。
 
@@ -211,18 +317,17 @@ SOX 指數自 Nomura 三月更新報告以來已漲 85%（自 2025 年五月 AI 
 
 ---
 
-## Fig. 21-22｜TSMC 長期 CoWoS 產能模擬與敏感度
+## Fig. 21｜TSMC 長期 CoWoS 產能模擬
 
 ![Fig. 21](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_20.png)
-![Fig. 22](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_21.png)
 
 ### 解讀摘要
 
-Nomura 從 TSMC 的 AI 收入 CAGR 目標（2024-2029E「high-50%」）反推所需 CoWoS 產能。以 AI 封裝占 AI 收入 30%、CoWoS 晶圓均價 2029F USD12,100 的假設，2029F 隱含 CoWoS output 為 2,854kpcs。Fig. 22 的敏感度矩陣把兩個關鍵假設（CoWoS 單價 × AI 封裝內含比重）攤開：output 需求區間橫跨 2,020–3,806kpcs，也就是報告正文說的「2,500-3,500kpcs」區間來源。核心 contrarian 是：即使 CoW 端 2027F 達 2,000kpcs，WoS 瓶頸讓實際 output 受下游組裝限制。
+Nomura 從 TSMC 的 AI 收入 CAGR 目標（2024-2029E「high-50%」）反推所需 CoWoS 產能。以 AI 封裝占 AI 收入 30%、CoWoS 晶圓均價 2029F USD12,100 的假設，2029F 隱含 CoWoS output 為 2,854kpcs（相對 2025 的 664kpcs）。這是「若 TSMC 要達成 AI 收入目標、實體上需要多少 CoWoS」的定量錨點，也是報告正文「2,500-3,500kpcs」區間的中樞值來源。
 
 ### 表格
 
-#### Fig. 21：TSMC AI 收入與 CoWoS output 模擬（US\$mn）
+#### TSMC AI 收入與 CoWoS output 模擬（US\$mn）
 
 | 指標 | 2023 | 2024 | 2025 | 2029F |
 |---|---|---|---|---|
@@ -234,7 +339,19 @@ Nomura 從 TSMC 的 AI 收入 CAGR 目標（2024-2029E「high-50%」）反推所
 | 假設 CoWoS 晶圓均價（USD）| 10,000 | 10,000 | 10,000 | 12,100 |
 | 隱含 CoWoS output（kpcs）| 118 | 351 | 664 | 2,854 |
 
-#### Fig. 22：2029F CoWoS output 敏感度（kpcs）— AI 封裝內含比重 × CoWoS 單價
+---
+
+## Fig. 22｜2029F CoWoS output 敏感度矩陣
+
+![Fig. 22](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_21.png)
+
+### 解讀摘要
+
+把 Fig. 21 的兩個關鍵假設（CoWoS 單價 × AI 封裝內含比重）攤成敏感度矩陣：2029F output 需求區間橫跨 2,020–3,806kpcs，這就是報告「2,500-3,500kpcs」區間的實際來源。矩陣揭示的核心是——「CoWoS 缺口有多嚴重」其實高度取決於漲價幅度這個變數，而非只看需求絕對值。
+
+### 表格
+
+#### 2029F CoWoS output 敏感度（kpcs）— AI 封裝內含比重 × CoWoS 單價
 
 | CoWoS 單價（USD）| 30% | 35% | 40% |
 |---|---|---|---|
@@ -245,7 +362,7 @@ Nomura 從 TSMC 的 AI 收入 CAGR 目標（2024-2029E「high-50%」）反推所
 | 16,100 | 2,145 | 2,503 | 2,860 |
 | 17,100 | 2,020 | 2,356 | 2,693 |
 
-> **值得驗證**：2029F output 2,854kpcs 完全建立在「AI 封裝占 AI 收入 30% + 單價 USD12,100」兩個假設上。從 Fig. 22 看，若封裝比重升到 40%，output 需求跳到 3,806kpcs（+33%）；若單價漲到 USD17,100（漲價劇烈），output 需求反而降到 2,020kpcs（-29%）。**單價與內含比重方向相反地影響 output 需求**——漲價越兇、達成同樣 AI 收入所需的實體 CoWoS 片數越少。這代表「CoWoS 產能缺口」的嚴重程度，其實高度取決於漲價幅度這個變數，而非只看需求。
+> **值得驗證**：2029F output 2,854kpcs 完全建立在「AI 封裝占 AI 收入 30% + 單價 USD12,100」兩個假設上。若封裝比重升到 40%，output 需求跳到 3,806kpcs（+33%）；若單價漲到 USD17,100（漲價劇烈），output 需求反而降到 2,020kpcs（-29%）。**單價與內含比重方向相反地影響 output 需求**——漲價越兇、達成同樣 AI 收入所需的實體 CoWoS 片數越少。這代表「CoWoS 產能缺口」的嚴重程度，其實高度取決於漲價幅度，而非只看需求。
 
 ---
 
@@ -261,21 +378,30 @@ Nomura 從 TSMC 的 AI 收入 CAGR 目標（2024-2029E「high-50%」）反推所
 
 ---
 
-## Fig. 24-25｜TSMC CoWoS output 拆分與客戶分配
+## Fig. 24｜TSMC CoWoS output 客戶拆分（絕對量）
 
 ![Fig. 24](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_23.png)
+
+### 解讀摘要
+
+以絕對量（kpcs）呈現 CoWoS output 的客戶結構：output 到 2027F 約 1,850kpcs，nVidia 仍是最大宗，但份額由 2025 峰值往下走，Google（灰）明顯放大，AMD+Xilinx、AWS、其他 xPU 被壓縮。這是「大象打架、草被踩爛」的絕對量視覺證據——餅雖然變大，但增量主要被 nVidia 與 Google 兩隻大象瓜分，其餘 ASIC/GPU 廠的絕對配額成長有限甚至下滑。
+
+---
+
+## Fig. 25｜TSMC CoWoS 客戶分配（百分比）
+
 ![Fig. 25](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_24.png)
 
 ### 解讀摘要
 
-Fig. 24（絕對量 kpcs）與 Fig. 25（百分比）呈現同一件事的兩個切面：CoWoS output 到 2027F 約 1,850kpcs，nVidia 仍是最大宗但份額由 2025 峰值往下走，Google（灰）明顯放大，AMD+Xilinx、AWS、其他 xPU 被壓縮。這是「大象打架、草被踩爛」的視覺證據——2027F CoWoS 這塊餅雖然變大，但增量主要被 nVidia 與 Google 兩隻大象瓜分，其餘 ASIC/GPU 廠的絕對配額成長有限甚至下滑。
+同一件事的百分比切面，讓份額重組更清楚：nVidia 份額 2025 峰值後回落至 2027F 約 55%、Google TPU 由 2026 的 23% 升至 2027 的 26%（近乎倍增 y-y）、AMD/AWS 被進一步擠壓。百分比圖凸顯的是「相對版圖」——CoW 配額不再是決定性，能否拿到基板/CCL/電容等小元件才是分配的真正決定因素。
 
 ### 表格
 
 | CoWoS 分配（%）| 2023 | 2024 | 2025 | 2026F | 2027F |
 |---|---|---|---|---|---|
 | nVidia | 40% | 45% | 57% | 57% | 55% |
-| Google | 　高 | 　 | 　 | 　 | 　升至 26%（2027）|
+| Google | 　高 | 　 | 　 | 　23% | 　26% |
 | AMD+Xilinx / AWS / 其他 | 　 | 　 | 　 | 　 | 　被擠壓 |
 
 *以上百分比為圖表視覺估算；文字明確數字為 nVidia 2027F 約 55%、Google TPU 2027 為 26%（from 2026 23%）。*
@@ -284,44 +410,61 @@ Fig. 24（絕對量 kpcs）與 Fig. 25（百分比）呈現同一件事的兩個
 
 ---
 
-## Fig. 26-27｜TSMC AI 收入拆分與客戶結構
+## Fig. 26｜TSMC AI 收入客戶拆分（絕對金額）
 
 ![Fig. 26](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_25.png)
+
+### 解讀摘要
+
+把 TSMC AI 收入（US\$mn，左軸）依客戶堆疊，並疊上「AI 佔 TSMC 總收入比重」（RHS，2027F 升至約 32%）。訊息是：TSMC AI 收入 2027F 逼近 US\$65bn 量級，nVidia GPU（紅）仍是最大塊但比重收斂，Google TPU（灰）快速放大。AI 已從 2023 佔 TSMC 收入 6% 走到 2027F 約 32%，**TSMC 本身已成為 AI 週期最直接的槓桿標的**，這支撐 Nomura 把 TSMC AI 收入成長估計上修到 77%/67%（2026F/27F，from 69%/24%）。
+
+---
+
+## Fig. 27｜TSMC AI 收入客戶結構（百分比）
+
 ![Fig. 27](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_26.png)
 
 ### 解讀摘要
 
-Fig. 26 把 TSMC AI 收入（US\$mn，左軸）依客戶堆疊，並疊上「AI 佔 TSMC 總收入比重」（RHS，2027F 升至約 32%）；Fig. 27 是同資料的百分比結構。訊息有二：其一，TSMC AI 收入 2027F 逼近 US\$65bn 量級，nVidia GPU（紅）仍是最大塊但比重收斂，Google TPU（灰）快速放大；其二，AI 已從 2023 佔 TSMC 收入 6% 走到 2027F 約 32%，**TSMC 本身已成為 AI 週期最直接的槓桿標的**，這也支撐 Nomura 把 TSMC AI 收入成長估計上修到 77%/67%（2026F/27F，from 69%/24%）。
+同資料的百分比結構，聚焦客戶版圖的位移：nVidia 比重收斂、Google TPU 那一塊灰色明顯放大。這張圖把「誰在吃下 TSMC AI 收入增量」講清楚——增量正從單一 nVidia 依賴，轉向 nVidia + Google TPU 雙引擎，而 TPU 端的設計服務又高度集中於 MediaTek。
 
-> **洞察七**：把 Fig. 27 的客戶比重和報告封面的 MediaTek TP（3,400→5,800，+70.6%）連起來看——Google TPU 在 TSMC AI 收入中的比重放大，而 TPU 成長的大部分由 MediaTek 承接（份額 15%→30%+）。也就是說 Fig. 26/27 中那條放大的「Google TPU 灰塊」，有相當比例會轉化成 MediaTek 的設計服務營收。這是本報告對 MediaTek 最獨特、也最容易被市場低估的論點：MediaTek 不只是 AP/modem 廠，正在成為 Google AI 晶片的設計服務商。
+> **洞察七**：把 Fig. 27 的客戶比重和報告封面的 MediaTek TP（3,400→5,800，+70.6%）連起來看——Google TPU 在 TSMC AI 收入中的比重放大，而 TPU 成長的大部分由 MediaTek 承接（份額 15%→30%+）。也就是說 Fig. 27 中那條放大的「Google TPU 灰塊」，有相當比例會轉化成 MediaTek 的設計服務營收。這是本報告對 MediaTek 最獨特、也最容易被市場低估的論點：MediaTek 不只是 AP/modem 廠，正在成為 Google AI 晶片的設計服務商。
 
 ---
 
-## Fig. 28-29｜nVidia 與 Google TPU 各自對 TSMC AI 收入的貢獻
+## Fig. 28｜nVidia 對 TSMC AI 收入的貢獻
 
 ![Fig. 28](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_27.png)
+
+### 解讀摘要
+
+nVidia 的世代交棒圖：貢獻金額 2027F 約 US\$34bn，但 nVidia 佔 TSMC AI 收入比重（RHS 黑線）在 2025 見頂約 60% 後回落至 2027F 約 52%。世代結構從 Hopper→Blackwell→Rubin 遞進，2027F 幾乎全由 Rubin & Rubin Ultra 撐起。重點是**比重下滑但金額續增**——nVidia 從約 US\$23bn（2025）成長到約 US\$34bn（2027F，+48%），被稀釋不等於衰退。
+
+---
+
+## Fig. 29｜Google TPU 對 TSMC AI 收入的貢獻
+
 ![Fig. 29](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_28.png)
 
 ### 解讀摘要
 
-兩隻大象的世代交棒圖。Fig. 28（nVidia）：貢獻金額 2027F 約 US\$34bn，但 nVidia 佔 TSMC AI 收入比重（RHS 黑線）在 2025 見頂約 60% 後回落至 2027F 約 52%——世代結構從 Hopper→Blackwell→Rubin 遞進，2027F 幾乎全由 Rubin & Rubin Ultra 撐起。Fig. 29（Google TPU）：貢獻金額 2027F 約 US\$16.5bn，比重（RHS 黑線）2025 觸底約 11% 後 V 型反彈至 2027F 約 25%，世代由 TPU v6e/7x 交棒到 TPU 8t & 8i。**一條下彎、一條上彎，兩條線在 2027F 收斂，正是「大象打架」的量化定義。**
+Google TPU 的世代交棒圖：貢獻金額 2027F 約 US\$16.5bn，比重（RHS 黑線）2025 觸底約 11% 後 V 型反彈至 2027F 約 25%，世代由 TPU v6e/7x 交棒到 TPU 8t & 8i。TPU 兩年內比重翻倍、金額從約 US\$7.7bn 到約 US\$16.5bn，成長斜率遠高於 nVidia。
 
-> **洞察八**：nVidia 貢獻比重從 60%（2025）掉到 52%（2027F），但絕對金額仍從約 US\$23bn 成長到約 US\$34bn（+48%）——這說明 nVidia「份額下滑」不等於「金額下滑」，餅本身變大讓 nVidia 即使被稀釋仍在成長。反過來 Google TPU 兩年內比重翻倍（11%→25%）、金額從約 US\$7.7bn 到約 US\$16.5bn，成長斜率遠高於 nVidia。對供應鏈的意涵：押 nVidia 是押「量」，押 Google TPU 鏈（MediaTek/Alchip 生態）是押「斜率」。
+> **洞察八（配合 Fig. 28）**：把 Fig. 28（nVidia 比重下彎）與 Fig. 29（TPU 比重上彎）疊起來，兩條線在 2027F 收斂，正是「大象打架」的量化定義。對供應鏈的意涵：**押 nVidia 是押「量」（絕對金額仍 +48% 但斜率趨緩），押 Google TPU 鏈（MediaTek/Alchip 生態）是押「斜率」（比重翻倍）**。這兩張圖分開看只看到各自成長，合著看才看得出資金應往哪條斜率更陡的鏈布局。
 
 ---
 
-## Fig. 36-37｜2.5D 先進封裝方案比較與 OSAT 的 CoW 項目
+## Fig. 36｜2.5D 先進封裝方案比較
 
 ![Fig. 36](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_29.png)
-![Fig. 37](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_30.png)
 
 ### 解讀摘要
 
-Fig. 36 把各家（TSMC、Intel Foundry、Samsung、ASE、SPIL、Amkor、Powertech）的 2.5D 封裝方案按技術類型對照——TSMC 的 CoWoS-S/R/L 對上 Intel 的 Foveros-S/R/B 與 EMIB，OSAT 則有 FOCoS、S-SWIFT、CLIP 等對應方案。Fig. 37 列出 OSAT 實際在跑的 CoW 項目：ASE/SPIL 做 AMD Medusa/Venice、Amkor 做 nVidia GB10/Vera 與 Microsoft Cobalt 200、Powertech 做 AMD Medusa（PLP）。重點是**這些 OSAT 自有 CoW 量產項目「幾乎全是 CPU」**——因為 CPU 不帶昂貴 HBM，即使組裝良率不成熟，損失也遠小於 GPU，是 OSAT 切入 CoWoS-like 全製程風險最低的起點。
+把各家（TSMC、Intel Foundry、Samsung、ASE、SPIL、Amkor、Powertech）的 2.5D 封裝方案按技術類型對照——TSMC 的 CoWoS-S/R/L 對上 Intel 的 Foveros-S/R/B 與 EMIB，OSAT 則有 FOCoS、S-SWIFT、CLIP 等對應方案。這張對照表的價值在於：它把「先進封裝競賽」的參賽者與各自武器一次攤開，讓人看清 TSMC 的 CoWoS-L（>14x by 2029E）與 Intel EMIB（>12x by 2028E）在大 reticle 尺寸上的正面對決。
 
 ### 表格
 
-#### Fig. 36：2.5D chip-last 方案對照（節錄）
+#### 2.5D chip-last 方案對照（節錄）
 
 | 技術類型 | TSMC | Intel Foundry | ASE | SPIL | Amkor | Powertech |
 |---|---|---|---|---|---|---|
@@ -330,7 +473,17 @@ Fig. 36 把各家（TSMC、Intel Foundry、Samsung、ASE、SPIL、Amkor、Powert
 | Fan-out bridge（embedded in RDL）| CoWoS-L（>14x by 2029E）| Foveros-B（2027E）| FOCoS-B | FO-EB | S-Connect | PiFO（PLP, 約9x by 2028E）|
 | Fan-out bridge（embedded in substrate）| – | EMIB（>12x by 2028E）| – | – | – | – |
 
-#### Fig. 37：OSAT 主要 CoW 項目
+---
+
+## Fig. 37｜OSAT 主要 CoW 項目
+
+![Fig. 37](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_30.png)
+
+### 解讀摘要
+
+列出 OSAT 實際在跑的 CoW 項目：ASE/SPIL 做 AMD Medusa/Venice、Amkor 做 nVidia GB10/Vera 與 Microsoft Cobalt 200、Powertech 做 AMD Medusa（PLP）。重點是**這些 OSAT 自有 CoW 量產項目「幾乎全是 CPU」**——因為 CPU 不帶昂貴 HBM，即使組裝良率不成熟，損失也遠小於 GPU，是 OSAT 切入 CoWoS-like 全製程風險最低的起點。
+
+### 表格
 
 | OSAT | Fan-out RDL | Fan-out bridge |
 |---|---|---|
@@ -338,7 +491,7 @@ Fig. 36 把各家（TSMC、Intel Foundry、Samsung、ASE、SPIL、Amkor、Powert
 | Amkor | nVidia GB10、nVidia Vera、Microsoft Cobalt 200 | AMD Venice?（2027E）|
 | Powertech | AMD Medusa?（PLP）| AMD's next gen?（PLP）|
 
-> **洞察九**：Fig. 37 是 ASE 邏輯的核心證據——OSAT 的 CoW 下一個成長催化劑不是搶 GPU（HBM 良率風險太高），而是 CPU。當 AMD Venice、nVidia Vera、Microsoft Cobalt 200 這些 CPU 從 2H26 用 OSAT 的 CoW 放量，ASE 拿到的是「風險可控、且會隨 CPU TAM（Fig. 57）一起放大」的訂單結構。
+> **洞察九（配合 Fig. 57）**：Fig. 37 是 ASE 邏輯的核心證據——OSAT 的 CoW 下一個成長催化劑不是搶 GPU（HBM 良率風險太高），而是 CPU。當 AMD Venice、nVidia Vera、Microsoft Cobalt 200 這些 CPU 從 2H26 用 OSAT 的 CoW 放量，ASE 拿到的是「風險可控、且會隨 CPU TAM（Fig. 57）一起放大」的訂單結構。
 
 ---
 
@@ -354,24 +507,33 @@ Fig. 36 把各家（TSMC、Intel Foundry、Samsung、ASE、SPIL、Amkor、Powert
 
 ---
 
-## Fig. 50-51｜TSMC SoIC 藍圖與產能（雙倍成長）
+## Fig. 50｜TSMC SoIC 技術藍圖
 
 ![Fig. 50](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_32.png)
+
+### 解讀摘要
+
+TSMC 官方投影片，點出 SoIC 相對 CoWoS 2.5D 的技術優勢：56X 互連密度、5X 電源效率，6μm pitch 已 2025 量產，將續縮到 2029 的 A14-on-A14（4.5μm pitch）。這張圖確立 SoIC 是 TSMC 反制 EMIB-T 的核心武器——Feynman 首度採 GPU-on-GPU SoIC 堆疊，可在 interposer reticle 拼接尺寸僅約 6x（vs Rubin 5x）的情況下拉高算力。
+
+---
+
+## Fig. 51｜TSMC SoIC 產能（連兩年翻倍）
+
 ![Fig. 51](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_33.png)
 
 ### 解讀摘要
 
-Fig. 50（TSMC 官方投影片）點出 SoIC 相對 CoWoS 2.5D 有 56X 互連密度、5X 電源效率優勢，6μm pitch 已 2025 量產，將續縮到 2029 的 A14-on-A14（4.5μm pitch）。Fig. 51 是 Nomura 的產能估計：SoIC 年底產能 5→10→20+→40+ kwpm（2025→2028F），**連續兩年翻倍**——2027F 主要由 nVidia CPO 驅動、2028F 由 nVidia Feynman 驅動。SoIC 是 TSMC 反制 EMIB-T 的核心武器（Feynman 首度採 GPU-on-GPU SoIC 堆疊），這張產能曲線就是該武器的放量節奏。
+Nomura 的 SoIC 產能估計：年底產能 5→10→20+→40+ kwpm（2025→2028F），**連續兩年翻倍**——2027F 主要由 nVidia CPO 驅動、2028F 由 nVidia Feynman 驅動。這條產能曲線就是 TSMC「SoIC 反制武器」的放量節奏，也是 Feynman 時程能否兌現的實體指標。
 
 ### 表格
 
-#### Fig. 51：TSMC SoIC 年底產能（kwpm）
+#### TSMC SoIC 年底產能（kwpm）
 
 | 2025 | 2026F | 2027F | 2028F |
 |---|---|---|---|
 | 5 | 10 | 20+ | 40+ |
 
-> **洞察十一（配合 Fig. 23、Fig. 49）**：SoIC 產能 2027F→2028F 從 20+ 跳到 40+（+100%），Nomura 明指 2028F 增量「主要由 nVidia Feynman」驅動。而 Feynman（Fig. 23 藍圖 2028F 節點）採用首見的 GPU-on-GPU SoIC，可在 interposer reticle 拼接尺寸僅約 6x（vs Rubin 5x）的情況下拉高算力。意涵：SoIC 產能曲線是 Feynman 時程的領先指標，SoIC 若如期翻倍，代表 Feynman 2H28 量產可信；BESI（hybrid bonding）是這條曲線最直接的設備受益者。
+> **洞察十一（配合 Fig. 23、Fig. 49）**：SoIC 產能 2027F→2028F 從 20+ 跳到 40+（+100%），Nomura 明指 2028F 增量「主要由 nVidia Feynman」驅動。而 Feynman（Fig. 23 藍圖 2028F 節點）採用首見的 GPU-on-GPU SoIC。意涵：SoIC 產能曲線是 Feynman 時程的領先指標，SoIC 若如期翻倍，代表 Feynman 2H28 量產可信；BESI（hybrid bonding）是這條曲線最直接的設備受益者。
 
 ---
 
@@ -381,7 +543,7 @@ Fig. 50（TSMC 官方投影片）點出 SoIC 相對 CoWoS 2.5D 有 56X 互連密
 
 ### 解讀摘要
 
-以 AMD MI300 剖面圖示範 carrier silicon 的位置與功能：carrier silicon 位於 XCD/CCD 計算晶片上方、cooling solution 下方，作用是提供封裝機械穩定性。Nomura 的論點是——當 Feynman footprint 變大、TDP（熱設計功耗）升高，carrier 材料會從一般矽升級為 SiC（碳化矽），因 SiC 導熱更佳能augment 熱表現。這正是 GWC（環球晶）TP 上調（850→1,200）的核心邏輯：Feynman 帶動 SiC carrier 需求「啟動」，開出一個過去 SiC 在功率元件之外的全新 AI 封裝應用。
+以 AMD MI300 剖面圖示範 carrier silicon 的位置與功能：carrier silicon 位於 XCD/CCD 計算晶片上方、cooling solution 下方，作用是提供封裝機械穩定性。Nomura 的論點是——當 Feynman footprint 變大、TDP（熱設計功耗）升高，carrier 材料會從一般矽升級為 SiC（碳化矽），因 SiC 導熱更佳能 augment 熱表現。這正是 GWC（環球晶）TP 上調（850→1,200）的核心邏輯：Feynman 帶動 SiC carrier 需求「啟動」，開出一個過去 SiC 在功率元件之外的全新 AI 封裝應用。
 
 > **值得驗證**：SiC carrier 需求是 GWC 論點的單一支點，且時程綁定 Feynman（2H28）。這是「概念先行、量產在後」的早期主題——若 Feynman 延遲或最終未採 SiC carrier（改用其他散熱方案如 MCL），GWC 的 SiC 增量會落空。目前這仍是 Nomura 依 Feynman footprint/TDP 推論的前瞻假設，而非已確認的設計導入。
 
@@ -404,7 +566,7 @@ Fig. 50（TSMC 官方投影片）點出 SoIC 相對 CoWoS 2.5D 有 56X 互連密
 | nVidia | Vera CPU 開出 USD200bn 全新 TAM，今年 CPU 營收近 USD20bn（Jensen Huang, 1Q27）|
 | Qualcomm | FY29 USD200bn（Tony Pialis, 2026 investor day）|
 
-> **洞察十二**：把 Fig. 57（CPU TAM 爆發）、Fig. 37（OSAT 的 CoW 項目幾乎全是 CPU）、個股清單（ASPEED TP +66%）三者串起來，形成一條完整的「CPU 復甦受益鏈」：agentic AI → CPU 伺服器出貨量增 → ASPEED BMC（每台一顆）直接放量 + OSAT 用低風險 CPU 練 CoWoS-like 製程。ASPEED 被 Nomura 視為「早週期指標」正因 BMC 是伺服器最早下單的元件之一。
+> **洞察十二（配合 Fig. 37）**：把 Fig. 57（CPU TAM 爆發）、Fig. 37（OSAT 的 CoW 項目幾乎全是 CPU）、個股清單（ASPEED TP +66%）三者串起來，形成一條完整的「CPU 復甦受益鏈」：agentic AI → CPU 伺服器出貨量增 → ASPEED BMC（每台一顆）直接放量 + OSAT 用低風險 CPU 練 CoWoS-like 製程。ASPEED 被 Nomura 視為「早週期指標」正因 BMC 是伺服器最早下單的元件之一。
 
 ---
 
@@ -461,16 +623,25 @@ Fig. 50（TSMC 官方投影片）點出 SoIC 相對 CoWoS 2.5D 有 56X 互連密
 
 ---
 
-## Fig. 74-75｜US CSP 資本支出與 Top 5 Hyperscaler FCF
+## Fig. 74｜US CSP 資本支出明細
 
 ![Fig. 74](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_38.png)
+
+### 解讀摘要
+
+各 CSP 逐季 capex 明細（Alphabet 2026E USD180-190bn、Microsoft USD190bn、Amazon USD200bn、Meta USD125-145bn、Oracle FY27 USD90-95bn 等），顯示 top CSP capex guidance 年內持續上修。Nomura 明言其最新 AI 伺服器銷售預測「隱含 hyperscaler capex 仍有 upside」——即這張圖的 2026E guidance 可能仍偏低，是需求端的上行風險（對供應鏈為正面）。
+
+> **原文補充**：capex 上修的另一面是 FCF 壓力（見 Fig. 75），尤其疊加殖利率上行（通膨升溫但美國失業率仍穩）的總經風險，是 Nomura 承認的主要下行變數。
+
+---
+
+## Fig. 75｜Top 5 Hyperscaler FCF（2027E 見底）
+
 ![Fig. 75](../assets/20260701_Nomura_Asia-AI-Semi-Server/exhibit_39.png)
 
 ### 解讀摘要
 
-Fig. 74 是各 CSP 逐季 capex 明細（Alphabet 2026E USD180-190bn、Microsoft USD190bn、Amazon USD200bn、Meta USD125-145bn、Oracle FY27 USD90-95bn 等）。Fig. 75 是重點：Top 5 hyperscaler 的 capex（紅）+ FCF（灰）堆疊——2025 總量約 USD610bn（capex 約430 + FCF 約180），到 2027E 升至約 USD965bn，但其中 **FCF 被壓縮到僅約 USD41bn**。這就是 Nomura 承認的最大風險之一：2027F hyperscaler FCF 因記憶體成本飆升而幾近見底。但 Nomura 的判斷是——這是「go big or go home」競爭，即使 FCF 不足，capex 仍需上修，因此把它列為「風險」而非「見頂訊號」。
-
-> **原文補充**：Nomura 明言其最新 AI 伺服器銷售預測「隱含 hyperscaler capex 仍有 upside」——即 Fig. 74 的 2026E capex guidance 可能仍偏低。FCF 不足是投資人擔憂點，尤其疊加殖利率上行（通膨升溫但美國失業率仍穩）的總經風險。
+Top 5 hyperscaler 的 capex（紅）+ FCF（灰）堆疊——2025 總量約 USD610bn（capex 約 430 + FCF 約 180），到 2027E 升至約 USD965bn，但其中 **FCF 被壓縮到僅約 USD41bn**。這就是 Nomura 承認的最大風險之一：2027F hyperscaler FCF 因記憶體成本飆升而幾近見底。但 Nomura 的判斷是——這是「go big or go home」競爭，即使 FCF 不足，capex 仍需上修，因此把它列為「風險」而非「見頂訊號」。
 
 > **洞察十四**：FCF 從 2025 的約 USD180bn 崩到 2027E 的約 USD41bn（-77%），是本報告「多頭中的空點」。這條 FCF 曲線是判斷 AI 週期何時真正見頂的關鍵領先變數——只要 hyperscaler 願意在 FCF 見底時仍加碼 capex（賭競爭優勢），週期就延續；一旦有人先眨眼縮手，Fig. 3-4 的 GW 追蹤就會反轉。對投資人這是最需要每季盯的一張圖。
 
