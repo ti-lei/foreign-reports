@@ -3,6 +3,7 @@ modified: 2026-05-26
 type: 產業報告
 broker: Morgan Stanley Taiwan
 date: 2026-05-26
+sectors: [自動化]
 ---
 ﻿# MS｜Automation：JMTBA April 2026 Orders Read-across
 

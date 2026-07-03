@@ -3,6 +3,7 @@ modified: 2026-05-05
 type: 產業報告
 broker: UBS Securities LLC
 date: 2026-05-05
+sectors: [AI伺服器]
 ---
 # UBS｜US Semiconductors：Agentic AI 對 CPU 市場的影響
 

@@ -3,6 +3,7 @@ modified: 2026-05-28
 type: 產業報告
 broker: Morgan Stanley
 date: 2026-05-28
+sectors: [記憶體]
 ---
 ﻿# MS｜Old Memory: Upside Surprise Ahead
 

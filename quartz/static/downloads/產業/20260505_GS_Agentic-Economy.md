@@ -3,6 +3,7 @@ modified: 2026-05-05
 type: 產業報告
 broker: Goldman Sachs
 date: 2026-05-05
+sectors: [AI伺服器]
 ---
 # Goldman Sachs｜解碼 Agentic 經濟：AI 使用量與利潤的即將轉折
 

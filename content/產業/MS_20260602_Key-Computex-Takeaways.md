@@ -3,6 +3,7 @@ modified: 2026-06-02
 type: 產業報告
 broker: Morgan Stanley
 date: 2026-06-02
+sectors: [AI伺服器]
 ---
 # MS｜Key Computex Takeaways：Agentic AI、TSMC 產能與 MediaTek AI PC
 

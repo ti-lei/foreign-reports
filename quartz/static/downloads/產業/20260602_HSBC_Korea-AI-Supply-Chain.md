@@ -3,6 +3,7 @@ modified: 2026-06-02
 type: 產業報告
 broker: HSBC
 date: 2026-06-02
+sectors: [AI伺服器]
 ---
 # HSBC｜韓國科技巡迴：AI 供應鏈高速成長，Physical AI 等待轉折
 
