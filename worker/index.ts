@@ -1,18 +1,22 @@
-// Cloudflare Pages Function: /dl
+// Worker entry for the foreign-reports static site (Cloudflare Worker + Static Assets).
 //
-// 報告 PDF 下載代理。報告已上傳到 Trello 看板「產業報告資料庫」，卡片名 = PDF 檔名去副檔名。
-// 使用者瀏覽 layx.uk 時已通過 Cloudflare Access 登入，點頁面上的 /dl 連結即由本 Function 以
-// 伺服器端 Trello token 取回附件並串流回傳 —— 免 Trello 登入、免看板成員身分。
+// 全站是 Quartz 靜態輸出（public/），由 env.ASSETS 服務；只有 /dl 交給本 Worker 處理
+// （wrangler.jsonc 的 run_worker_first: ["/dl"]，其餘路徑不進 Worker、直接走靜態資產）。
+//
+// /dl = 報告 PDF 下載代理。報告已上傳 Trello 看板「產業報告資料庫」，卡片名 = PDF 檔名去副檔名。
+// 使用者瀏覽 layx.uk 時已通過 Cloudflare Access 登入，點頁面上的 /dl 連結即由本 Worker 以
+// 伺服器端 Trello token 取回附件串流回傳 —— 免 Trello 登入、免看板成員身分。
 //
 // 連結介面（欄位式，authoring 不需知道 card id）：
 //   個股：/dl?t={代碼}&b={券商}&d={YYYYMMDD}
 //   產業：/dl?g=產業&b={券商}&d={YYYYMMDD}&h={主題hint}
 //   拆分件（>10MB 多附件卡）：加 &part=N 指定第 N 份
 //
-// 安全：Trello 憑證為 Pages secret（伺服器端）；驗證 Cloudflare Access JWT，缺少/無效即 403，
-//       擋掉不受 Access 保護的 *.pages.dev / *.workers.dev 後門。
+// 安全：Trello 憑證為 secret（伺服器端）；驗證 Cloudflare Access JWT，缺少/無效即 403，
+//       擋掉不受 Access 保護的 *.workers.dev 後門。
 
 interface Env {
+  ASSETS: Fetcher
   TRELLO_KEY: string
   TRELLO_TOKEN: string
   TRELLO_BOARD_ID: string
@@ -60,7 +64,8 @@ async function getCards(env: Env): Promise<Card[]> {
   return cards
 }
 
-// 依欄位找卡片：個股 name 以 {t}_ 開頭；產業 name 以 產業_/産業_ 開頭。皆須含 _{券商}_ 且以 {日期} 結尾。
+// 依欄位找卡片：個股 name 以 {t}_ 開頭（美股 name 含 ({t})）；產業 name 以 產業_/産業_ 開頭。
+// 皆須含 _{券商}_ 且以 {日期} 結尾。
 function matchCard(cards: Card[], p: URLSearchParams): Card | null {
   const broker = normBroker(p.get("b") || "")
   const date = (p.get("d") || "").trim()
@@ -75,11 +80,9 @@ function matchCard(cards: Card[], p: URLSearchParams): Card | null {
     if (!n.endsWith(date)) return false
     if (!n.includes(brokerTok)) return false
     if (isIndustry) return n.startsWith("產業_") || n.startsWith("産業_")
-    // 台股：name 以 {代碼}_ 開頭；美股：name 為 美股_名({代碼})_… → 用 ({代碼}) 比對
     return ticker ? n.startsWith(`${ticker}_`) || n.includes(`(${ticker})`) : false
   })
   if (hits.length <= 1) return hits[0] ?? null
-  // 多筆（產業同日同券商）→ 用主題 hint 做 contains 消歧
   if (hint) {
     const norm = (s: string) => s.toLowerCase().replace(/[-_\s]/g, "")
     const h = norm(hint)
@@ -102,7 +105,6 @@ async function getPdfAttachments(cardId: string, env: Env): Promise<Att[]> {
 }
 
 function contentDisposition(filename: string): string {
-  // 中文檔名用 RFC5987 filename*，另給 ASCII fallback
   const ascii = filename.replace(/[^\x20-\x7e]/g, "_").replace(/"/g, "")
   return `attachment; filename="${ascii}"; filename*=UTF-8''${encodeURIComponent(filename)}`
 }
@@ -155,7 +157,7 @@ async function verifyAccess(request: Request, env: Env): Promise<boolean> {
     (request.headers.get("Cookie") || "").match(/CF_Authorization=([^;]+)/)?.[1] ||
     ""
   if (!token) return false
-  // 未設定 team/aud → 只做「header 存在」檢查（pages.dev 後門不會被注入此 header）
+  // 未設定 team/aud → 只做「header 存在」檢查（workers.dev 後門不會被注入此 header）
   if (!env.ACCESS_TEAM_DOMAIN || !env.ACCESS_AUD) return true
   try {
     const [h, p, s] = token.split(".")
@@ -179,9 +181,8 @@ async function verifyAccess(request: Request, env: Env): Promise<boolean> {
   }
 }
 
-export const onRequestGet: PagesFunction<Env> = async (context) => {
-  const { request, env } = context
-
+// ── /dl 處理 ────────────────────────────────────────────────────────
+async function handleDl(request: Request, env: Env): Promise<Response> {
   if (!(await verifyAccess(request, env))) {
     return new Response("Forbidden（需經 Cloudflare Access）", { status: 403 })
   }
@@ -203,7 +204,6 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
 
   const partParam = p.get("part")
   if (atts.length > 1 && !partParam) {
-    // 拆分件卡：回選擇頁
     const base = new URL(request.url)
     const links = atts
       .map((a, i) => {
@@ -221,4 +221,16 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
 
   const idx = partParam ? Math.max(1, Math.min(atts.length, parseInt(partParam, 10))) - 1 : 0
   return streamAttachment(atts[idx], env)
+}
+
+export default {
+  async fetch(request: Request, env: Env): Promise<Response> {
+    const url = new URL(request.url)
+    if (url.pathname === "/dl") {
+      if (request.method !== "GET") return new Response("Method Not Allowed", { status: 405 })
+      return handleDl(request, env)
+    }
+    // 其餘一律靜態資產（run_worker_first 只指 /dl，此分支多為保險）
+    return env.ASSETS.fetch(request)
+  },
 }

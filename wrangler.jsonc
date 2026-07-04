@@ -1,0 +1,20 @@
+{
+  // foreign-reports：Cloudflare Worker + 靜態資產（Quartz 輸出 public/）。
+  // 全站走靜態資產，只有 /dl 交給 worker/index.ts（下載代理）。
+  // 部署：git build 跑 `npx quartz build` 產出 public/，再由 `npx wrangler deploy` 依本檔部署。
+  "name": "foreign-reports",
+  "main": "worker/index.ts",
+  "compatibility_date": "2025-04-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/dl"]
+  },
+  "vars": {
+    "TRELLO_BOARD_ID": "6a488a286728bc5a72588b0e",
+    "ACCESS_TEAM_DOMAIN": "steep-violet-e3db.cloudflareaccess.com"
+  }
+  // 機密（dashboard → Settings → Variables and Secrets 設為 Secret，或 wrangler secret put）：
+  //   TRELLO_KEY、TRELLO_TOKEN、ACCESS_AUD
+}
