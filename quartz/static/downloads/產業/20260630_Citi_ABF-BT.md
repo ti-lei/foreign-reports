@@ -12,7 +12,7 @@ sectors: [PCB]
 **日期**：2026-06-30  
 **主題**：Taiwan PCB & Laminates — ABF/BT Sector: GM/pricing Upcycle Underway；Buy with Higher TPs  
 **評級**：Sector Favorable（3 名全部 Buy）  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260630_Citi_ABF-BT.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260630_Citi_ABF-BT.md';a.click()})">⬇ 下載 MD</button>
+<a href="/dl?g=產業&b=Citi&d=20260630&h=ABF-BT">📎 下載 PDF</a>
 
 ---
 

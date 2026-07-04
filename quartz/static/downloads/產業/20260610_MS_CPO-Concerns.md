@@ -12,7 +12,7 @@ sectors: [光通訊-CPO]
 **日期**：2026-06-10  
 **主題**：Thoughts on Investor Concerns Regarding CPO  
 **評級**：Industry View Attractive  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260610_MS_CPO-Concerns.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260610_MS_CPO-Concerns.md';a.click()})">⬇ 下載 MD</button>
+<a href="/dl?g=產業&b=MS&d=20260610&h=CPO-Concerns">📎 下載 PDF</a>
 
 ---
 

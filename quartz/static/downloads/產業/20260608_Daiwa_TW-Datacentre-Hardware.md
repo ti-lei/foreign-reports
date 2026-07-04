@@ -12,7 +12,7 @@ sectors: [AI伺服器]
 **日期**：2026-06-08  
 **主題**：台灣資料中心硬體 5 月月營收更新 — Amazon 供應鏈優於預期  
 **評級**：Positive  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260608_Daiwa_TW-Datacentre-Hardware.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260608_Daiwa_TW-Datacentre-Hardware.md';a.click()})">⬇ 下載 MD</button>
+<a href="/dl?g=產業&b=Daiwa&d=20260608&h=TW-Datacentre-Hardware">📎 下載 PDF</a>
 
 ---
 

@@ -12,7 +12,7 @@ sectors: [被動元件]
 **日期**：2026-06-29  
 **主題**：MLCC eXchange：May 2026 trade data；May results in line with seasonal patterns；IT applications driven by Taiwan  
 **評級**：Bullish on Murata / Taiyo Yuden  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260629_JPM_MLCC-eXchange.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260629_JPM_MLCC-eXchange.md';a.click()})">⬇ 下載 MD</button>
+<a href="/dl?g=產業&b=JPM&d=20260629&h=MLCC-eXchange">📎 下載 PDF</a>
 
 ---
 

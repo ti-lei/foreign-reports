@@ -12,7 +12,7 @@ sectors: []
 **日期**：2026-06-25  
 **主題**：Automation – Read-across from JMTBA May 2026 Orders（最終數）  
 **評級**：Industry View In-Line  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260625_MS_Automation.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260625_MS_Automation.md';a.click()})">⬇ 下載 MD</button>
+<a href="/dl?g=產業&b=MS&d=20260625&h=Automation">📎 下載 PDF</a>
 
 ---
 

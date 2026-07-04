@@ -12,7 +12,7 @@ sectors: [光通訊-CPO]
 **日期**：2026-06-09  
 **主題**：800VDC Pushout & Scale-out CPO Delays — Multi-Vertical Note  
 **評級**：N/A（獨立研究機構，無正式評等系統）  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260610_Bernstein_800VDC-CPO-Delays.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260610_Bernstein_800VDC-CPO-Delays.md';a.click()})">⬇ 下載 MD</button>
+<a href="/dl?g=產業&b=Bernstein&d=20260610&h=800VDC-CPO-Delays">📎 下載 PDF</a>
 
 ---
 

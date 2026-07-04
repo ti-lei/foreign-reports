@@ -12,7 +12,7 @@ sectors: [AI伺服器, 被動元件]
 **日期**：2026-06-22  
 **主題**：MLCC 超級循環 — AI 引發的另一場供需擠壓  
 **評級**：Industry View — Attractive  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260622_MS_MLCC-Super-Cycle.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260622_MS_MLCC-Super-Cycle.md';a.click()})">⬇ 下載 MD</button>
+<a href="/dl?g=產業&b=MS&d=20260622&h=MLCC-Super-Cycle">📎 下載 PDF</a>
 
 ---
 
