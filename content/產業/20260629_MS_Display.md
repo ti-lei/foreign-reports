@@ -3,7 +3,7 @@ modified: 2026-07-01
 type: 產業報告
 broker: Morgan Stanley
 date: 2026-06-29
-sectors: [PCB-CCL]
+sectors: [PCB, 面板]
 ---
 # Morgan Stanley｜Progress for Glass in Advanced Packaging among Panel Makers
 

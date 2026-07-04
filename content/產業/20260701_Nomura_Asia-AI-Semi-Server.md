@@ -3,7 +3,7 @@ modified: 2026-07-02
 type: 產業報告
 broker: Nomura
 date: 2026-06-30
-sectors: [AI伺服器, 晶圓代工, PCB-CCL]
+sectors: [AI伺服器, 晶圓代工, PCB, CCL]
 ---
 # Nomura｜Asia AI Semi & Server Anchor Report：Is the Cycle Over?
 

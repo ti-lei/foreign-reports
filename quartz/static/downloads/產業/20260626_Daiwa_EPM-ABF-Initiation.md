@@ -3,7 +3,7 @@ modified: 2026-06-29
 type: 產業報告
 broker: Daiwa Capital Markets
 date: 2026-06-26
-sectors: [PCB-CCL]
+sectors: [PCB]
 ---
 # Daiwa｜長廣精機 (7795) 首次覆蓋：ABF 上游設備的隱藏受益者
 

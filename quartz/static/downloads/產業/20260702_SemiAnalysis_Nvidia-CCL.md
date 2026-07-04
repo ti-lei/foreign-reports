@@ -3,7 +3,7 @@ modified: 2026-07-03
 type: 産業報告
 broker: SemiAnalysis
 date: 2026-07-02
-sectors: [PCB-CCL]
+sectors: [CCL]
 ---
 # SemiAnalysis｜Nvidia's CCL Supply Chain Shake Up
 

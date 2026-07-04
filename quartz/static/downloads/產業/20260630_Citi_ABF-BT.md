@@ -3,7 +3,7 @@ modified: 2026-07-01
 type: 產業報告
 broker: Citi
 date: 2026-06-30
-sectors: [PCB-CCL]
+sectors: [PCB]
 ---
 # Citi｜ABF/BT Sector：GM/Pricing Upcycle Underway
 
