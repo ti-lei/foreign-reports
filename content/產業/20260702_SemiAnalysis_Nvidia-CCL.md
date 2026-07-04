@@ -12,7 +12,7 @@ sectors: [CCL]
 **日期**：2026-07-02  
 **主題**：Nvidia CCL 供應鏈大洗牌——EMC 超越 Doosan  
 **評級**：N/A（SemiAnalysis 為獨立研究機構，無傳統評等）  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/産業/20260702_SemiAnalysis_Nvidia-CCL.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260702_SemiAnalysis_Nvidia-CCL.md';a.click()})">⬇ 下載 MD</button>
+<a href="/dl?g=產業&b=SemiAnalysis&d=20260702&h=Nvidia-CCL">📎 下載 PDF</a>
 
 > ⚠️ SemiAnalysis 無對應 Exhibit locator，本報告為純文字摘要（無圖片裁切）。
 

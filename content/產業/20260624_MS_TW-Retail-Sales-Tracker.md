@@ -12,7 +12,7 @@ sectors: []
 **日期**：2026-06-24  
 **主題**：Taiwan Retail Sales Tracker — Some Wealth Effect, But Not Much  
 **評級**：Industry View In-Line  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260624_MS_TW-Retail-Sales-Tracker.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260624_MS_TW-Retail-Sales-Tracker.md';a.click()})">⬇ 下載 MD</button>
+<a href="/dl?g=產業&b=MS&d=20260624&h=TW-Retail-Sales-Tracker">📎 下載 PDF</a>
 
 ---
 

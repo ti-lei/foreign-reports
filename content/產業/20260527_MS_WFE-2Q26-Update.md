@@ -12,7 +12,7 @@ sectors: [晶圓代工]
 **日期**：2026-05-27（報告發布：2026-05-18）  
 **主題**：2Q'26 WFE 季度更新，2026/27 預測上修，LAM 升至 OW，AMAT 降至 EW，MKSI 升為 Top Pick  
 **評級**：In-Line（Semiconductor Capital Equipment）  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260527_MS_WFE-2Q26-Update.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260527_MS_WFE-2Q26-Update.md';a.click()})">⬇ 下載 MD</button>
+<a href="/dl?g=產業&b=MS&d=20260527&h=WFE-2Q26-Update">📎 下載 PDF</a>
 
 ---
 

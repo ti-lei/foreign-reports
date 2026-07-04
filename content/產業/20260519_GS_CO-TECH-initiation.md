@@ -12,7 +12,7 @@ sectors: [CCL]
 **日期**：2026-05-19  
 **主題**：PCB 銅箔產業新紀元——HVLP3+ 供給短缺驅動 ASP／毛利結構性重估  
 **評級**：Buy（首次覆蓋）｜12 個月目標價 NT\$900（現價 NT\$429，上漲空間 +110%）  
-<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260519_GS_CO-TECH-initiation.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260519_GS_CO-TECH-initiation.md';a.click()})">⬇ 下載 MD</button>
+<a href="/dl?g=產業&b=GS&d=20260519&h=CO-TECH-initiation">📎 下載 PDF</a>
 
 ---
 
