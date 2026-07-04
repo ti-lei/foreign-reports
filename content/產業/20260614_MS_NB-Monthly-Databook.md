@@ -12,7 +12,7 @@ sectors: [ODM-EMS, 筆電產業]
 **日期**：2026-06-14  
 **主題**：NB ODM 月度出貨數據更新（May-26 實際 vs 預估；2Q26E / 3Q26E 引導）  
 **評級**：Industry View In-Line  
-<a href="/dl?g=產業&b=MS&d=20260614&h=NB-Monthly-Databook">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260614_MS_NB-Monthly-Databook.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260614_MS_NB-Monthly-Databook.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

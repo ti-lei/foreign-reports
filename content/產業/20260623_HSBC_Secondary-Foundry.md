@@ -12,7 +12,7 @@ sectors: [晶圓代工]
 **日期**：2026-06-23  
 **主題**：Secondary foundry 利用率快速回升 + 定價週期，TSMC 節點整合延伸至 12"  
 **評級**：UMC/VIS 升級 Buy（from Hold）；GFS 維持 Hold；SMIC 維持 Buy  
-<a href="/dl?g=產業&b=HSBC&d=20260623&h=Secondary-Foundry">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260623_HSBC_Secondary-Foundry.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260623_HSBC_Secondary-Foundry.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

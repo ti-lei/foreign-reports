@@ -12,7 +12,7 @@ sectors: [AI伺服器]
 **日期**：2026-07-02  
 **主題**：NAND Industry Outlook — Diverging Trends  
 **評級**：Attractive（S. Korea Tech / Asia Pacific）  
-<a href="/dl?g=產業&b=MS&d=20260702&h=NAND-Diverging">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/産業/20260702_MS_NAND-Diverging.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260702_MS_NAND-Diverging.md';a.click()})">⬇ 下載 MD</button>
 
 **目標價調整**：
 - Longsys（301308.SZ）EW：PT Rmb300 → Rmb673（+124%）

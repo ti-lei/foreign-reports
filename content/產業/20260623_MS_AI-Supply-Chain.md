@@ -12,7 +12,7 @@ sectors: [晶圓代工]
 **日期**：2026-06-23  
 **主題**：2027 TSMC CoWoS allocation 初步拆解；wafer + HBM TAM；AI semi 估值  
 **評級**：N/A（供應鏈追蹤報告）  
-<a href="/dl?g=產業&b=MS&d=20260623&h=AI-Supply-Chain">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260623_MS_AI-Supply-Chain.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260623_MS_AI-Supply-Chain.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

@@ -12,7 +12,7 @@ sectors: [記憶體]
 **日期**：2026-05-28  
 **主題**：DDR4 / NOR Flash / SLC NAND / SiCap 供需結構翻轉；升評 Winbond & Nanya  
 **評級**：Industry View: Attractive  
-<a href="/dl?g=產業&b=MS&d=20260528&h=Old-Memory">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260528_MS_Old-Memory.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260528_MS_Old-Memory.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

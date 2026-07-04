@@ -12,7 +12,7 @@ sectors: [AI伺服器]
 **日期**：2026-07-02  
 **主題**：記憶體供需、HBM 競爭格局、LTA、股東回饋  
 **評級**：Attractive（記憶體族群持續看多）  
-<a href="/dl?g=產業&b=Daiwa&d=20260702&h=Korea-Memory-Call">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/産業/20260702_Daiwa_Korea-Memory-Call.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260702_Daiwa_Korea-Memory-Call.md';a.click()})">⬇ 下載 MD</button>
 
 > 本報告為 Sales Note，非 Daiwa 正式研究報告。
 

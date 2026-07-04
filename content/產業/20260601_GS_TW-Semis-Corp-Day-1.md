@@ -11,7 +11,7 @@ date: 2026-06-02
 **日期**：2026-06-02  
 **主題**：Taiwan Technology: Semiconductors — GS Taiwan Computex & Corporate Day 2026 Day 1 Key Takeaways  
 **評級**：N/A（個股評等見下）  
-<a href="/dl?g=產業&b=GS&d=20260601&h=TW-Semis-Corp-Day-1">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260601_GS_TW-Semis-Corp-Day-1.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260601_GS_TW-Semis-Corp-Day-1.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

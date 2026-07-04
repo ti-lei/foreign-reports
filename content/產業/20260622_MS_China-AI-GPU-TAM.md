@@ -12,7 +12,7 @@ sectors: [AI伺服器]
 **日期**：2026-06-22  
 **主題**：上調中國 AI GPU TAM（地緣政治動態）  
 **評級**：Industry View — Attractive  
-<a href="/dl?g=產業&b=MS&d=20260622&h=China-AI-GPU-TAM">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260622_MS_China-AI-GPU-TAM.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260622_MS_China-AI-GPU-TAM.md';a.click()})">⬇ 下載 MD</button>
 
 > ⚠️ 本筆記由 PDF 文字萃取產出（未逐 Exhibit 裁圖）；如需完整 exhibit 圖表版可單獨重跑 /industry-report。
 

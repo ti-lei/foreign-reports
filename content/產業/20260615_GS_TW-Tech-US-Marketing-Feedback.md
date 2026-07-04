@@ -11,7 +11,7 @@ date: 2026-06-15
 **日期**：2026-06-15  
 **主題**：AI ASIC 仍為首選主題；CPU 需求與供應鏈定價力成為新焦點  
 **評級**：N/A（sector note）  
-<a href="/dl?g=產業&b=GS&d=20260615&h=TW-Tech-US-Marketing-Feedback">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260615_GS_TW-Tech-US-Marketing-Feedback.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260615_GS_TW-Tech-US-Marketing-Feedback.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

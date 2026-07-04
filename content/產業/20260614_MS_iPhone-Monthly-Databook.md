@@ -12,7 +12,7 @@ sectors: [筆電產業]
 **日期**：2026-06-14  
 **主題**：iPhone & iPad 季度出貨量預估更新（2Q26E / 3Q26E）  
 **評級**：Industry View In-Line  
-<a href="/dl?g=產業&b=MS&d=20260614&h=iPhone-Monthly-Databook">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260614_MS_iPhone-Monthly-Databook.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260614_MS_iPhone-Monthly-Databook.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

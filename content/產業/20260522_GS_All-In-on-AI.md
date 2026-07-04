@@ -12,7 +12,7 @@ sectors: [AI伺服器]
 **日期**：2026-05-22  
 **主題**：Q2 2026 Hedge Fund Trend Monitor — Q1 2026 13-F 持倉分析  
 **資料截止**：2026-03-31（13-F），績效截至 2026-05-21  
-<a href="/dl?g=產業&b=GS&d=20260522&h=All-In-on-AI">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260522_GS_All-In-on-AI.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260522_GS_All-In-on-AI.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

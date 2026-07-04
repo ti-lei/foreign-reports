@@ -12,7 +12,7 @@ sectors: [AI伺服器]
 **日期**：2026-06-02  
 **主題**：Computex Day 1 現場筆記：Agentic AI、Vera CPU 產能確認與 RTX Sparks 量化  
 **評級**：Attractive（Greater China Technology Semiconductors）  
-<a href="/dl?g=產業&b=MS&d=20260602&h=Key-Computex-Takeaways">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/MS_20260602_Key-Computex-Takeaways.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='MS_20260602_Key-Computex-Takeaways.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

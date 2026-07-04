@@ -12,7 +12,7 @@ sectors: [800VDC]
 **日期**：2026-05-26  
 **主題**：Four-Phase 800VDC Transition, Power Rack Economics, SST, Equipment Content/MW, Supplier Implications  
 **感謝**：DG Matrix、Novos Power、Aran Industries 提供貢獻與洞察  
-<a href="/dl?g=產業&b=SemiAnalysis&d=20260526&h=800VDC-Revolution-Part1">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260526_SemiAnalysis_800VDC-Revolution-Part1.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260526_SemiAnalysis_800VDC-Revolution-Part1.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

@@ -12,7 +12,7 @@ sectors: [AI伺服器]
 **日期**：2026-06-02  
 **主題**：Korea tech tour – booming agentic AI supply chain while physical AI waits in the wings  
 **評級**：N/A（個股評等見下）  
-<a href="/dl?g=產業&b=HSBC&d=20260602&h=Korea-AI-Supply-Chain">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260602_HSBC_Korea-AI-Supply-Chain.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260602_HSBC_Korea-AI-Supply-Chain.md';a.click()})">⬇ 下載 MD</button>
 
 > **注意**：本報告為 HSBC，目前無對應 Exhibit 裁切工具，圖片未裁切。以下分析基於文字層資料。
 

@@ -12,7 +12,7 @@ sectors: [AI伺服器, 晶圓代工, PCB, CCL]
 **日期**：2026-06-30  
 **主題**：Asia AI Semi & Server Anchor Report — Is the cycle over?  
 **評級**：結構性偏多（Buy；9 檔 TP 上調）  
-<a href="/dl?g=產業&b=Nomura&d=20260701&h=Asia-AI-Semi-Server">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260701_Nomura_Asia-AI-Semi-Server.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260701_Nomura_Asia-AI-Semi-Server.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

@@ -12,7 +12,7 @@ sectors: [PCB, 面板]
 **日期**：2026-06-29  
 **主題**：Progress for Glass in Advanced Packaging among Panel Makers（Innolux / AUO / BOE Deep-Dive）  
 **評級**：Industry View In-Line  
-<a href="/dl?g=產業&b=MS&d=20260629&h=Display">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260629_MS_Display.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260629_MS_Display.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

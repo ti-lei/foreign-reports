@@ -12,7 +12,7 @@ sectors: [AI伺服器, 機殼機構]
 **日期**：2026-04-17  
 **主題**：南俊國際（6584 TT）首次覆蓋報告——server rail kit 新挑戰者  
 **評級**：Buy (1)｜TP TWD1,000（目前價 TWD667，upside +49.9%）  
-<a href="/dl?g=產業&b=Daiwa&d=20260420&h=NanJuen-6584-Initiation">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260420_Daiwa_NanJuen-6584-Initiation.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260420_Daiwa_NanJuen-6584-Initiation.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 

@@ -7,7 +7,6 @@ broker: JPM
 rating: Neutral
 ---
 **JPM｜AES-KY (6781)｜2026-06-03｜法說後更新**
-<a href="/dl?t=6781&b=JPM&d=20260603">📎 下載 PDF</a>
 **評等** Neutral　**目標價** NT\$1,330（維持）　**估值** 25x 2027E EPS NT\$53.61（discount vs historical 27-28x，反映毛利率壓力）  
 **EPS 預估** 2026E NT\$47.08　2027E NT\$53.61
 

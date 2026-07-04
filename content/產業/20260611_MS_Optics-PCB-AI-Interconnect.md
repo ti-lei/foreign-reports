@@ -12,7 +12,7 @@ sectors: [PCB, 光通訊-CPO]
 **日期**：2026-06-11  
 **主題**：光收發器 PCB 供應商受益 AI 互聯建置潮  
 **評級**：Industry View In-Line  
-<a href="/dl?g=產業&b=MS&d=20260611&h=Optics-PCB-AI-Interconnect">📎 下載 PDF</a>
+<button type="button" onclick="fetch('https://ti-lei.github.io/foreign-reports/static/downloads/產業/20260611_MS_Optics-PCB-AI-Interconnect.md').then(r=>r.text()).then(t=>{let a=document.createElement('a');a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(t);a.download='20260611_MS_Optics-PCB-AI-Interconnect.md';a.click()})">⬇ 下載 MD</button>
 
 ---
 
