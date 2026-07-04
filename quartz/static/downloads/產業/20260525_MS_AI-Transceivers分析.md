@@ -12,7 +12,7 @@ sectors: [光通訊-CPO]
 **日期**：2026-05-25  
 **主題**：AI Transceivers — Huawei t Law 框架對產業需求的意涵  
 **評級**：Industry View In-Line  
-<a href="/dl?g=產業&b=MS&d=20260525&h=AI-Transceivers分析">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260525&h=AI-Transceivers分析">📎 下載 PDF</a>
 
 ---
 

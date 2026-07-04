@@ -12,7 +12,7 @@ sectors: [筆電產業]
 **日期**：2026-06-20  
 **主題**：全球智慧型手機 TAM 更新 — 記憶體成本壓抑需求、產品組合升級延續  
 **評級**：（TAM 更新，無單一 Industry View）  
-<a href="/dl?g=產業&b=GS&d=20260620&h=Global-Smartphones">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=GS&d=20260620&h=Global-Smartphones">📎 下載 PDF</a>
 
 > ⚠️ 本筆記由 PDF 文字萃取產出（未逐 Exhibit 裁圖）；如需完整 exhibit 圖表版可單獨重跑 /industry-report。
 

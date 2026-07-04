@@ -12,7 +12,7 @@ sectors: [記憶體]
 **日期**：2026-06-25  
 **主題**：Legacy memory（DDR4、NOR flash、SLC NAND）供需收緊；GigaDevice/Winbond/Nanya/Macronix/PSMC PT 上調  
 **評級**：Industry View Attractive  
-<a href="/dl?g=產業&b=MS&d=20260625&h=Old-Memory">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260625&h=Old-Memory">📎 下載 PDF</a>
 
 ---
 

@@ -12,7 +12,7 @@ sectors: [AI伺服器]
 **日期**：2026-06-24  
 **主題**：Global Server TAM — AI server racks, ASIC penetration, General servers, CSP capex  
 **評級**：N/A（TAM update report）  
-<a href="/dl?g=產業&b=GS&d=20260624&h=Global-Server">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=GS&d=20260624&h=Global-Server">📎 下載 PDF</a>
 
 ---
 

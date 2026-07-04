@@ -12,7 +12,7 @@ sectors: [筆電產業]
 **日期**：2026-06-14  
 **主題**：iPhone & iPad 季度出貨量預估更新（2Q26E / 3Q26E）  
 **評級**：Industry View In-Line  
-<a href="/dl?g=產業&b=MS&d=20260614&h=iPhone-Monthly-Databook">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260614&h=iPhone-Monthly-Databook">📎 下載 PDF</a>
 
 ---
 

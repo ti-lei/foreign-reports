@@ -3,7 +3,7 @@ modified: 2026-05-26
 type: 個股報告
 ticker: MU
 ---
-<a href="/dl?t=MU&b=UBS&d=20260526">📎 下載 PDF</a><br>
+<a href="https://layx.uk/dl?t=MU&b=UBS&d=20260526">📎 下載 PDF</a><br>
 **UBS｜美光 (MU)｜2026-05-26｜目標價大幅上調**
 **評等** Buy（維持）　**目標價** US\$1,625（↑ from US\$535）　**估值** ~15x NTM P/E × C2029E EPS \$117 折現 1 年
 

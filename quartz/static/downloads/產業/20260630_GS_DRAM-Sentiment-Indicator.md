@@ -12,7 +12,7 @@ sectors: [AI伺服器]
 **日期**：2026-06-30  
 **主題**：DRAM Sentiment Indicator — June 2026：Positive DDR5 pricing trends, while more constructive on 2027 HBM pricing  
 **評級**：Moderately Positive（維持，同 April 2026）  
-<a href="/dl?g=產業&b=GS&d=20260630&h=DRAM-Sentiment-Indicator">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=GS&d=20260630&h=DRAM-Sentiment-Indicator">📎 下載 PDF</a>
 
 ---
 

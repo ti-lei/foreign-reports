@@ -12,7 +12,7 @@ sectors: []
 **日期**：2026-06-24  
 **主題**：Taiwan Retail Sales Tracker — Some Wealth Effect, But Not Much  
 **評級**：Industry View In-Line  
-<a href="/dl?g=產業&b=MS&d=20260624&h=TW-Retail-Sales-Tracker">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260624&h=TW-Retail-Sales-Tracker">📎 下載 PDF</a>
 
 ---
 

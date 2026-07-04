@@ -13,7 +13,7 @@ sectors: [ODM-EMS, 晶圓代工]
 **分析師**：Randy Abrams、Nicolas Gaudois、Sunny Lin、Timothy Arcuri、Annie Chen  
 **日期**：2026-05-21  
 **主題**：NVIDIA FQ127 財報反應：Rack 預測上修、供應鏈承諾 +299%、CoWoS 擴產路徑  
-<a href="/dl?g=產業&b=UBS&d=20260521&h=NVIDIA-rack">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=UBS&d=20260521&h=NVIDIA-rack">📎 下載 PDF</a>
 
 ---
 

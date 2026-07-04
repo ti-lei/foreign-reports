@@ -12,7 +12,7 @@ sectors: [晶圓代工]
 **日期**：2026-05-27  
 **主題**：Computex（6/2-5）前瞻：Rubin/Vera rack 設計、TSMC CoWoS 擴張至 200kwpm、AllRing PT 上調  
 **評級**：N/A（主題報告）  
-<a href="/dl?g=產業&b=MS&d=20260527&h=Computex-Preview">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260527&h=Computex-Preview">📎 下載 PDF</a>
 
 ---
 

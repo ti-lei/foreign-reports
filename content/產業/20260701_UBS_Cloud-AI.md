@@ -11,7 +11,7 @@ sectors: [晶圓代工, AI伺服器]
 **分析師**：Sunny Lin、Randy Abrams、Nicolas Gaudois、Timothy Arcuri、Jerry Su、Shingo Hirata、Diana Chang、Jimmy Yoon  
 **日期**：2026-07-01  
 **主題**：Cloud AI: TSMC and ASE driving faster CoWoS expansion, unlocking larger TAM  
-<a href="/dl?g=產業&b=UBS&d=20260701&h=Cloud-AI">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=UBS&d=20260701&h=Cloud-AI">📎 下載 PDF</a>
 
 ---
 

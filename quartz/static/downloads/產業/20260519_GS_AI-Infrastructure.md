@@ -12,7 +12,7 @@ sectors: [AI伺服器]
 **日期**：2026-05-19  
 **主題**：Data Centers: Asia Communacopia + Technology — AI Infrastructure Key Takeaways  
 **評級**：無個股評等（會議紀錄型報告）  
-<a href="/dl?g=產業&b=GS&d=20260519&h=AI-Infrastructure">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=GS&d=20260519&h=AI-Infrastructure">📎 下載 PDF</a>
 
 ---
 

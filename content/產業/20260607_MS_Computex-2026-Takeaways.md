@@ -12,7 +12,7 @@ sectors: [散熱]
 **日期**：2026-06-07  
 **主題**：Computex 2026 Takeaways — Vera Rubin POD 全套展示、800V DC、Liquid Cooling、RTX Spark  
 **評級**：Greater China Technology Hardware：In-Line  
-<a href="/dl?g=產業&b=MS&d=20260607&h=Computex-2026-Takeaways">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260607&h=Computex-2026-Takeaways">📎 下載 PDF</a>
 
 ---
 

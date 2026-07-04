@@ -12,7 +12,7 @@ sectors: [ODM-EMS, 半導體測試]
 **日期**：2026-06-22  
 **主題**：Innostar Service — The next shining star driven by innovation; initiate at OW  
 **評級**：OW（初始覆蓋）  
-<a href="/dl?g=產業&b=JPM&d=20260622&h=Innostar-GCS-MEMS-Initiation">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=JPM&d=20260622&h=Innostar-GCS-MEMS-Initiation">📎 下載 PDF</a>
 
 ---
 

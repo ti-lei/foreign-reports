@@ -12,7 +12,7 @@ sectors: [PCB, CCL]
 **日期**：2026-06-07  
 **主題**：What's New at Citi Taiwan Tech Conference 2026 – strong demand and shortage  
 **類型**：Flash / 法人說明會管道檢查  
-<a href="/dl?g=產業&b=Citi&d=20260607&h=TW-PCB-CCL">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=Citi&d=20260607&h=TW-PCB-CCL">📎 下載 PDF</a>
 
 ---
 

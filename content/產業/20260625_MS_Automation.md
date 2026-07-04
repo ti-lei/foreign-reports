@@ -12,7 +12,7 @@ sectors: []
 **日期**：2026-06-25  
 **主題**：Automation – Read-across from JMTBA May 2026 Orders（最終數）  
 **評級**：Industry View In-Line  
-<a href="/dl?g=產業&b=MS&d=20260625&h=Automation">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260625&h=Automation">📎 下載 PDF</a>
 
 ---
 

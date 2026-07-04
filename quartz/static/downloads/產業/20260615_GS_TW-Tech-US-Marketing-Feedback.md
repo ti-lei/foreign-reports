@@ -11,7 +11,7 @@ date: 2026-06-15
 **日期**：2026-06-15  
 **主題**：AI ASIC 仍為首選主題；CPU 需求與供應鏈定價力成為新焦點  
 **評級**：N/A（sector note）  
-<a href="/dl?g=產業&b=GS&d=20260615&h=TW-Tech-US-Marketing-Feedback">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=GS&d=20260615&h=TW-Tech-US-Marketing-Feedback">📎 下載 PDF</a>
 
 ---
 

@@ -12,7 +12,7 @@ sectors: [PCB, 光通訊-CPO]
 **日期**：2026-06-11  
 **主題**：光收發器 PCB 供應商受益 AI 互聯建置潮  
 **評級**：Industry View In-Line  
-<a href="/dl?g=產業&b=MS&d=20260611&h=Optics-PCB-AI-Interconnect">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260611&h=Optics-PCB-AI-Interconnect">📎 下載 PDF</a>
 
 ---
 

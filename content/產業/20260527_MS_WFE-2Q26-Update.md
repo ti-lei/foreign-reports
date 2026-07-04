@@ -12,7 +12,7 @@ sectors: [晶圓代工]
 **日期**：2026-05-27（報告發布：2026-05-18）  
 **主題**：2Q'26 WFE 季度更新，2026/27 預測上修，LAM 升至 OW，AMAT 降至 EW，MKSI 升為 Top Pick  
 **評級**：In-Line（Semiconductor Capital Equipment）  
-<a href="/dl?g=產業&b=MS&d=20260527&h=WFE-2Q26-Update">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260527&h=WFE-2Q26-Update">📎 下載 PDF</a>
 
 ---
 

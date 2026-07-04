@@ -12,7 +12,7 @@ sectors: [功率半導體]
 **日期**：2026-06-18  
 **主題**：Greater China 功率分離元件 — 供給驅動的上行週期  
 **評級**：Industry View — Attractive  
-<a href="/dl?g=產業&b=MS&d=20260618&h=Power-Semis">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260618&h=Power-Semis">📎 下載 PDF</a>
 
 ---
 

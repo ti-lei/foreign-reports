@@ -12,7 +12,7 @@ sectors: [自動化]
 **日期**：2026-05-26  
 **主題**：自動化產業 — JMTBA（日本工具機製造協會）4 月訂單解讀  
 **評級**：Industry View In-Line  
-<a href="/dl?g=產業&b=MS&d=20260526&h=Automation">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260526&h=Automation">📎 下載 PDF</a>
 
 ---
 

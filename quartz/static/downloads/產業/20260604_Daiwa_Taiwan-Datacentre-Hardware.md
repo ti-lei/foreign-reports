@@ -12,7 +12,7 @@ sectors: [AI伺服器]
 **日期**：2026-06-04  
 **主題**：Taiwan Datacentre Hardware — Key Takeaways from Computex 2026  
 **評級**：Positive  
-<a href="/dl?g=產業&b=Daiwa&d=20260604&h=Taiwan-Datacentre-Hardware">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=Daiwa&d=20260604&h=Taiwan-Datacentre-Hardware">📎 下載 PDF</a>
 
 ---
 

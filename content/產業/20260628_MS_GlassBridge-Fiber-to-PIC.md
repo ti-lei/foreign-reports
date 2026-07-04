@@ -12,7 +12,7 @@ sectors: [光通訊-CPO]
 **日期**：2026-06-28  
 **主題**：GlassBridge and Fiber-to-PIC's Implications for AI Transceiver and FAU Makers  
 **評級**：In-Line  
-<a href="/dl?g=產業&b=MS&d=20260628&h=GlassBridge-Fiber-to-PIC">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260628&h=GlassBridge-Fiber-to-PIC">📎 下載 PDF</a>
 
 ---
 

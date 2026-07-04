@@ -12,7 +12,7 @@ sectors: [光通訊-CPO]
 **日期**：2026-06-10  
 **主題**：Thoughts on Investor Concerns Regarding CPO  
 **評級**：Industry View Attractive  
-<a href="/dl?g=產業&b=MS&d=20260610&h=CPO-Concerns">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260610&h=CPO-Concerns">📎 下載 PDF</a>
 
 ---
 

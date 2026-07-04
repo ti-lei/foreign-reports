@@ -12,7 +12,7 @@ sectors: [半導體測試]
 **日期**：2026-05-28  
 **主題**：Initiate at Buy: Handling the Evolution in AI Chip Testing  
 **評級**：Buy（首評）｜TP NT\$7,100（現價 NT\$5,905，+20.2%）  
-<a href="/dl?g=產業&b=Citi&d=20260528&h=7769-HonPrecision-Initiation">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=Citi&d=20260528&h=7769-HonPrecision-Initiation">📎 下載 PDF</a>
 
 ---
 

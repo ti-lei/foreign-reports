@@ -12,7 +12,7 @@ sectors: [半導體測試]
 **日期**：2026-06-30  
 **主題**：Testing Consumables：Potential Price Hike Coming；Reiterate OW on MPI and WinWay  
 **評級**：Industry View Attractive  
-<a href="/dl?g=產業&b=MS&d=20260630&h=Testing-Interface">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260630&h=Testing-Interface">📎 下載 PDF</a>
 
 ---
 

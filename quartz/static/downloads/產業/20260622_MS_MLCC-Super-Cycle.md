@@ -12,7 +12,7 @@ sectors: [AI伺服器, 被動元件]
 **日期**：2026-06-22  
 **主題**：MLCC 超級循環 — AI 引發的另一場供需擠壓  
 **評級**：Industry View — Attractive  
-<a href="/dl?g=產業&b=MS&d=20260622&h=MLCC-Super-Cycle">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260622&h=MLCC-Super-Cycle">📎 下載 PDF</a>
 
 ---
 

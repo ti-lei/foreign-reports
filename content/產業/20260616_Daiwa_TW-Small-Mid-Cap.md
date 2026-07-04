@@ -11,7 +11,7 @@ date: 2026-06-16
 **日期**：2026-06-16  
 **主題**：Taiwan Small- and Mid-Caps — HK/Singapore Marketing Feedback  
 **評級**：（本報告無 Industry View）  
-<a href="/dl?g=產業&b=Daiwa&d=20260616&h=TW-Small-Mid-Cap">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=Daiwa&d=20260616&h=TW-Small-Mid-Cap">📎 下載 PDF</a>
 
 ---
 

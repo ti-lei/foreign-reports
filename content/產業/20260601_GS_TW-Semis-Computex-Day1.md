@@ -11,7 +11,7 @@ date: 2026-06-01
 **日期**：2026-06-01  
 **主題**：Taiwan Semiconductors — GS Taiwan Computex & Corporate Day Day 1 管理層見面會摘要  
 **覆蓋個股**：MediaTek (Buy)、Realtek (Neutral)、Vanguard (Sell)、Silergy (Buy)、WinWay (Buy)、MPI (Buy)、Aspeed (Buy)  
-<a href="/dl?g=產業&b=GS&d=20260601&h=TW-Semis-Computex-Day1">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=GS&d=20260601&h=TW-Semis-Computex-Day1">📎 下載 PDF</a>
 
 ---
 

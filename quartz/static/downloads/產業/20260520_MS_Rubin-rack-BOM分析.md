@@ -14,7 +14,7 @@ sectors: [AI伺服器, ODM-EMS]
 **日期**：2026-05-20  
 **主題**：Greater China Technology Hardware — AI Server 供應鏈  
 **評級**：Industry View In-Line  
-<a href="/dl?g=產業&b=MS&d=20260520&h=Rubin-rack-BOM分析">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260520&h=Rubin-rack-BOM分析">📎 下載 PDF</a>
 
 ---
 

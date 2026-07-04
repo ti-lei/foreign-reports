@@ -12,7 +12,7 @@ sectors: [面板]
 **日期**：2026-06-22  
 **主題**：2026 年 6 月 TFT-LCD 面板價 — TV 持平、Monitor +0.1%、NB 持平 MoM  
 **評級**：Industry View — Greater China Tech HW: In-Line；S. Korea Tech: Attractive  
-<a href="/dl?g=產業&b=MS&d=20260622&h=TFT-LCD-Panel-Price">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260622&h=TFT-LCD-Panel-Price">📎 下載 PDF</a>
 
 > ⚠️ 本筆記由 PDF 文字萃取產出（未逐 Exhibit 裁圖）；如需完整 exhibit 圖表版可單獨重跑 /industry-report。
 

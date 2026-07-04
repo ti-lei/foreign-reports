@@ -12,7 +12,7 @@ sectors: [面板]
 **日期**：2026-06-07  
 **主題**：TFT-LCD Panel Price Outlook for June 2026: TVs Flat, Monitors +0.2%, NBs Flat MoM  
 **評級**：Greater China Technology Hardware：In-Line；S. Korea Technology：Attractive  
-<a href="/dl?g=產業&b=MS&d=20260607&h=TFT-LCD-Panel-Price">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260607&h=TFT-LCD-Panel-Price">📎 下載 PDF</a>
 
 ---
 

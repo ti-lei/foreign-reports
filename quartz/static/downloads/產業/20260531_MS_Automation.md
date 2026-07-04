@@ -12,7 +12,7 @@ sectors: [自動化]
 **日期**：2026-05-31  
 **主題**：Automation – Read-across from China's May Manufacturing PMI  
 **評級**：Industry View In-Line  
-<a href="/dl?g=產業&b=MS&d=20260531&h=Automation">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260531&h=Automation">📎 下載 PDF</a>
 
 ---
 

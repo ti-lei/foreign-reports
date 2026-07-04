@@ -12,7 +12,7 @@ sectors: [PCB]
 **日期**：2026-06-15  
 **主題**：AT&S 簽署 Kulim 馬來西亞 AI/HPC 基板擴產條款，ABF 供給缺口預期不變  
 **評級**：Industry View In-Line  
-<a href="/dl?g=產業&b=MS&d=20260615&h=ABF-Substrates-ATS">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260615&h=ABF-Substrates-ATS">📎 下載 PDF</a>
 
 ---
 

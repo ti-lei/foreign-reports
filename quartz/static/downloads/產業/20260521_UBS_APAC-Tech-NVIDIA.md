@@ -12,7 +12,7 @@ sectors: [ODM-EMS]
 **日期**：2026-05-21  
 **主題**：UBS Tech Views: Raising NVIDIA rack forecasts following solid results and ODM sales upside  
 **評級**：N/A（供應鏈主題報告）  
-<a href="/dl?g=產業&b=UBS&d=20260521&h=APAC-Tech-NVIDIA">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=UBS&d=20260521&h=APAC-Tech-NVIDIA">📎 下載 PDF</a>
 
 ---
 

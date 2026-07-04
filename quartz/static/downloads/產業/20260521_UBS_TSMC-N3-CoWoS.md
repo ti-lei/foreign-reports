@@ -14,7 +14,7 @@ sectors: [晶圓代工]
 **日期**：2026-05-21  
 **主題**：Cloud AI：TSMC N3 & CoWoS 供給緊張持續至 2027E；Nvidia 路線圖展望  
 **評級**：—
-<a href="/dl?g=產業&b=UBS&d=20260521&h=TSMC-N3-CoWoS">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=UBS&d=20260521&h=TSMC-N3-CoWoS">📎 下載 PDF</a>
 
 ---
 

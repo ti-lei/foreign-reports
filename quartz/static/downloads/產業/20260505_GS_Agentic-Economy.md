@@ -12,7 +12,7 @@ sectors: [AI伺服器]
 **日期**：2026-05-05  
 **主題**：Decoding the Agentic Economy: The Coming Inflection in AI Usage and Margins  
 **評級**：Americas Technology（產業主題）  
-<a href="/dl?g=產業&b=GS&d=20260505&h=Agentic-Economy">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=GS&d=20260505&h=Agentic-Economy">📎 下載 PDF</a>
 
 ---
 

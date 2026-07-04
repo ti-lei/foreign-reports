@@ -12,7 +12,7 @@ sectors: [PCB]
 **日期**：2026-06-26  
 **主題**：Initiation: a hidden gem in the ABF upcycle  
 **評級**：Buy (1)，TP TWD600  
-<a href="/dl?g=產業&b=Daiwa&d=20260626&h=EPM-ABF-Initiation">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=Daiwa&d=20260626&h=EPM-ABF-Initiation">📎 下載 PDF</a>
 
 ---
 

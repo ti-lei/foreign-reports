@@ -7,7 +7,7 @@ broker: MS
 rating: Overweight
 tp: 775
 ---
-<a href="/dl?t=META&b=MS&d=20260701">📎 下載 PDF</a><br>
+<a href="https://layx.uk/dl?t=META&b=MS&d=20260701">📎 下載 PDF</a><br>
 **MS｜Meta Platforms (META)｜2026-07-01｜事件評論（Neocloud 可行性分析）**
 **評等** OW（Top Pick，維持）　**目標價** \$775（維持）　**估值** 23x 2027E EPS \$34.16（EBITDA multiples + DCF 平均）  
 **EPS 預估** 2027E \$34.16

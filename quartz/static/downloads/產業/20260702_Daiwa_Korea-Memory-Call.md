@@ -12,7 +12,7 @@ sectors: [AI伺服器]
 **日期**：2026-07-02  
 **主題**：記憶體供需、HBM 競爭格局、LTA、股東回饋  
 **評級**：Attractive（記憶體族群持續看多）  
-<a href="/dl?g=產業&b=Daiwa&d=20260702&h=Korea-Memory-Call">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=Daiwa&d=20260702&h=Korea-Memory-Call">📎 下載 PDF</a>
 
 > 本報告為 Sales Note，非 Daiwa 正式研究報告。
 

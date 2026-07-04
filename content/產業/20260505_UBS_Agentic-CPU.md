@@ -12,7 +12,7 @@ sectors: [AI伺服器]
 **日期**：2026-05-05  
 **主題**：Exploring the Impact of Agentic AI on the CPU Market  
 **評級**：ARM Buy（\$245 PT ↑）｜AMD Buy（\$341.54）｜INTC Neutral（\$95.78）  
-<a href="/dl?g=產業&b=UBS&d=20260505&h=Agentic-CPU">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=UBS&d=20260505&h=Agentic-CPU">📎 下載 PDF</a>
 
 ---
 

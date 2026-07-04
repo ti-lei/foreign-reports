@@ -12,7 +12,7 @@ sectors: [PCB]
 **日期**：2026-05-22  
 **主題**：Taiwan PCB/Substrates — Still at the early innings of a multi-year upcycle  
 **評級**：Unimicron Buy (PT NT\$1,200↑)　Kinsus Buy (PT NT\$680↑)　NYPCB Neutral (PT NT\$875↑)  
-<a href="/dl?g=產業&b=UBS&d=20260522&h=TW-PCB-Substrate">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=UBS&d=20260522&h=TW-PCB-Substrate">📎 下載 PDF</a>
 
 ---
 
