@@ -8,10 +8,11 @@ title: PCB
 
 ## 產業報告
 
-> 收錄標記為「PCB」的外資產業報告，共 9 篇。
+> 收錄標記為「PCB」的外資產業報告，共 10 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260703_Aletheia_ABF-Core]] | Aletheia Capital | 2026-07-02 |
 | [[20260630_Citi_ABF-BT]] | Citi | 2026-06-30 |
 | [[20260701_Nomura_Asia-AI-Semi-Server]] | Nomura | 2026-06-30 |
 | [[20260629_MS_Display]] | Morgan Stanley | 2026-06-29 |
