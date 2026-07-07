@@ -8,10 +8,12 @@ title: AI伺服器
 
 ## 產業報告
 
-> 收錄標記為「AI伺服器」的外資產業報告，共 21 篇。
+> 收錄標記為「AI伺服器」的外資產業報告，共 24 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260706_GS_FOCI-Initiation]] | Goldman Sachs | 2026-07-06 |
+| [[20260706_MS_Tech-Supply-Chain]] | Morgan Stanley | 2026-07-06 |
 | [[20260702_Daiwa_Korea-Memory-Call]] | Daiwa | 2026-07-02 |
 | [[20260702_MS_NAND-Diverging]] | Morgan Stanley | 2026-07-02 |
 | [[20260702_SemiAnalysis_EMIB-T-HBM4-Photonic-Interconnects]] | SemiAnalysis | 2026-07-02 |
@@ -21,6 +23,7 @@ title: AI伺服器
 | [[20260624_GS_Global-Server]] | Goldman Sachs | 2026-06-24 |
 | [[20260622_MS_China-AI-GPU-TAM]] | Morgan Stanley | 2026-06-22 |
 | [[20260622_MS_MLCC-Super-Cycle]] | Morgan Stanley | 2026-06-22 |
+| [[20260609_MS_AI-Investment-Truths]] | Morgan Stanley | 2026-06-09 |
 | [[20260608_Daiwa_TW-Datacentre-Hardware]] | Daiwa-Cathay Capital Markets | 2026-06-08 |
 | [[20260608_MS_GB200-NVL72]] | Morgan Stanley | 2026-06-08 |
 | [[20260604_Daiwa_Taiwan-Datacentre-Hardware]] | Daiwa | 2026-06-04 |

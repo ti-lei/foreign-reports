@@ -8,10 +8,13 @@ title: 光通訊-CPO
 
 ## 產業報告
 
-> 收錄標記為「光通訊-CPO」的外資產業報告，共 7 篇。
+> 收錄標記為「光通訊-CPO」的外資產業報告，共 10 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260706_GS_FOCI-Initiation]] | Goldman Sachs | 2026-07-06 |
+| [[20260706_MS_Tech-Supply-Chain]] | Morgan Stanley | 2026-07-06 |
+| [[20260705_MS_CPO-Supply-Chain]] | Morgan Stanley | 2026-07-05 |
 | [[20260702_SemiAnalysis_EMIB-T-HBM4-Photonic-Interconnects]] | SemiAnalysis | 2026-07-02 |
 | [[20260628_MS_GlassBridge-Fiber-to-PIC]] | Morgan Stanley | 2026-06-28 |
 | [[20260611_MS_Optics-PCB-AI-Interconnect]] | Morgan Stanley | 2026-06-11 |
