@@ -28,6 +28,9 @@ export const defaultContentPageLayout: PageLayout = {
           // 只列真正的報告：排除首頁、工具頁(行程日曆)、爬蟲頁(史萊姆的聊天室)
           const excludedSlugs = ["index", "calendar", "史萊姆的聊天室"]
           if (excludedSlugs.includes(f.slug)) return false
+          // 排除產業地圖整個資料夾：這些頁由 build_industry_map.py 產生、無 modified
+          // frontmatter，Cloudflare 上會 fallback 到 filesystem=build 時間，天天誤判為今天
+          if (f.slug?.startsWith("產業地圖/")) return false
           const today = new Date()
           const m = f.dates.modified
           return (
