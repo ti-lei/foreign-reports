@@ -8,10 +8,11 @@ title: AI伺服器
 
 ## 產業報告
 
-> 收錄標記為「AI伺服器」的外資產業報告，共 24 篇。
+> 收錄標記為「AI伺服器」的外資產業報告，共 25 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260707_Citi_Dynapack-Initiation]] | Citi | 2026-07-07 |
 | [[20260706_GS_FOCI-Initiation]] | Goldman Sachs | 2026-07-06 |
 | [[20260706_MS_Tech-Supply-Chain]] | Morgan Stanley | 2026-07-06 |
 | [[20260702_Daiwa_Korea-Memory-Call]] | Daiwa | 2026-07-02 |
