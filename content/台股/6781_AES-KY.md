@@ -5,7 +5,7 @@ type: 個股報告
 date: 2026-06-03
 broker: JPM
 rating: Neutral
-sectors: [能源]
+sectors: [BBU]
 ---
 <a href="https://layx.uk/dl?t=6781&b=JPM&d=20260603">📎 下載 PDF</a><br>
 **JPM｜AES-KY (6781)｜2026-06-03｜法說後更新**
