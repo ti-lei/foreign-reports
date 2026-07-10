@@ -3,7 +3,7 @@ modified: 2026-07-08
 type: 產業報告
 broker: Morgan Stanley
 date: 2026-07-06
-sectors: [PCB-CCL]
+sectors: [PCB, CCL]
 ---
 # Morgan Stanley｜ABF Substrates: Pricing Upcycle Is Accelerating
 

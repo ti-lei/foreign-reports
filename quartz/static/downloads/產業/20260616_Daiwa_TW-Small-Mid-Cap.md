@@ -3,6 +3,7 @@ modified: 2026-06-16
 type: 產業報告
 broker: Daiwa
 date: 2026-06-16
+sectors: [散熱, 連接器]
 ---
 # Daiwa｜Taiwan Small- and Mid-Caps
 

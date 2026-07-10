@@ -3,7 +3,7 @@ modified: 2026-07-01
 type: 產業報告
 broker: Morgan Stanley
 date: 2026-06-24
-sectors: []
+sectors: [零售]
 ---
 # Morgan Stanley｜Taiwan Retail Sales Tracker：Some Wealth Effect, But Not Much
 

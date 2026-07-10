@@ -3,6 +3,7 @@ modified: 2026-06-02
 type: 產業報告
 broker: Goldman Sachs
 date: 2026-06-02
+sectors: [半導體測試, 矽晶圓]
 ---
 # GS｜台灣半導體 Computex 企業日 Day 2 重點摘要
 

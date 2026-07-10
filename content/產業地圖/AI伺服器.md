@@ -4,11 +4,11 @@ title: AI伺服器
 
 ## 個股
 
-[[2324_仁寶]] · [[2356_英業達]] · [[2376_技嘉]] · [[2383_台光電]] · [[2481_強茂]] · [[3017_奇鋐]] · [[3037_欣興]] · [[6584_南俊國際]]
+[[2059_川湖]] · [[2308_台達電]] · [[2317_鴻海]] · [[2324_仁寶]] · [[2345_智邦]] · [[2356_英業達]] · [[2357_華碩]] · [[2376_技嘉]] · [[2382_廣達]] · [[2383_台光電]] · [[2481_強茂]] · [[3017_奇鋐]] · [[3037_欣興]] · [[3231_緯創]] · [[3706_神達]] · [[5274_信驊]] · [[6584_南俊國際]] · [[6669_緯穎]]
 
 ## 產業報告
 
-> 收錄標記為「AI伺服器」的外資產業報告，共 27 篇。
+> 收錄標記為「AI伺服器」的外資產業報告，共 30 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
@@ -26,12 +26,15 @@ title: AI伺服器
 | [[20260624_GS_Global-Server]] | Goldman Sachs | 2026-06-24 |
 | [[20260622_MS_China-AI-GPU-TAM]] | Morgan Stanley | 2026-06-22 |
 | [[20260622_MS_MLCC-Super-Cycle]] | Morgan Stanley | 2026-06-22 |
+| [[20260615_GS_TW-Tech-US-Marketing-Feedback]] | Goldman Sachs | 2026-06-15 |
 | [[20260609_MS_AI-Investment-Truths]] | Morgan Stanley | 2026-06-09 |
 | [[20260608_Daiwa_TW-Datacentre-Hardware]] | Daiwa-Cathay Capital Markets | 2026-06-08 |
 | [[20260608_MS_GB200-NVL72]] | Morgan Stanley | 2026-06-08 |
 | [[20260604_Daiwa_Taiwan-Datacentre-Hardware]] | Daiwa | 2026-06-04 |
+| [[20260601_GS_TW-Semis-Corp-Day-1]] | Goldman Sachs | 2026-06-02 |
 | [[20260602_HSBC_Korea-AI-Supply-Chain]] | HSBC | 2026-06-02 |
 | [[MS_20260602_Key-Computex-Takeaways]] | Morgan Stanley | 2026-06-02 |
+| [[20260601_GS_TW-Semis-Computex-Day1]] | Goldman Sachs | 2026-06-01 |
 | [[20260528_TrendForce_Post-OFC2026-矽光子與CPO]] | TrendForce（集邦科技股份有限公司） | 2026-05-28 |
 | [[20260522_GS_All-In-on-AI]] | Goldman Sachs | 2026-05-22 |
 | [[20260520_MS_Rubin-rack-BOM分析]] | Morgan Stanley Taiwan Limited | 2026-05-20 |

@@ -2,6 +2,7 @@
 modified: 2026-05-26
 type: 個股報告
 ticker: MU
+sectors: [記憶體]
 ---
 <a href="https://layx.uk/dl?t=MU&b=UBS&d=20260526">📎 下載 PDF</a><br>
 **UBS｜美光 (MU)｜2026-05-26｜目標價大幅上調**

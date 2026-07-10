@@ -3,7 +3,7 @@ modified: 2026-07-06
 type: 產業報告
 broker: Goldman Sachs
 date: 2026-07-05
-sectors: [被動元件, PCB-CCL]
+sectors: [被動元件, PCB, CCL]
 ---
 # Goldman Sachs｜AI tailwinds on MLCC and ABF
 

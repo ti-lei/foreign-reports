@@ -3,7 +3,7 @@ modified: 2026-07-07
 type: 產業報告
 broker: Morgan Stanley
 date: 2026-07-06
-sectors: [PCB-CCL, AI伺服器, 光通訊-CPO]
+sectors: [PCB, CCL, AI伺服器, 光通訊-CPO]
 ---
 # MS｜Connecting Dots in Tech Supply Chain: CoPoS, T-Glass/TPU, GlassBridge/FAU
 

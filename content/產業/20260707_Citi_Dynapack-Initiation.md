@@ -27,7 +27,7 @@ Citi 以「AI 資料中心進入新電源架構週期」為框架啟動 Dynapack
 | 論點層次 | Exhibit | 內容 |
 |---|---|---|
 | 瓶頸確認 | Fig 3 | 800V HVDC 架構下直接 DC 路徑（92% 效率）vs 傳統 UPS 路徑（89.1%），說明 UPS 轉換效率低下是結構性瓶頸而非暫時問題 |
-| 需求結構 | Fig 22、23 | BBU 含量 US\$4-5K→US\$33-34K（+7x），滲透率 10-15%→>85%；兩者同時擴張，TAM 幾何級數放大 |
+| 需求結構 | Fig 4、5 | BBU 含量 US\$4-5K→US\$33-34K（+7x），滲透率 10-15%→>85%；兩者同時擴張，TAM 幾何級數放大 |
 | 供給上限 | Fig 25、35 | Panasonic 現佔市場 80%（BBU 銷售 US\$3bn），AES US\$400mn、Dynapack US\$300mn；Panasonic 的 HSD 電芯使其競爭門檻高，但同時限制其擴張彈性 |
 | 受益排序 | Fig 9 | Dynapack 16x FY27E vs AES 18x，但 EPS CAGR 66% vs AES 27%；Dynapack PEG 最低，是「早期爬坡」最具吸引力的切入點 |
 | 個股論點 | Fig 27–30 | 銷售 Non-IT 比重 6%→74%（2018-2028E），帶動 GPM 從 5-10%（BBU 前）→28.4%（2028E）；CAPEX 2026E 高點 NT\$710mn 確認產能承諾 |
@@ -106,12 +106,16 @@ BBU 在 AI 機架的滲透率呈 S 曲線加速：10-15%（2022）→40-45%（20
 
 ### 表格
 
-| 年份 | BBU 滲透率 | 增量 |
-|---|---|---|
-| CY2022 | 10-15% | 基期 |
-| CY2024 | 40-45% | +30ppt |
-| CY2026E | 60-65% | +20ppt |
-| CY2028E | >85% | +25ppt |
+| 年份 | BBU 滲透率 | 增量 | BBU 規格 | Rack Power Output |
+|---|---|---|---|---|
+| CY2022 | 10-15% | 基期 | 3KW | 30-50KW |
+| CY2024 | 40-45% | +30ppt | 3KW/5KW | 120-130KW |
+| CY2026E | 60-65% | +20ppt | 5KW/8KW | 150-160KW |
+| CY2027E | — | — | 8KW/12KW/25KW | 250KW+ |
+| CY2028E | >85% | +25ppt | 25KW | 600KW+ |
+
+### 洞察
+> **洞察一**：滲透率曲線與 BBU 規格／機架功率是同一張圖表的三個對應維度——規格升級並非漸進，而是跳躍性的（5KW/8KW→8KW/12KW/25KW→25KW），代表 BBU 廠商必須持續進行新規格的 R&D 認證，現有產線和製程無法完全沿用，形成動態的技術護城河（與 Fig.4 的 ASP 驅動含量暴增互為表裡：規格跳躍是 ASP 跳躍的技術成因）。
 
 ---
 
@@ -266,34 +270,6 @@ BBU 供應鏈存在兩種商業模式：「Direct Engagement with CSPs」（Pana
 
 ---
 
-## Fig. 22｜BBU Penetration + BBU Specification Evolution + Rack Power
-
-![Fig 22](../assets/20260707_Citi_Dynapack-Initiation/exhibit_22.png)
-
-### 解讀摘要
-比 Fig. 5 更完整的版本：在滲透率曲線下方加入 BBU 規格演進（3KW→25KW）及機架功率輸出（30-50KW→600KW+）兩個維度，讓每一個滲透率數據點都有對應的技術背景。關鍵洞察：每次規格升代並非漸進，而是跳躍性的——5KW/8KW（2026）→8KW/12KW/25KW（Rubin，2027+）→25KW（Rubin Ultra，2028+），這說明 BBU 廠商必須持續進行 R&D 認證，現有產線和製程不能完全沿用，形成動態的技術護城河。
-
-### 表格
-
-| 時間節點 | BBU 滲透率 | BBU 規格 | Rack Power Output |
-|---|---|---|---|
-| CY2022 | 10-15% | 3KW | 30-50KW |
-| CY2024（過渡） | 40-45% | 3KW/5KW | 120-130KW |
-| CY2026E | 60-65% | 5KW/8KW | 150-160KW |
-| CY2027E | — | 8KW/12KW/25KW | 250KW+ |
-| CY2028E | >85% | 25KW | 600KW+ |
-
----
-
-## Fig. 23｜Estimated Content Value Per Rack by Generation（含 GPU 對應）
-
-![Fig 23](../assets/20260707_Citi_Dynapack-Initiation/exhibit_23.png)
-
-### 解讀摘要
-將 Fig. 4 與 GPU 世代直接對應的增強版：Hopper（2022）c.US\$4-5K → Blackwell（2024）c.US\$12-13K → Blackwell Ultra（2026）c.US\$15-16K → Rubin（2027E）c.US\$17-18K → Rubin Ultra（2028E）c.US\$33-34K。Blackwell → Rubin Ultra 的 2.6 倍跳升是因為 Rubin Ultra 採用 25KW 模組（vs Blackwell 的 5KW），等效於 ASP 升至 3 倍（US\$400→US\$1,200）同時模組數量略降，這是報告最重要的單一假設。
-
----
-
 ## Fig. 25｜Market Share of BBU Supplier（FY2026E）
 
 ![Fig 25](../assets/20260707_Citi_Dynapack-Initiation/exhibit_25.png)
@@ -366,12 +342,21 @@ CAPEX 在 2026E 達到歷史高點 NT\$710mn（歷史平均 NT\$150-200mn，約 
 
 ---
 
-## Fig. 30 + Fig. 31｜Dynapack GPM Before/After BBU Ramp + AES GPM Reference
+## Fig. 30｜Dynapack GPM Before/After BBU Ramp
 
-![Fig 30+31](../assets/20260707_Citi_Dynapack-Initiation/exhibit_30.png)
+![Fig 30](../assets/20260707_Citi_Dynapack-Initiation/exhibit_30.png)
 
 ### 解讀摘要
-圖左（Fig 30）以紅框標示「BBU 爬坡前」時期（2018-2023）：Dynapack 集團 GPM 長期維持 7-10%（IT 電池的低毛利特性），2024 起隨 Non-IT 混合提升顯著爬升，預估 2028E 達 28.4%——漲幅接近 20ppt。圖右（Fig 31）呈現 AES GPM 32-40%（2020-2028E），這是「成熟 BBU 廠商在 Direct CSP 銷售模式下的穩定毛利率區間」，為 Dynapack 的長期目標提供了市場可驗證的錨點。兩圖並置說明：Dynapack 的毛利率擴張不是假設，而是已有 AES 的歷史軌跡作為先例。
+紅框標示「BBU 爬坡前」時期（2018-2023）：Dynapack 集團 GPM 長期維持 7-10%（IT 電池的低毛利特性），2024 起隨 Non-IT 混合提升顯著爬升，預估 2028E 達 28.4%——漲幅接近 20ppt。這條軌跡直接對應 Fig. 49 的業務混合轉換（IT 佔比 94%→25%），毛利率擴張並非獨立假設，而是產品組合轉變的直接數學結果。
+
+---
+
+## Fig. 31｜AES GPM Reference
+
+![Fig 31](../assets/20260707_Citi_Dynapack-Initiation/exhibit_31.png)
+
+### 解讀摘要
+AES GPM 32-40%（2020-2028E），是「成熟 BBU 廠商在 Direct CSP 銷售模式下的穩定毛利率區間」，為 Dynapack 的長期目標提供了市場可驗證的錨點。與 Fig. 30 並置的意義在於：Dynapack 的毛利率擴張不是假設，而是已有 AES 的歷史軌跡作為先例。
 
 ### 洞察
 > **洞察一**：Dynapack 2028E GPM 28.4% 仍低於 AES 的 37-38%，差距約 9ppt。這個差距對應 Dynapack 以 PSU 管道銷售（而非直接 CSP 銷售），若未來升格直銷，還有顯著的毛利率上修空間——這也是為什麼 Citi 選擇「早期爬坡」而非「成熟穩定」作為買進時機。

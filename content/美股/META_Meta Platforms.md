@@ -6,6 +6,7 @@ date: 2026-07-01
 broker: MS
 rating: Overweight
 tp: 775
+sectors: [軟體網路]
 ---
 <a href="https://layx.uk/dl?t=META&b=MS&d=20260701">📎 下載 PDF</a><br>
 **MS｜Meta Platforms (META)｜2026-07-01｜事件評論（Neocloud 可行性分析）**

@@ -3,6 +3,7 @@ modified: 2026-06-15
 type: 產業報告
 broker: Goldman Sachs
 date: 2026-06-15
+sectors: [AI伺服器, CPU, 晶圓代工]
 ---
 # GS｜Taiwan Technology：US Marketing Feedback
 

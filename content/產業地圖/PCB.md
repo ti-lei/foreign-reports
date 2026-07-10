@@ -4,14 +4,17 @@ title: PCB
 
 ## 個股
 
-[[3037_欣興]]
+[[2368_金像電]] · [[3037_欣興]] · [[3189_景碩]] · [[4958_臻鼎KY]] · [[6269_台郡]] · [[8046_南電]] · [[8928_Dynamic]]
 
 ## 產業報告
 
-> 收錄標記為「PCB」的外資產業報告，共 10 篇。
+> 收錄標記為「PCB」的外資產業報告，共 13 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260706_MS_ABF-Pricing-Upcycle]] | Morgan Stanley | 2026-07-06 |
+| [[20260706_MS_Tech-Supply-Chain]] | Morgan Stanley | 2026-07-06 |
+| [[20260705_GS_MLCC-ABF]] | Goldman Sachs | 2026-07-05 |
 | [[20260703_Aletheia_ABF-Core]] | Aletheia Capital | 2026-07-02 |
 | [[20260630_Citi_ABF-BT]] | Citi | 2026-06-30 |
 | [[20260701_Nomura_Asia-AI-Semi-Server]] | Nomura | 2026-06-30 |
