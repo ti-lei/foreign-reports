@@ -12,7 +12,7 @@ sectors: [半導體設備, 光通訊-CPO]
 **日期**：2026-07-13  
 **主題**：All Ring 萬潤（6187）首次評等——先進封裝設備的全線解決方案供應商  
 **評級**：BUY｜PO NT\$1,500（36x 2027E P/E，歷史區間 8-41x）  
-<a href="https://layx.uk/dl?g=產業&b=BofA&d=20260713&h=Allring-Initiation">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?t=6187&b=BofA&d=20260713">📎 下載 PDF</a>
 
 ---
 
