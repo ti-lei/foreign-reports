@@ -8,10 +8,11 @@ title: PCB
 
 ## 產業報告
 
-> 收錄標記為「PCB」的外資產業報告，共 13 篇。
+> 收錄標記為「PCB」的外資產業報告，共 14 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260713_Daiwa_Taiwan-DC-Hardware]] | Daiwa | 2026-07-13 |
 | [[20260706_MS_ABF-Pricing-Upcycle]] | Morgan Stanley | 2026-07-06 |
 | [[20260706_MS_Tech-Supply-Chain]] | Morgan Stanley | 2026-07-06 |
 | [[20260705_GS_MLCC-ABF]] | Goldman Sachs | 2026-07-05 |

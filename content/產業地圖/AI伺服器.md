@@ -8,10 +8,11 @@ title: AI伺服器
 
 ## 產業報告
 
-> 收錄標記為「AI伺服器」的外資產業報告，共 34 篇。
+> 收錄標記為「AI伺服器」的外資產業報告，共 35 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260713_Daiwa_Taiwan-DC-Hardware]] | Daiwa | 2026-07-13 |
 | [[20260712_Citi_BBU-Investor-Feedback]] | Citi | 2026-07-12 |
 | [[20260712_GS_ABF-Price-Hikes]] | Goldman Sachs | 2026-07-12 |
 | [[20260711_BofA_Memory-Weekly]] | Bank of America | 2026-07-11 |
