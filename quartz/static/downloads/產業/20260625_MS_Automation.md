@@ -3,7 +3,7 @@ modified: 2026-07-01
 type: 產業報告
 broker: Morgan Stanley
 date: 2026-06-25
-sectors: [自動化零組件]
+sectors: [自動化]
 ---
 # Morgan Stanley｜Automation：JMTBA May 2026 Final Orders Read-Across
 

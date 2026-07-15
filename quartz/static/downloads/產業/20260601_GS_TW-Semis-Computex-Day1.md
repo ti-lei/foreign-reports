@@ -3,7 +3,7 @@ modified: 2026-06-01
 type: 產業報告
 broker: Goldman Sachs
 date: 2026-06-01
-sectors: [AI伺服器, 晶圓代工, 半導體測試, 功率半導體]
+sectors: [AI伺服器, 晶圓代工, 半導體封測, 功率半導體]
 ---
 # GS｜TW Semis Computex & Corporate Day 2026 — Day 1 Key Takeaways
 

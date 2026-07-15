@@ -3,7 +3,7 @@ modified: 2026-06-29
 type: 產業報告
 broker: J.P. Morgan
 date: 2026-06-22
-sectors: [ODM-EMS, 半導體測試]
+sectors: [ODM-EMS, 半導體封測]
 ---
 # JPM｜創新服務 (Innostar Service) MEMS 探針卡設備與 GCS TGV 銅柱 Initiation
 

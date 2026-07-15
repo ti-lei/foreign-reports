@@ -3,7 +3,7 @@ modified: 2026-07-01
 type: 產業報告
 broker: Morgan Stanley
 date: 2026-06-30
-sectors: [半導體測試]
+sectors: [半導體封測]
 ---
 # Morgan Stanley｜Testing Consumables：Potential Price Hike Coming
 
