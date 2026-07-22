@@ -8,9 +8,10 @@ title: IC設計
 
 ## 產業報告
 
-> 收錄標記為「IC設計」的外資產業報告，共 2 篇。
+> 收錄標記為「IC設計」的外資產業報告，共 3 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260720_Citi_GC-Semi-US-Strategy]] | Citi | 2026-07-20 |
 | [[20260720_HSBC_Kimi-momo-Multi-Asset]] | HSBC | 2026-07-20 |
 | [[20260621_MS_MCU]] | Morgan Stanley | 2026-06-21 |
