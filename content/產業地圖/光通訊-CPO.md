@@ -8,10 +8,11 @@ title: 光通訊-CPO
 
 ## 產業報告
 
-> 收錄標記為「光通訊-CPO」的外資產業報告，共 12 篇。
+> 收錄標記為「光通訊-CPO」的外資產業報告，共 13 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260721_Jefferies_Japan-Tech-BE-PKG]] | Jefferies | 2026-07-21 |
 | [[20260714_BofA_FAU-Alignment-Automation]] | BofA | 2026-07-14 |
 | [[20260713_BofA_Allring-Initiation]] | BofA Securities | 2026-07-13 |
 | [[20260706_GS_FOCI-Initiation]] | Goldman Sachs | 2026-07-06 |
