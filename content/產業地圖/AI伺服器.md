@@ -8,10 +8,11 @@ title: AI伺服器
 
 ## 產業報告
 
-> 收錄標記為「AI伺服器」的外資產業報告，共 38 篇。
+> 收錄標記為「AI伺服器」的外資產業報告，共 39 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260723_MS_Google-Results-Implication]] | Morgan Stanley | 2026-07-23 |
 | [[20260722_MS_Cloud-Semis]] | Morgan Stanley | 2026-07-22 |
 | [[20260721_MS_Shanghai-WAIC-2026]] | Morgan Stanley | 2026-07-21 |
 | [[20260720_MS_GC-Tech-HW-Storage-TSMC]] | Morgan Stanley | 2026-07-20 |
