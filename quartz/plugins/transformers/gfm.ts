@@ -1,5 +1,6 @@
 import remarkGfm from "remark-gfm"
 import smartypants from "remark-smartypants"
+import { Pluggable } from "unified"
 import { QuartzTransformerPlugin } from "../types"
 import rehypeSlug from "rehype-slug"
 import rehypeAutolinkHeadings from "rehype-autolink-headings"
@@ -19,7 +20,10 @@ export const GitHubFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>> =
   return {
     name: "GitHubFlavoredMarkdown",
     markdownPlugins() {
-      return opts.enableSmartyPants ? [remarkGfm, smartypants] : [remarkGfm]
+      // singleTilde 預設 true：中文筆記常見的 "3~5"、"20%~50%" 這種單一波浪號範圍寫法，
+      // 一段話裡出現兩個就會被誤判成刪除線包住中間所有文字。關掉只留 ~~雙波浪號~~ 才算刪除線。
+      const gfm: Pluggable = [remarkGfm, { singleTilde: false }]
+      return opts.enableSmartyPants ? [gfm, smartypants] : [gfm]
     },
     htmlPlugins() {
       if (opts.linkHeadings) {
