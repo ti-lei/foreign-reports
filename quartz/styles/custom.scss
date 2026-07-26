@@ -4,6 +4,13 @@
   max-width: 800px;
 }
 
+/* 券商行程日曆頁：放寬內容寬度，讓日曆盡量用滿版面（右側只留一點邊距）。
+   用 :has() 只命中含日曆 iframe 的那頁，其餘報告頁維持 800px 好閱讀。 */
+.center article:has(iframe[title="券商行程日曆"]) {
+  max-width: none;
+  padding-right: 2rem;
+}
+
 .sidebar.right {
   display: none !important;
 }
