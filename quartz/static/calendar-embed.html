@@ -26,6 +26,34 @@
 
   .fc-event { cursor:pointer; }
 
+  /* 清單檢視：頂部工具列（上下頁／今天／月份／月曆·清單）固定，不隨長清單捲走。
+     清單很長時是 iframe 內部捲動，故 sticky top:0 貼在 iframe 可視區頂端。
+     只在 list view 加（由 JS datesSet 切 #calendar.is-list），月曆檢視不影響。 */
+  #calendar.is-list .fc-header-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 6;
+    background: #fff;
+    margin-bottom: 0;        /* 去掉預設下 margin 的透明縫，改用 padding 讓白底蓋滿 */
+    padding-bottom: 8px;
+    box-shadow: 0 3px 6px -2px rgba(0,0,0,.12);
+  }
+
+  /* 清單日期列：日期與星期幾同排靠左（FullCalendar 預設把星期幾甩到最右，
+     全寬時離日期太遠）。直接把 cushion 設成 flex 靠左＋小間距，兼容其預設是
+     float 或 flex space-between 兩種情況；!important 壓過執行期注入的樣式。 */
+  .fc-list-day-cushion {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: baseline;
+    gap: 0.55em;
+  }
+  .fc-list-day-cushion .fc-list-day-text,
+  .fc-list-day-cushion .fc-list-day-side-text {
+    float: none !important;
+    color: inherit;
+  }
+
   /* 月曆「+N more」彈出清單：單日事件太多時限高可捲，避免超出畫面 */
   .fc-popover { max-width:calc(100vw - 16px); }
   .fc-popover .fc-popover-body { max-height:min(65vh, 440px); overflow-y:auto; -webkit-overflow-scrolling:touch; }
@@ -153,15 +181,39 @@ document.addEventListener('DOMContentLoaded', function(){
       height: 'auto',
       firstDay: 1,
       weekends: false,
-      headerToolbar: { left: 'prev,next today', center: 'title', right: 'dayGridMonth,listMonth' },
-      buttonText: { today: '今天', month: '月曆', list: '清單' },
+      customButtons: {
+        // 自訂「今天」：先導到本月，再捲到今天那天的行程（見 scrollToToday）。
+        todayJump: { text: '今天', click: function(){ CAL.today(); setTimeout(scrollToToday, 50); } }
+      },
+      headerToolbar: { left: 'prev,next todayJump', center: 'title', right: 'dayGridMonth,listMonth' },
+      buttonText: { month: '月曆', list: '清單' },
       dayMaxEvents: 3,
       events: events,
+      // 清單檢視時給 #calendar 掛 is-list，讓頂部工具列 sticky（見 style）。初次渲染與每次切換/換月都會觸發。
+      datesSet: function(arg){ document.getElementById('calendar').classList.toggle('is-list', arg.view.type.indexOf('list') === 0); },
       eventClick: function(info){ showDetail(info.event.extendedProps); info.jsEvent.preventDefault(); }
     });
     CAL.render();
   }).catch(function(e){ document.getElementById('count').textContent = '載入失敗: ' + e.message; });
 });
+
+/* ---- 「今天」按鈕：捲到今天（或今天之後第一個有行程的日子）那段 ---- */
+// 清單列的日期標頭 .fc-list-day 帶 data-date="YYYY-MM-DD"；用字串比較即等於時間排序。
+function scrollToToday(){
+  var t = new Date();
+  var iso = t.getFullYear() + '-' + pad2(t.getMonth()+1) + '-' + pad2(t.getDate());
+  var days = document.querySelectorAll('.fc-list-day');
+  if (!days.length) return;                       // 非清單檢視（或本月無行程）→ 不動作
+  var target = null;
+  for (var i=0;i<days.length;i++){
+    if (days[i].getAttribute('data-date') >= iso){ target = days[i]; break; }
+  }
+  if (!target) target = days[days.length-1];       // 全部都早於今天 → 捲到最後一天
+  var top = target.getBoundingClientRect().top + (window.scrollY || window.pageYOffset || 0);
+  var tb = document.querySelector('.fc-header-toolbar');
+  var offset = (tb ? tb.offsetHeight : 0) + 8;      // 扣掉 sticky 工具列高度，免得目標被蓋住
+  window.scrollTo({ top: Math.max(0, top - offset), behavior: 'smooth' });
+}
 
 /* ---- 搜尋 ---- */
 var searchBox = document.getElementById('search');
