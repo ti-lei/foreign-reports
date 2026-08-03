@@ -189,8 +189,13 @@ document.addEventListener('DOMContentLoaded', function(){
       buttonText: { month: '月曆', list: '清單' },
       dayMaxEvents: 3,
       events: events,
-      // 清單檢視時給 #calendar 掛 is-list，讓頂部工具列 sticky（見 style）。初次渲染與每次切換/換月都會觸發。
-      datesSet: function(arg){ document.getElementById('calendar').classList.toggle('is-list', arg.view.type.indexOf('list') === 0); },
+      // 清單檢視時給 #calendar 掛 is-list，讓頂部工具列 sticky（見 style）；同時捲到今天，
+      // 涵蓋：手機預設開清單、桌機按「清單」切換、清單內換月，初次渲染與每次切換/換月都會觸發。
+      datesSet: function(arg){
+        var isList = arg.view.type.indexOf('list') === 0;
+        document.getElementById('calendar').classList.toggle('is-list', isList);
+        if (isList) setTimeout(scrollToToday, 50);
+      },
       eventClick: function(info){ showDetail(info.event.extendedProps); info.jsEvent.preventDefault(); }
     });
     CAL.render();
