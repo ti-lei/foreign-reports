@@ -8,10 +8,11 @@ title: 光通訊-CPO
 
 ## 產業報告
 
-> 收錄標記為「光通訊-CPO」的外資產業報告，共 15 篇。
+> 收錄標記為「光通訊-CPO」的外資產業報告，共 16 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260811_GS_Optical-Networking]] | Goldman Sachs | 2026-08-11 |
 | [[20260727_MS_AI-Networking]] | Morgan Stanley | 2026-07-27 |
 | [[20260727_UBS_AllRing-Initiation]] | UBS | 2026-07-27 |
 | [[20260721_Jefferies_Japan-Tech-BE-PKG]] | Jefferies | 2026-07-21 |
