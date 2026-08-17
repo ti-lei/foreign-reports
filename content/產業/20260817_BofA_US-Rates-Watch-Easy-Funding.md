@@ -12,7 +12,7 @@ sectors: [金融]
 **日期**：2026-08-17  
 **主題**：美國資金市場寬鬆成因分析與展望  
 **評級**：N/A（利率策略報告）  
-<a href="https://layx.uk/dl?g=產業&b=ml&d=20260817&h=US-Rates-Watch-Easy-Funding">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?g=產業&b=BofA&d=20260817&h=US-Rates-Watch-Easy-Funding">📎 下載 PDF</a>
 
 ---
 
