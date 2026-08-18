@@ -1,5 +1,5 @@
 ---
-modified: 2026-06-29
+modified: 2026-08-18
 type: 產業報告
 broker: J.P. Morgan
 date: 2026-06-22
@@ -12,7 +12,7 @@ sectors: [ODM-EMS, 半導體封測]
 **日期**：2026-06-22  
 **主題**：Innostar Service — The next shining star driven by innovation; initiate at OW  
 **評級**：OW（初始覆蓋）  
-<a href="https://layx.uk/dl?g=產業&b=JPM&d=20260622&h=Innostar-GCS-MEMS-Initiation">📎 下載 PDF</a>
+<a href="https://layx.uk/dl?t=7828&b=JPM&d=20260622">📎 下載 PDF</a>
 
 ---
 
@@ -99,35 +99,57 @@ JPM 建模 2025-28E EPS CAGR 200%，2027E NT\$63.97 vs 共識 NT\$43.18（+48%�
 
 ---
 
-## Exhibit 3｜銅柱業務營收與貢獻佔比（Fig 11+12）
+## Exhibit 3｜銅柱業務營收與 YoY 成長（Fig 11）
 
 ![Exhibit 3](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_03.png)
 
 ### 解讀摘要
 
-GCS TGV 銅柱業務在 2026E 尚屬微量（~3% 總營收、NT\$50mn 規模），真正的體量轉折在 2027E（NT\$450mn，8% 佔比）和 2028E（NT\$2,440mn，19% 佔比）。增長率的三位數（2027E +671%、2028E +467%）源於基期極低——實際上是從接近零開始的新業務爬坡，增長率本身意義有限，絕對金額的斜率才是關鍵。
+GCS TGV 銅柱業務營收在 2026E 前幾乎是從零起步，2026E 才出現首筆可辨識規模（~50mn）。增長率的三位數（2026E +671%、2027E +681%）源於基期極低——實際上是從接近零開始的新業務爬坡，增長率本身意義有限，絕對金額的斜率才是關鍵：2027E 躍升至 ~450mn，2028E 再大跳至 ~2,440mn。
 
 ### 表格
 
-| 年度 | 銅柱業務營收（NT\$mn） | YoY | 佔總營收比 |
-|---|---|---|---|
-| 2024 | ~0 | — | ~0% |
-| 2025A | <30 | — | <1% |
-| 2026E | ~50 | +671% | ~3% |
-| 2027E | ~450 | +671% | 8% |
-| 2028E | ~2,440 | +467% | 19% |
+| 年度 | 銅柱業務營收（NT\$mn） | YoY |
+|---|---|---|
+| 2024 | ~0 | — |
+| 2025 | <30 | +75% |
+| 2026E | ~50 | +671% |
+| 2027E | ~450 | +681% |
+| 2028E | ~2,440 | +467% |
 
-*以上絕對值為視覺估算；YoY% 來自 Fig 11 資料標籤；佔比來自 Fig 12 資料標籤。*
+*絕對值為視覺估算；YoY% 為 Fig 11 圖表折線資料標籤直讀。*
 
-> **洞察一**：2028E 銅柱 NT\$2,440mn = 12,849mn × 19%。這幾乎完全仰賴單一 US tier-1 switch ASIC 客戶的量產訂單。若該客戶量產時程從 2H27E 推遲至 2028E，則 2027E 銅柱貢獻歸零，JPM vs 共識的 +48% EPS gap 將大幅收窄甚至逆轉。
+---
+
+## Exhibit 4｜銅柱營收佔總營收比攀升至 19%（Fig 12）
+
+![Exhibit 4](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_04.png)
+
+### 解讀摘要
+
+銅柱業務佔總營收比重在 2024-2025 幾乎可忽略（~1%），2026E 微升至 ~3%，真正的體量轉折在 2027E（8%）和 2028E（19%）——三年間佔比從個位數躍升近 20 個百分點，顯示 JPM 預期這是繼探針卡設備之後第二個實質貢獻營收結構的業務線。
+
+### 表格
+
+| 年度 | 銅柱佔總營收比 |
+|---|---|
+| 2024 | ~1% |
+| 2025 | ~1% |
+| 2026E | ~3% |
+| 2027E | 8% |
+| 2028E | 19% |
+
+*佔比為 Fig 12 圖表資料標籤直讀。*
+
+> **洞察一（配合 Exhibit 3）**：2028E 銅柱 NT\$2,440mn = 12,849mn（Exhibit 2 總營收）× 19%（本表佔比）。這幾乎完全仰賴單一 US tier-1 switch ASIC 客戶的量產訂單。若該客戶量產時程從 2H27E 推遲至 2028E，則 2027E 銅柱貢獻歸零，JPM vs 共識的 +48% EPS gap 將大幅收窄甚至逆轉。
 
 > **值得驗證**：JPM 假設創新服務是此 US tier-1 客戶 TGV 銅柱的 sole supplier。此假設若不成立（如 Amkor、Finecs 取得部分訂單），2028E 銅柱收入將低於 NT\$2,440mn，影響幅度可能達 30-50%。
 
 ---
 
-## Exhibit 4｜TGV 玻璃核心基板 vs 傳統有機基板結構比較（Fig 13）
+## Exhibit 5｜TGV 玻璃核心基板 vs 傳統有機基板結構比較（Fig 13）
 
-![Exhibit 4](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_04.png)
+![Exhibit 5](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_05.png)
 
 ### 解讀摘要
 
@@ -144,9 +166,9 @@ GCS TGV 銅柱業務在 2026E 尚屬微量（~3% 總營收、NT\$50mn 規模）�
 
 ---
 
-## Exhibit 5｜GCS TGV 供應鏈圖（Fig 14）
+## Exhibit 6｜GCS TGV 供應鏈圖（Fig 14）
 
-![Exhibit 5](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_05.png)
+![Exhibit 6](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_06.png)
 
 ### 解讀摘要
 
@@ -164,9 +186,9 @@ GCS 的 5 步驟供應鏈（玻璃材料→雷射修改→蝕刻 TGV→金屬化
 
 ---
 
-## Exhibit 6｜GCS TGV 量產資格認證時程（Fig 15）
+## Exhibit 7｜GCS TGV 量產資格認證時程（Fig 15）
 
-![Exhibit 6](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_06.png)
+![Exhibit 7](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_07.png)
 
 ### 解讀摘要
 
@@ -183,9 +205,9 @@ TGV 銅柱的量產路徑已走過最困難的第一關（Before 1Q26 銅柱資�
 
 ---
 
-## Exhibit 7｜TGV 銅柱產能擴張計畫（Fig 16）
+## Exhibit 8｜TGV 銅柱產能擴張計畫（Fig 16）
 
-![Exhibit 7](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_07.png)
+![Exhibit 8](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_08.png)
 
 ### 解讀摘要
 
@@ -204,9 +226,9 @@ TGV 銅柱的量產路徑已走過最困難的第一關（Before 1Q26 銅柱資�
 
 ---
 
-## Exhibit 8｜產業定位：中游探針卡自動化設備（Fig 17）
+## Exhibit 9｜產業定位：中游探針卡自動化設備（Fig 17）
 
-![Exhibit 8](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_08.png)
+![Exhibit 9](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_09.png)
 
 ### 解讀摘要
 
@@ -214,9 +236,9 @@ TGV 銅柱的量產路徑已走過最困難的第一關（Before 1Q26 銅柱資�
 
 ---
 
-## Exhibit 9｜探針卡 TAM 與供應鏈關係（Fig 18）
+## Exhibit 10｜探針卡 TAM 與供應鏈關係（Fig 18）
 
-![Exhibit 9](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_09.png)
+![Exhibit 10](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_10.png)
 
 ### 解讀摘要
 
@@ -224,41 +246,60 @@ Fabless/Foundry 的訂單流向 TP（探針卡廠），TP 再向創新服務採�
 
 ---
 
-## Exhibit 10｜探針卡設備營收與雙臂機台出貨量（Fig 19+20）
-
-![Exhibit 10](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_10.png)
-
-### 解讀摘要
-
-雙臂機台是創新服務 2026-28 年探針卡設備成長的核心機種：出貨量從 2025A 僅 4 台跳升至 2026E 40 台（+10x），再到 2027E 150 台（+3.75x）、2028E 300 台（+2x）。雙臂機台單價遠高於單臂機台（未披露具體 ASP 差距），因此出貨量 ×10 搭配 ASP 提升，帶動探針卡設備整體 2024→2026E 約 ×4（NT\$350mn→NT\$1,400mn）的驚人增幅。
-
-### 表格
-
-| 年度 | 探針卡設備總營收（NT\$mn） | YoY | 雙臂機台出貨（台） |
-|---|---|---|---|
-| 2024 | ~350 | — | — |
-| 2025A | ~700 | +86% | 4 |
-| 2026E | ~1,400 | +107% | 40 |
-| 2027E | ~4,000 | +186% | 150 |
-| 2028E | ~8,000 | +98% | 300 |
-
-*探針卡設備絕對值為視覺估算（Fig 19 無資料標籤）；出貨量來自 Fig 20 資料標籤。*
-
-> **洞察一**：雙臂機台 2025→2026E 出貨量 4→40 台，已是 10 倍增長，而探針卡設備收入僅增 107%（而非 10 倍），說明單臂機台依然有穩定出貨基量，雙臂機台的增量收入稀釋了整體 YoY 倍率。真正的 ASP 混合效果將在 2027E（雙臂機台佔比更高時）更顯著反映在毛利率（EBIT margin 從 42% 升至 56%）。
-
----
-
-## Exhibit 11｜全球探針卡廠商市佔分析（Fig 21+22）
+## Exhibit 11｜探針卡設備營收成長（Fig 19）
 
 ![Exhibit 11](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_11.png)
 
 ### 解讀摘要
 
-在整體（含記憶體）探針卡市場，FormFactor 以 24% 居首，Technoprobe 以 21% 居次，Micronics Japan 12%；在非記憶體（高 pin count、AI ASIC 集中的市場），TP 以 35% 大幅領先 FormFactor 29%，是 JPM 認為創新服務需求最關鍵的細分市場。非記憶體探針卡將隨 AI ASIC 複雜度提升而擴大 TAM，TP 的領先地位直接轉化為創新服務的設備訂單。
+探針卡設備營收 2024→2026E 約 ×4（NT\$350mn→NT\$1,400mn），YoY 增速在 2027E 達到峰值 +186%，隨後 2028E 回落至 +98%——曲線形狀顯示 2027E 是設備營收成長率的高點，2028E 雖絕對金額仍在擴大（~4,000mn→~8,000mn）但成長速度已放緩，與 Exhibit 12 雙臂機台出貨量持續加速形成對比。
 
 ### 表格
 
-**Fig 21：整體探針卡廠商市佔（含記憶體）**
+| 年度 | 探針卡設備總營收（NT\$mn） | YoY |
+|---|---|---|
+| 2024 | ~350 | — |
+| 2025A | ~700 | +86% |
+| 2026E | ~1,400 | +107% |
+| 2027E | ~4,000 | +186% |
+| 2028E | ~8,000 | +98% |
+
+*絕對值為視覺估算（Fig 19 無資料標籤）；YoY% 為圖表折線資料標籤直讀。*
+
+---
+
+## Exhibit 12｜雙臂機台出貨量（Fig 20）
+
+![Exhibit 12](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_12.png)
+
+### 解讀摘要
+
+雙臂機台是創新服務 2026-28 年探針卡設備成長的核心機種：出貨量從 2025A 僅 4 台跳升至 2026E 40 台（+10x），再到 2027E 150 台（+3.75x）、2028E 300 台（+2x）。雙臂機台單價遠高於單臂機台（未披露具體 ASP 差距），出貨量持續加速反映 TP 對雙臂機的採購深化。
+
+### 表格
+
+| 年度 | 雙臂機台出貨（台） |
+|---|---|
+| 2025A | 4 |
+| 2026E | 40 |
+| 2027E | 150 |
+| 2028E | 300 |
+
+*出貨量為 Fig 20 資料標籤直讀。*
+
+> **洞察一（配合 Exhibit 11）**：雙臂機台 2025→2026E 出貨量 4→40 台，已是 10 倍增長，而 Exhibit 11 的探針卡設備收入僅增 107%（而非 10 倍），說明單臂機台依然有穩定出貨基量，雙臂機台的增量收入稀釋了整體 YoY 倍率。真正的 ASP 混合效果將在 2027E（雙臂機台佔比更高時）更顯著反映在毛利率（EBIT margin 從 42% 升至 56%）。
+
+---
+
+## Exhibit 13｜整體探針卡廠商市佔（Fig 21）
+
+![Exhibit 13](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_13.png)
+
+### 解讀摘要
+
+在整體（含記憶體）探針卡市場，FormFactor 以 24% 居首，Technoprobe 以 21% 居次，Micronics Japan 12%——這是市佔的基準視角，但記憶體探針卡的技術門檻與 AI ASIC 需求脫鉤，真正決定創新服務訂單的是 Exhibit 14 的非記憶體細分市場。
+
+### 表格
 
 | 廠商 | 市佔 |
 |---|---|
@@ -269,7 +310,19 @@ Fabless/Foundry 的訂單流向 TP（探針卡廠），TP 再向創新服務採�
 | JEM | 6% |
 | 其他 | 31% |
 
-**Fig 22：非記憶體探針卡廠商市佔**
+*Source: Techinsight (2024/12, 2025E), company OTC prospectus.*
+
+---
+
+## Exhibit 14｜非記憶體探針卡廠商市佔（Fig 22）
+
+![Exhibit 14](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_14.png)
+
+### 解讀摘要
+
+在非記憶體（高 pin count、AI ASIC 集中的市場），TP 以 35% 大幅領先 FormFactor 29%，是 JPM 認為創新服務需求最關鍵的細分市場——對照 Exhibit 13 的整體市場排名（TP 僅第二，21%），TP 在非記憶體的領先優勢明顯更大。非記憶體探針卡將隨 AI ASIC 複雜度提升而擴大 TAM，TP 的領先地位直接轉化為創新服務的設備訂單。
+
+### 表格
 
 | 廠商 | 市佔 |
 |---|---|
@@ -284,9 +337,9 @@ Fabless/Foundry 的訂單流向 TP（探針卡廠），TP 再向創新服務採�
 
 ---
 
-## Exhibit 12｜探針卡 TAM 擴張至材料套件和 OEM 服務（Fig 23）
+## Exhibit 15｜探針卡 TAM 擴張至材料套件和 OEM 服務（Fig 23）
 
-![Exhibit 12](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_12.png)
+![Exhibit 15](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_15.png)
 
 ### 解讀摘要
 
@@ -310,9 +363,9 @@ Fabless/Foundry 的訂單流向 TP（探針卡廠），TP 再向創新服務採�
 
 ---
 
-## Exhibit 13｜材料套件 + OEM 服務營收（Fig 24）
+## Exhibit 16｜材料套件 + OEM 服務營收（Fig 24）
 
-![Exhibit 13](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_13.png)
+![Exhibit 16](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_16.png)
 
 ### 解讀摘要
 
@@ -330,9 +383,9 @@ Fabless/Foundry 的訂單流向 TP（探針卡廠），TP 再向創新服務採�
 
 ---
 
-## Exhibit 14｜創新服務 2025 年收入結構（Fig 25）
+## Exhibit 17｜創新服務 2025 年收入結構（Fig 25）
 
-![Exhibit 14](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_14.png)
+![Exhibit 17](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_17.png)
 
 ### 解讀摘要
 
@@ -342,7 +395,7 @@ Fabless/Foundry 的訂單流向 TP（探針卡廠），TP 再向創新服務採�
 
 ## 跨 Exhibit 彙整表
 
-### 彙整 1｜三大業務 2026-2028E 收入結構（來源：Exhibit 2、10、12、13）
+### 彙整 1｜三大業務 2026-2028E 收入結構（來源：Exhibit 2、11、15、16）
 
 | 年度 | 探針卡設備（NT\$mn） | 材料套件+OEM（NT\$mn） | GCS 銅柱（NT\$mn） | 其他 | 總營收（NT\$mn） |
 |---|---|---|---|---|---|
