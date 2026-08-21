@@ -8,11 +8,12 @@ title: PCB
 
 ## 產業報告
 
-> 收錄標記為「PCB」的外資產業報告，共 20 篇。
+> 收錄標記為「PCB」的外資產業報告，共 21 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
 | [[20260820_Nomura_Asia-Tech-Tour]] | Nomura | 2026-08-20 |
+| [[20260819_BofA_ABF-Substrate]] | BofA Securities | 2026-08-19 |
 | [[20260811_Citi_PCB-GCE-Tripod]] | Citi | 2026-08-11 |
 | [[20260805_GS_ATS-Implication]] | Goldman Sachs | 2026-08-05 |
 | [[20260805_GS_Global-PCB-CCL]] | Goldman Sachs | 2026-08-05 |
