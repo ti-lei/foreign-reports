@@ -8,7 +8,7 @@ rating: Overweight
 tp: 88
 sectors: [記憶體]
 ---
-<a href="https://layx.uk/dl?t=CXMT&b=MS&d=20260826">📎 下載 PDF</a><br>
+<a href="https://layx.uk/dl?g=產業&b=MS&d=20260826&h=CXMT-DRAM-Initiation">📎 下載 PDF</a><br>
 **MS｜長鑫存儲 CXMT (688825.SS)｜2026-08-26｜首次覆蓋（Initiation）**
 **評等** Overweight（首次覆蓋）　**目標價** Rmb88　**估值** RI model，隱含 18.5x 2027e P/E（vs 全球同業 4.4x）  
 **EPS 預估** 2026E Rmb3.0　2027E Rmb4.7　2028E Rmb6.3
