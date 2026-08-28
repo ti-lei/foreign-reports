@@ -8,10 +8,11 @@ title: ODM-EMS
 
 ## 產業報告
 
-> 收錄標記為「ODM-EMS」的外資產業報告，共 12 篇。
+> 收錄標記為「ODM-EMS」的外資產業報告，共 13 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260827_Citi_NVDA-Implication]] | Citi | 2026-08-27 |
 | [[20260813_MS_Monthly-Databook-iOS]] | Morgan Stanley | 2026-08-13 |
 | [[20260807_MS_NVL72-Racks]] | Morgan Stanley | 2026-08-07 |
 | [[20260724_UBS_Intel-Implication]] | UBS | 2026-07-24 |

@@ -8,10 +8,11 @@ title: AI伺服器
 
 ## 產業報告
 
-> 收錄標記為「AI伺服器」的外資產業報告，共 48 篇。
+> 收錄標記為「AI伺服器」的外資產業報告，共 49 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260827_Citi_NVDA-Implication]] | Citi | 2026-08-27 |
 | [[20260817_JPM_Asia-Technology-Tracker]] | J.P. Morgan | 2026-08-17 |
 | [[20260810_Citi_Taiwan-Electronics-Monthly]] | Citi | 2026-08-10 |
 | [[20260810_MS_AI-Supply-Chain]] | Morgan Stanley | 2026-08-10 |
