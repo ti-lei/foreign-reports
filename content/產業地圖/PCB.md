@@ -8,10 +8,11 @@ title: PCB
 
 ## 產業報告
 
-> 收錄標記為「PCB」的外資產業報告，共 21 篇。
+> 收錄標記為「PCB」的外資產業報告，共 22 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260903_MS_SEMICON-Taiwan-2026]] | Morgan Stanley | 2026-09-03 |
 | [[20260820_Nomura_Asia-Tech-Tour]] | Nomura | 2026-08-20 |
 | [[20260819_BofA_ABF-Substrate]] | BofA Securities | 2026-08-19 |
 | [[20260811_Citi_PCB-GCE-Tripod]] | Citi | 2026-08-11 |
