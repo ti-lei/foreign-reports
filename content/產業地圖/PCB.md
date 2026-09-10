@@ -8,7 +8,7 @@ title: PCB
 
 ## 產業報告
 
-> 收錄標記為「PCB」的外資產業報告，共 24 篇。
+> 收錄標記為「PCB」的外資產業報告，共 25 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
@@ -36,3 +36,4 @@ title: PCB
 | [[20260611_MS_Optics-PCB-AI-Interconnect]] | Morgan Stanley | 2026-06-11 |
 | [[20260607_Citi_TW-PCB-CCL]] | Citi Research | 2026-06-07 |
 | [[20260522_UBS_TW-PCB-Substrate]] | UBS Securities Pte. Ltd., Taipei Branch | 2026-05-22 |
+| [[20260417_GS_AI-Infrastructure-Networking]] | Goldman Sachs | 2026-04-17 |

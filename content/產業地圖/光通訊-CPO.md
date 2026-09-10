@@ -8,7 +8,7 @@ title: 光通訊-CPO
 
 ## 產業報告
 
-> 收錄標記為「光通訊-CPO」的外資產業報告，共 19 篇。
+> 收錄標記為「光通訊-CPO」的外資產業報告，共 20 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
@@ -31,3 +31,4 @@ title: 光通訊-CPO
 | [[20260528_TrendForce_Post-OFC2026-矽光子與CPO]] | TrendForce（集邦科技股份有限公司） | 2026-05-28 |
 | [[20260525_MS_AI-Transceivers分析]] | Morgan Stanley | 2026-05-25 |
 | [[20260511_GFHK_Bizlink-Initiation]] | GF Securities (Hong Kong) Brokerage | 2026-05-11 |
+| [[20260417_GS_AI-Infrastructure-Networking]] | Goldman Sachs | 2026-04-17 |
