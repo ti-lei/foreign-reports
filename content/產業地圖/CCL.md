@@ -8,10 +8,11 @@ title: CCL
 
 ## 產業報告
 
-> 收錄標記為「CCL」的外資產業報告，共 11 篇。
+> 收錄標記為「CCL」的外資產業報告，共 12 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260907_GS_TW-PCB-CCL]] | Goldman Sachs | 2026-09-07 |
 | [[20260805_GS_Global-PCB-CCL]] | Goldman Sachs | 2026-08-05 |
 | [[20260729_GS_CCL]] | GS | 2026-07-29 |
 | [[20260723_GS_CCL-HighEnd-EMC-TUC]] | Goldman Sachs | 2026-07-23 |
