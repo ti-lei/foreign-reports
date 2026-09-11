@@ -8,10 +8,11 @@ title: 光通訊-CPO
 
 ## 產業報告
 
-> 收錄標記為「光通訊-CPO」的外資產業報告，共 22 篇。
+> 收錄標記為「光通訊-CPO」的外資產業報告，共 23 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260910_MS_iPhone-18-Optical]] | Morgan Stanley | 2026-09-10 |
 | [[20260908_GS_Semicon-Taiwan-Takeaways]] | Goldman Sachs | 2026-09-08 |
 | [[20260907_GS_Global-Optical-Transceivers]] | Goldman Sachs | 2026-09-07 |
 | [[20260906_MS_SEMICON-Taiwan-2026]] | Morgan Stanley | 2026-09-06 |
