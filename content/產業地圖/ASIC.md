@@ -8,10 +8,11 @@ title: ASIC
 
 ## 產業報告
 
-> 收錄標記為「ASIC」的外資產業報告，共 8 篇。
+> 收錄標記為「ASIC」的外資產業報告，共 9 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260910_MS_AI-Supply-Chain]] | Morgan Stanley | 2026-09-10 |
 | [[20260909_Daiwa_Ardentec-Initiation]] | Daiwa Capital Markets | 2026-09-09 |
 | [[20260827_Citi_NVDA-Implication]] | Citi | 2026-08-27 |
 | [[20260827_MS_NVDA-Implication]] | Morgan Stanley | 2026-08-27 |
