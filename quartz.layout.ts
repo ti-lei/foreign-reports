@@ -68,8 +68,8 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       sortFn: (a, b) => {
-        // 置頂項目：券商行程日曆、史萊姆的聊天室 固定排在最前
-        const pinned = ["券商行程日曆", "史萊姆的聊天室"]
+        // 置頂項目：公司Memo、券商行程日曆、史萊姆的聊天室 固定排在最前
+        const pinned = ["公司Memo", "券商行程日曆", "史萊姆的聊天室"]
         const rankA = pinned.indexOf(a.displayName)
         const rankB = pinned.indexOf(b.displayName)
         if (rankA !== -1 || rankB !== -1) {
@@ -113,8 +113,8 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       sortFn: (a, b) => {
-        // 置頂項目：券商行程日曆、史萊姆的聊天室 固定排在最前
-        const pinned = ["券商行程日曆", "史萊姆的聊天室"]
+        // 置頂項目：公司Memo、券商行程日曆、史萊姆的聊天室 固定排在最前
+        const pinned = ["公司Memo", "券商行程日曆", "史萊姆的聊天室"]
         const rankA = pinned.indexOf(a.displayName)
         const rankB = pinned.indexOf(b.displayName)
         if (rankA !== -1 || rankB !== -1) {
