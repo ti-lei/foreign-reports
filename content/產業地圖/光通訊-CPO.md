@@ -8,10 +8,11 @@ title: 光通訊-CPO
 
 ## 產業報告
 
-> 收錄標記為「光通訊-CPO」的外資產業報告，共 25 篇。
+> 收錄標記為「光通訊-CPO」的外資產業報告，共 26 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260920_Citi_TW-Semi-US-Marketing-Feedback]] | Citi | 2026-09-20 |
 | [[20260914_GS_Optical-Tour]] | Goldman Sachs | 2026-09-14 |
 | [[20260913_MS_CIOE-Key-Takeaway]] | Morgan Stanley | 2026-09-13 |
 | [[20260910_MS_iPhone-18-Optical]] | Morgan Stanley | 2026-09-10 |
