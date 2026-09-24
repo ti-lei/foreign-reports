@@ -1,3 +1,7 @@
+---
+modified: 2026-07-28
+---
+
 # Claude Code × Telegram 整合設定經驗彙整
 
 > 給朋友設定「Claude Code 跟 Telegram 溝通」用。整理自本機實際設定與除錯過程中踩過的坑，
