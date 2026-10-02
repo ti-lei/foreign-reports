@@ -12,7 +12,6 @@ title: ODM-EMS
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
-| [[20260929_GS_TW-ODM-Brands]] | Goldman Sachs | 2026-09-29 |
 | [[20260914_MS_iPhone-Monthly-Databook]] | Morgan Stanley | 2026-09-14 |
 | [[20260910_GS_GC-Tech-Foldable]] | Goldman Sachs | 2026-09-10 |
 | [[20260909_MS_GB200-GB300-NVL72-Racks]] | Morgan Stanley | 2026-09-09 |
@@ -24,6 +23,7 @@ title: ODM-EMS
 | [[20260724_UBS_Intel-Implication]] | UBS | 2026-07-24 |
 | [[20260714_MS_Monthly-Databook-iOS]] | Morgan Stanley | 2026-07-14 |
 | [[20260708_MS_NVL72-Racks]] | Morgan Stanley | 2026-07-08 |
+| [[20260622_JPM_Innostar-GCS-MEMS-Initiation]] | J.P. Morgan | 2026-06-22 |
 | [[20260614_MS_NB-Monthly-Databook]] | Morgan Stanley | 2026-06-14 |
 | [[20260608_MS_GB200-NVL72]] | Morgan Stanley | 2026-06-08 |
 | [[20260521_UBS_APAC-Tech-NVIDIA]] | UBS Securities | 2026-05-21 |

@@ -1,4 +1,4 @@
-﻿---
+---
 modified: 2026-08-18
 type: 產業報告
 broker: J.P. Morgan
@@ -58,7 +58,7 @@ JPM 建模 2025-28E EPS CAGR 200%，2027E NT\$63.97 vs 共識 NT\$43.18（+48%�
 
 ## Exhibit 1｜三大成長驅動力時程表（Fig 1）
 
-![Exhibit 1](../assets/20260622_JPM_創新服務_7828/exhibit_01.png)
+![Exhibit 1](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_01.png)
 
 ### 解讀摘要
 
@@ -80,7 +80,7 @@ JPM 建模 2025-28E EPS CAGR 200%，2027E NT\$63.97 vs 共識 NT\$43.18（+48%�
 
 ## Exhibit 2｜2026-2028E 整體營收與成長（Fig 2）
 
-![Exhibit 2](../assets/20260622_JPM_創新服務_7828/exhibit_02.png)
+![Exhibit 2](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_02.png)
 
 ### 解讀摘要
 
@@ -101,7 +101,7 @@ JPM 建模 2025-28E EPS CAGR 200%，2027E NT\$63.97 vs 共識 NT\$43.18（+48%�
 
 ## Exhibit 3｜銅柱業務營收與 YoY 成長（Fig 11）
 
-![Exhibit 3](../assets/20260622_JPM_創新服務_7828/exhibit_03.png)
+![Exhibit 3](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_03.png)
 
 ### 解讀摘要
 
@@ -123,7 +123,7 @@ GCS TGV 銅柱業務營收在 2026E 前幾乎是從零起步，2026E 才出現�
 
 ## Exhibit 4｜銅柱營收佔總營收比攀升至 19%（Fig 12）
 
-![Exhibit 4](../assets/20260622_JPM_創新服務_7828/exhibit_04.png)
+![Exhibit 4](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_04.png)
 
 ### 解讀摘要
 
@@ -149,7 +149,7 @@ GCS TGV 銅柱業務營收在 2026E 前幾乎是從零起步，2026E 才出現�
 
 ## Exhibit 5｜TGV 玻璃核心基板 vs 傳統有機基板結構比較（Fig 13）
 
-![Exhibit 5](../assets/20260622_JPM_創新服務_7828/exhibit_05.png)
+![Exhibit 5](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_05.png)
 
 ### 解讀摘要
 
@@ -168,7 +168,7 @@ GCS TGV 銅柱業務營收在 2026E 前幾乎是從零起步，2026E 才出現�
 
 ## Exhibit 6｜GCS TGV 供應鏈圖（Fig 14）
 
-![Exhibit 6](../assets/20260622_JPM_創新服務_7828/exhibit_06.png)
+![Exhibit 6](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_06.png)
 
 ### 解讀摘要
 
@@ -188,7 +188,7 @@ GCS 的 5 步驟供應鏈（玻璃材料→雷射修改→蝕刻 TGV→金屬化
 
 ## Exhibit 7｜GCS TGV 量產資格認證時程（Fig 15）
 
-![Exhibit 7](../assets/20260622_JPM_創新服務_7828/exhibit_07.png)
+![Exhibit 7](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_07.png)
 
 ### 解讀摘要
 
@@ -207,7 +207,7 @@ TGV 銅柱的量產路徑已走過最困難的第一關（Before 1Q26 銅柱資�
 
 ## Exhibit 8｜TGV 銅柱產能擴張計畫（Fig 16）
 
-![Exhibit 8](../assets/20260622_JPM_創新服務_7828/exhibit_08.png)
+![Exhibit 8](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_08.png)
 
 ### 解讀摘要
 
@@ -228,7 +228,7 @@ TGV 銅柱的量產路徑已走過最困難的第一關（Before 1Q26 銅柱資�
 
 ## Exhibit 9｜產業定位：中游探針卡自動化設備（Fig 17）
 
-![Exhibit 9](../assets/20260622_JPM_創新服務_7828/exhibit_09.png)
+![Exhibit 9](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_09.png)
 
 ### 解讀摘要
 
@@ -238,7 +238,7 @@ TGV 銅柱的量產路徑已走過最困難的第一關（Before 1Q26 銅柱資�
 
 ## Exhibit 10｜探針卡 TAM 與供應鏈關係（Fig 18）
 
-![Exhibit 10](../assets/20260622_JPM_創新服務_7828/exhibit_10.png)
+![Exhibit 10](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_10.png)
 
 ### 解讀摘要
 
@@ -248,7 +248,7 @@ Fabless/Foundry 的訂單流向 TP（探針卡廠），TP 再向創新服務採�
 
 ## Exhibit 11｜探針卡設備營收成長（Fig 19）
 
-![Exhibit 11](../assets/20260622_JPM_創新服務_7828/exhibit_11.png)
+![Exhibit 11](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_11.png)
 
 ### 解讀摘要
 
@@ -270,7 +270,7 @@ Fabless/Foundry 的訂單流向 TP（探針卡廠），TP 再向創新服務採�
 
 ## Exhibit 12｜雙臂機台出貨量（Fig 20）
 
-![Exhibit 12](../assets/20260622_JPM_創新服務_7828/exhibit_12.png)
+![Exhibit 12](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_12.png)
 
 ### 解讀摘要
 
@@ -293,7 +293,7 @@ Fabless/Foundry 的訂單流向 TP（探針卡廠），TP 再向創新服務採�
 
 ## Exhibit 13｜整體探針卡廠商市佔（Fig 21）
 
-![Exhibit 13](../assets/20260622_JPM_創新服務_7828/exhibit_13.png)
+![Exhibit 13](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_13.png)
 
 ### 解讀摘要
 
@@ -316,7 +316,7 @@ Fabless/Foundry 的訂單流向 TP（探針卡廠），TP 再向創新服務採�
 
 ## Exhibit 14｜非記憶體探針卡廠商市佔（Fig 22）
 
-![Exhibit 14](../assets/20260622_JPM_創新服務_7828/exhibit_14.png)
+![Exhibit 14](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_14.png)
 
 ### 解讀摘要
 
@@ -339,7 +339,7 @@ Fabless/Foundry 的訂單流向 TP（探針卡廠），TP 再向創新服務採�
 
 ## Exhibit 15｜探針卡 TAM 擴張至材料套件和 OEM 服務（Fig 23）
 
-![Exhibit 15](../assets/20260622_JPM_創新服務_7828/exhibit_15.png)
+![Exhibit 15](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_15.png)
 
 ### 解讀摘要
 
@@ -365,7 +365,7 @@ Fabless/Foundry 的訂單流向 TP（探針卡廠），TP 再向創新服務採�
 
 ## Exhibit 16｜材料套件 + OEM 服務營收（Fig 24）
 
-![Exhibit 16](../assets/20260622_JPM_創新服務_7828/exhibit_16.png)
+![Exhibit 16](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_16.png)
 
 ### 解讀摘要
 
@@ -385,7 +385,7 @@ Fabless/Foundry 的訂單流向 TP（探針卡廠），TP 再向創新服務採�
 
 ## Exhibit 17｜創新服務 2025 年收入結構（Fig 25）
 
-![Exhibit 17](../assets/20260622_JPM_創新服務_7828/exhibit_17.png)
+![Exhibit 17](../assets/20260622_JPM_Innostar-GCS-MEMS-Initiation/exhibit_17.png)
 
 ### 解讀摘要
 
