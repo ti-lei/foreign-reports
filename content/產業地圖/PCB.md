@@ -4,14 +4,17 @@ title: PCB
 
 ## 個股
 
-[[2368_金像電]] · [[3037_欣興]] · [[3189_景碩]] · [[4062_Ibiden]] · [[4958_臻鼎KY]] · [[6269_台郡]] · [[8046_南電]] · [[8928_Dynamic]]
+[[2368_金像電]] · [[3037_欣興]] · [[3189_景碩]] · [[4062_Ibiden]] · [[4958_臻鼎KY]] · [[6269_台郡]] · [[8021_尖點]] · [[8046_南電]] · [[8928_Dynamic]]
 
 ## 產業報告
 
-> 收錄標記為「PCB」的外資產業報告，共 29 篇。
+> 收錄標記為「PCB」的外資產業報告，共 32 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20260923_MS_ABF-Substrates-ATS-Marvell]] | Morgan Stanley | 2026-09-23 |
+| [[20260923_MS_ABF-Substrates-Kinsus-Aug-Profit]] | Morgan Stanley | 2026-09-23 |
+| [[20260922_JPM_PCB-CCL-Substrates]] | JPMorgan | 2026-09-22 |
 | [[20260916_GS_TW-ABF-Eternal-Precision]] | Goldman Sachs | 2026-09-16 |
 | [[20260916_UBS_TW-Summit-Day-I-Tech-Hardware]] | UBS | 2026-09-16 |
 | [[20260914_UBS_TW-Summit-Day-I-Hardware]] | UBS | 2026-09-14 |
