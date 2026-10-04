@@ -8,10 +8,11 @@ title: AI伺服器
 
 ## 產業報告
 
-> 收錄標記為「AI伺服器」的外資產業報告，共 64 篇。
+> 收錄標記為「AI伺服器」的外資產業報告，共 65 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261002_JPM_Nvidia-VRU-Cooling]] | J.P. Morgan | 2026-10-02 |
 | [[20260929_GFHK_CPO-NPO]] | GFHK | 2026-09-29 |
 | [[20260929_GS_TW-ODM-Brands]] | Goldman Sachs | 2026-09-29 |
 | [[20260920_Citi_TW-Semi-US-Marketing-Feedback]] | Citi | 2026-09-20 |
