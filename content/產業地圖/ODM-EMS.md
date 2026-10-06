@@ -8,10 +8,11 @@ title: ODM-EMS
 
 ## 產業報告
 
-> 收錄標記為「ODM-EMS」的外資產業報告，共 18 篇。
+> 收錄標記為「ODM-EMS」的外資產業報告，共 19 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261005_UBS_Global-Smartphone]] | UBS | 2026-10-05 |
 | [[20260929_GS_TW-ODM-Brands]] | Goldman Sachs | 2026-09-29 |
 | [[20260914_MS_iPhone-Monthly-Databook]] | Morgan Stanley | 2026-09-14 |
 | [[20260910_GS_GC-Tech-Foldable]] | Goldman Sachs | 2026-09-10 |
