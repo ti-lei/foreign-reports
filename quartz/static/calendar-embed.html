@@ -154,7 +154,10 @@ var IS_ADMIN = false;  // 管理者可在彈窗刪除任何行程（真正關卡
 fetch('/api/whoami').then(function(r){ return r.json(); }).then(function(j){ MY_EMAIL = j.email || null; IS_ADMIN = !!j.isAdmin; }).catch(function(){});
 
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
-function nameOf(it){ return it.company ? it.company + (it.ticker ? ' (' + it.ticker + ')' : '') : (it.topic || it.broker || '行程'); }
+function nameOf(it){
+  var head = it.company ? (it.company + (it.ticker ? ' (' + it.ticker + ')' : '')) : (it.topic || '行程');
+  return head + (it.broker ? ' · ' + it.broker : '');
+}
 
 // 由一筆行程資料組出 FullCalendar 事件物件（新增/初始化共用）。
 function eventOf(it){
