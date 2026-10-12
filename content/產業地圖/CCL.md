@@ -8,10 +8,15 @@ title: CCL
 
 ## 產業報告
 
-> 收錄標記為「CCL」的外資產業報告，共 13 篇。
+> 收錄標記為「CCL」的外資產業報告，共 18 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261005_Aletheia_PCB-CCL]] | Aletheia Capital | 2026-10-05 |
+| [[20261005_Daiwa_TW-CCL]] | Daiwa | 2026-10-05 |
+| [[20260923_MS_CCL-ITEQ-Aug-Profit]] | Morgan Stanley | 2026-09-23 |
+| [[20260922_JPM_PCB-CCL-Substrates]] | JPMorgan | 2026-09-22 |
+| [[20260920_MS_CCL]] | Morgan Stanley | 2026-09-20 |
 | [[20260913_MS_AI-Hidden-Backbone]] | Morgan Stanley | 2026-09-13 |
 | [[20260907_GS_TW-PCB-CCL]] | Goldman Sachs | 2026-09-07 |
 | [[20260805_GS_Global-PCB-CCL]] | Goldman Sachs | 2026-08-05 |
