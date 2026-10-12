@@ -154,9 +154,50 @@ var IS_ADMIN = false;  // 管理者可在彈窗刪除任何行程（真正關卡
 fetch('/api/whoami').then(function(r){ return r.json(); }).then(function(j){ MY_EMAIL = j.email || null; IS_ADMIN = !!j.isAdmin; }).catch(function(){});
 
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+// 券商簡稱對照表：只影響網頁顯示，不動 D1 原始 broker 欄位（查詢/去重/匯出 Google 日曆都用原始值）。
+// 同一家券商在不同管道（LINE/Gmail/money-link）常有好幾種自稱寫法，這裡統一收斂成一個簡稱。
+var BROKER_SHORT = {
+  '統一證券':'統一', '統一國法':'統一', '統一綜合證券':'統一', '統一投顧':'統一', '統一國法複委託':'統一',
+  '永豐金證券':'永豐', '永豐金證':'永豐', '永豐證券':'永豐', 'SinoPac':'永豐',
+  '凱基證券':'凱基', 'KGI':'凱基', 'KGI證券':'凱基',
+  '國票證券':'國票', '國票綜合證券':'國票',
+  '元大證券':'元大', '元大證':'元大',
+  '富邦證券':'富邦', '富邦綜合證券':'富邦', 'Fubon證券':'富邦',
+  '大和國泰':'大和', '大和國泰證券':'大和', '大和Amber':'大和',
+  '華南永昌':'華南', '華南永昌證券':'華南', '華南永昌綜合證券':'華南', '華南證券':'華南',
+  '群益金鼎證券':'群益', '群益證券':'群益',
+  '玉山證券':'玉山',
+  '第一金證券':'第一金', '由第一金證券':'第一金',
+  '國泰證券':'國泰', '國泰綜合證券':'國泰',
+  '台新證券':'台新', '台新綜合證券':'台新',
+  '福邦證券':'福邦',
+  '康和證券':'康和', '康和綜合證券':'康和',
+  '中國信託':'中信', '中國信託證券':'中信', '中信證券':'中信', '中國信託綜合證券':'中信',
+  '瑞銀證券':'瑞銀', 'UBS證券':'瑞銀',
+  '宏遠證券':'宏遠', '宏遠證劵':'宏遠', 'Horizon宏遠證券':'宏遠',
+  '兆豐證券':'兆豐',
+  '合庫證券':'合庫', '合作金庫證券':'合庫',
+  '台中銀證券':'台中銀',
+  '野村證券':'野村',
+  '美銀證券':'美銀',
+  '花旗證券':'花旗',
+  '德信證券':'德信', '德信綜合證券':'德信',
+  '高盛證券':'高盛',
+  '美林證券':'美林',
+  '摩根大通證券':'摩根大通',
+  '摩根士丹利證券':'摩根士丹利', '台灣摩根士丹利證券':'摩根士丹利',
+  // 下面這幾個是萃取時把「跟交易所/櫃買中心聯合主辦」的敘述整串塞進 broker 欄位的資料品質問題，
+  // 對應回真正主辦券商；不是「簡稱」而是修正錯誤歸類，跟 maple leaf（表情符號誤判，暫不處理）是兩回事。
+  '櫃買中心與永豐金證券':'永豐', '櫃買中心暨永豐金證券':'永豐', '櫃買中心及永豐金證券':'永豐',
+  '證券櫃檯買賣中心與永豐金證券':'永豐', '臺灣指數公司及永豐投顧':'永豐',
+  '證交所與富邦證券':'富邦', '證交所及富邦證券':'富邦'
+};
+function shortBroker(b){ return b ? (BROKER_SHORT[b] || b) : b; }
+
 function nameOf(it){
   var head = it.company ? (it.company + (it.ticker ? ' (' + it.ticker + ')' : '')) : (it.topic || '行程');
-  return head + (it.broker ? ' · ' + it.broker : '');
+  return head + (it.broker ? ' · ' + shortBroker(it.broker) : '');
 }
 
 // 由一筆行程資料組出 FullCalendar 事件物件（新增/初始化共用）。
@@ -247,7 +288,7 @@ function runSearch(q){
     resultsBox.classList.add('show'); return;
   }
   resultsBox.innerHTML = hits.map(function(it){
-    var sub = [it.event_date + (it.event_time ? ' ' + it.event_time : ''), it.broker, it.meeting_type].filter(Boolean).join('  ·  ');
+    var sub = [it.event_date + (it.event_time ? ' ' + it.event_time : ''), shortBroker(it.broker), it.meeting_type].filter(Boolean).join('  ·  ');
     return '<div class="result" data-id="' + it.id + '"><div class="r-main">' + esc(nameOf(it)) + '</div><div class="r-sub">' + esc(sub) + '</div></div>';
   }).join('');
   resultsBox.classList.add('show');
@@ -356,7 +397,7 @@ function buildGCalUrl(p){
 
 function showDetail(p){
   p = p || {};
-  var rows = [['日期',p.event_date],['時間',p.event_time],['券商',p.broker],['公司',p.company],['代號',p.ticker],['主題',p.topic],['形式',p.meeting_type],['地點',p.location],['報名',p.signup_url]];
+  var rows = [['日期',p.event_date],['時間',p.event_time],['券商',shortBroker(p.broker)],['公司',p.company],['代號',p.ticker],['主題',p.topic],['形式',p.meeting_type],['地點',p.location],['報名',p.signup_url]];
   if (p.source === 'manual' && p.created_by) rows.push(['新增者', p.created_by]);
   var html = (p.source === 'manual') ? '<div class="self-badge">自建行程</div>' : '';
   for (var i=0;i<rows.length;i++){
