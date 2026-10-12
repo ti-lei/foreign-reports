@@ -1,35 +1,40 @@
 ---
-modified: 2026-10-09
+modified: 2026-10-12
 type: 產業報告
 broker: Aletheia Capital
 date: 2026-10-06
-sectors: [光通訊-CPO, AI伺服器]
+sectors: [光通訊-CPO, 連接器]
 ---
-# Aletheia Capital｜AI Networking
+
+# Aletheia Capital｜AI Networking — Upside Surprise from TPU8 Networking Upgrade
 
 **券商**：Aletheia Capital  
 **分析師**：Skye Chen、Warren Lau  
 **日期**：2026-10-06  
-**主題**：TPU v8 網路硬體升級帶來的上行驚喜（Upside Surprise from TPU8 Networking Upgrade）  
+**主題**：Google TPU8 網路架構升級對光通訊供應鏈的需求衝擊  
+**評級**：Technology Hardware（Global）；Lumentum / EZconn / Celestica 均 BUY  
 <a href="https://layx.uk/dl?g=產業&b=Aletheia&d=20261006&h=AI-Networking">📎 下載 PDF</a>
 
 ---
 
 ## 報告總結
 
-Google TPU v8（TPU8t/Zebrafish + TPU8i/Sunfish）架構在熱晶片大會（Hot Chips）進一步揭露後，Aletheia 估計每顆 TPU 的網路硬體內容值將較 TPU7 提升 2–5 倍——主因是 ICI 頻寬加倍至 19.2 Tb/s、光纜數量翻倍、transceiver 模組從 1.8 增至 3.0 顆，以及 OCS 生命週期需求從 20,833 顆暴增至 258,542 顆。結合 TPU 出貨量從 2026 年 3.6m 顆成長至 2027 年 8.0–8.5m 顆，Lumentum、EZconn、Celestica 是最直接受益標的。
+Aletheia Capital 在 Google 於 Hot Chips Conference（2026 年 8 月）公開 TPUv8 詳細網路架構後發布此報告，論點核心是 TPU8 的網路硬體含量將比 TPU7 提升 2–5 倍，且需求涵蓋以太網交換器、光纖收發模組、雷射二極體、光纜及 OCS（Optical Circuit Switch）全鏈路。Google 同時導入 Virgo（東西向）與 Jupiter（南北向）雙架構，使集群規模從 TPU7 的 10 萬晶片擴展至 100 萬晶片。受益公司中 Lumentum（收發器＋雷射二極體＋OCS）、EZconn（光纜）、Celestica（以太網交換器 ODM＋OCS 組裝）因高度集中的 Google 曝險與主導市場地位，被列為重點 BUY。
 
 ---
 
-## Aletheia 完整投資邏輯鏈
+## Aletheia Capital 完整投資邏輯鏈
 
-| 論點層次 | 圖表 | 內容 |
+| 論點層次 | Exhibit | 內容 |
 |---|---|---|
-| 需求信號明確 | Fig. 1 | Google 正式揭露 TPU8t/8i 雙架構，ICI 頻寬翻倍至 19.2 Tb/s，單叢集規模擴至 134,400 TPU |
-| 硬體內容提升 | Fig. 2 | 每 TPU 光纜 8→18.2 條（+128%）、transceiver 1.8→3.0 顆（+67%）、OCS 生命週期需求 +1,142% |
-| 供應鏈受益排序 | Fig. 3 | Lumentum（transceiver+laser+OCS）、EZconn（光纜）、Celestica（乙太交換 ODM+OCS 組裝）最高曝險 |
-| 出貨量驅動 | 封面 | TPU 需求 2026E 3.6m→2027E 8.0–8.5m，量價齊升放大受益幅度 |
-| **結論** | 封面 | **三標的均為 Buy；Lumentum/EZconn/Celestica 在 Google G7 投組；建議現在布局** |
+| 架構升級確認 | Fig. 1 | TPU8 ICI 頻寬從 9.6 Tb/s 翻倍至 19.2 Tb/s；DCN 頻寬從 100→400 Gbps/chip；Virgo 支援 134,400 晶片集群規模 |
+| 需求量化 | Fig. 2 | 光收發模組 1.8→3.0/TPU、光纜 8.0→18.2/TPU、OCS 終身需求 20,833→258,542 units（12.4x）；銅纜微增 1.5→1.9/TPU |
+| 供應商定位 | Fig. 3 | Lumentum 同時主導收發器、雷射二極體、OCS 三個高增長環節；EZconn 在光纜具關鍵地位；Celestica 負責 Ethernet switch ODM 及 OCS 組裝 |
+| 架構壁壘 | Fig. 4/5 | TPU8i（Sunfish）採 Boardfly 拓撲（SPOCS 光路由），TPU8t（Zebrafish）維持 3D Torus + Virgo；兩路徑均對 OCS 需求顯著加速 |
+| 集群經濟放大 | Fig. 6/7 | Virgo 東西向（134,400 TPU, 1.6 YottaFlops）與 Jupiter 南北向同步建設，OCS/Apollo 在兩套系統中均不可或缺 |
+| **結論** | 封面 | **TPU8 升級推動 2027–28 光學供應鏈盈利上行；三大受益者均 BUY，列入 Google G7 投資組合** |
+
+> **報告最大邏輯缺口**：TPU8 出貨量假設（14–15m units 終身產量）是 OCS 需求 12x 增長的關鍵前提，報告未提供量化依據；若 Google 縮減 TPU8 採購或 Boardfly 拓撲的 SPOCS 用量低於預期，OCS 增幅將大幅壓縮。
 
 ---
 
@@ -37,105 +42,208 @@ Google TPU v8（TPU8t/Zebrafish + TPU8i/Sunfish）架構在熱晶片大會（Hot
 
 | 主題 | Aletheia 觀點 | 市場共識 | 是否 Contra-Consensus |
 |---|---|---|---|
-| TPU8 網路升級幅度 | 每 TPU 硬體內容值 +2–5x vs TPU7 | 市場尚未充分定價 | 是（上行驚喜） |
-| OCS 需求 | 生命週期 258,542 顆 vs TPU7 的 20,833 | 共識低估 OCS 滲透率 | 是 |
-| 光纜受益者 | EZconn（Google 主供）、Amphenol、TEC | 市場較少關注 EZconn TPU8 曝險 | 是 |
-| 銅纜趨勢 | Boardfly 拓撲減少每 rack ICI 銅纜（hop 數 16→7）但整體略升 1.5→1.9 條/TPU | 銅纜稀釋擔憂被放大 | 是（影響有限） |
+| OCS 終身需求量 | TPU8 週期 258,542 units vs TPU7 的 20,833，增幅 12.4x | 市場聚焦單季出貨，較少從生命週期總量切入 | 是（12x 量級遠超一般認知）|
+| 光纜需求增幅 | 每 TPU 由 8.0 增至 18.2（+128%），優先受益 EZconn | 市場注意力多放在收發器，光纜含量增長被低估 | 是 |
+| 銅纜（DAC/ACC）方向 | 僅微增 1.5→1.9（Boardfly 拓撲降低每機架銅纜用量，抵消 SerDes 升速帶來的需求） | 市場可能預期銅纜因 200G SerDes 而顯著增長 | 是（方向偏差：微增非大增）|
+| 收發模組用量 | 每 TPU 從 1.8 增至 3.0（+67%），涵蓋 800G 及 1.6Tbps 兩種規格 | 市場已知增長，但三環節均 Lumentum 獨大的集中度可能低估 | 部分 contra |
+| 關鍵受益者 | Lumentum（最廣泛曝險）、EZconn（光纜）、Celestica（組裝）均 BUY | Celestica 的 OCS 組裝受益度認知較不足 | 是 |
 
-**偏好排序**：Lumentum（最高曝險：transceiver+laser diode+OCS 三重）> Celestica（乙太交換 ODM+OCS 組裝）> EZconn（光纜，Google G7 直供）
-
----
-
-## Page 1｜報告封面與投資主題
-
-![Page 1](../assets/20261006_Aletheia_AI-Networking/page_01.png)
-
-### 解讀摘要
-Google TPU v8 的網路架構在 Hot Chips Conference（Aug-26）進一步披露，確立了 Virgo（East–West）與 Jupiter（North–South）雙架構。TPU8t（Zebrafish）最大叢集達 134,400 顆，TPU8i（Sunfish）以 Boardfly+SPOCS 實現 1,152 顆低延遲 pod。報告催化劑：Hot Chips 新披露使 Aletheia 得以量化每 TPU 的網路硬體內容升幅，為此前最高精度的 TPU8 供應鏈估算。
+**偏好排序**：Lumentum ＞ EZconn ＞ Celestica  
+**核心受益鏈**：收發器（Lumentum/InnoLight/Coherent）→ 雷射二極體（Lumentum/Sumitomo）→ OCS（Lumentum + Fabrinet/Celestica 組裝）→ 光纜（EZconn/Amphenol/TEC）→ 以太網交換器（Broadcom IC + Celestica/Inventec/Arista ODM）
 
 ---
 
-## Page 2｜Fig. 1：TPU7 vs TPU8 關鍵規格比較
+## Fig. 1｜Key Network Upgrade in TPU v8 vs TPU v7
 
-![Page 2](../assets/20261006_Aletheia_AI-Networking/page_02.png)
+![Fig. 1](../assets/20261006_Aletheia_AI-Networking/exhibit_01.png)
 
 ### 解讀摘要
-TPU8t ICI 頻寬從 9.6 Tb/s 翻倍至 19.2 Tb/s；網路拓撲升級為 200G SerDes 的 Enhanced 3D Torus（TPU8t）或 Boardfly+SPOCS（TPU8i）。最大邏輯叢集從 10 萬顆擴張至 100 萬顆（TPU8t，單一工作負載），意味著 Google 可組建跨多資料中心的超大規模訓練叢集。
 
-### 表格（Fig. 1）
+TPU8 是一次全面的網路架構代際換代，而非漸進式優化。ICI 頻寬翻倍（9.6→19.2 Tb/s）改變的不只是速率，而是整個拓撲：TPU8t 引入 Virgo 東西向網路，TPU8i 以 Boardfly 取代 3D Torus；DCN 頻寬更跳升 4 倍至 400 Gbps/chip，驅動以太網交換器從 ToR 到匯聚層的全面升級。最關鍵的是最大邏輯集群規模——TPU8t 理論上可支援 100 萬晶片作為單一邏輯工作負載，這代表 Google 有能力把多個資料中心的 TPU 作為一個統一計算池調度，對 OCS 的跨機房光路由需求是根本性催化。
 
-| 規格 | TPU 7（Ironwood） | TPU 8t（Zebrafish） | TPU 8i（Sunfish） |
+> **原文補充**：報告指出 TPUDirect RDMA 讓 TPU HBM 可直接流接儲存資料，避免 Host CPU 中繼，儲存存取速度提升 10 倍並最大化 Flops 利用率——這代表即便計算量不變，儲存架構的光通訊頻寬需求也會同步放大。
+
+### 表格
+
+| 比較指標 | TPU 7（Ironwood） | TPU 8t（Zebrafish） | TPU 8i（Sunfish） | 關鍵演進說明 |
+|---|---|---|---|---|
+| 晶片間互聯（ICI）頻寬 | 9.6 Tb/s | **19.2 Tb/s** | 19.2 Tb/s | — |
+| 網路拓撲 | 3D Torus @100G | Enhanced 3D Torus @200G + Virgo Network | Boardfly @200G + SPOCS | — |
+| 單一 Superpod 規模 | 最多 9,216 晶片 | 最多 9,600 晶片 | 最多 1,152 晶片 | 擴展至 121 ExaFlops 算力 |
+| 資料中心網路（DCN）頻寬 | 100 Gbps/chip | **400 Gbps/chip** | 400 Gbps/chip | — |
+| 最大邏輯集群規模 | 超過 100,000 晶片 | **最多 1,000,000 晶片**（單一邏輯工作負載） | N/A | 結合 Google Pathways/JAX 實現近線性擴展 |
+| 資料與儲存存取優化 | 傳統 PCIe 主機管理模式 | TPUDirect RDMA & Storage | TPUDirect RDMA & Storage | 儲存存取提速 10x，最大化 Flops 利用率 |
+
+> **洞察一**：DCN 頻寬 4 倍跳升（100→400 Gbps/chip）是此表最重要的數字，因為它直接驅動以太網交換器從 ToR 到匯聚層全面升級，三個層次的交換器同步升級代表 Broadcom 晶片需求與 Celestica 機架組裝需求的雙重放大。
+
+---
+
+## Fig. 2｜Estimate of Optical Network Hardware Demand
+
+![Fig. 2](../assets/20261006_Aletheia_AI-Networking/exhibit_02.png)
+
+### 解讀摘要
+
+OCS 終身需求從 TPU7 的 20,833 跳至 TPU8 的 258,542（+12.4x），其背後機制是雙重乘數：TPU8 生命週期出貨量假設為 14–15 百萬台（TPU7 約 4 百萬台），而每台的 OCS 密度也因 Virgo/Jupiter 雙網路架構而大幅提升。光纜每 TPU 從 8.0 增至 18.2（+128%），是量的擴張；收發模組從 1.8 增至 3.0（+67%）且跨越 800Gbps 及 1.6Tbps 雙規格。銅纜（DAC/ACC）的微增（1.5→1.9，+27%）是表中唯一「低於市場想象」的數字——Boardfly 拓撲降低每機架的銅纜根數，部分抵消了 SerDes 升速帶來的潛在增量。
+
+> **原文補充**：以太網交換器頻寬從每 TP（TPU Pod）的 0.4 Tb 增至 2.0 Tb（+400%）；備注說明同時涵蓋 100G 和 200G SerDes 兩種規格，意味著從舊世代設備到新世代的整體替換效應。
+
+### 表格
+
+| 組件（比例基準：TPU/Pod） | TPU 8 | TPU 7 | 說明 |
 |---|---|---|---|
-| ICI 頻寬 | 9.6 Tb/s | **19.2 Tb/s** | 19.2 Tb/s |
-| 網路拓撲 | 3D Torus @100G | Enhanced 3D Torus @200G + Virgo Network | Boardfly @200G + SPOCS |
-| 單一 Superpod 規模 | 9,216 chips | 9,600 chips | 1,152 chips |
-| DC Network 頻寬/chip | 100 Gbps | **400 Gbps** | 400 Gbps |
-| 最大邏輯叢集 | 100,000+ chips | **1,000,000 chips**（單一邏輯工作負載） | N/A |
-| 資料/儲存存取 | PCIe Host-managed | TPUDirect RDMA & Storage | TPUDirect RDMA & Storage |
+| 以太網交換器頻寬（Tb per TP） | 2.0 | 0.4 | 含 100G 及 200G SerDes |
+| 收發模組（per TPU） | 3.0 | 1.8 | 含 800Gbps 及 1.6Tbps |
+| OCS 終身需求量（混合規格） | 258,542 | 20,833 | 假設 TPU7 終身量 4m、TPU8 終身量 14–15m |
+| 光纜（per TPU） | 18.2 | 8.0 | — |
+| DAC/ACC 銅纜（per TPU） | 1.9 | 1.5 | TPU7：100Gbps/Lane；TPU8：200Gbps/Lane |
 
-> **洞察一**：TPU8t 的最大邏輯叢集 10 倍於 TPU7（100k→1,000,000），意味著 Google 可將橫跨多個 Virgo 叢集的訓練工作負載串接，對乙太交換機與光纜需求是「面積乘以深度」的複合提升——不僅每 TPU 用量增加，整體集群尺度也大幅擴張。
+> **洞察一**：OCS 12.4x 的增長是雙重乘數。出貨量倍數 ≈ 14.5m / 4m = **3.6x**，OCS 密度倍數 ≈ 258,542 / 20,833 / 3.6 ≈ **3.5x**，兩者相乘得 12.4x。即便 TPU8 出貨量僅達 8m，OCS 增幅仍約 6.8x，遠超市場通常估計的 2–3x。
+>
+> **值得驗證**：「TPU8 終身量 14–15m units」是整個模型最大不確定性。若 Google 採購縮減至 6–8m 台，OCS 需求將從 258K 縮水至約 107–143K——仍高於 TPU7，但增速幅度從「12x」降至「5–7x」。
 
 ---
 
-## Page 3｜Fig. 2 & 3：光網路硬體需求估算 + 主要供應商
+## Fig. 3｜Key Supplier of Network Hardware for TPU8
 
-![Page 3](../assets/20261006_Aletheia_AI-Networking/page_03.png)
+![Fig. 3](../assets/20261006_Aletheia_AI-Networking/exhibit_03.png)
 
 ### 解讀摘要
-每 TPU 光纜數量從 8 升至 18.2（+128%），transceiver 從 1.8 升至 3.0（+67%），OCS 生命週期需求從 20,833 升至 258,542（+1,142%）。Lumentum 在 transceiver、laser diode、OCS 三條線均是主要供應商，是最高受益者；EZconn 為 Google 光纜直供商（Amphenol、TEC 為另二家）。
 
-### 表格（Fig. 2）
+這張供應商圖揭示的關鍵是 **Lumentum 的多環節壟斷**：它同時主導收發模組（tier-1）、雷射二極體（tier-1）、OCS（唯一 Solution Provider）三個 Fig. 2 中增幅最大的品項，形成 Google 光學採購的絕對單一依賴。Celestica 跨越兩個環節——Ethernet switch ODM 及 OCS 組裝——Google 的光路由架構升級直接帶動 Celestica 兩個業務線同步擴張。EZconn 在光纜環節被粗體標示（與 Amphenol、TEC 並列），而光纜是 Fig. 2 中絕對量增長最顯著的環節（從 8.0 增至 18.2/TPU）。
 
-| 元件 | TPU 8 | TPU 7 | 備註 |
-|---|---|---|---|
-| 乙太交換頻寬（Tb per TP） | 2.0 | 0.4 | 含 100G 與 200G SerDes |
-| Transceiver 模組/TPU | 3.0 | 1.8 | 含 800G 及 1.6 Tbps |
-| OCS 生命週期總需求 | **258,542** | 20,833 | TPU7 生命週期 4m，TPU8 14–15m 單位 |
-| 光纜/TPU | **18.2** | 8.0 | |
-| DAC/ACC 銅纜/TPU | 1.9 | 1.5 | TPU7 @100Gbps/Lane，TPU8 @200Gbps/Lane |
+### 表格
 
-### 表格（Fig. 3）
-
-| 關鍵網路硬體 | 主要元件供應商 | ODM/OEM |
+| 網路硬體 | 關鍵 Solution Provider | ODM/OEM |
 |---|---|---|
-| 乙太交換機 | Broadcom and others | **Celestica**, Inventec, Arista |
-| Transceiver 模組 | **Lumentum**, InnoLight, Coherent | — |
-| Laser diode | **Lumentum**, Sumitomo | — |
-| OCS | Lumentum | Fabrinet, **Celestica** |
-| 光纜 | 上游：Corning、Furukawa；成品：Amphenol、TEC、**EZconn** | — |
-| DAC/ACC 銅纜 | Amphenol, TEC | — |
+| 以太網交換器 | Broadcom and others | **Celestica**、Inventec、Arista |
+| 收發模組 | **Lumentum**、InnoLight、Coherent | — |
+| 雷射二極體 | **Lumentum**、Sumitomo | — |
+| OCS | **Lumentum** | Fabrinet、**Celestica** |
+| 光纜 | 上游：Corning、Furukawa；光纜：Amphenol、TEC、**EZconn** | — |
+| DAC/ACC 銅纜 | Amphenol、TEC | — |
 
-> **洞察二**：OCS 生命週期需求 +1,142% 是本報告最大的驚喜數字——市場普遍低估 OCS 在 Jupiter 網路的滲透率。Lumentum 是 OCS 的主要元件商，Celestica 是主要組裝商，兩者在此線的雙重受益尚未充分定價。
-
----
-
-## Page 4｜Fig. 4：TPU8i/8t 網路結構
-
-![Page 4](../assets/20261006_Aletheia_AI-Networking/page_04.png)
-
-### 解讀摘要
-TPU8i（Sunfish）使用 Boardfly 拓撲在 rack 內互連，並透過 SPOCS 光學電路交換延伸至跨 rack，36 個 rack 組成 1,152 TPU Pod。TPU8t（Zebrafish）沿用 3D Torus，14 個 Pod（9,600 TPU 各）組成 134,400 TPU Virgo 叢集，並以 200G SerDes 乙太交換機作為 Virgo East–West Fabric。
+> **洞察一**：Lumentum 是此供應鏈的「三叉壟斷者」——收發器、雷射二極體、OCS 三環節，對應 Fig. 2 中累計增幅最高的三個品項。三環節同步出貨的槓桿效果不容低估。
+>
+> **洞察二（配合 Fig. 2）**：光纜環節（EZconn/Amphenol/TEC）的需求增幅在絕對數量上最顯著（+10.2 條/TPU），但 Fig. 3 沒有指定 tier-1 供應商，份額競爭格局比 OCS 或收發器更分散。EZconn 的相對優勢在於 Google 採購關係的深度，而非市場結構性保護。
 
 ---
 
-## Page 5｜Fig. 5 & 6：Boardfly 架構 + Virgo 網路
+## Fig. 4｜Networking Structure for TPU8i and TPU8t
 
-![Page 5](../assets/20261006_Aletheia_AI-Networking/page_05.png)
+![Fig. 4](../assets/20261006_Aletheia_AI-Networking/exhibit_04.png)
 
 ### 解讀摘要
-Boardfly 將最大 hop 數從 16（3D Torus）降至 7，降低延遲並優化 MoE（Mixture-of-Experts）及 AI agent 推論的 fan-out/fan-in 模式。Virgo 叢集提供 1.6 YottaFlops 峰值算力與 47 Petabits/s 頻寬，支援跨多資料中心站點的橫向擴展。Boardfly 雖減少每 rack ICI 銅纜需求（hop 減少→銅纜路徑縮短），但整體每 TPU 銅纜量仍從 1.5 微升至 1.9（TPU8i 採用 Boardfly 約佔 TPU8 總量 50%）。
+
+這張雙欄架構圖是理解 TPU8 光學需求增長的底層機制：**TPU8i（Sunfish）用 Boardfly + SPOCS 替代傳統 3D Torus + 銅纜，TPU8t（Zebrafish）則維持 3D Torus 但疊加 Virgo 東西向網路**。兩者共享 Jupiter 南北向網路（以太網交換器 + OCS）連接 Global WAN。關鍵差異在規模：TPU8i 一個 Pod 最多 1,152 TPU，TPU8t 一個 Pod 達 9,600 TPU，且 14 個 Pod 可組成 134,400 TPU 的 Virgo 集群。兩條路徑都讓 OCS 需求顯著增加——TPU8i 靠 SPOCS 在 ICI 層引入光路由，TPU8t 靠 Virgo 在 Pod 間引入規模化光互聯。
+
+> **原文補充**：TPU8i（Sunfish）的 Boardfly 設計讓跳躍數從 3D Torus 的最多 16 跳降至最多 7 跳，降低 ICI 銅纜的使用量——正是 Fig. 2 中 DAC/ACC 纜線僅微增而非爆增的原因（每機架銅纜需求減少，被 200G SerDes 升速帶來的少量增量部分抵消）。
+
+### 表格
+
+| 屬性 | TPU 8i（Sunfish） | TPU 8t（Zebrafish） |
+|---|---|---|
+| 東西向（ICI）拓撲 | Boardfly via DAC/ACC cable | 3D Torus via DAC/ACC cable |
+| 南北向拓撲 | SPOCS（光路由）via OCS | Virgo Network via 200G SerDes ethernet switch |
+| 單 Pod 最大規模 | 1,152 TPUs | 9,600 TPUs |
+| 最大集群（多 Pod） | N/A（單 Pod） | 134,400 TPUs（14 pods per Virgo cluster）|
+| 連接上層 | Global WAN、Storage rack/server、CPU-based general server | 同左 |
+
+> **洞察一**：TPU8t 的 14-Pod Virgo 集群是本報告所有 OCS 需求計算的核心假設。134,400 TPU 集群意味著 Pod 間互聯的光路由需求是 TPU8i 的 10 倍以上，Lumentum 的 OCS（Apollo 系統）在此架構中是非可選項。
+
+---
+
+## Fig. 5｜Google's New Boardfly Structure for ICI
+
+![Fig. 5](../assets/20261006_Aletheia_AI-Networking/exhibit_05.png)
+
+### 解讀摘要
+
+Boardfly 是 Google 為 TPU8i（Sunfish）設計的全新 ICI 拓撲，三層結構：4 TPU 全連接的 Tray → 8 個 Tray 全連接的群組 → 最多 36 個 Groups 全連接，合計 1,152 TPU。對比右欄 TPU8t 的 3D Torus（8×8×16 配置），Boardfly 的最大跳躍數從 16 降至 7，顯著降低 inference 延遲。**這個拓撲轉變直接解釋了為何 TPU8 的 DAC/ACC 銅纜用量僅微增——Boardfly 每機架所需的銅纜根數少於 3D Torus，Boardfly 的採用（佔 TPU8 約 50% 出貨量）拉低了整體均值。**
+
+### 表格
+
+| 屬性 | TPU 8i（Sunfish）— Boardfly | TPU 8t（Zebrafish）— 3D Torus |
+|---|---|---|
+| 拓撲型態 | Boardfly（高基數分層 Mesh） | 3D Torus（8×8×16）|
+| ICI 連線介質 | DAC/ACC 銅纜（每機架用量少於 3D Torus） | DAC/ACC 銅纜 |
+| 最大跳躍數 | 7 | 16 |
+| 最大 Pod 規模 | 1,152 TPUs（36 groups × 8 trays × 4 TPUs） | — |
+| 光路由（OCS） | SPOCS（東西向光路由） | Y OCS + X OCS（3D Torus 光路由）|
+
+> **洞察一**：Boardfly 的跳躍數減半（16→7）對 inference workload 的延遲改善是非線性的。TPU8i 定位為 MoE 與 AI agent 推論，其 fan-out/fan-in 模式在 Boardfly 的任意節點直連架構下延遲最小，這讓 Sunfish 成為 Google inference 業務的首選架構。
+
+---
+
+## Fig. 6｜VIRGO Network Architecture（東西向）
+
+![Fig. 6](../assets/20261006_Aletheia_AI-Networking/exhibit_06.png)
+
+### 解讀摘要
+
+Virgo 網路是 Google 用來解決 TPU8t 東西向橫向擴展的解決方案，核心指標是 134,400 TPUs 組成單一 Virgo 集群，峰值算力 1.6 YottaFlops，Bisection 頻寬 47 Petabits/s。架構上採雙層非阻塞交換搭配相互獨立的多平面冗餘設計，並可延伸至多資料中心站點。圖中圈出的是 Virgo 網路的東西向部分（虛線圓圈內），與右側 Jupiter 網路（OCS Apollo + 匯聚塊）共存於同一資料中心架構。這代表在 TPU8t 叢集中，以太網交換器、OCS 兩套系統是**同時建置**的，而非互相替代。
+
+> **原文補充**：TPU 8i 使用 Boardfly + SPOCS 在 36 個機架間建立低延遲任意互聯，實現 1,152 個 TPU8i 晶片在單一 Pod 內作為統一算力池運行，針對 MoE 和 AI agent 工作負載優化。TPU8t（Virgo）則強調訓練導向的大規模橫向擴展能力。
+
+### 表格
+
+| 指標 | 數值 |
+|---|---|
+| 單一 Virgo 集群規模 | 134,400 TPUs |
+| 峰值算力 | 1.6 YottaFlops |
+| Bisection 頻寬 | 47 Petabits/s |
+| 交換架構 | 2 層非阻塞交換 |
+| 冗餘設計 | 獨立多平面（Resilient fabric with independent planes） |
+| 擴展能力 | 可延伸至多資料中心站點 |
+| OCS（Apollo） | 連接 Virgo 與 Jupiter 之間的光路由核心 |
+
+> **洞察一**：134,400 TPUs × 3.0 收發模組/TPU = 約 40 萬個收發模組需求。Virgo 一個滿載集群對光學模組的需求量相當於 4–5 個 TPU7 規模集群，Lumentum 若在此環節維持主導地位，收入增長的絕對量級將非常顯著。
+
+---
+
+## Fig. 7｜Jupiter Network Architecture（南北向）
+
+![Fig. 7](../assets/20261006_Aletheia_AI-Networking/exhibit_07.png)
+
+### 解讀摘要
+
+Jupiter 是 Google 的南北向網路，負責連接 TPU 集群與儲存系統、通用伺服器及 Global WAN。圖中圈出的是 Jupiter 網路（與 Fig. 6 同一底層圖但圓圈位置改為右側的 Jupiter 部分）：Optical Circuit Switch（Apollo 系統）連接匯聚塊（Aggregation blocks）到資料中心邊界。Jupiter 同時服務 TPU8i 和 TPU8t——即兩個 TPU8 路徑均需要 Jupiter 基礎設施，OCS 需求是**兩者共同的底層**，而非 Virgo 或 Boardfly 其中之一的專屬。
+
+> **原文補充**：Jupiter 網路以 OCS 和以太網交換器共同建構，接收外部用戶的 inference 請求（prompts）並回傳 token，同時加載 HBM 所需的模型權重。Jupiter 的頻寬需求直接隨 AI 推論規模擴張，不依賴 Virgo 建設進度。
+
+### 表格
+
+| 屬性 | 說明 |
+|---|---|
+| 功能 | 南北向流量（North-South traffic） |
+| 核心元件 | Optical Circuit Switch（Apollo）+ 以太網匯聚交換器 |
+| 交換架構 | 2 層非阻塞交換 |
+| 冗餘設計 | 獨立多平面 |
+| 服務對象 | TPU8i 和 TPU8t 均共用此網路 |
+| 延伸能力 | 可擴展至多資料中心站點 |
+| OCS 型號 | Apollo（Lumentum 提供） |
+
+> **洞察一（配合 Fig. 6）**：Fig. 6 和 Fig. 7 共用同一底層圖但圈出不同部分，強調 Virgo（東西向）和 Jupiter（南北向）是同一資料中心物理環境中的**兩套並行架構**，而非替代關係。每個 Virgo 叢集建設必然同步建設 Jupiter，OCS 在東西向（SPOCS/Y/X OCS）和南北向（Apollo）都有需求，單一叢集建設可能觸發兩套 OCS 的採購。
 
 ---
 
 ## 相關個股清單
 
-| 類別 | 公司 | Ticker | 評等 | 備註 |
-|---|---|---|---|---|
-| Transceiver/Laser/OCS | Lumentum | LITE | Buy | 最高 TPU8 受益，三條線主供 |
-| 光纜 | EZconn | — | Buy | Google 主要光纜直供商 |
-| 乙太交換 ODM/OCS 組裝 | Celestica | CLS | Buy | 交換機 ODM + OCS 組裝雙重受益 |
-| Transceiver | InnoLight | 非上市 | — | 中國 transceiver 廠 |
-| Transceiver | Coherent | COHR | — | |
-| 乙太交換晶片 | Broadcom | AVGO | — | |
-| 光纜上游 | Corning | GLW | — | 光纖上游 |
-| 銅纜 | Amphenol | APH | — | DAC/ACC 主供 |
+| 類別 | 公司 | Ticker | 評等 | 2026E EPS | 2027E EPS | 2028E EPS | 備註 |
+|---|---|---|---|---|---|---|---|
+| 核心受益（光學） | Lumentum | LITE | BUY | N/A | N/A | N/A | 收發器＋雷射二極體＋OCS 三環節主導；Google G7 組合 |
+| 核心受益（光纜） | EZconn | 2371.TW | BUY | N/A | N/A | N/A | 光纜主力供應商；Google 高曝險；Google G7 組合 |
+| 核心受益（組裝） | Celestica | CLS | BUY | N/A | N/A | N/A | Ethernet switch ODM＋OCS 組裝；Google G7 組合 |
+| 關鍵元件 | InnoLight | — | — | N/A | N/A | N/A | 收發模組（tier-2） |
+| 關鍵元件 | Coherent | COHR | — | N/A | N/A | N/A | 收發模組 |
+| 關鍵元件 | Sumitomo Electric | 5802.T | — | N/A | N/A | N/A | 雷射二極體 |
+| 關鍵元件 | Broadcom | AVGO | — | N/A | N/A | N/A | Ethernet switch 晶片 |
+| 關鍵材料 | Corning | GLW | — | N/A | N/A | N/A | 光纜上游材料（光纖母材） |
+| 關鍵材料 | Furukawa Electric | 5801.T | — | N/A | N/A | N/A | 光纜上游材料 |
+| ODM/組裝 | Inventec | 2356.TW | — | N/A | N/A | N/A | Ethernet switch ODM |
+| ODM/組裝 | Arista Networks | ANET | — | N/A | N/A | N/A | Ethernet switch |
+| ODM/組裝 | Fabrinet | FN | — | N/A | N/A | N/A | OCS 組裝 |
+| 連接器 | Amphenol | APH | — | N/A | N/A | N/A | DAC/ACC 銅纜＋光纜 |
+| 連接器 | TEC（泰澤）| — | — | N/A | N/A | N/A | DAC/ACC 銅纜＋光纜 |
+
+*本報告為產業主題研究報告，未提供個股 EPS 預估；EPS 欄位 N/A 並非指無成長，而是報告本身未包含此數據。*
