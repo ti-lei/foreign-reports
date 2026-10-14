@@ -8,10 +8,12 @@ title: 光通訊-CPO
 
 ## 產業報告
 
-> 收錄標記為「光通訊-CPO」的外資產業報告，共 30 篇。
+> 收錄標記為「光通訊-CPO」的外資產業報告，共 32 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261013_MS_OCP-AI-Infra]] | Morgan Stanley | 2026-10-13 |
+| [[20261012_MS_Lens-OE-Upgrade]] | Morgan Stanley | 2026-10-12 |
 | [[20261008_UBS_HTSI-CPO-Testing]] | UBS | 2026-10-08 |
 | [[20261006_Aletheia_AI-Networking]] | Aletheia Capital | 2026-10-06 |
 | [[20261001_MS_Telecom-Networking-FCC]] | Morgan Stanley | 2026-10-01 |
