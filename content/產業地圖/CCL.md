@@ -8,10 +8,11 @@ title: CCL
 
 ## 產業報告
 
-> 收錄標記為「CCL」的外資產業報告，共 19 篇。
+> 收錄標記為「CCL」的外資產業報告，共 20 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261015_GFHK_PTFE-Adoption]] | GF Securities (Hong Kong) | 2026-10-15 |
 | [[20261015_GS_BT-Substrate]] | Goldman Sachs | 2026-10-15 |
 | [[20261005_Aletheia_PCB-CCL]] | Aletheia Capital | 2026-10-05 |
 | [[20261005_Daiwa_TW-CCL]] | Daiwa | 2026-10-05 |

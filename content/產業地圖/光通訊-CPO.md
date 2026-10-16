@@ -8,10 +8,12 @@ title: 光通訊-CPO
 
 ## 產業報告
 
-> 收錄標記為「光通訊-CPO」的外資產業報告，共 33 篇。
+> 收錄標記為「光通訊-CPO」的外資產業報告，共 35 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261015_GFHK_Oct-Edition]] | GF Securities (Hong Kong) | 2026-10-15 |
+| [[20261015_MS_Photonics]] | Morgan Stanley | 2026-10-15 |
 | [[20261014_MS_NPO-OCP-Summit]] | Morgan Stanley | 2026-10-14 |
 | [[20261013_MS_OCP-AI-Infra]] | Morgan Stanley | 2026-10-13 |
 | [[20261012_MS_Lens-OE-Upgrade]] | Morgan Stanley | 2026-10-12 |
