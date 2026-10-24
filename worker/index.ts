@@ -10,7 +10,11 @@
 // 連結介面（欄位式，authoring 不需知道 card id）：
 //   個股：/dl?t={代碼}&b={券商}&d={YYYYMMDD}
 //   產業：/dl?g=產業&b={券商}&d={YYYYMMDD}&h={主題hint}
+//   卡名：/dl?n={完整卡名}（國內券商專區用；頁面與卡片由 domestic_report_sync.py 同時產生，
+//         同一天同一檔多份時欄位式會撞，故改精確比對卡名）
 //   拆分件（>10MB 多附件卡）：加 &part=N 指定第 N 份
+//
+// 卡片來源：外資看板 TRELLO_BOARD_ID ＋ 國內券商看板 TRELLO_BOARD_ID_TW（有設才查），合併後比對。
 //
 // 安全：Trello 憑證為 secret（伺服器端）；驗證 Cloudflare Access JWT，缺少/無效即 403，
 //       擋掉不受 Access 保護的 *.workers.dev 後門。
@@ -20,6 +24,7 @@ interface Env {
   TRELLO_KEY: string
   TRELLO_TOKEN: string
   TRELLO_BOARD_ID: string
+  TRELLO_BOARD_ID_TW?: string // 國內券商報告看板
   ACCESS_TEAM_DOMAIN?: string // 例 steep-violet-e3db.cloudflareaccess.com（設了才做完整驗簽）
   ACCESS_AUD?: string // Access 應用的 Audience tag
 }
@@ -56,10 +61,16 @@ const CARD_TTL = 5 * 60 * 1000
 
 async function getCards(env: Env): Promise<Card[]> {
   if (cardCache && Date.now() - cardCache.at < CARD_TTL) return cardCache.cards
-  const u = `${API}/boards/${env.TRELLO_BOARD_ID}/cards?fields=name&key=${env.TRELLO_KEY}&token=${env.TRELLO_TOKEN}`
-  const r = await fetch(u)
-  if (!r.ok) throw new Error(`Trello cards ${r.status}`)
-  const cards = (await r.json()) as Card[]
+  const boards = [env.TRELLO_BOARD_ID, env.TRELLO_BOARD_ID_TW].filter((b): b is string => !!b)
+  const lists = await Promise.all(
+    boards.map(async (id) => {
+      const u = `${API}/boards/${id}/cards?fields=name&key=${env.TRELLO_KEY}&token=${env.TRELLO_TOKEN}`
+      const r = await fetch(u)
+      if (!r.ok) throw new Error(`Trello cards ${r.status}`)
+      return (await r.json()) as Card[]
+    }),
+  )
+  const cards = lists.flat()
   cardCache = { at: Date.now(), cards }
   return cards
 }
@@ -67,6 +78,9 @@ async function getCards(env: Env): Promise<Card[]> {
 // 依欄位找卡片：個股 name 以 {t}_ 開頭（美股 name 含 ({t})）；產業 name 以 產業_/産業_ 開頭。
 // 皆須含 _{券商}_ 且以 {日期} 結尾。
 function matchCard(cards: Card[], p: URLSearchParams): Card | null {
+  const exact = (p.get("n") || "").trim().normalize("NFC")
+  if (exact) return cards.find((c) => c.name.normalize("NFC") === exact) ?? null
+
   const broker = normBroker(p.get("b") || "")
   const date = (p.get("d") || "").trim()
   const ticker = (p.get("t") || "").trim()

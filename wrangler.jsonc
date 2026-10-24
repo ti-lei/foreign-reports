@@ -5,6 +5,9 @@
   "name": "foreign-reports",
   "main": "worker/index.ts",
   "compatibility_date": "2025-04-01",
+  // 關閉 *.workers.dev 生產網址：該網址不受 Cloudflare Access 保護，
+  // 內容與 layx.uk 完全相同（曾用於除錯，見 99 System 除錯經驗），關掉後只留自訂網域可存取。
+  "workers_dev": false,
   "assets": {
     "directory": "./public",
     "binding": "ASSETS",
@@ -13,6 +16,8 @@
   },
   "vars": {
     "TRELLO_BOARD_ID": "6a488a286728bc5a72588b0e",
+    // 國內券商報告看板（domestic_report_sync.py 建立；/dl 兩個看板合併查）
+    "TRELLO_BOARD_ID_TW": "6adcce62b5513d195994f5e2",
     "ACCESS_TEAM_DOMAIN": "steep-violet-e3db.cloudflareaccess.com"
   }
   // 機密（dashboard → Settings → Variables and Secrets 設為 Secret，或 wrangler secret put）：
