@@ -1,5 +1,40 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import type { FileTrieNode } from "./quartz/util/fileTrie"
+
+// 左側導覽列排序（兩個 layout 共用）。Quartz 會把這個函式 toString() 後送到瀏覽器用 new Function 重建，
+// 所以函式內不能引用外部變數，常數都要寫在函式裡面。
+const explorerSortFn = (a: FileTrieNode, b: FileTrieNode) => {
+  // 置頂項目：券商行程日曆、公司Memo、史萊姆的聊天室 固定排在最前（依此順序）
+  const pinned = ["券商行程日曆", "公司Memo", "史萊姆的聊天室"]
+  const rankA = pinned.indexOf(a.displayName)
+  const rankB = pinned.indexOf(b.displayName)
+  if (rankA !== -1 || rankB !== -1) {
+    if (rankA === -1) return 1
+    if (rankB === -1) return -1
+    return rankA - rankB
+  }
+  if (!a.isFolder && !b.isFolder) {
+    var dateA = (a.slugSegment.match(/\d{8}/) || [""])[0]
+    var dateB = (b.slugSegment.match(/\d{8}/) || [""])[0]
+    if (dateA && dateB) return dateB.localeCompare(dateA)
+  }
+  if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+    // 緊跟在某項正下方：網路文章分享 → 外資券商。中文 localeCompare 隨瀏覽器語系（筆畫／拼音）而變，
+    // 外資券商的位置不固定，所以借用它的排序鍵、同鍵時排在它後面，而不是寫死第幾個。
+    const followAfter: Record<string, string> = { 網路文章分享: "外資券商" }
+    const keyA = followAfter[a.displayName] ?? a.displayName
+    const keyB = followAfter[b.displayName] ?? b.displayName
+    if (keyA === keyB) {
+      return (a.displayName in followAfter ? 1 : 0) - (b.displayName in followAfter ? 1 : 0)
+    }
+    return keyA.localeCompare(keyB, undefined, {
+      numeric: true,
+      sensitivity: "base",
+    })
+  }
+  return a.isFolder ? -1 : 1
+}
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -67,29 +102,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
-      sortFn: (a, b) => {
-        // 置頂項目：公司Memo、券商行程日曆、史萊姆的聊天室 固定排在最前
-        const pinned = ["公司Memo", "券商行程日曆", "史萊姆的聊天室"]
-        const rankA = pinned.indexOf(a.displayName)
-        const rankB = pinned.indexOf(b.displayName)
-        if (rankA !== -1 || rankB !== -1) {
-          if (rankA === -1) return 1
-          if (rankB === -1) return -1
-          return rankA - rankB
-        }
-        if (!a.isFolder && !b.isFolder) {
-          var dateA = (a.slugSegment.match(/\d{8}/) || [""])[0]
-          var dateB = (b.slugSegment.match(/\d{8}/) || [""])[0]
-          if (dateA && dateB) return dateB.localeCompare(dateA)
-        }
-        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
-          return a.displayName.localeCompare(b.displayName, undefined, {
-            numeric: true,
-            sensitivity: "base",
-          })
-        }
-        return a.isFolder ? -1 : 1
-      },
+      sortFn: explorerSortFn,
     }),
   ],
   right: [],
@@ -112,29 +125,7 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
-      sortFn: (a, b) => {
-        // 置頂項目：公司Memo、券商行程日曆、史萊姆的聊天室 固定排在最前
-        const pinned = ["公司Memo", "券商行程日曆", "史萊姆的聊天室"]
-        const rankA = pinned.indexOf(a.displayName)
-        const rankB = pinned.indexOf(b.displayName)
-        if (rankA !== -1 || rankB !== -1) {
-          if (rankA === -1) return 1
-          if (rankB === -1) return -1
-          return rankA - rankB
-        }
-        if (!a.isFolder && !b.isFolder) {
-          var dateA = (a.slugSegment.match(/\d{8}/) || [""])[0]
-          var dateB = (b.slugSegment.match(/\d{8}/) || [""])[0]
-          if (dateA && dateB) return dateB.localeCompare(dateA)
-        }
-        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
-          return a.displayName.localeCompare(b.displayName, undefined, {
-            numeric: true,
-            sensitivity: "base",
-          })
-        }
-        return a.isFolder ? -1 : 1
-      },
+      sortFn: explorerSortFn,
     }),
   ],
   right: [],
