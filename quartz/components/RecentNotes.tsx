@@ -15,6 +15,8 @@ interface Options {
   showTags: boolean
   filter: (f: QuartzPluginData) => boolean
   sort: (f1: QuartzPluginData, f2: QuartzPluginData) => number
+  // 清單上顯示的標題；預設就是頁面標題
+  titleFormat: (page: QuartzPluginData, title: string) => string
 }
 
 const defaultOptions = (cfg: GlobalConfiguration): Options => ({
@@ -23,6 +25,7 @@ const defaultOptions = (cfg: GlobalConfiguration): Options => ({
   showTags: true,
   filter: () => true,
   sort: byDateAndAlphabetical(cfg),
+  titleFormat: (_page, title) => title,
 })
 
 export default ((userOpts?: Partial<Options>) => {
@@ -49,7 +52,7 @@ export default ((userOpts?: Partial<Options>) => {
                   <div class="desc">
                     <h3>
                       <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
-                        {title}
+                        {opts.titleFormat(page, title)}
                       </a>
                     </h3>
                   </div>

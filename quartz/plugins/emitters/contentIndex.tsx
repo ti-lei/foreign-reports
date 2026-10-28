@@ -18,7 +18,17 @@ export type ContentDetails = {
   content: string
   richContent?: string
   date?: Date
+  // 報告發表日（frontmatter 的 date，YYYY-MM-DD）。上面的 date 輸出 JSON 前會被刪掉，
+  // 側邊欄排序在瀏覽器端跑，需要這個欄位
+  sortDate?: string
   description?: string
+}
+
+// frontmatter date 可能是字串或 Date；只認 YYYY-MM-DD，其餘當作沒有
+function toSortDate(value: unknown): string | undefined {
+  const s = value instanceof Date ? value.toISOString() : typeof value === "string" ? value : ""
+  const m = s.match(/^\d{4}-\d{2}-\d{2}/)
+  return m ? m[0] : undefined
 }
 
 interface Options {
@@ -114,6 +124,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
               ? escapeHTML(toHtml(tree as Root, { allowDangerousHtml: true }))
               : undefined,
             date: date,
+            sortDate: toSortDate(file.data.frontmatter?.date),
             description: file.data.description ?? "",
           })
         }
