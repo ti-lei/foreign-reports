@@ -8,12 +8,14 @@ title: PCB
 
 ## 產業報告
 
-> 收錄標記為「PCB」的外資產業報告，共 39 篇。
+> 收錄標記為「PCB」的外資產業報告，共 41 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261027_Daiwa_TPCA]] | Daiwa | 2026-10-27 |
 | [[20261027_GS_PCB-CCL]] | Goldman Sachs | 2026-10-27 |
 | [[20261027_MS_TPCA]] | Morgan Stanley | 2026-10-27 |
+| [[20261026_MQ_TPCA]] | Macquarie | 2026-10-26 |
 | [[20261019_MS_OCP-MGX]] | Morgan Stanley | 2026-10-19 |
 | [[20261015_GFHK_PTFE-Adoption]] | GF Securities (Hong Kong) | 2026-10-15 |
 | [[20261015_GS_BT-Substrate]] | Goldman Sachs | 2026-10-15 |
