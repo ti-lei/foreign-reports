@@ -8,10 +8,11 @@ title: AI伺服器
 
 ## 產業報告
 
-> 收錄標記為「AI伺服器」的外資產業報告，共 70 篇。
+> 收錄標記為「AI伺服器」的外資產業報告，共 71 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261029_GS_TW-ODM]] | Goldman Sachs | 2026-10-29 |
 | [[20261018_GS_Global-Server]] | Goldman Sachs | 2026-10-18 |
 | [[20261015_GFHK_Oct-Edition]] | GF Securities (Hong Kong) | 2026-10-15 |
 | [[20261012_Citi_TW-Monthly-Tracker]] | Citi | 2026-10-12 |

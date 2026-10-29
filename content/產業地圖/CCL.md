@@ -8,10 +8,13 @@ title: CCL
 
 ## 產業報告
 
-> 收錄標記為「CCL」的外資產業報告，共 24 篇。
+> 收錄標記為「CCL」的外資產業報告，共 27 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261029_Citi_TW-CCL]] | Citi | 2026-10-29 |
+| [[20261029_GS_CCL-EMC-TUC]] | Goldman Sachs | 2026-10-29 |
+| [[20261029_MS_TW-CCL]] | Morgan Stanley | 2026-10-29 |
 | [[20261027_Daiwa_TPCA]] | Daiwa | 2026-10-27 |
 | [[20261027_GS_PCB-CCL]] | Goldman Sachs | 2026-10-27 |
 | [[20261027_MS_TPCA]] | Morgan Stanley | 2026-10-27 |
