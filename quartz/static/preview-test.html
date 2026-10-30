@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>PDF 預覽測試</title>
+    <style>
+      :root {
+        --bg: #fff;
+        --fg: #2b2b2b;
+        --muted: #777;
+        --line: #ddd;
+        --accent: #2f6fdb;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #161618;
+          --fg: #e6e6e6;
+          --muted: #999;
+          --line: #333;
+          --accent: #7fa8f5;
+        }
+      }
+      body {
+        margin: 0 auto;
+        padding: 2rem 16px 4rem;
+        max-width: 42rem;
+        background: var(--bg);
+        color: var(--fg);
+        font:
+          16px/1.6 system-ui,
+          "Noto Sans TC",
+          sans-serif;
+      }
+      h1 {
+        font-size: 1.4rem;
+        margin: 0 0 0.25rem;
+      }
+      .note {
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 1.5rem 0;
+      }
+      li {
+        padding: 0.8rem 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .title {
+        font-weight: 600;
+      }
+      .links {
+        margin-top: 0.3rem;
+        display: flex;
+        gap: 1.2rem;
+        flex-wrap: wrap;
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      ol {
+        padding-left: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>PDF 預覽測試</h1>
+    <p class="note">
+      測試頁，測完會刪除。連結格式與正式頁面相同，「👁 預覽」是頁尾的腳本自動補上的。
+    </p>
+
+    <ul>
+      <li>
+        <div class="title">個股｜6278 台表科 Daiwa（2026-10-27）</div>
+        <div class="links">
+          <a href="https://layx.uk/dl?t=6278&b=Daiwa&d=20261027">📎 下載 PDF</a>
+        </div>
+      </li>
+      <li>
+        <div class="title">個股｜6239 力成 UBS（2026-10-27）</div>
+        <div class="links">
+          <a href="https://layx.uk/dl?t=6239&b=UBS&d=20261027">📎 下載 PDF</a>
+        </div>
+      </li>
+      <li>
+        <div class="title">產業｜UBS HTSI-CPO-Testing（2026-10-08）</div>
+        <div class="links">
+          <a href="https://layx.uk/dl?g=產業&b=UBS&d=20261008&h=HTSI-CPO-Testing">📎 下載 PDF</a>
+        </div>
+      </li>
+      <li>
+        <div class="title">美股｜TSLA Tesla 凱基（2026-10-27，用卡名比對）</div>
+        <div class="links">
+          <a href="https://layx.uk/dl?n=TSLA_Tesla_%E5%87%B1%E5%9F%BA_20261027">📎 下載 PDF</a>
+        </div>
+      </li>
+    </ul>
+
+    <p><strong>請確認：</strong></p>
+    <ol>
+      <li>點「👁 預覽」→ 開新分頁，直接看到 PDF（沒有跳出下載）。</li>
+      <li>在檢視器裡可以縮放、搜尋文字；想存檔再按檢視器上的下載鈕。</li>
+      <li>點「📎 下載 PDF」→ 跟以前一樣直接下載。</li>
+      <li>用手機也開一次，看預覽是否正常。</li>
+    </ol>
+
+    <script>
+      // 在每個「/dl?」連結旁補一個預覽連結（新分頁、加 view=1）。
+      // 正式上線時這段會放進 Quartz 站內腳本，現有與未來產生的連結都自動套用。
+      document.querySelectorAll('a[href*="/dl?"]').forEach(function (a) {
+        var u = new URL(a.href, location.href)
+        u.searchParams.set("view", "1")
+        var p = document.createElement("a")
+        p.href = u.href
+        p.target = "_blank"
+        p.rel = "noopener"
+        p.textContent = "👁 預覽"
+        a.parentNode.insertBefore(p, a.nextSibling)
+      })
+    </script>
+  </body>
+</html>

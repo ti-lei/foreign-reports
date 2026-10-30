@@ -13,6 +13,7 @@
 //   卡名：/dl?n={完整卡名}（國內券商專區用；頁面與卡片由 domestic_report_sync.py 同時產生，
 //         同一天同一檔多份時欄位式會撞，故改精確比對卡名）
 //   拆分件（>10MB 多附件卡）：加 &part=N 指定第 N 份
+//   預覽：加 &view=1 → Content-Disposition 改 inline，瀏覽器直接顯示而非下載（選擇頁的連結會沿用此參數）
 //
 // 卡片來源：外資看板 TRELLO_BOARD_ID ＋ 國內券商看板 TRELLO_BOARD_ID_TW（有設才查），合併後比對。
 //
@@ -118,12 +119,12 @@ async function getPdfAttachments(cardId: string, env: Env): Promise<Att[]> {
     .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }))
 }
 
-function contentDisposition(filename: string): string {
+function contentDisposition(filename: string, inline: boolean): string {
   const ascii = filename.replace(/[^\x20-\x7e]/g, "_").replace(/"/g, "")
-  return `attachment; filename="${ascii}"; filename*=UTF-8''${encodeURIComponent(filename)}`
+  return `${inline ? "inline" : "attachment"}; filename="${ascii}"; filename*=UTF-8''${encodeURIComponent(filename)}`
 }
 
-async function streamAttachment(att: Att, env: Env): Promise<Response> {
+async function streamAttachment(att: Att, env: Env, inline: boolean): Promise<Response> {
   const r = await fetch(att.url, {
     headers: {
       Authorization: `OAuth oauth_consumer_key="${env.TRELLO_KEY}", oauth_token="${env.TRELLO_TOKEN}"`,
@@ -132,7 +133,9 @@ async function streamAttachment(att: Att, env: Env): Promise<Response> {
   if (!r.ok) return new Response(`附件取回失敗 ${r.status}`, { status: 502 })
   const h = new Headers()
   h.set("Content-Type", "application/pdf")
-  h.set("Content-Disposition", contentDisposition(att.name))
+  h.set("Content-Disposition", contentDisposition(att.name, inline))
+  // 預覽時由瀏覽器直接渲染，禁止內容嗅探，確保只會被當 PDF 處理
+  if (inline) h.set("X-Content-Type-Options", "nosniff")
   h.set("Cache-Control", "private, no-store")
   const len = r.headers.get("Content-Length")
   if (len) h.set("Content-Length", len)
@@ -234,7 +237,8 @@ async function handleDl(request: Request, env: Env): Promise<Response> {
   }
 
   const idx = partParam ? Math.max(1, Math.min(atts.length, parseInt(partParam, 10))) - 1 : 0
-  return streamAttachment(atts[idx], env)
+  // view=1：預覽（瀏覽器內建 PDF 檢視器直接開）；沒帶＝下載，行為不變
+  return streamAttachment(atts[idx], env, p.get("view") === "1")
 }
 
 export default {
