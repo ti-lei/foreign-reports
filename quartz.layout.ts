@@ -76,7 +76,7 @@ const recentTitleFormat = (page: QuartzPluginData, title: string): string => {
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.PdfPreview()],
   footer: Component.Footer({
     links: {},
   }),
