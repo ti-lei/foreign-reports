@@ -8,10 +8,11 @@ title: IC設計
 
 ## 產業報告
 
-> 收錄標記為「IC設計」的外資產業報告，共 9 篇。
+> 收錄標記為「IC設計」的外資產業報告，共 10 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261109_MS_Cloud-Semis]] | Morgan Stanley | 2026-11-09 |
 | [[20261103_MS_PC-Semis]] | Morgan Stanley | 2026-11-03 |
 | [[20261102_MS_Cloud-Semis]] | Morgan Stanley | 2026-11-02 |
 | [[20261005_UBS_Global-Smartphone]] | UBS | 2026-10-05 |
