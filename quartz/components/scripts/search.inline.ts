@@ -9,6 +9,7 @@ interface Item {
   title: string
   content: string
   tags: string[]
+  source?: string // 只在顯示結果時用，不是索引欄位
   [key: string]: any
 }
 
@@ -203,6 +204,21 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
   if (!searchLayout) return
 
   const idDataMap = Object.keys(data) as FullSlug[]
+
+  // 搜尋結果只有標題，同一檔股票的外資整理卡、國內券商報告、公司Memo 看起來沒差別，
+  // 所以在標題下補上所在位置，寫法比照頁面麵包屑：資料夾有首頁就用首頁標題
+  // （台股 → 外資券商），沒有就用資料夾名（國內券商 › 富邦）。
+  const sourceLabel = (slug: FullSlug): string => {
+    const folders = slug.split("/").slice(0, -1)
+    // 資料夾首頁（台股/index）本身不算「在某資料夾裡」
+    if (slug.endsWith("/index")) folders.pop()
+    return folders
+      .map(
+        (name, i) => data[`${folders.slice(0, i + 1).join("/")}/index` as FullSlug]?.title ?? name,
+      )
+      .join(" › ")
+  }
+
   const appendLayout = (el: HTMLElement) => {
     searchLayout.appendChild(el)
   }
@@ -315,6 +331,7 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
       title: searchType === "tags" ? data[slug].title : highlight(term, data[slug].title ?? ""),
       content: highlight(term, data[slug].content ?? "", true),
       tags: highlightTags(term.substring(1), data[slug].tags),
+      source: sourceLabel(slug),
     }
   }
 
@@ -338,7 +355,7 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
     return new URL(resolveRelative(currentSlug, slug), location.toString())
   }
 
-  const resultToHTML = ({ slug, title, content, tags }: Item) => {
+  const resultToHTML = ({ slug, title, content, tags, source }: Item) => {
     const htmlTags = tags.length > 0 ? `<ul class="tags">${tags.join("")}</ul>` : ``
     const itemTile = document.createElement("a")
     itemTile.classList.add("result-card")
@@ -349,6 +366,13 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
       ${htmlTags}
       <p class="card-description">${content}</p>
     `
+    if (source) {
+      // 用 textContent 塞，資料夾名稱不必另外處理跳脫
+      const sourceEl = document.createElement("p")
+      sourceEl.className = "card-source"
+      sourceEl.textContent = source
+      itemTile.querySelector(".card-title")?.after(sourceEl)
+    }
     itemTile.addEventListener("click", (event) => {
       if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return
       hideSearch()

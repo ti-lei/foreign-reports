@@ -206,6 +206,14 @@
               margin: 0;
             }
 
+            // 所在位置（外資券商／國內券商 › 富邦…），桌機版也要顯示（description 在桌機是隱藏的）
+            & > p.card-source {
+              margin: 0.25rem 0 0;
+              font-size: 0.8rem;
+              font-weight: $normalWeight;
+              color: var(--gray);
+            }
+
             @media all and not ($mobile) {
               & > p.card-description {
                 display: none;
