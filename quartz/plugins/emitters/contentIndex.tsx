@@ -15,7 +15,8 @@ export type ContentDetails = {
   title: string
   links: SimpleSlug[]
   tags: string[]
-  content: string
+  // 全文。只在建站時使用，輸出的 contentIndex.json 不含此欄位（見 emit：改存 contentText.json）
+  content?: string
   richContent?: string
   date?: Date
   // 報告發表日（frontmatter 的 date，YYYY-MM-DD）。上面的 date 輸出 JSON 前會被刪掉，
@@ -149,13 +150,18 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       }
 
       const fp = joinSegments("static", "contentIndex") as FullSlug
+      // 全文占 contentIndex.json 約 96%，而這個檔案每個頁面載入都會下載（側邊目錄、關係圖都要用），
+      // 但只有搜尋需要全文。所以全文另存 contentText.json，搜尋第一次被打開時才下載。
+      const textIndex: Record<string, string> = {}
       const simplifiedIndex = Object.fromEntries(
         Array.from(linkIndex).map(([slug, content]) => {
+          textIndex[slug] = content.content ?? ""
           // remove description and from content index as nothing downstream
           // actually uses it. we only keep it in the index as we need it
           // for the RSS feed
           delete content.description
           delete content.date
+          delete content.content
           return [slug, content]
         }),
       )
@@ -164,6 +170,13 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
         ctx,
         content: JSON.stringify(simplifiedIndex),
         slug: fp,
+        ext: ".json",
+      })
+
+      yield write({
+        ctx,
+        content: JSON.stringify(textIndex),
+        slug: joinSegments("static", "contentText") as FullSlug,
         ext: ".json",
       })
     },

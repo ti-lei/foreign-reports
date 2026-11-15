@@ -254,6 +254,15 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
     if (sidebar) sidebar.style.zIndex = "1"
     container.classList.add("active")
     searchBar.focus()
+    // 第一次打開搜尋才下載全文、建索引（使用者打字的時間可以拿來等）；建好後把已輸入的字重跑一次
+    ensureIndex(data)
+      .then(() => {
+        if (searchBar.value !== "") searchBar.dispatchEvent(new Event("input"))
+      })
+      .catch((err) => {
+        console.error(err)
+        displayMessage("搜尋索引載入失敗", "請重新整理頁面後再試")
+      })
   }
 
   let currentHover: HTMLInputElement | null = null
@@ -329,7 +338,7 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
       id,
       slug,
       title: searchType === "tags" ? data[slug].title : highlight(term, data[slug].title ?? ""),
-      content: highlight(term, data[slug].content ?? "", true),
+      content: highlight(term, contentTexts[slug] ?? "", true),
       tags: highlightTags(term.substring(1), data[slug].tags),
       source: sourceLabel(slug),
     }
@@ -395,6 +404,16 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
     window.addCleanup(() => itemTile.removeEventListener("click", handler))
 
     return itemTile
+  }
+
+  // 單張提示卡（沒有結果／索引建立中／載入失敗），同時清掉右側預覽
+  function displayMessage(title: string, detail: string) {
+    removeAllChildren(results)
+    results.innerHTML = `<a class="result-card no-match">
+        <h3>${title}</h3>
+        <p>${detail}</p>
+    </a>`
+    if (preview) removeAllChildren(preview)
   }
 
   async function displayResults(finalResults: Item[]) {
@@ -465,6 +484,14 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
     searchLayout.classList.toggle("display-results", currentSearchTerm !== "")
     searchType = currentSearchTerm.startsWith("#") ? "tags" : "basic"
 
+    // 索引還沒建好（第一次搜尋要先下載全文）：先顯示提示，建好後 showSearch 會自動重跑這次查詢
+    if (!indexPopulated) {
+      if (currentSearchTerm !== "") {
+        displayMessage("索引建立中…", "第一次搜尋需要先載入全文，請稍候")
+      }
+      return
+    }
+
     let searchResults: DefaultDocumentSearchResults<Item>
     if (searchType === "tags") {
       currentSearchTerm = currentSearchTerm.substring(1).trim()
@@ -525,7 +552,33 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
   window.addCleanup(() => searchBar.removeEventListener("input", onType))
 
   registerEscapeHandler(container, hideSearch)
-  await fillDocument(data)
+}
+
+// 全文不在 contentIndex.json 裡（見 plugins/emitters/contentIndex.tsx），存在 contentText.json。
+// 第一次打開搜尋才下載，下載完才建索引；開網站時不再付這筆成本。
+// 路徑用站台根目錄開頭：本站部署在網域根（baseUrl: layx.uk），沒有子路徑。
+let contentTexts: Record<string, string> = {}
+let indexPopulated = false
+let indexBuilding: Promise<void> | null = null
+
+function ensureIndex(data: ContentIndex): Promise<void> {
+  if (indexPopulated) return Promise.resolve()
+  if (!indexBuilding) {
+    indexBuilding = fetch("/static/contentText.json")
+      .then((res) => {
+        if (!res.ok) throw new Error(`contentText.json ${res.status}`)
+        return res.json() as Promise<Record<string, string>>
+      })
+      .then(async (texts) => {
+        contentTexts = texts
+        await fillDocument(data)
+      })
+      .catch((err) => {
+        indexBuilding = null // 失敗時清掉，下次打開搜尋再重試
+        throw err
+      })
+  }
+  return indexBuilding
 }
 
 /**
@@ -533,7 +586,6 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
  * @param index index to fill
  * @param data data to fill index with
  */
-let indexPopulated = false
 async function fillDocument(data: ContentIndex) {
   if (indexPopulated) return
   let id = 0
@@ -544,7 +596,7 @@ async function fillDocument(data: ContentIndex) {
         id,
         slug: slug as FullSlug,
         title: fileData.title,
-        content: fileData.content,
+        content: contentTexts[slug] ?? "",
         tags: fileData.tags,
       }),
     )
