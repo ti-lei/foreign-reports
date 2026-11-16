@@ -8,10 +8,11 @@ title: ODM-EMS
 
 ## 產業報告
 
-> 收錄標記為「ODM-EMS」的外資產業報告，共 23 篇。
+> 收錄標記為「ODM-EMS」的外資產業報告，共 24 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261115_MS_Monthly-Databook-iOS]] | Morgan Stanley | 2026-11-15 |
 | [[20261102_MS_Hyperscaler-3Q26-Results]] | Morgan Stanley | 2026-11-02 |
 | [[20261029_GS_TW-ODM]] | Goldman Sachs | 2026-10-29 |
 | [[20261018_GS_Global-Server]] | Goldman Sachs | 2026-10-18 |
