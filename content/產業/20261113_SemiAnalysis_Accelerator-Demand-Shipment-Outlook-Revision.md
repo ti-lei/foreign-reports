@@ -14,7 +14,7 @@ sectors: [AI伺服器, ASIC, 記憶體]
 **評級**：N/A（SemiAnalysis 為獨立研究機構，無傳統評等）  
 <a href="https://layx.uk/dl?g=產業&b=SemiAnalysis&d=20261113&h=Accelerator-Demand-Shipment-Outlook-Revision">📎 下載 PDF</a>
 
-> ⚠️ SemiAnalysis 無對應 Exhibit locator，本報告**不做圖片裁切**。下列各「Chart」是從 PDF 內嵌圖表目視讀取後轉成的表格：有資料標籤的長條圖與表格（Chart 1–10）讀值可靠；Nvidia／Broadcom／MediaTek／AMD 四張為試算表螢幕截圖（Chart 11–14），只取清晰可辨的列，並盡量與內文交叉驗證（Nvidia 3Q26／4Q26 營收、運算營收各年下修幅度、AMD 前移量皆吻合）。標「自行加總／自行計算」者是我由圖上數字推得，不是報告原值。
+> ⚠️ SemiAnalysis 無對應 Exhibit locator，無法自動裁切；各 Chart 的圖片是直接取自 PDF 的**內嵌圖片**（原圖解析度，非裁切）。圖下方的表格是我從圖上目視讀取後轉錄的：有資料標籤的長條圖與表格（Chart 1–10）讀值可靠；Nvidia／Broadcom／MediaTek／AMD 四張為試算表螢幕截圖（Chart 11–14），只取清晰可辨的列，並盡量與內文交叉驗證（Nvidia 3Q26／4Q26 營收、運算營收各年下修幅度、AMD 前移量皆吻合）。標「自行加總／自行計算」者是我由圖上數字推得，不是報告原值。
 >
 > 另：本 PDF 為網頁列印版，原文**超連結的內文被剝除**，部分句子不完整（例如「…so that revenue can more sustainably cover overall compute costs, 」後面缺連結內容）；下修的根本論據（ARR 放緩、融資環境）在被省略的連結文章裡，本篇只能引用正文的定性敘述。
 
@@ -61,6 +61,8 @@ SemiAnalysis 11/13 全面下修 Accelerator Model（2028E 資本支出 −28%、
 
 ## Chart 1｜加速器資本支出：新版 vs 前版（十億美元）
 
+![Chart 1](../assets/20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision/exhibit_01.png)
+
 ### 解讀摘要
 新版 2027E–2030E 資本支出逐年低於前版：2027E 627 對 770（−19%）、2028E 758 對 1,054（−28%）、2029E 796 對 1,352（−41%）、2030E 923 對 1,531（−40%）；2026E 幾乎不變（392 對 398）。下修隨年度擴大，代表近端出貨已被訂單鎖定，遠端才反映資金與需求的重設。圖註：資本支出＝出貨量 × ASP（SA Base Case，按出貨日曆季加總、無落後），是買方向賣方的支出，不是廠商自身 capex。
 
@@ -90,6 +92,8 @@ SemiAnalysis 11/13 全面下修 Accelerator Model（2028E 資本支出 −28%、
 
 ## Chart 2｜SK hynix HBM 價格：新版 vs 前版
 
+![Chart 2](../assets/20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision/exhibit_02.png)
+
 ### 解讀摘要
 SK hynix 的 HBM 單價（美元／Gb）在 2027–2030E 普遍下修：HBM3E 12-Hi −21%～−23%、HBM4 12-Hi 2027–2029E −12%～−18%（2030E 持平）、HBM4E 12-Hi −21%～−29%、HBM5 與 HBM5E −19%～−28%。HBM4E 與 HBM5 世代的跌幅在 2029–2030E 擴大到 −24%～−29%，代表供需轉平衡的假設被延伸到長期。
 
@@ -105,6 +109,8 @@ SK hynix 的 HBM 單價（美元／Gb）在 2027–2030E 普遍下修：HBM3E 12
 ---
 
 ## Chart 3｜Samsung HBM 價格：新版 vs 前版
+
+![Chart 3](../assets/20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision/exhibit_03.png)
 
 ### 解讀摘要
 Samsung 的調整和 SK hynix 方向相反的是 HBM4：2027E 單價**上調** 12%（12-Hi 為 3.63 美元／Gb），HBM4E 也上調 2%，之後 2028E 起才下調 9%–20%；HBM3E 與 HBM5 以後仍是下調。原文在本篇沒有解釋 Samsung 2027E HBM4 上調的原因，指向另一份 Memory Model 更新。
@@ -124,6 +130,8 @@ Samsung 的調整和 SK hynix 方向相反的是 HBM4：2027E 單價**上調** 1
 
 ## Chart 4｜Micron HBM 價格：新版 vs 前版
 
+![Chart 4](../assets/20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision/exhibit_04.png)
+
 ### 解讀摘要
 Micron 的下修幅度居中：HBM3E 12-Hi 2027E −21%、HBM4 12-Hi −14%（2027E）→ −20%（2028E）→ −21%（2029E）、HBM4E 12-Hi 2029E −29%、HBM5 12-Hi 2029E −23%。與 SK hynix 一樣，HBM4E／HBM5 世代的跌幅集中在 2029 年以後。圖片右緣被截斷，2030E 的變動欄看不全，故下表只列 2027–2029E 的變動。
 
@@ -138,6 +146,8 @@ Micron 的下修幅度居中：HBM3E 12-Hi 2027E −21%、HBM4 12-Hi −14%（20
 ---
 
 ## Chart 5｜加速器 ASP 變動表（美元）
+
+![Chart 5](../assets/20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision/exhibit_05.png)
 
 ### 解讀摘要
 近端平台 ASP 幾乎不動，遠端平台大幅下修：Nvidia 的 Rubin 世代只降 1.5%–3.4%，但 Feynman 降 29.3%（110,000→77,800）、Feynman Ultra 降 44.2%（175,000→97,600）、Feynman Next 降 38.6%（191,300→117,500）。正文明說 Feynman 以後的降幅同時反映 HBM 降價與 Nvidia 加價率降低，「以反映明顯更競爭的 AI 硬體環境」。ASIC 方面，Anthropic Gen 1 降 30.4%、OpenAI Gen 2 Serrano 與 MTIA 600 Apollo 各降 23.3%；AMD 從 MI400/450 的 −6.6% 逐代擴大到 MI700 的 −14.5%。
@@ -177,6 +187,8 @@ Micron 的下修幅度居中：HBM3E 12-Hi 2027E −21%、HBM4 12-Hi −14%（20
 
 ## Chart 6｜出貨矽面積：新版 vs 前版（千平方公尺）
 
+![Chart 6](../assets/20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision/exhibit_06.png)
+
 ### 解讀摘要
 圖標題：2026–2030E 出貨矽面積整體低 17%，其中 Nvidia 占下修的 66%。逐年看，2026E 幾乎不變（−1%），2027E −13%、2028E −16%、2029E −24%、2030E −15%；矽面積（單位：加速器出貨量 × 運算、IO 與 base die 面積，不含 HBM 與 interposer）的下修幅度，小於 Chart 1 的支出下修，因為降價並不減少晶片面積。
 
@@ -196,6 +208,8 @@ Micron 的下修幅度居中：HBM3E 12-Hi 2027E −21%、HBM4 12-Hi −14%（20
 
 ## Chart 7｜HBM 位元需求：新版 vs 前版（EB）
 
+![Chart 7](../assets/20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision/exhibit_07.png)
+
 ### 解讀摘要
 HBM 位元需求 2028E 低 30%、2030E 低 12%：2026E 4.6 對 4.6、2027E 5.5 對 6.0（−8%）、2028E 6.4 對 9.0（−30%）、2029E 7.9 對 10.3（−23%）、2030E 9.6 對 10.9（−12%）。位元需求下修集中在 2028–2029 年，2030E 收斂。正文指出，降價使「矽含量出貨與 HBM 位元需求」的成長仍領先名目支出。
 
@@ -213,6 +227,8 @@ HBM 位元需求 2028E 低 30%、2030E 低 12%：2026E 4.6 對 4.6、2027E 5.5 �
 ---
 
 ## Chart 8｜加速器新增電力需求：新版 vs 前版（GW）
+
+![Chart 8](../assets/20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision/exhibit_08.png)
 
 ### 解讀摘要
 2030E 新增電力需求下修 34%：2026E 20.8 對 20.9、2027E 40.3 對 44.4（−9%）、2028E 57.0 對 67.6（−16%）、2029E 72.5 對 108.7（−33%）、2030E 80.7 對 122.8（−34%）。電力需求＝當年出貨加速器 × 單晶片 all-in 功耗（晶片 TDP 加上分攤的伺服器、網通與散熱電力），並採一季落後（出貨到部署）。正文說明電力下修來自出貨減少加上單晶片功耗假設下調，而且下修後的出貨量可部署在資料中心模型修訂後的 2027–2029 年全球（不含中國）電力供給內。
@@ -233,6 +249,8 @@ HBM 位元需求 2028E 低 30%、2030E 低 12%：2026E 4.6 對 4.6、2027E 5.5 �
 ---
 
 ## Chart 9｜各平台 AI 加速器電力需求變動（MW）
+
+![Chart 9](../assets/20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision/exhibit_09.png)
 
 ### 解讀摘要
 2027–2028E 的電力下修幾乎全來自 Nvidia（2027E −3,537 MW、2028E −10,006 MW，占當年總下修的 87%、95%）；到 2029–2030E，Nvidia 占比降到 50%、53%，因為 AMD（2030E −7,745 MW）與 MediaTek TPU（2029E −8,659 MW）的單晶片功耗與數量調整也大幅放大。總變動：2027E −4,075 MW、2028E −10,580 MW、2029E −36,176 MW、2030E −42,065 MW。
@@ -261,6 +279,8 @@ HBM 位元需求 2028E 低 30%、2030E 低 12%：2026E 4.6 對 4.6、2027E 5.5 �
 ---
 
 ## Chart 10｜各 SKU 所有電力（all-in）變動（瓦）
+
+![Chart 10](../assets/20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision/exhibit_10.png)
 
 ### 解讀摘要
 各路線圖的最大功耗被明顯壓低：Nvidia Feynman 6,450→4,500 W（−30%）、Feynman Ultra 9,400→5,500 W（−41%）、Feynman Next 12,200→6,000 W（−51%）；AMD MI500／MI600／MI700 各降 40%／53%／58%（MI700 16,000→6,700 W）；TPU v11i／v12i 降 22%／24%；MediaTek 的 TPU v10t（Icefish）降 34%、v11t 降 48%。唯一不動的是 B300 1100W（1,959 W）。正文的邏輯是「電力持續是限制，我們預期路線圖將收斂最大單晶片功耗」。
@@ -292,6 +312,8 @@ HBM 位元需求 2028E 低 30%、2030E 低 12%：2026E 4.6 對 4.6、2027E 5.5 �
 
 ## Chart 11｜Nvidia 需求出貨與營收預測（試算表截圖，取清晰列）
 
+![Chart 11](../assets/20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision/exhibit_11.png)
+
 ### 解讀摘要
 新版 Nvidia 全公司營收在 2027 年見頂：2027 年合計 5,699 億美元，之後逐年下滑，2028 年 5,142 億美元（−9.8%）、2029 年 4,392 億美元（−14.6%）、2030 年 3,890 億美元（−11.4%）（以下為自行加總四季）。與前版相比，運算（Datacenter GPU）營收下修幅度逐季擴大：2027 年各季 −14%／−14%／−24%／−32%，2028 年 −35%／−39%／−41%／−42%，2029 年 −51%／−55%／−59%／−58%，2030 年 −50%／−65%／−69%／−74%，與內文年度值 −22%／−39%／−56%／−66% 吻合。
 
@@ -317,6 +339,8 @@ HBM 位元需求 2028E 低 30%、2030E 低 12%：2026E 4.6 對 4.6、2027E 5.5 �
 
 ## Chart 12｜Broadcom 需求（試算表截圖，取清晰列）
 
+![Chart 12](../assets/20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision/exhibit_12.png)
+
 ### 解讀摘要
 Broadcom AI ASIC 營收 2027–2030E 合計：2027 年 819 億美元、2028 年 1,818 億美元（+122%）、2029 年 2,442 億美元（+34%）、2030 年 3,266 億美元（+34%）（自行加總四季）。與前版相比，各季下修幅度由 2027 年的 −15%～−19% 縮小到 2028 年的 −0%～−12%，2029 年 −14%～−28%，2030 年 −1%～−8%。內文強調 2026–2030 年 ASIC 營收合計僅 −11%，且「多數來自 HBM 成本降低使 ASP 下降，而非量減」。
 
@@ -338,6 +362,8 @@ Broadcom AI ASIC 營收 2027–2030E 合計：2027 年 819 億美元、2028 年 
 ---
 
 ## Chart 13｜MediaTek 需求（試算表截圖，取清晰列）
+
+![Chart 13](../assets/20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision/exhibit_13.png)
 
 ### 解讀摘要
 MediaTek 營收 2027–2030E：2027 年 161 億美元、2028 年 298 億美元、2029 年 514 億美元、2030 年 923 億美元（自行加總四季）；與前版相比，2027 年 3Q／4Q −10%／−9%；2028 年 1Q／2Q 反而 +27%／+28%、3Q／4Q 轉為 −9%／−27%；2029 年各季 −34%／−36%／−31%／−19%；2030 年轉為 +7%～+8%。下修集中在 TPU v9 世代（Humufish、Triggerfish）的 2028–2029 年，2030 年因 TPU v10t（Icefish）後移而略為回補。
@@ -364,6 +390,8 @@ MediaTek 營收 2027–2030E：2027 年 161 億美元、2028 年 298 億美元�
 ---
 
 ## Chart 14｜AMD 需求（試算表截圖，取清晰列）
+
+![Chart 14](../assets/20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision/exhibit_14.png)
 
 ### 解讀摘要
 AMD 資料中心 GPU 營收：4Q26 67.6 億美元（較前版 +33%，MI400 放量前移），2027 年 407 億美元、2028 年 509 億美元、2029 年 600 億美元、2030 年 779 億美元（自行加總四季）。與前版相比，2027 年各季 −5%／−5%／−12%／−20%，2028 年 −21%／−18%／−27%／−42%，之後約 −27%～−36%。
