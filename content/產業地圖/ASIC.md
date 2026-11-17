@@ -8,10 +8,11 @@ title: ASIC
 
 ## 產業報告
 
-> 收錄標記為「ASIC」的外資產業報告，共 11 篇。
+> 收錄標記為「ASIC」的外資產業報告，共 12 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261113_SemiAnalysis_Accelerator-Demand-Shipment-Outlook-Revision]] | SemiAnalysis | 2026-11-13 |
 | [[20261102_MS_Hyperscaler-3Q26-Results]] | Morgan Stanley | 2026-11-02 |
 | [[20260920_Citi_TW-Semi-US-Marketing-Feedback]] | Citi | 2026-09-20 |
 | [[20260910_MS_AI-Supply-Chain]] | Morgan Stanley | 2026-09-10 |
