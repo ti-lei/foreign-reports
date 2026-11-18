@@ -8,10 +8,11 @@ title: IC設計
 
 ## 產業報告
 
-> 收錄標記為「IC設計」的外資產業報告，共 11 篇。
+> 收錄標記為「IC設計」的外資產業報告，共 12 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261117_MS_BIS-Export-Controls]] | Morgan Stanley | 2026-11-17 |
 | [[20261115_MS_Cloud-Semis-Old-Memory-Pushback]] | Morgan Stanley | 2026-11-15 |
 | [[20261109_MS_Cloud-Semis]] | Morgan Stanley | 2026-11-09 |
 | [[20261103_MS_PC-Semis]] | Morgan Stanley | 2026-11-03 |
