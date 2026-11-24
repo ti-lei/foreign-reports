@@ -8,10 +8,11 @@ title: 光通訊-CPO
 
 ## 產業報告
 
-> 收錄標記為「光通訊-CPO」的外資產業報告，共 38 篇。
+> 收錄標記為「光通訊-CPO」的外資產業報告，共 39 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261122_MS_Asia-Summit-2026-Feedback]] | Morgan Stanley | 2026-11-22 |
 | [[20261105_BofA_mSAP-Optical-Transceivers]] | BofA Securities（美林） | 2026-11-05 |
 | [[20261018_MS_OCP-Takeaways]] | Morgan Stanley | 2026-10-18 |
 | [[20261018_MS_OCP-Wrap-up]] | Morgan Stanley | 2026-10-18 |

@@ -8,10 +8,13 @@ title: AI伺服器
 
 ## 產業報告
 
-> 收錄標記為「AI伺服器」的外資產業報告，共 82 篇。
+> 收錄標記為「AI伺服器」的外資產業報告，共 85 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261123_UBS_EMC-Initiation]] | UBS | 2026-11-23 |
+| [[20261123_UBS_ITEQ-Initiation]] | UBS | 2026-11-23 |
+| [[20261122_MS_Asia-Summit-2026-Feedback]] | Morgan Stanley | 2026-11-22 |
 | [[20261117_GS_TW-ODM-Brands]] | Goldman Sachs | 2026-11-17 |
 | [[20261117_MS_BIS-Export-Controls]] | Morgan Stanley | 2026-11-17 |
 | [[20261117_UBS_BIS-Cloud-Access]] | UBS | 2026-11-17 |

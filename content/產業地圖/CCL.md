@@ -8,10 +8,14 @@ title: CCL
 
 ## 產業報告
 
-> 收錄標記為「CCL」的外資產業報告，共 31 篇。
+> 收錄標記為「CCL」的外資產業報告，共 35 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261123_UBS_EMC-Initiation]] | UBS | 2026-11-23 |
+| [[20261123_UBS_ITEQ-Initiation]] | UBS | 2026-11-23 |
+| [[20261123_UBS_TUC-Initiation]] | UBS | 2026-11-23 |
+| [[20261123_UBS_Taiwan-CCL-Initiation]] | UBS | 2026-11-23 |
 | [[20261118_MS_CCL-Nan-Ya-New-Material-Read-Across]] | Morgan Stanley | 2026-11-18 |
 | [[20261117_BofA_ABF-CCL]] | BofA Securities | 2026-11-17 |
 | [[20261104_MS_Panasonic-CCL-Fire]] | Morgan Stanley | 2026-11-04 |
