@@ -8,10 +8,11 @@ title: PCB
 
 ## 產業報告
 
-> 收錄標記為「PCB」的外資產業報告，共 48 篇。
+> 收錄標記為「PCB」的外資產業報告，共 49 篇。
 
 | 標題 | 來源 | 日期 |
 |---|---|---|
+| [[20261126_GS_China-PCB-CCL-3Q26-Results]] | Goldman Sachs | 2026-11-26 |
 | [[20261118_MS_CCL-Nan-Ya-New-Material-Read-Across]] | Morgan Stanley | 2026-11-18 |
 | [[20261117_BofA_ABF-CCL]] | BofA Securities | 2026-11-17 |
 | [[20261105_BofA_mSAP-Optical-Transceivers]] | BofA Securities（美林） | 2026-11-05 |
